@@ -77,7 +77,7 @@ out = isComplex64( null );
 
 <section class="links">
 
-[@stdlib/complex/float32]: https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/complex/float32
+[@stdlib/complex/float32]: https://github.com/stdlib-js/complex-float32
 
 </section>
 

@@ -135,9 +135,9 @@ bool = isgzipBuffer( null );
 
 [gzip-rfc-1952]: https://tools.ietf.org/html/rfc1952
 
-[@stdlib/buffer/ctor]: https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/buffer/ctor
+[@stdlib/buffer/ctor]: https://github.com/stdlib-js/buffer-ctor
 
-[@stdlib/array/uint8]: https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/uint8
+[@stdlib/array/uint8]: https://github.com/stdlib-js/array-uint8
 
 </section>
 

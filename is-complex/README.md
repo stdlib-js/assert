@@ -81,9 +81,9 @@ out = isComplex( null );
 
 <section class="links">
 
-[@stdlib/complex/float64]: https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/complex/float64
+[@stdlib/complex/float64]: https://github.com/stdlib-js/complex-float64
 
-[@stdlib/complex/float32]: https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/complex/float32
+[@stdlib/complex/float32]: https://github.com/stdlib-js/complex-float32
 
 </section>
 

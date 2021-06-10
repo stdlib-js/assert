@@ -20,7 +20,11 @@
     "test": "./test"
   },
   "types": "./docs/types",
-  "scripts": {},
+  "scripts": {
+    "test": "tape $(find . -type d -name test -exec grep -irl --include=\\*.js tape {} +) | tap-spec",
+    "test-cov": "istanbul cover --dir ./reports/coverage --report lcov tape -- $(find . -type d -name test -exec grep -irl --include=\\*.js tape {} +)",
+    "examples": "find examples/** -name \"*.js\" ! -path \"examples/fixtures/**\" | while read -r file; do echo \"\"; echo \"Running example: $file\"; node $file || exit 1; done"
+  },
   "homepage": "https://github.com/stdlib-js/stdlib",
   "repository": {
     "type": "git",
@@ -31,6 +35,7 @@
   },
   "dependencies": {
     "@stdlib/array": "^0.0.x",
+    "@stdlib/cli": "^0.0.x",
     "@stdlib/complex": "^0.0.x",
     "@stdlib/constants": "^0.0.x",
     "@stdlib/fs": "^0.0.x",
@@ -43,7 +48,6 @@
     "@stdlib/streams": "^0.0.x",
     "@stdlib/string": "^0.0.x",
     "@stdlib/symbol": "^0.0.x",
-    "@stdlib/tools": "^0.0.x",
     "@stdlib/types": "^0.0.x",
     "@stdlib/utils": "^0.0.x"
   },
@@ -54,7 +58,9 @@
     "@stdlib/datasets": "^0.0.x",
     "@stdlib/random": "^0.0.x",
     "proxyquire": "^2.0.0",
-    "tape": "git+https://github.com/kgryte/tape.git#fix/globby"
+    "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
+    "istanbul": "^0.4.1",
+    "tap-spec": "5.x.x"
   },
   "engines": {
     "node": ">=0.10.0",
@@ -90,5 +96,9 @@
     "is",
     "isvalid",
     "type"
-  ]
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
 }

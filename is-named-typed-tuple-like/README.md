@@ -80,7 +80,7 @@ bool = isNamedTypedTupleLike( null );
 
 <section class="links">
 
-[@stdlib/utils/named-typed-tuple]: https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/utils/named-typed-tuple
+[@stdlib/utils/named-typed-tuple]: https://github.com/stdlib-js/utils-named-typed-tuple
 
 </section>
 
