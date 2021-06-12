@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/assert",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Standard assertion utilities.",
   "license": "Apache-2.0",
   "author": {
