@@ -38,8 +38,8 @@
 
 // MODULES //
 
-var arrayfun = require( '@stdlib/assert/tools/array-like-function' );
-var isDateObject = require( '@stdlib/assert/is-date-object' );
+var arrayfun = require( './../../tools/array-like-function' );
+var isDateObject = require( './../../is-date-object' );
 
 
 // MAIN //

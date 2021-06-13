@@ -24,8 +24,8 @@
 
 var bench = require( '@stdlib/bench' );
 var evil = require( '@stdlib/utils/eval' );
-var isBoolean = require( '@stdlib/assert/is-boolean' ).isPrimitive;
-var hasGeneratorsSupport = require( '@stdlib/assert/has-generator-support' );
+var isBoolean = require( './../../is-boolean' ).isPrimitive;
+var hasGeneratorsSupport = require( './../../has-generator-support' );
 var pkg = require( './../package.json' ).name;
 var isGeneratorObjectLike = require( './../lib' );
 

@@ -20,9 +20,9 @@
 
 // MODULES //
 
-var isTypedArray = require( '@stdlib/assert/is-typed-array' );
-var isNumberArray = require( '@stdlib/assert/is-number-array' ).primitives;
-var isBuffer = require( '@stdlib/assert/is-buffer' );
+var isTypedArray = require( './../../is-typed-array' );
+var isNumberArray = require( './../../is-number-array' ).primitives;
+var isBuffer = require( './../../is-buffer' );
 
 
 // MAIN //

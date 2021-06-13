@@ -20,8 +20,8 @@
 
 // MODULES //
 
-var arrayfun = require( '@stdlib/assert/tools/array-like-function' );
-var isTruthy = require( '@stdlib/assert/is-truthy' );
+var arrayfun = require( './../../tools/array-like-function' );
+var isTruthy = require( './../../is-truthy' );
 
 
 // MAIN //

@@ -21,8 +21,8 @@
 // MODULES //
 
 var mod = require( 'module' );
-var contains = require( '@stdlib/assert/contains' );
-var isString = require( '@stdlib/assert/is-string' ).isPrimitive;
+var contains = require( './../../contains' );
+var isString = require( './../../is-string' ).isPrimitive;
 var BUILTINS = require( './builtins.json' );
 
 

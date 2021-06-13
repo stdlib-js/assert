@@ -22,7 +22,7 @@
 
 var tape = require( 'tape' );
 var BigInt = require( '@stdlib/bigint/ctor' );
-var hasBigInts = require( '@stdlib/assert/has-bigint-support' );
+var hasBigInts = require( './../../has-bigint-support' );
 var isBigInt = require( './../lib/primitive.js' );
 
 

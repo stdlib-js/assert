@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var hasProp = require( '@stdlib/assert/has-property' );
+var hasProp = require( './../../has-property' );
 
 
 // MAIN //

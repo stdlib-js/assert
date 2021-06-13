@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var isBuffer = require( '@stdlib/assert/is-buffer' );
+var isBuffer = require( './../../is-buffer' );
 var GlobalBuffer = require( './buffer.js' );
 
 

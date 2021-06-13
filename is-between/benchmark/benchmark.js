@@ -22,7 +22,7 @@
 
 var bench = require( '@stdlib/bench' );
 var randu = require( '@stdlib/random/base/randu' );
-var isBoolean = require( '@stdlib/assert/is-boolean' ).isPrimitive;
+var isBoolean = require( './../../is-boolean' ).isPrimitive;
 var pkg = require( './../package.json' ).name;
 var isBetween = require( './../lib' );
 

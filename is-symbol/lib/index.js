@@ -65,7 +65,7 @@
 
 // MODULES //
 
-var hasSymbols = require( '@stdlib/assert/has-symbol-support' );
+var hasSymbols = require( './../../has-symbol-support' );
 var main = require( './main.js' );
 var polyfill = require( './polyfill.js' );
 

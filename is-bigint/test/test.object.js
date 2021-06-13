@@ -23,7 +23,7 @@
 var tape = require( 'tape' );
 var proxyquire = require( 'proxyquire' );
 var BigInt = require( '@stdlib/bigint/ctor' );
-var hasBigInts = require( '@stdlib/assert/has-bigint-support' );
+var hasBigInts = require( './../../has-bigint-support' );
 var isBigInt = require( './../lib/object.js' );
 
 

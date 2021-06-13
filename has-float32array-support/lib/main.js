@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var isFloat32Array = require( '@stdlib/assert/is-float32array' );
+var isFloat32Array = require( './../../is-float32array' );
 var PINF = require( '@stdlib/constants/float64/pinf' );
 var GlobalFloat32Array = require( './float32array.js' );
 

@@ -20,7 +20,7 @@
 
 'use strict';
 
-var hasSymbolSupport = require( '@stdlib/assert/has-symbol-support' );
+var hasSymbolSupport = require( './../../has-symbol-support' );
 var Number = require( '@stdlib/number/ctor' );
 var Symbol = require( '@stdlib/symbol/ctor' );
 var isnan = require( './../lib' );

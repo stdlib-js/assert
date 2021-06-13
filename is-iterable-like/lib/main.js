@@ -20,10 +20,10 @@
 
 // MODULES //
 
-var isPrimitive = require( '@stdlib/assert/is-primitive' );
-var isFunction = require( '@stdlib/assert/is-function' );
+var isPrimitive = require( './../../is-primitive' );
+var isFunction = require( './../../is-function' );
 var ITERATOR = require( '@stdlib/symbol/iterator' );
-var isIteratorLike = require( '@stdlib/assert/is-iterator-like' );
+var isIteratorLike = require( './../../is-iterator-like' );
 
 
 // MAIN //

@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var isMatrixLike = require( '@stdlib/assert/is-matrix-like' );
+var isMatrixLike = require( './../../is-matrix-like' );
 
 
 // MAIN //

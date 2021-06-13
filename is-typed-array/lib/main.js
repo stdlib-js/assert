@@ -23,7 +23,7 @@
 var ctorName = require( '@stdlib/utils/constructor-name' );
 var fcnName = require( '@stdlib/utils/function-name' );
 var getPrototypeOf = require( '@stdlib/utils/get-prototype-of' );
-var hasFloat64ArraySupport = require( '@stdlib/assert/has-float64array-support' );
+var hasFloat64ArraySupport = require( './../../has-float64array-support' );
 var Float64Array = require( '@stdlib/array/float64' );
 var CTORS = require( './ctors.js' );
 var NAMES = require( './names.json' );

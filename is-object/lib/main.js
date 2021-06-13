@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var isArray = require( '@stdlib/assert/is-array' );
+var isArray = require( './../../is-array' );
 
 
 // MAIN //

@@ -22,7 +22,7 @@
 
 var lowercase = require( '@stdlib/string/lowercase' );
 var replace = require( '@stdlib/string/replace' );
-var isString = require( '@stdlib/assert/is-string' ).isPrimitive;
+var isString = require( './../../is-string' ).isPrimitive;
 
 
 // VARIABLES //

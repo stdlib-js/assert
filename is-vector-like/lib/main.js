@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var isndarrayLike = require( '@stdlib/assert/is-ndarray-like' );
+var isndarrayLike = require( './../../is-ndarray-like' );
 
 
 // MAIN //

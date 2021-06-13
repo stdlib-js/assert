@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var isArrayBuffer = require( '@stdlib/assert/is-arraybuffer' );
+var isArrayBuffer = require( './../../is-arraybuffer' );
 var Float64Array = require( '@stdlib/array/float64' );
 var GlobalArrayBuffer = require( './arraybuffer.js' );
 

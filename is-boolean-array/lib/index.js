@@ -54,8 +54,8 @@
 // MODULES //
 
 var setReadOnly = require( '@stdlib/utils/define-nonenumerable-read-only-property' );
-var arrayfun = require( '@stdlib/assert/tools/array-like-function' );
-var isBoolean = require( '@stdlib/assert/is-boolean' );
+var arrayfun = require( './../../tools/array-like-function' );
+var isBoolean = require( './../../is-boolean' );
 
 
 // MAIN //

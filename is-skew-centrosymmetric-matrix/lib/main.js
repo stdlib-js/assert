@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var isSquareMatrix = require( '@stdlib/assert/is-square-matrix' );
+var isSquareMatrix = require( './../../is-square-matrix' );
 var floor = require( '@stdlib/math/base/special/floor' );
 var isOdd = require( '@stdlib/math/base/assert/is-odd' );
 

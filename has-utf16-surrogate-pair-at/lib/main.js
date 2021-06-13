@@ -20,8 +20,8 @@
 
 // MODULES //
 
-var isString = require( '@stdlib/assert/is-string' ).isPrimitive;
-var isNonNegativeInteger = require( '@stdlib/assert/is-nonnegative-integer' ).isPrimitive;
+var isString = require( './../../is-string' ).isPrimitive;
+var isNonNegativeInteger = require( './../../is-nonnegative-integer' ).isPrimitive;
 
 
 // VARIABLES //

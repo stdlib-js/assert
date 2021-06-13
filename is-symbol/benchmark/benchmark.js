@@ -23,8 +23,8 @@
 // MODULES //
 
 var bench = require( '@stdlib/bench' );
-var isBoolean = require( '@stdlib/assert/is-boolean' ).isPrimitive;
-var hasSymbols = require( '@stdlib/assert/has-symbol-support' );
+var isBoolean = require( './../../is-boolean' ).isPrimitive;
+var hasSymbols = require( './../../has-symbol-support' );
 var pkg = require( './../package.json' ).name;
 var isSymbol = require( './../lib' );
 

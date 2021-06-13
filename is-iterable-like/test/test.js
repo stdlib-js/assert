@@ -22,7 +22,7 @@
 
 var tape = require( 'tape' );
 var proxyquire = require( 'proxyquire' );
-var hasIteratorSymbolSupport = require( '@stdlib/assert/has-iterator-symbol-support' );
+var hasIteratorSymbolSupport = require( './../../has-iterator-symbol-support' );
 var isIterableLike = require( './../lib' );
 
 

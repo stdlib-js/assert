@@ -20,8 +20,8 @@
 
 // MODULES //
 
-var hasOwnProp = require( '@stdlib/assert/has-own-property' );
-var isFunction = require( '@stdlib/assert/is-function' );
+var hasOwnProp = require( './../../has-own-property' );
+var isFunction = require( './../../is-function' );
 
 
 // MAIN //

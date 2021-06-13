@@ -21,8 +21,8 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var hasSymbolSupport = require( '@stdlib/assert/has-symbol-support' );
-var hasBigIntSupport = require( '@stdlib/assert/has-bigint-support' );
+var hasSymbolSupport = require( './../../has-symbol-support' );
+var hasBigIntSupport = require( './../../has-bigint-support' );
 var Symbol = require( '@stdlib/symbol/ctor' );
 var Number = require( '@stdlib/number/ctor' );
 var BigInt = require( '@stdlib/bigint/ctor' );

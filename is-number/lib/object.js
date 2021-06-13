@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var hasToStringTag = require( '@stdlib/assert/has-tostringtag-support' );
+var hasToStringTag = require( './../../has-tostringtag-support' );
 var nativeClass = require( '@stdlib/utils/native-class' );
 var Number = require( '@stdlib/number/ctor' );
 var test = require( './try2serialize.js' );

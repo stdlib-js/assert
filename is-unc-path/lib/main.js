@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var isString = require( '@stdlib/assert/is-string' ).isPrimitive;
+var isString = require( './../../is-string' ).isPrimitive;
 var RE_UNC_PATH = require( '@stdlib/regexp/unc-path' ).REGEXP;
 
 

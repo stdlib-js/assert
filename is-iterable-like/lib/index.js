@@ -35,7 +35,7 @@
 
 // MODULES //
 
-var hasIteratorSymbolSupport = require( '@stdlib/assert/has-iterator-symbol-support' );
+var hasIteratorSymbolSupport = require( './../../has-iterator-symbol-support' );
 var constantFunction = require( '@stdlib/utils/constant-function' );
 var main = require( './main.js' );
 

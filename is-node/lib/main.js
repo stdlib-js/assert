@@ -23,8 +23,8 @@
 var proc = require( 'process' );
 var getGlobal = require( '@stdlib/utils/global' );
 var nativeClass = require( '@stdlib/utils/native-class' );
-var isObject = require( '@stdlib/assert/is-plain-object' );
-var isString = require( '@stdlib/assert/is-string' ).isPrimitive;
+var isObject = require( './../../is-plain-object' );
+var isString = require( './../../is-string' ).isPrimitive;
 var globalScope = require( './global_scope.js' );
 
 

@@ -22,7 +22,7 @@
 
 var tape = require( 'tape' );
 var proxyquire = require( 'proxyquire' );
-var hasOwnProp = require( '@stdlib/assert/has-own-property' );
+var hasOwnProp = require( './../../has-own-property' );
 var detect = require( './../lib' );
 
 

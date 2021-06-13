@@ -20,10 +20,10 @@
 
 // MODULES //
 
-var isCollection = require( '@stdlib/assert/is-collection' );
-var isInteger = require( '@stdlib/assert/is-integer' ).isPrimitive;
-var isString = require( '@stdlib/assert/is-string' ).isPrimitive;
-var isnan = require( '@stdlib/assert/is-nan' ).isPrimitive;
+var isCollection = require( './../../is-collection' );
+var isInteger = require( './../../is-integer' ).isPrimitive;
+var isString = require( './../../is-string' ).isPrimitive;
+var isnan = require( './../../is-nan' ).isPrimitive;
 
 
 // MAIN //

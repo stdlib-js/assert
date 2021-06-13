@@ -63,7 +63,7 @@
 
 // MODULES //
 
-var hasBigInts = require( '@stdlib/assert/has-bigint-support' );
+var hasBigInts = require( './../../has-bigint-support' );
 var main = require( './main.js' );
 var polyfill = require( './polyfill.js' );
 

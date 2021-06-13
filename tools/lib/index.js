@@ -43,7 +43,7 @@ var ns = {};
 * @type {Function}
 * @see {@link module:@stdlib/assert/tools/array-function}
 */
-setReadOnly( ns, 'arrayfcn', require( '@stdlib/assert/tools/array-function' ) );
+setReadOnly( ns, 'arrayfcn', require( './../../tools/array-function' ) );
 
 /**
 * @name arraylikefcn
@@ -52,7 +52,7 @@ setReadOnly( ns, 'arrayfcn', require( '@stdlib/assert/tools/array-function' ) );
 * @type {Function}
 * @see {@link module:@stdlib/assert/tools/array-like-function}
 */
-setReadOnly( ns, 'arraylikefcn', require( '@stdlib/assert/tools/array-like-function' ) );
+setReadOnly( ns, 'arraylikefcn', require( './../../tools/array-like-function' ) );
 
 /**
 * @name typedarrayfcn
@@ -61,7 +61,7 @@ setReadOnly( ns, 'arraylikefcn', require( '@stdlib/assert/tools/array-like-funct
 * @type {Function}
 * @see {@link module:@stdlib/assert/tools/typed-array-function}
 */
-setReadOnly( ns, 'typedarrayfcn', require( '@stdlib/assert/tools/typed-array-function' ) );
+setReadOnly( ns, 'typedarrayfcn', require( './../../tools/typed-array-function' ) );
 
 
 // EXPORTS //

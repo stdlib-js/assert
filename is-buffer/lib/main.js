@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var isObjectLike = require( '@stdlib/assert/is-object-like' );
+var isObjectLike = require( './../../is-object-like' );
 
 
 // MAIN //

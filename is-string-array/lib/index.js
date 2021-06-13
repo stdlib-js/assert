@@ -54,8 +54,8 @@
 // MODULES //
 
 var setReadOnly = require( '@stdlib/utils/define-nonenumerable-read-only-property' );
-var arrayfun = require( '@stdlib/assert/tools/array-function' );
-var isString = require( '@stdlib/assert/is-string' );
+var arrayfun = require( './../../tools/array-function' );
+var isString = require( './../../is-string' );
 
 
 // MAIN //

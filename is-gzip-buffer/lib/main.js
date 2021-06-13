@@ -20,8 +20,8 @@
 
 // MODULES //
 
-var isUint8Array = require( '@stdlib/assert/is-uint8array' );
-var isBuffer = require( '@stdlib/assert/is-buffer' );
+var isUint8Array = require( './../../is-uint8array' );
+var isBuffer = require( './../../is-buffer' );
 
 
 // MAIN //

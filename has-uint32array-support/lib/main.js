@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var isUint32Array = require( '@stdlib/assert/is-uint32array' );
+var isUint32Array = require( './../../is-uint32array' );
 var UINT32_MAX = require( '@stdlib/constants/uint32/max' );
 var GlobalUint32Array = require( './uint32array.js' );
 

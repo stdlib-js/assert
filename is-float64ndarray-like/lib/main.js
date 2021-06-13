@@ -20,8 +20,8 @@
 
 // MODULES //
 
-var isndarrayLike = require( '@stdlib/assert/is-ndarray-like' );
-var isFloat64Array = require( '@stdlib/assert/is-float64array' );
+var isndarrayLike = require( './../../is-ndarray-like' );
+var isFloat64Array = require( './../../is-float64array' );
 
 
 // MAIN //

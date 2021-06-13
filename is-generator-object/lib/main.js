@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var hasGeneratorSupport = require( '@stdlib/assert/has-generator-support' );
+var hasGeneratorSupport = require( './../../has-generator-support' );
 var nativeClass = require( '@stdlib/utils/native-class' );
 
 

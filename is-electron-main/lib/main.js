@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var isElectron = require( '@stdlib/assert/is-electron' );
+var isElectron = require( './../../is-electron' );
 var proc = require( './process.js' );
 
 

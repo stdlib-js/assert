@@ -22,7 +22,7 @@
 
 // MODULES //
 
-var hasOwnProp = require( '@stdlib/assert/has-own-property' );
+var hasOwnProp = require( './../../has-own-property' );
 
 
 // MAIN //

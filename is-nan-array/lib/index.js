@@ -51,8 +51,8 @@
 // MODULES //
 
 var setReadOnly = require( '@stdlib/utils/define-nonenumerable-read-only-property' );
-var arrayfun = require( '@stdlib/assert/tools/array-like-function' );
-var isnan = require( '@stdlib/assert/is-nan' );
+var arrayfun = require( './../../tools/array-like-function' );
+var isnan = require( './../../is-nan' );
 
 
 // MAIN //

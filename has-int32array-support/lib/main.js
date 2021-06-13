@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var isInt32Array = require( '@stdlib/assert/is-int32array' );
+var isInt32Array = require( './../../is-int32array' );
 var INT32_MAX = require( '@stdlib/constants/int32/max' );
 var INT32_MIN = require( '@stdlib/constants/int32/min' );
 var GlobalInt32Array = require( './int32array.js' );

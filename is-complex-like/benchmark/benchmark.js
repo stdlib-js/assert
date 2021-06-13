@@ -21,7 +21,7 @@
 // MODULES //
 
 var bench = require( '@stdlib/bench' );
-var isBoolean = require( '@stdlib/assert/is-boolean' ).isPrimitive;
+var isBoolean = require( './../../is-boolean' ).isPrimitive;
 var Complex64 = require( '@stdlib/complex/float32' );
 var Complex128 = require( '@stdlib/complex/float64' );
 var pkg = require( './../package.json' ).name;

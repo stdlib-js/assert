@@ -54,8 +54,8 @@
 // MODULES //
 
 var setReadOnly = require( '@stdlib/utils/define-nonenumerable-read-only-property' );
-var arrayfun = require( '@stdlib/assert/tools/array-like-function' );
-var isNumber = require( '@stdlib/assert/is-number' );
+var arrayfun = require( './../../tools/array-like-function' );
+var isNumber = require( './../../is-number' );
 
 
 // MAIN //

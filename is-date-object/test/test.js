@@ -24,8 +24,8 @@
 
 var tape = require( 'tape' );
 var proxyquire = require( 'proxyquire' );
-var hasSymbols = require( '@stdlib/assert/has-symbol-support' );
-var hasToStringTag = require( '@stdlib/assert/has-tostringtag-support' );
+var hasSymbols = require( './../../has-symbol-support' );
+var hasToStringTag = require( './../../has-tostringtag-support' );
 var isDateObject = require( './../lib' );
 
 

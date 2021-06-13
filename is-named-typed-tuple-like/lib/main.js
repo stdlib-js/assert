@@ -20,8 +20,8 @@
 
 // MODULES //
 
-var isTypedArray = require( '@stdlib/assert/is-typed-array' );
-var hasOwnProp = require( '@stdlib/assert/has-own-property' );
+var isTypedArray = require( './../../is-typed-array' );
+var hasOwnProp = require( './../../has-own-property' );
 
 
 // MAIN //

@@ -21,7 +21,7 @@
 // MODULES //
 
 var bench = require( '@stdlib/bench' );
-var isBoolean = require( '@stdlib/assert/is-boolean' ).isPrimitive;
+var isBoolean = require( './../../is-boolean' ).isPrimitive;
 var Float32Array = require( '@stdlib/array/float32' );
 var Float64Array = require( '@stdlib/array/float64' );
 var Int8Array = require( '@stdlib/array/int8' );

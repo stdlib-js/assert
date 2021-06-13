@@ -20,8 +20,8 @@
 
 // MODULES //
 
-var isString = require( '@stdlib/assert/is-string' ).isPrimitive;
-var isAbsolutePath = require( '@stdlib/assert/is-absolute-path' ).win32;
+var isString = require( './../../is-string' ).isPrimitive;
+var isAbsolutePath = require( './../../is-absolute-path' ).win32;
 
 
 // MAIN //

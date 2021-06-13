@@ -22,7 +22,7 @@
 
 // MODULES //
 
-var isNodeStreamLike = require( '@stdlib/assert/is-node-stream-like' );
+var isNodeStreamLike = require( './../../is-node-stream-like' );
 
 
 // MAIN //

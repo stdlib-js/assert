@@ -20,9 +20,9 @@
 
 // MODULES //
 
-var isString = require( '@stdlib/assert/is-string' );
-var isnan = require( '@stdlib/assert/is-nan' ).isPrimitive;
-var isInteger = require( '@stdlib/assert/is-integer' ).isPrimitive;
+var isString = require( './../../is-string' );
+var isnan = require( './../../is-nan' ).isPrimitive;
+var isInteger = require( './../../is-integer' ).isPrimitive;
 var isEnum = require( './native.js' );
 var hasStringEnumBug = require( './has_string_enumerability_bug.js' );
 

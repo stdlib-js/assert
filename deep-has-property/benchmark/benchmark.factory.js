@@ -21,8 +21,8 @@
 // MODULES //
 
 var bench = require( '@stdlib/bench' );
-var isBoolean = require( '@stdlib/assert/is-boolean' ).isPrimitive;
-var isFunction = require( '@stdlib/assert/is-function' );
+var isBoolean = require( './../../is-boolean' ).isPrimitive;
+var isFunction = require( './../../is-function' );
 var randu = require( '@stdlib/random/base/randu' );
 var pkg = require( './../package.json' ).name;
 var factory = require( './../lib' ).factory;

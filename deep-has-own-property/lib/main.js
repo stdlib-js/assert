@@ -20,8 +20,8 @@
 
 // MODULES //
 
-var isString = require( '@stdlib/assert/is-string' ).isPrimitive;
-var isArray = require( '@stdlib/assert/is-array' );
+var isString = require( './../../is-string' ).isPrimitive;
+var isArray = require( './../../is-array' );
 var copy = require( '@stdlib/utils/copy' );
 var validate = require( './validate.js' );
 var defaults = require( './defaults.json' );

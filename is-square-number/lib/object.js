@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var isInteger = require( '@stdlib/assert/is-integer' ).isObject;
+var isInteger = require( './../../is-integer' ).isObject;
 var sqrt = require( '@stdlib/math/base/special/sqrt' );
 var floor = require( '@stdlib/math/base/special/floor' );
 

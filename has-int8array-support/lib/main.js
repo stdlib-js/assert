@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var isInt8Array = require( '@stdlib/assert/is-int8array' );
+var isInt8Array = require( './../../is-int8array' );
 var INT8_MAX = require( '@stdlib/constants/int8/max' );
 var INT8_MIN = require( '@stdlib/constants/int8/min' );
 var GlobalInt8Array = require( './int8array.js' );

@@ -25,8 +25,8 @@
 // MODULES //
 
 var bench = require( '@stdlib/bench' );
-var isBoolean = require( '@stdlib/assert/is-boolean' ).isPrimitive;
-var hasBigInts = require( '@stdlib/assert/has-bigint-support' );
+var isBoolean = require( './../../is-boolean' ).isPrimitive;
+var hasBigInts = require( './../../has-bigint-support' );
 var pkg = require( './../package.json' ).name;
 var isBigInt = require( './../lib' );
 

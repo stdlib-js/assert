@@ -22,7 +22,7 @@
 
 // MODULES //
 
-var isNodeDuplexStreamLike = require( '@stdlib/assert/is-node-duplex-stream-like' );
+var isNodeDuplexStreamLike = require( './../../is-node-duplex-stream-like' );
 
 
 // MAIN //

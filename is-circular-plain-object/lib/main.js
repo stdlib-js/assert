@@ -20,8 +20,8 @@
 
 // MODULES //
 
-var isPlainObject = require( '@stdlib/assert/is-plain-object' );
-var isCircular = require( '@stdlib/assert/is-circular' );
+var isPlainObject = require( './../../is-plain-object' );
+var isCircular = require( './../../is-circular' );
 
 
 // MAIN //

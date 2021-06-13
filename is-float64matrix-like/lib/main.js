@@ -20,8 +20,8 @@
 
 // MODULES //
 
-var isMatrixLike = require( '@stdlib/assert/is-matrix-like' );
-var isFloat64Array = require( '@stdlib/assert/is-float64array' );
+var isMatrixLike = require( './../../is-matrix-like' );
+var isFloat64Array = require( './../../is-float64array' );
 
 
 // MAIN //

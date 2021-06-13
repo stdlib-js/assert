@@ -20,8 +20,8 @@
 
 // MODULES //
 
-var hasOwnProp = require( '@stdlib/assert/has-own-property' );
-var isEnumerableProperty = require( '@stdlib/assert/is-enumerable-property' );
+var hasOwnProp = require( './../../has-own-property' );
+var isEnumerableProperty = require( './../../is-enumerable-property' );
 
 
 // MAIN //

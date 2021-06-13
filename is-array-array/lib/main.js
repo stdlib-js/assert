@@ -20,8 +20,8 @@
 
 // MODULES //
 
-var arrayfun = require( '@stdlib/assert/tools/array-function' );
-var isArray = require( '@stdlib/assert/is-array' );
+var arrayfun = require( './../../tools/array-function' );
+var isArray = require( './../../is-array' );
 
 
 // MAIN //

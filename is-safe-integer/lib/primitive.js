@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var isNumber = require( '@stdlib/assert/is-number' ).isPrimitive;
+var isNumber = require( './../../is-number' ).isPrimitive;
 var isSafeInt = require( '@stdlib/math/base/assert/is-safe-integer' );
 
 

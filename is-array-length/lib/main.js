@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var isInteger = require( '@stdlib/assert/is-integer' ).isPrimitive;
+var isInteger = require( './../../is-integer' ).isPrimitive;
 var MAX_ARRAY_LENGTH = require( '@stdlib/constants/array/max-array-length' );
 
 

@@ -21,11 +21,11 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var hasSymbols = require( '@stdlib/assert/has-symbol-support' );
-var hasMap = require( '@stdlib/assert/has-map-support' );
-var hasSet = require( '@stdlib/assert/has-set-support' );
-var hasWeakMap = require( '@stdlib/assert/has-weakmap-support' );
-var hasWeakSet = require( '@stdlib/assert/has-weakset-support' );
+var hasSymbols = require( './../../has-symbol-support' );
+var hasMap = require( './../../has-map-support' );
+var hasSet = require( './../../has-set-support' );
+var hasWeakMap = require( './../../has-weakmap-support' );
+var hasWeakSet = require( './../../has-weakset-support' );
 var Int8Array = require( '@stdlib/array/int8' );
 var Uint8Array = require( '@stdlib/array/uint8' );
 var Uint8ClampedArray = require( '@stdlib/array/uint8c' );

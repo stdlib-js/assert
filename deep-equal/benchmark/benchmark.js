@@ -23,7 +23,7 @@
 var bench = require( '@stdlib/bench' );
 var Buffer = require( '@stdlib/buffer/ctor' );
 var Number = require( '@stdlib/number/ctor' );
-var isBoolean = require( '@stdlib/assert/is-boolean' );
+var isBoolean = require( './../../is-boolean' );
 var discreteUniform = require( '@stdlib/random/base/discrete-uniform' );
 var pkg = require( './../package.json' ).name;
 var deepEqual = require( './../lib' );

@@ -20,8 +20,8 @@
 
 // MODULES //
 
-var isInteger = require( '@stdlib/assert/is-integer' ).isPrimitive;
-var isEven = require( '@stdlib/assert/is-even' ).isPrimitive;
+var isInteger = require( './../../is-integer' ).isPrimitive;
+var isEven = require( './../../is-even' ).isPrimitive;
 
 
 // MAIN //

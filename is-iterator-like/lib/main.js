@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var isFunction = require( '@stdlib/assert/is-function' );
+var isFunction = require( './../../is-function' );
 
 
 // MAIN //

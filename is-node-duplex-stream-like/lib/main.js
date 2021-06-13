@@ -20,8 +20,8 @@
 
 // MODULES //
 
-var isNodeWritableStreamLike = require( '@stdlib/assert/is-node-writable-stream-like' );
-var isNodeReadableStreamLike = require( '@stdlib/assert/is-node-readable-stream-like' );
+var isNodeWritableStreamLike = require( './../../is-node-writable-stream-like' );
+var isNodeReadableStreamLike = require( './../../is-node-readable-stream-like' );
 
 
 // MAIN //

@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var isInt16Array = require( '@stdlib/assert/is-int16array' );
+var isInt16Array = require( './../../is-int16array' );
 var INT16_MAX = require( '@stdlib/constants/int16/max' );
 var INT16_MIN = require( '@stdlib/constants/int16/min' );
 var GlobalInt16Array = require( './int16array.js' );

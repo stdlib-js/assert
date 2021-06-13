@@ -20,9 +20,9 @@
 
 // MODULES //
 
-var hasOwnProp = require( '@stdlib/assert/has-own-property' );
-var isEnumerableProperty = require( '@stdlib/assert/is-enumerable-property' );
-var isArray = require( '@stdlib/assert/is-array' );
+var hasOwnProp = require( './../../has-own-property' );
+var isEnumerableProperty = require( './../../is-enumerable-property' );
+var isArray = require( './../../is-array' );
 var isInteger = require( '@stdlib/math/base/assert/is-integer' );
 var MAX_LENGTH = require( '@stdlib/constants/uint32/max' );
 

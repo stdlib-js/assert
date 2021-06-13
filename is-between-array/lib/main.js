@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var isCollection = require( '@stdlib/assert/is-collection' );
+var isCollection = require( './../../is-collection' );
 
 
 // MAIN //

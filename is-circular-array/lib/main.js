@@ -20,8 +20,8 @@
 
 // MODULES //
 
-var isArray = require( '@stdlib/assert/is-array' );
-var isCircular = require( '@stdlib/assert/is-circular' );
+var isArray = require( './../../is-array' );
+var isCircular = require( './../../is-circular' );
 
 
 // MAIN //

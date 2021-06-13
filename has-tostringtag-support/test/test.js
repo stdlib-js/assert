@@ -22,7 +22,7 @@
 
 var tape = require( 'tape' );
 var proxyquire = require( 'proxyquire' );
-var hasSymbols = require( '@stdlib/assert/has-symbol-support' );
+var hasSymbols = require( './../../has-symbol-support' );
 var detect = require( './../lib' );
 
 

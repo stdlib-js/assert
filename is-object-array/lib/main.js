@@ -20,8 +20,8 @@
 
 // MODULES //
 
-var arrayfun = require( '@stdlib/assert/tools/array-like-function' );
-var isObject = require( '@stdlib/assert/is-object' );
+var arrayfun = require( './../../tools/array-like-function' );
+var isObject = require( './../../is-object' );
 
 
 // MAIN //

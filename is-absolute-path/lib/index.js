@@ -40,7 +40,7 @@
 // MODULES //
 
 var setReadOnly = require( '@stdlib/utils/define-nonenumerable-read-only-property' );
-var IS_WINDOWS = require( '@stdlib/assert/is-windows' );
+var IS_WINDOWS = require( './../../is-windows' );
 var isAbsolutePathPosix = require( './posix.js' );
 var isAbsolutePathWin32 = require( './win32.js' );
 

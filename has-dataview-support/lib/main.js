@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var isDataView = require( '@stdlib/assert/is-dataview' );
+var isDataView = require( './../../is-dataview' );
 var ArrayBuffer = require( '@stdlib/array/buffer' );
 var GlobalDataView = require( './dataview.js' );
 

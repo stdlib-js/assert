@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var isUint16Array = require( '@stdlib/assert/is-uint16array' );
+var isUint16Array = require( './../../is-uint16array' );
 var UINT16_MAX = require( '@stdlib/constants/uint16/max' );
 var GlobalUint16Array = require( './uint16array.js' );
 

@@ -42,8 +42,8 @@
 
 // MODULES //
 
-var arrayfun = require( '@stdlib/assert/tools/array-like-function' );
-var isFunction = require( '@stdlib/assert/is-function' );
+var arrayfun = require( './../../tools/array-like-function' );
+var isFunction = require( './../../is-function' );
 
 
 // MAIN //

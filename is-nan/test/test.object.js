@@ -21,7 +21,7 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var hasSymbols = require( '@stdlib/assert/has-symbol-support' );
+var hasSymbols = require( './../../has-symbol-support' );
 var Number = require( '@stdlib/number/ctor' );
 var isnan = require( './../lib/object.js' );
 

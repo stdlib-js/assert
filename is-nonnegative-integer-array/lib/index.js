@@ -53,9 +53,9 @@
 
 // MODULES //
 
-var isNonNegativeInteger = require( '@stdlib/assert/is-nonnegative-integer' );
+var isNonNegativeInteger = require( './../../is-nonnegative-integer' );
 var setReadOnly = require( '@stdlib/utils/define-nonenumerable-read-only-property' );
-var arrayfun = require( '@stdlib/assert/tools/array-like-function' );
+var arrayfun = require( './../../tools/array-like-function' );
 
 
 // MAIN //

@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var isString = require( '@stdlib/assert/is-string' ).isPrimitive;
+var isString = require( './../../is-string' ).isPrimitive;
 var reWhitespace = require( '@stdlib/regexp/whitespace' );
 
 

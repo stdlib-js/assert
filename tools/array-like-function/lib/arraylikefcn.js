@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var isArrayLike = require( '@stdlib/assert/is-array-like' );
+var isArrayLike = require( './../../../is-array-like' );
 
 
 // MAIN //

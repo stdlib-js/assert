@@ -23,7 +23,7 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var hasSymbolSupport = require( '@stdlib/assert/has-symbol-support' );
+var hasSymbolSupport = require( './../../has-symbol-support' );
 var detect = require( './../lib' );
 
 

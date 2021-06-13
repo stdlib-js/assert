@@ -59,9 +59,9 @@
 
 // MODULES //
 
-var isFinite = require( '@stdlib/assert/is-finite' ); // eslint-disable-line stdlib/no-redeclare
+var isFinite = require( './../../is-finite' ); // eslint-disable-line stdlib/no-redeclare
 var setReadOnly = require( '@stdlib/utils/define-nonenumerable-read-only-property' );
-var arrayfun = require( '@stdlib/assert/tools/array-like-function' );
+var arrayfun = require( './../../tools/array-like-function' );
 
 
 // MAIN //

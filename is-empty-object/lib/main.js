@@ -21,8 +21,8 @@
 // MODULES //
 
 var objectKeys = require( '@stdlib/utils/keys' );
-var isPlainObject = require( '@stdlib/assert/is-plain-object' );
-var hasSymbolSupport = require( '@stdlib/assert/has-symbol-support' );
+var isPlainObject = require( './../../is-plain-object' );
+var hasSymbolSupport = require( './../../has-symbol-support' );
 
 
 // VARIABLES //

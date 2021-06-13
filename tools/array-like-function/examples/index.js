@@ -18,7 +18,7 @@
 
 'use strict';
 
-var isEven = require( '@stdlib/assert/is-even' );
+var isEven = require( './../../../is-even' );
 var arraylikefcn = require( './../lib' );
 
 var arr1;

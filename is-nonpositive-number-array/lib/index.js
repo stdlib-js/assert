@@ -53,9 +53,9 @@
 
 // MODULES //
 
-var isNonPositiveNumber = require( '@stdlib/assert/is-nonpositive-number' );
+var isNonPositiveNumber = require( './../../is-nonpositive-number' );
 var setReadOnly = require( '@stdlib/utils/define-nonenumerable-read-only-property' );
-var arrayfun = require( '@stdlib/assert/tools/array-like-function' );
+var arrayfun = require( './../../tools/array-like-function' );
 
 
 // MAIN //

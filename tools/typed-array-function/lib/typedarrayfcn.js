@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var isTypedArray = require( '@stdlib/assert/is-typed-array' );
+var isTypedArray = require( './../../../is-typed-array' );
 
 
 // MAIN //

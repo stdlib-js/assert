@@ -48,7 +48,7 @@
 // MODULES //
 
 var setReadOnly = require( '@stdlib/utils/define-nonenumerable-read-only-property' );
-var arrayfun = require( '@stdlib/assert/tools/array-function' );
+var arrayfun = require( './../../tools/array-function' );
 var isObjectLike = require( './main.js' );
 
 

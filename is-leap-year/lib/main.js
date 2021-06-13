@@ -20,8 +20,8 @@
 
 // MODULES //
 
-var isDateObject = require( '@stdlib/assert/is-date-object' );
-var isInteger = require( '@stdlib/assert/is-integer' ).isPrimitive;
+var isDateObject = require( './../../is-date-object' );
+var isInteger = require( './../../is-integer' ).isPrimitive;
 
 
 // MAIN //

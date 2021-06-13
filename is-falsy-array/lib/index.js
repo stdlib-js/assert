@@ -38,8 +38,8 @@
 
 // MODULES //
 
-var arrayfun = require( '@stdlib/assert/tools/array-like-function' );
-var isFalsy = require( '@stdlib/assert/is-falsy' );
+var arrayfun = require( './../../tools/array-like-function' );
+var isFalsy = require( './../../is-falsy' );
 
 
 // MAIN //

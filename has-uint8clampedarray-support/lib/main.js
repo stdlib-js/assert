@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var isUint8ClampedArray = require( '@stdlib/assert/is-uint8clampedarray' );
+var isUint8ClampedArray = require( './../../is-uint8clampedarray' );
 var GlobalUint8ClampedArray = require( './uint8clampedarray.js' );
 
 

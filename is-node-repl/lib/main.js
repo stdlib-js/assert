@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var IS_NODE = require( '@stdlib/assert/is-node' );
+var IS_NODE = require( './../../is-node' );
 var p = require( './parent.js' );
 var stacktrace = require( './stacktrace.js' );
 

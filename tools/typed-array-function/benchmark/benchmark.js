@@ -22,7 +22,7 @@
 
 var bench = require( '@stdlib/bench' );
 var Int32Array = require( '@stdlib/array/int32' );
-var isBoolean = require( '@stdlib/assert/is-boolean' ).isPrimitive;
+var isBoolean = require( './../../../is-boolean' ).isPrimitive;
 var pow = require( '@stdlib/math/base/special/pow' );
 var pkg = require( './../package.json' ).name;
 var typedarrayfcn = require( './../lib' );

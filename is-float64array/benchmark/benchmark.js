@@ -30,7 +30,7 @@ var Int32Array = require( '@stdlib/array/int32' );
 var Uint32Array = require( '@stdlib/array/uint32' );
 var Float32Array = require( '@stdlib/array/float32' );
 var Float64Array = require( '@stdlib/array/float64' );
-var isBoolean = require( '@stdlib/assert/is-boolean' ).isPrimitive;
+var isBoolean = require( './../../is-boolean' ).isPrimitive;
 var pkg = require( './../package.json' ).name;
 var isFloat64Array = require( './../lib' );
 

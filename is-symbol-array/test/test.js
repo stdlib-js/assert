@@ -22,7 +22,7 @@
 
 var tape = require( 'tape' );
 var Symbol = require( '@stdlib/symbol/ctor' );
-var hasSymbols = require( '@stdlib/assert/has-symbol-support' );
+var hasSymbols = require( './../../has-symbol-support' );
 var isSymbolArray = require( './../lib' );
 
 

@@ -20,10 +20,10 @@
 
 // MODULES //
 
-var isBoolean = require( '@stdlib/assert/is-boolean' ).isObject;
-var isNumber = require( '@stdlib/assert/is-number' ).isObject;
-var isString = require( '@stdlib/assert/is-string' ).isObject;
-var isSymbol = require( '@stdlib/assert/is-symbol' ).isObject;
+var isBoolean = require( './../../is-boolean' ).isObject;
+var isNumber = require( './../../is-number' ).isObject;
+var isString = require( './../../is-string' ).isObject;
+var isSymbol = require( './../../is-symbol' ).isObject;
 
 
 // MAIN //

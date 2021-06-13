@@ -20,8 +20,8 @@
 
 // MODULES //
 
-var arrayfun = require( '@stdlib/assert/tools/array-like-function' );
-var isPlainObject = require( '@stdlib/assert/is-plain-object' );
+var arrayfun = require( './../../tools/array-like-function' );
+var isPlainObject = require( './../../is-plain-object' );
 
 
 // MAIN //

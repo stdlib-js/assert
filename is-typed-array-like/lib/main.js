@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var isNonNegativeInteger = require( '@stdlib/assert/is-nonnegative-integer' ).isPrimitive;
+var isNonNegativeInteger = require( './../../is-nonnegative-integer' ).isPrimitive;
 var MAX = require( '@stdlib/constants/array/max-typed-array-length' );
 
 

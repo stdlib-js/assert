@@ -20,8 +20,8 @@
 
 // MODULES //
 
-var arrayfun = require( '@stdlib/assert/tools/array-like-function' );
-var isNull = require( '@stdlib/assert/is-null' );
+var arrayfun = require( './../../tools/array-like-function' );
+var isNull = require( './../../is-null' );
 
 
 // MAIN //

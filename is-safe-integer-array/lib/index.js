@@ -60,8 +60,8 @@
 // MODULES //
 
 var setReadOnly = require( '@stdlib/utils/define-nonenumerable-read-only-property' );
-var arrayfun = require( '@stdlib/assert/tools/array-like-function' );
-var isSafeInteger = require( '@stdlib/assert/is-safe-integer' );
+var arrayfun = require( './../../tools/array-like-function' );
+var isSafeInteger = require( './../../is-safe-integer' );
 
 
 // MAIN //

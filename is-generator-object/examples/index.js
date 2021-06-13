@@ -18,7 +18,7 @@
 
 'use strict';
 
-var hasGeneratorsSupport = require( '@stdlib/assert/has-generator-support' );
+var hasGeneratorsSupport = require( './../../has-generator-support' );
 var evil = require( '@stdlib/utils/eval' );
 var isGeneratorObject = require( './../lib' );
 

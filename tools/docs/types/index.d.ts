@@ -21,9 +21,9 @@
 /* tslint:disable:max-line-length */
 /* tslint:disable:max-file-line-count */
 
-import arrayfcn = require( '@stdlib/assert/tools/array-function' );
-import arraylikefcn = require( '@stdlib/assert/tools/array-like-function' );
-import typedarrayfcn = require( '@stdlib/assert/tools/typed-array-function' );
+import arrayfcn = require( './../../../tools/array-function' );
+import arraylikefcn = require( './../../../tools/array-like-function' );
+import typedarrayfcn = require( './../../../tools/typed-array-function' );
 
 /**
 * Interface describing the `tools` namespace.

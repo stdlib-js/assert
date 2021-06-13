@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var isNumber = require( '@stdlib/assert/is-number' ).isPrimitive;
+var isNumber = require( './../../is-number' ).isPrimitive;
 var isInt = require( './integer.js' );
 
 

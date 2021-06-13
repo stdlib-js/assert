@@ -22,10 +22,10 @@
 
 var objectKeys = require( '@stdlib/utils/keys' );
 var getPrototypeOf = require( '@stdlib/utils/get-prototype-of' );
-var isDate = require( '@stdlib/assert/is-date-object' );
-var isError = require( '@stdlib/assert/is-error' );
-var isBuffer = require( '@stdlib/assert/is-buffer' );
-var isRegExp = require( '@stdlib/assert/is-regexp' );
+var isDate = require( './../../is-date-object' );
+var isError = require( './../../is-error' );
+var isBuffer = require( './../../is-buffer' );
+var isRegExp = require( './../../is-regexp' );
 
 
 // MAIN //

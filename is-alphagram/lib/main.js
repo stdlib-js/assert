@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var isString = require( '@stdlib/assert/is-string' );
+var isString = require( './../../is-string' );
 
 
 // MAIN //

@@ -20,9 +20,9 @@
 
 // MODULES //
 
-var isTypedArray = require( '@stdlib/assert/is-typed-array' );
-var isArray = require( '@stdlib/assert/is-array' );
-var isNumber = require( '@stdlib/assert/is-number' ).isPrimitive;
+var isTypedArray = require( './../../is-typed-array' );
+var isArray = require( './../../is-array' );
+var isNumber = require( './../../is-number' ).isPrimitive;
 var absdiff = require( '@stdlib/math/base/utils/absolute-difference' );
 var FLOAT64_SQRT_EPS = require( '@stdlib/constants/float64/sqrt-eps' );
 

@@ -22,7 +22,7 @@
 
 var vm = require( 'vm' ); // TODO: handle in-browser tests
 var tape = require( 'tape' );
-var IS_BROWSER = require( '@stdlib/assert/is-browser' );
+var IS_BROWSER = require( './../../is-browser' );
 var inherit = require( '@stdlib/utils/inherit' );
 var isEvalError = require( './../lib' );
 

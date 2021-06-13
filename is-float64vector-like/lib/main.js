@@ -20,8 +20,8 @@
 
 // MODULES //
 
-var isVectorLike = require( '@stdlib/assert/is-vector-like' );
-var isFloat64Array = require( '@stdlib/assert/is-float64array' );
+var isVectorLike = require( './../../is-vector-like' );
+var isFloat64Array = require( './../../is-float64array' );
 
 
 // MAIN //

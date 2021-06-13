@@ -21,7 +21,7 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var detectGeneratorSupport = require( '@stdlib/assert/has-generator-support' );
+var detectGeneratorSupport = require( './../../has-generator-support' );
 var isGeneratorObject = require( './../lib' );
 
 

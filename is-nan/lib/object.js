@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var isNumber = require( '@stdlib/assert/is-number' ).isObject;
+var isNumber = require( './../../is-number' ).isObject;
 var isNan = require( '@stdlib/math/base/assert/is-nan' );
 
 

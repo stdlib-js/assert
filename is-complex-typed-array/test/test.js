@@ -34,7 +34,7 @@ var Float32Array = require( '@stdlib/array/float32' );
 var Float64Array = require( '@stdlib/array/float64' );
 var Complex64Array = require( '@stdlib/array/complex64' );
 var Complex128Array = require( '@stdlib/array/complex128' );
-var IS_BROWSER = require( '@stdlib/assert/is-browser' );
+var IS_BROWSER = require( './../../is-browser' );
 var isComplexTypedArray = require( './../lib' );
 
 

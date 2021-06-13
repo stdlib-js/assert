@@ -21,7 +21,7 @@
 // MODULES //
 
 var bench = require( '@stdlib/bench' );
-var isBoolean = require( '@stdlib/assert/is-boolean' ).isPrimitive;
+var isBoolean = require( './../../is-boolean' ).isPrimitive;
 var Buffer = require( '@stdlib/buffer/ctor' );
 var pkg = require( './../package.json' ).name;
 var isBuffer = require( './../lib' );

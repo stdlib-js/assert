@@ -22,7 +22,7 @@
 
 var getPrototypeOf = require( '@stdlib/utils/get-prototype-of' );
 var typeOf = require( '@stdlib/utils/type-of' );
-var isError = require( '@stdlib/assert/is-error' );
+var isError = require( './../../is-error' );
 
 
 // MAIN //

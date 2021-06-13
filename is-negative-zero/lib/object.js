@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var isNumber = require( '@stdlib/assert/is-number' ).isObject;
+var isNumber = require( './../../is-number' ).isObject;
 var NINF = require( '@stdlib/constants/float64/ninf' );
 
 

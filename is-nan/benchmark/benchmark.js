@@ -23,7 +23,7 @@
 // MODULES //
 
 var bench = require( '@stdlib/bench' );
-var isBoolean = require( '@stdlib/assert/is-boolean' ).isPrimitive;
+var isBoolean = require( './../../is-boolean' ).isPrimitive;
 var Number = require( '@stdlib/number/ctor' );
 var pkg = require( './../package.json' ).name;
 var isnan = require( './../lib' );

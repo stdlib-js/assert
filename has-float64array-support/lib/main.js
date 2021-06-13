@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var isFloat64Array = require( '@stdlib/assert/is-float64array' );
+var isFloat64Array = require( './../../is-float64array' );
 var GlobalFloat64Array = require( './float64array.js' );
 
 

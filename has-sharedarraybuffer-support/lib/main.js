@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var isSharedArrayBuffer = require( '@stdlib/assert/is-sharedarraybuffer' );
+var isSharedArrayBuffer = require( './../../is-sharedarraybuffer' );
 var GlobalSharedArrayBuffer = require( './sharedarraybuffer.js' );
 
 

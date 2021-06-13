@@ -20,7 +20,7 @@
 
 'use strict';
 
-var hasBigIntSupport = require( '@stdlib/assert/has-bigint-support' );
+var hasBigIntSupport = require( './../../has-bigint-support' );
 var BigInt = require( '@stdlib/bigint/ctor' );
 var isBigInt = require( './../lib' );
 

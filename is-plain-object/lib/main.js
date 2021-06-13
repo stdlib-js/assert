@@ -20,10 +20,10 @@
 
 // MODULES //
 
-var isObject = require( '@stdlib/assert/is-object' );
-var isFunction = require( '@stdlib/assert/is-function' );
+var isObject = require( './../../is-object' );
+var isFunction = require( './../../is-function' );
 var getPrototypeOf = require( '@stdlib/utils/get-prototype-of' );
-var hasOwnProp = require( '@stdlib/assert/has-own-property' );
+var hasOwnProp = require( './../../has-own-property' );
 var nativeClass = require( '@stdlib/utils/native-class' );
 
 

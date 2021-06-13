@@ -20,8 +20,8 @@
 
 // MODULES //
 
-var arrayfun = require( '@stdlib/assert/tools/array-like-function' );
-var isPrimitive = require( '@stdlib/assert/is-primitive' );
+var arrayfun = require( './../../tools/array-like-function' );
+var isPrimitive = require( './../../is-primitive' );
 
 
 // MAIN //

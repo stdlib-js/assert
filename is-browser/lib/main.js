@@ -23,7 +23,7 @@
 // MODULES //
 
 var getGlobal = require( '@stdlib/utils/global' );
-var IS_NODE = require( '@stdlib/assert/is-node' );
+var IS_NODE = require( './../../is-node' );
 var globalScope = require( './global_scope.js' );
 
 
