@@ -35,7 +35,7 @@ tape( 'main export is a function', function test( t ) {
 
 tape( 'if platform is POSIX, main export is method to test if a string is a POSIX relative path', function test( t ) {
 	var isRelativePath = proxyquire( './../lib', {
-		'@stdlib/assert/is-windows': false
+		'./../../is-windows': false
 	});
 	t.equal( isRelativePath, isRelativePath.posix, 'equals posix method' );
 	t.end();
@@ -43,7 +43,7 @@ tape( 'if platform is POSIX, main export is method to test if a string is a POSI
 
 tape( 'if platform is Windows, main export is method to test if a string is a Windows relative path', function test( t ) {
 	var isRelativePath = proxyquire( './../lib', {
-		'@stdlib/assert/is-windows': true
+		'./../../is-windows': true
 	});
 	t.equal( isRelativePath, isRelativePath.win32, 'equals win32 method' );
 	t.end();

@@ -53,7 +53,7 @@ tape( 'if `Float64Array` is supported, detection result is `true`', function tes
 	}
 	mocked = proxyquire( './../lib/main.js', {
 		'./float64array.js': Mock,
-		'@stdlib/assert/is-float64array': isArray
+		'./../../is-float64array': isArray
 	});
 	t.strictEqual( mocked(), true, 'detection result is `true` (mocked)' );
 
@@ -92,13 +92,13 @@ tape( 'if `Float64Array` is not supported, detection result is `false`', functio
 
 	mocked = proxyquire( './../lib/main.js', {
 		'./float64array.js': Mock2,
-		'@stdlib/assert/is-float64array': isArray
+		'./../../is-float64array': isArray
 	});
 	t.strictEqual( mocked(), false, 'detection result is `false`' );
 
 	mocked = proxyquire( './../lib/main.js', {
 		'./float64array.js': Mock3,
-		'@stdlib/assert/is-float64array': isArray
+		'./../../is-float64array': isArray
 	});
 	t.strictEqual( mocked(), false, 'detection result is `false`' );
 

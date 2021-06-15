@@ -57,7 +57,7 @@ tape( 'if `Symbol.toStringTag` is supported, the function guards against objects
 	var mock;
 
 	isString = proxyquire( './../lib/object.js', {
-		'@stdlib/assert/has-tostringtag-support': detect
+		'./../../has-tostringtag-support': detect
 	});
 
 	mock = {
@@ -83,7 +83,7 @@ tape( 'if `Symbol.toStringTag` is supported, the function guards against objects
 
 tape( 'if `Symbol.toStringTag` is not supported, the function attempts to determine the native class', function test( t ) {
 	var isString = proxyquire( './../lib/object.js', {
-		'@stdlib/assert/has-tostringtag-support': detect
+		'./../../has-tostringtag-support': detect
 	});
 
 	t.equal( isString( new String( 'a' ) ), true, 'returns true' ); // eslint-disable-line no-new-wrappers

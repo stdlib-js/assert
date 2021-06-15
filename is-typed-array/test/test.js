@@ -80,7 +80,7 @@ tape( 'the function returns `true` if provided a typed array (older environments
 	var i;
 
 	isTypedArray = proxyquire( './../lib/main.js', {
-		'@stdlib/assert/has-float64array-support': hasSupport
+		'./../../has-float64array-support': hasSupport
 	});
 
 	values = [

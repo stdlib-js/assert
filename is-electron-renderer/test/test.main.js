@@ -55,7 +55,7 @@ tape( 'the function returns `true` if runtime is the Electron renderer process',
 	proc = new Process();
 
 	isElectronRenderer = proxyquire( './../lib/main.js', {
-		'@stdlib/assert/is-electron': true,
+		'./../../is-electron': true,
 		'./process.js': proc
 	});
 
@@ -73,7 +73,7 @@ tape( 'the function returns `false` if runtime is not the Electron renderer proc
 	proc = new Process();
 
 	isElectronRenderer = proxyquire( './../lib/main.js', {
-		'@stdlib/assert/is-electron': false,
+		'./../../is-electron': false,
 		'./process.js': proc
 	});
 
@@ -92,7 +92,7 @@ tape( 'the function returns `false` if runtime is not the Electron renderer proc
 	proc.type = 'browser';
 
 	isElectronRenderer = proxyquire( './../lib/main.js', {
-		'@stdlib/assert/is-electron': true,
+		'./../../is-electron': true,
 		'./process.js': proc
 	});
 

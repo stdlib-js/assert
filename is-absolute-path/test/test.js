@@ -35,7 +35,7 @@ tape( 'main export is a function', function test( t ) {
 
 tape( 'if platform is POSIX, main export is method to test if a string is a POSIX absolute path', function test( t ) {
 	var isAbsolutePath = proxyquire( './../lib', {
-		'@stdlib/assert/is-windows': false
+		'./../../is-windows': false
 	});
 	t.equal( isAbsolutePath, isAbsolutePath.posix, 'equals posix method' );
 	t.end();
@@ -43,7 +43,7 @@ tape( 'if platform is POSIX, main export is method to test if a string is a POSI
 
 tape( 'if platform is Windows, main export is method to test if a string is a Windows absolute path', function test( t ) {
 	var isAbsolutePath = proxyquire( './../lib', {
-		'@stdlib/assert/is-windows': true
+		'./../../is-windows': true
 	});
 	t.equal( isAbsolutePath, isAbsolutePath.win32, 'equals win32 method' );
 	t.end();

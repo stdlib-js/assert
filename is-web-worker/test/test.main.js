@@ -53,8 +53,8 @@ tape( 'the function returns `true` if the runtime is a web worker', function tes
 
 	isWebWorker = proxyquire( './../lib/main.js', {
 		'@stdlib/utils/global': getGlobal,
-		'@stdlib/assert/is-node': false,
-		'@stdlib/assert/is-plain-object': alwaysTrue,
+		'./../../is-node': false,
+		'./../../is-plain-object': alwaysTrue,
 		'./global_scope.js': true
 	});
 
@@ -96,8 +96,8 @@ tape( 'the function returns `false` if the runtime is not a web worker (`WorkerG
 
 	isWebWorker = proxyquire( './../lib/main.js', {
 		'@stdlib/utils/global': getGlobal,
-		'@stdlib/assert/is-node': false,
-		'@stdlib/assert/is-plain-object': alwaysTrue,
+		'./../../is-node': false,
+		'./../../is-plain-object': alwaysTrue,
 		'./global_scope.js': true
 	});
 
@@ -141,8 +141,8 @@ tape( 'the function returns `false` if the runtime is not a web worker (`WorkerN
 
 	isWebWorker = proxyquire( './../lib/main.js', {
 		'@stdlib/utils/global': getGlobal,
-		'@stdlib/assert/is-node': false,
-		'@stdlib/assert/is-plain-object': isObject,
+		'./../../is-node': false,
+		'./../../is-plain-object': isObject,
 		'./global_scope.js': true
 	});
 
@@ -189,8 +189,8 @@ tape( 'the function returns `false` if the runtime is not a web worker (`navigat
 
 	isWebWorker = proxyquire( './../lib/main.js', {
 		'@stdlib/utils/global': getGlobal,
-		'@stdlib/assert/is-node': false,
-		'@stdlib/assert/is-plain-object': alwaysTrue,
+		'./../../is-node': false,
+		'./../../is-plain-object': alwaysTrue,
 		'./global_scope.js': true
 	});
 
@@ -234,8 +234,8 @@ tape( 'the function returns `false` if the runtime is not a web worker (`WorkerL
 
 	isWebWorker = proxyquire( './../lib/main.js', {
 		'@stdlib/utils/global': getGlobal,
-		'@stdlib/assert/is-node': false,
-		'@stdlib/assert/is-plain-object': isObject,
+		'./../../is-node': false,
+		'./../../is-plain-object': isObject,
 		'./global_scope.js': true
 	});
 
@@ -282,8 +282,8 @@ tape( 'the function returns `false` if the runtime is not a web worker (`locatio
 
 	isWebWorker = proxyquire( './../lib/main.js', {
 		'@stdlib/utils/global': getGlobal,
-		'@stdlib/assert/is-node': false,
-		'@stdlib/assert/is-plain-object': alwaysTrue,
+		'./../../is-node': false,
+		'./../../is-plain-object': alwaysTrue,
 		'./global_scope.js': true
 	});
 
@@ -327,8 +327,8 @@ tape( 'the function returns `false` if the runtime is not a web worker (`self` g
 
 	isWebWorker = proxyquire( './../lib/main.js', {
 		'@stdlib/utils/global': getGlobal,
-		'@stdlib/assert/is-node': false,
-		'@stdlib/assert/is-plain-object': alwaysTrue,
+		'./../../is-node': false,
+		'./../../is-plain-object': alwaysTrue,
 		'./global_scope.js': true
 	});
 
@@ -372,8 +372,8 @@ tape( 'the function returns `false` if the runtime is not a web worker (`self` g
 
 	isWebWorker = proxyquire( './../lib/main.js', {
 		'@stdlib/utils/global': getGlobal,
-		'@stdlib/assert/is-node': false,
-		'@stdlib/assert/is-plain-object': alwaysTrue,
+		'./../../is-node': false,
+		'./../../is-plain-object': alwaysTrue,
 		'./global_scope.js': false
 	});
 

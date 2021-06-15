@@ -53,7 +53,7 @@ tape( 'if `Int8Array` is supported, detection result is `true`', function test( 
 	}
 	mocked = proxyquire( './../lib/main.js', {
 		'./int8array.js': Mock,
-		'@stdlib/assert/is-int8array': isArray
+		'./../../is-int8array': isArray
 	});
 	t.strictEqual( mocked(), true, 'detection result is `true` (mocked)' );
 
@@ -92,13 +92,13 @@ tape( 'if `Int8Array` is not supported, detection result is `false`', function t
 
 	mocked = proxyquire( './../lib/main.js', {
 		'./int8array.js': Mock2,
-		'@stdlib/assert/is-int8array': isArray
+		'./../../is-int8array': isArray
 	});
 	t.strictEqual( mocked(), false, 'detection result is `false`' );
 
 	mocked = proxyquire( './../lib/main.js', {
 		'./int8array.js': Mock3,
-		'@stdlib/assert/is-int8array': isArray
+		'./../../is-int8array': isArray
 	});
 	t.strictEqual( mocked(), false, 'detection result is `false`' );
 

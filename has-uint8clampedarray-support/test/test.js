@@ -54,7 +54,7 @@ tape( 'if `Uint8ClampedArray` is supported, detection result is `true`', functio
 	}
 	mocked = proxyquire( './../lib/main.js', {
 		'./uint8clampedarray.js': Mock,
-		'@stdlib/assert/is-uint8clampedarray': isArray
+		'./../../is-uint8clampedarray': isArray
 	});
 	t.strictEqual( mocked(), true, 'detection result is `true` (mocked)' );
 
@@ -101,13 +101,13 @@ tape( 'if `Uint8ClampedArray` is not supported, detection result is `false`', fu
 
 	mocked = proxyquire( './../lib/main.js', {
 		'./uint8clampedarray.js': Mock2,
-		'@stdlib/assert/is-uint8clampedarray': isArray
+		'./../../is-uint8clampedarray': isArray
 	});
 	t.strictEqual( mocked(), false, 'detection result is `false`' );
 
 	mocked = proxyquire( './../lib/main.js', {
 		'./uint8clampedarray.js': Mock3,
-		'@stdlib/assert/is-uint8clampedarray': isArray
+		'./../../is-uint8clampedarray': isArray
 	});
 	t.strictEqual( mocked(), false, 'detection result is `false`' );
 

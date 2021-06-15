@@ -66,7 +66,7 @@ tape( 'if `ArrayBuffer` is supported, detection result is `true`', function test
 
 	mocked = proxyquire( './../lib/main.js', {
 		'./arraybuffer.js': Mock,
-		'@stdlib/assert/is-arraybuffer': isBuffer
+		'./../../is-arraybuffer': isBuffer
 	});
 	t.strictEqual( mocked(), true, 'detection result is `true` (mocked)' );
 

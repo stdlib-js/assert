@@ -53,7 +53,7 @@ tape( 'if `Symbol.toStringTag` is supported, the function guards against objects
 	var mock;
 
 	isRegExp = proxyquire( './../lib/main.js', {
-		'@stdlib/assert/has-tostringtag-support': detect
+		'./../../has-tostringtag-support': detect
 	});
 
 	mock = {
@@ -80,7 +80,7 @@ tape( 'if `Symbol.toStringTag` is supported, the function guards against objects
 
 tape( 'if `Symbol.toStringTag` is supported, the function returns `true` if provided a regular expression', opts, function test( t ) {
 	var isRegExp = proxyquire( './../lib/main.js', {
-		'@stdlib/assert/has-tostringtag-support': detect
+		'./../../has-tostringtag-support': detect
 	});
 
 	t.strictEqual( isRegExp( /beep/ ), true, 'returns true' );
@@ -94,7 +94,7 @@ tape( 'if `Symbol.toStringTag` is supported, the function returns `true` if prov
 
 tape( 'if `Symbol.toStringTag` is not supported, the function attempts to determine the native class', function test( t ) {
 	var isRegExp = proxyquire( './../lib/main.js', {
-		'@stdlib/assert/has-tostringtag-support': detect
+		'./../../has-tostringtag-support': detect
 	});
 
 	t.strictEqual( isRegExp( /beep/ ), true, 'returns true' );

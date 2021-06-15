@@ -78,7 +78,7 @@ tape( 'if `SharedArrayBuffer` is supported, detection result is `true`', functio
 
 	mocked = proxyquire( './../lib/main.js', {
 		'./sharedarraybuffer.js': Mock,
-		'@stdlib/assert/is-sharedarraybuffer': isBuffer
+		'./../../is-sharedarraybuffer': isBuffer
 	});
 	t.strictEqual( mocked(), true, 'detection result is `true` (mocked)' );
 
@@ -141,7 +141,7 @@ tape( 'if `SharedArrayBuffer` is not supported, detected result is `false` (no s
 	}
 	mocked = proxyquire( './../lib/main.js', {
 		'./sharedarraybuffer.js': Mock,
-		'@stdlib/assert/is-sharedarraybuffer': isBuffer
+		'./../../is-sharedarraybuffer': isBuffer
 	});
 	t.strictEqual( mocked(), false, 'detection result is `false`' );
 	t.end();
@@ -183,7 +183,7 @@ tape( 'if `SharedArrayBuffer` is not supported, detected result is `false` (no b
 	}
 	mocked = proxyquire( './../lib/main.js', {
 		'./sharedarraybuffer.js': Mock,
-		'@stdlib/assert/is-sharedarraybuffer': isBuffer
+		'./../../is-sharedarraybuffer': isBuffer
 	});
 	t.strictEqual( mocked(), false, 'detection result is `false`' );
 	t.end();

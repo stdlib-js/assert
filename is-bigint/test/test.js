@@ -49,7 +49,7 @@ tape( 'if an environment does not support BigInts, the main export is a polyfill
 	var i;
 
 	isBigInt = proxyquire( './../lib', {
-		'@stdlib/assert/has-bigint-support': hasSupport
+		'./../../has-bigint-support': hasSupport
 	});
 
 	t.strictEqual( isBigInt, require( './../lib/polyfill.js' ), 'exports a polyfill' );
@@ -81,7 +81,7 @@ tape( 'if an environment does not support BigInts, the main export is a polyfill
 
 tape( 'if an environment does support BigInts, the main export is not the polyfill', function test( t ) {
 	var isBigInt = proxyquire( './../lib', {
-		'@stdlib/assert/has-bigint-support': hasSupport,
+		'./../../has-bigint-support': hasSupport,
 		'./main.js': isBigInteger
 	});
 

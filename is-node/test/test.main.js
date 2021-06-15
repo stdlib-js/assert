@@ -54,8 +54,8 @@ tape( 'the function returns `true` if runtime is Node.js (Node.js < v7)', functi
 
 	isNode = proxyquire( './../lib/main.js', {
 		'@stdlib/utils/native-class': nativeClass,
-		'@stdlib/assert/is-plain-object': alwaysTrue,
-		'@stdlib/assert/is-string': isString,
+		'./../../is-plain-object': alwaysTrue,
+		'./../../is-string': isString,
 		'./global_scope.js': true
 	});
 
@@ -83,8 +83,8 @@ tape( 'the function returns `true` if runtime is Node.js (Node.js >= v7)', funct
 
 	isNode = proxyquire( './../lib/main.js', {
 		'@stdlib/utils/native-class': nativeClass,
-		'@stdlib/assert/is-plain-object': alwaysTrue,
-		'@stdlib/assert/is-string': isString,
+		'./../../is-plain-object': alwaysTrue,
+		'./../../is-string': isString,
 		'./global_scope.js': true
 	});
 
@@ -117,8 +117,8 @@ tape( 'the function returns `false` if runtime is not Node.js (`global` variable
 	isNode = proxyquire( './../lib/main.js', {
 		'@stdlib/utils/global': getGlobal,
 		'@stdlib/utils/native-class': nativeClass,
-		'@stdlib/assert/is-plain-object': alwaysTrue,
-		'@stdlib/assert/is-string': isString,
+		'./../../is-plain-object': alwaysTrue,
+		'./../../is-string': isString,
 		'./global_scope.js': true
 	});
 	t.equal( isNode(), false, 'returns false' );
@@ -144,8 +144,8 @@ tape( 'the function returns `false` if runtime is not Node.js (`global` variable
 
 	isNode = proxyquire( './../lib/main.js', {
 		'@stdlib/utils/native-class': nativeClass,
-		'@stdlib/assert/is-plain-object': alwaysTrue,
-		'@stdlib/assert/is-string': isString,
+		'./../../is-plain-object': alwaysTrue,
+		'./../../is-string': isString,
 		'./global_scope.js': true
 	});
 	t.equal( isNode(), false, 'returns false' );
@@ -172,8 +172,8 @@ tape( 'the function returns `false` if runtime is not Node.js (`global` variable
 
 	isNode = proxyquire( './../lib/main.js', {
 		'@stdlib/utils/native-class': nativeClass,
-		'@stdlib/assert/is-plain-object': alwaysTrue,
-		'@stdlib/assert/is-string': isString,
+		'./../../is-plain-object': alwaysTrue,
+		'./../../is-string': isString,
 		'./global_scope.js': false
 	});
 	t.equal( isNode(), false, 'returns false' );
@@ -200,8 +200,8 @@ tape( 'the function returns `false` if runtime is not Node.js (`process` variabl
 
 	isNode = proxyquire( './../lib/main.js', {
 		'@stdlib/utils/native-class': nativeClass,
-		'@stdlib/assert/is-plain-object': alwaysTrue,
-		'@stdlib/assert/is-string': isString,
+		'./../../is-plain-object': alwaysTrue,
+		'./../../is-string': isString,
 		'./global_scope.js': true
 	});
 	t.equal( isNode(), false, 'returns false' );
@@ -235,8 +235,8 @@ tape( 'the function returns `false` if runtime is not Node.js (`process.versions
 
 	isNode = proxyquire( './../lib/main.js', {
 		'@stdlib/utils/native-class': nativeClass,
-		'@stdlib/assert/is-plain-object': isObject,
-		'@stdlib/assert/is-string': isString,
+		'./../../is-plain-object': isObject,
+		'./../../is-string': isString,
 		'./global_scope.js': true
 	});
 	t.equal( isNode(), false, 'returns false' );
@@ -270,8 +270,8 @@ tape( 'the function returns `false` if runtime is not Node.js (`process.versions
 
 	isNode = proxyquire( './../lib/main.js', {
 		'@stdlib/utils/native-class': nativeClass,
-		'@stdlib/assert/is-plain-object': alwaysTrue,
-		'@stdlib/assert/is-string': isString,
+		'./../../is-plain-object': alwaysTrue,
+		'./../../is-string': isString,
 		'./global_scope.js': true
 	});
 	t.equal( isNode(), false, 'returns false' );
@@ -305,8 +305,8 @@ tape( 'the function returns `false` if runtime is not Node.js (`process.release`
 
 	isNode = proxyquire( './../lib/main.js', {
 		'@stdlib/utils/native-class': nativeClass,
-		'@stdlib/assert/is-plain-object': isObject,
-		'@stdlib/assert/is-string': isString,
+		'./../../is-plain-object': isObject,
+		'./../../is-string': isString,
 		'./global_scope.js': true
 	});
 
@@ -346,8 +346,8 @@ tape( 'the function returns `false` if runtime is not Node.js (`process.release.
 
 	isNode = proxyquire( './../lib/main.js', {
 		'@stdlib/utils/native-class': nativeClass,
-		'@stdlib/assert/is-plain-object': alwaysTrue,
-		'@stdlib/assert/is-string': isString,
+		'./../../is-plain-object': alwaysTrue,
+		'./../../is-string': isString,
 		'./global_scope.js': true
 	});
 

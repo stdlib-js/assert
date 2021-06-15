@@ -54,7 +54,7 @@ tape( 'if `Float32Array` is supported, detection result is `true`', function tes
 	}
 	mocked = proxyquire( './../lib/main.js', {
 		'./float32array.js': Mock,
-		'@stdlib/assert/is-float32array': isArray
+		'./../../is-float32array': isArray
 	});
 	t.strictEqual( mocked(), true, 'detection result is `true` (mocked)' );
 
@@ -93,13 +93,13 @@ tape( 'if `Float32Array` is not supported, detection result is `false`', functio
 
 	mocked = proxyquire( './../lib/main.js', {
 		'./float32array.js': Mock2,
-		'@stdlib/assert/is-float32array': isArray
+		'./../../is-float32array': isArray
 	});
 	t.strictEqual( mocked(), false, 'detection result is `false`' );
 
 	mocked = proxyquire( './../lib/main.js', {
 		'./float32array.js': Mock3,
-		'@stdlib/assert/is-float32array': isArray
+		'./../../is-float32array': isArray
 	});
 	t.strictEqual( mocked(), false, 'detection result is `false`' );
 

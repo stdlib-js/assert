@@ -35,7 +35,7 @@ tape( 'main export is a function', function test( t ) {
 
 tape( 'the function returns `false` if the runtime environment is not Node.js', function test( t ) {
 	var isNodeREPL = proxyquire( './../lib/main.js', {
-		'@stdlib/assert/is-node': false
+		'./../../is-node': false
 	});
 
 	t.strictEqual( isNodeREPL(), false, 'returns false' );
@@ -44,7 +44,7 @@ tape( 'the function returns `false` if the runtime environment is not Node.js', 
 
 tape( 'the function returns `true` if a parent module is the Node.js `repl` builtin (Node versions >=4; root)', function test( t ) {
 	var isNodeREPL = proxyquire( './../lib/main.js', {
-		'@stdlib/assert/is-node': true,
+		'./../../is-node': true,
 		'./parent.js': mock
 	});
 
@@ -73,7 +73,7 @@ tape( 'the function returns `true` if a parent module is the Node.js `repl` buil
 
 tape( 'the function returns `true` if a parent module is the Node.js `repl` builtin (Node versions <4; root)', function test( t ) {
 	var isNodeREPL = proxyquire( './../lib/main.js', {
-		'@stdlib/assert/is-node': true,
+		'./../../is-node': true,
 		'./parent.js': mock
 	});
 
@@ -102,7 +102,7 @@ tape( 'the function returns `true` if a parent module is the Node.js `repl` buil
 
 tape( 'the function returns `true` if a parent module is the Node.js `repl` builtin (Node versions >=4; non-root)', function test( t ) {
 	var isNodeREPL = proxyquire( './../lib/main.js', {
-		'@stdlib/assert/is-node': true,
+		'./../../is-node': true,
 		'./parent.js': mock
 	});
 
@@ -131,7 +131,7 @@ tape( 'the function returns `true` if a parent module is the Node.js `repl` buil
 
 tape( 'the function returns `true` if a parent module is the Node.js `repl` builtin (Node versions <4; non-root)', function test( t ) {
 	var isNodeREPL = proxyquire( './../lib/main.js', {
-		'@stdlib/assert/is-node': true,
+		'./../../is-node': true,
 		'./parent.js': mock
 	});
 
@@ -160,7 +160,7 @@ tape( 'the function returns `true` if a parent module is the Node.js `repl` buil
 
 tape( 'the function returns `false` if the function is not either required or called from a Node.js REPL (shallow require)', function test( t ) {
 	var isNodeREPL = proxyquire( './../lib/main.js', {
-		'@stdlib/assert/is-node': true,
+		'./../../is-node': true,
 		'./parent.js': mock,
 		'./stacktrace.js': stacktrace
 	});
@@ -182,7 +182,7 @@ tape( 'the function returns `false` if the function is not either required or ca
 
 tape( 'the function returns `false` if the function is not either required or called from a Node.js REPL (deep require)', function test( t ) {
 	var isNodeREPL = proxyquire( './../lib/main.js', {
-		'@stdlib/assert/is-node': true,
+		'./../../is-node': true,
 		'./parent.js': mock,
 		'./stacktrace.js': stacktrace
 	});
@@ -216,7 +216,7 @@ tape( 'the function returns `false` if the function is not either required or ca
 
 tape( 'the function returns `true` if the function is called from a Node.js REPL', function test( t ) {
 	var isNodeREPL = proxyquire( './../lib/main.js', {
-		'@stdlib/assert/is-node': true,
+		'./../../is-node': true,
 		'./parent.js': mock,
 		'./stacktrace.js': stacktrace
 	});

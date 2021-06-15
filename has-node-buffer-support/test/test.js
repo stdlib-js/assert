@@ -53,7 +53,7 @@ tape( 'if `Buffer` is supported, detection result is `true` (no `from` method; N
 	}
 	mocked = proxyquire( './../lib/main.js', {
 		'./buffer.js': Mock,
-		'@stdlib/assert/is-buffer': isBuffer
+		'./../../is-buffer': isBuffer
 	});
 	t.strictEqual( mocked(), true, 'detection result is `true` (mocked)' );
 
@@ -88,7 +88,7 @@ tape( 'if `Buffer` is supported, detection result is `true` (has `from` method; 
 
 	mocked = proxyquire( './../lib/main.js', {
 		'./buffer.js': Mock,
-		'@stdlib/assert/is-buffer': isBuffer
+		'./../../is-buffer': isBuffer
 	});
 	t.strictEqual( mocked(), true, 'detection result is `true` (mocked)' );
 
@@ -146,13 +146,13 @@ tape( 'if `Buffer` is not supported, detection result is `false`', function test
 
 	mocked = proxyquire( './../lib/main.js', {
 		'./buffer.js': Mock2,
-		'@stdlib/assert/is-buffer': isBuffer
+		'./../../is-buffer': isBuffer
 	});
 	t.strictEqual( mocked(), false, 'detection result is `false`' );
 
 	mocked = proxyquire( './../lib/main.js', {
 		'./buffer.js': Mock3,
-		'@stdlib/assert/is-buffer': isBuffer
+		'./../../is-buffer': isBuffer
 	});
 	t.strictEqual( mocked(), false, 'detection result is `false`' );
 

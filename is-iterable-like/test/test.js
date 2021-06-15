@@ -70,7 +70,7 @@ tape( 'in non-ES2015+/ES6+ environments, the function always returns `false`', f
 	var i;
 
 	isIterableLike = proxyquire( './../lib/index.js', {
-		'@stdlib/assert/has-iterator-symbol-support': hasSupport
+		'./../../has-iterator-symbol-support': hasSupport
 	});
 
 	values = [

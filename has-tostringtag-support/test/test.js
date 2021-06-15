@@ -48,7 +48,7 @@ tape( 'feature detection result is a boolean', function test( t ) {
 
 tape( 'if `Symbols` are not supported, detection result is `false`', function test( t ) {
 	var detect = proxyquire( './../lib/main.js', {
-		'@stdlib/assert/has-symbol-support': hasSupport
+		'./../../has-symbol-support': hasSupport
 	});
 
 	t.strictEqual( detect(), false, 'detection result is `true`' );
