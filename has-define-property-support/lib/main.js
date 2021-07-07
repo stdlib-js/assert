@@ -35,18 +35,13 @@ var defineProperty = require( './define_property.js' );
 * // returns <boolean>
 */
 function hasDefinePropertySupport() {
-	var bool;
-	if ( defineProperty === null ) {
-		return false;
-	}
 	// Test basic support...
 	try {
 		defineProperty( {}, 'x', {} );
-		bool = true;
+		return true;
 	} catch ( err ) { // eslint-disable-line no-unused-vars
-		bool = false;
+		return false;
 	}
-	return bool;
 }
 
 
