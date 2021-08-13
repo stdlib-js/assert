@@ -29,6 +29,8 @@ import hasArrayBufferSupport = require( './../../has-arraybuffer-support' );
 import hasAsyncAwaitSupport = require( './../../has-async-await-support' );
 import hasAsyncIteratorSymbolSupport = require( './../../has-async-iterator-symbol-support' );
 import hasBigIntSupport = require( './../../has-bigint-support' );
+import hasBigInt64ArraySupport = require( './../../has-bigint64array-support' );
+import hasBigUint64ArraySupport = require( './../../has-biguint64array-support' );
 import hasClassSupport = require( './../../has-class-support' );
 import hasDataViewSupport = require( './../../has-dataview-support' );
 import hasDefinePropertiesSupport = require( './../../has-define-properties-support' );
@@ -73,11 +75,14 @@ import isArrayLength = require( './../../is-array-length' );
 import isArrayLike = require( './../../is-array-like' );
 import isArrayLikeObject = require( './../../is-array-like-object' );
 import isArrayBuffer = require( './../../is-arraybuffer' );
+import isArrayBufferView = require( './../../is-arraybuffer-view' );
 import isASCII = require( './../../is-ascii' );
 import isBetween = require( './../../is-between' );
 import isBetweenArray = require( './../../is-between-array' );
 import IS_BIG_ENDIAN = require( './../../is-big-endian' );
 import isBigInt = require( './../../is-bigint' );
+import isBigInt64Array = require( './../../is-bigint64array' );
+import isBigUint64Array = require( './../../is-biguint64array' );
 import isBinaryString = require( './../../is-binary-string' );
 import isBoolean = require( './../../is-boolean' );
 import isBooleanArray = require( './../../is-boolean-array' );
@@ -89,6 +94,7 @@ import isCentrosymmetricMatrix = require( './../../is-centrosymmetric-matrix' );
 import isCircular = require( './../../is-circular' );
 import isCircularArray = require( './../../is-circular-array' );
 import isCircularPlainObject = require( './../../is-circular-plain-object' );
+import isClass = require( './../../is-class' );
 import isCollection = require( './../../is-collection' );
 import isComplex = require( './../../is-complex' );
 import isComplexLike = require( './../../is-complex-like' );
@@ -108,6 +114,7 @@ import isDataPropertyIn = require( './../../is-data-property-in' );
 import isDataView = require( './../../is-dataview' );
 import isDateObject = require( './../../is-date-object' );
 import isDigitString = require( './../../is-digit-string' );
+import IS_DOCKER = require( './../../is-docker' );
 import IS_ELECTRON = require( './../../is-electron' );
 import IS_ELECTRON_MAIN = require( './../../is-electron-main' );
 import IS_ELECTRON_RENDERER = require( './../../is-electron-renderer' );
@@ -154,6 +161,7 @@ import isLowercase = require( './../../is-lowercase' );
 import isMatrixLike = require( './../../is-matrix-like' );
 import isMethod = require( './../../is-method' );
 import isMethodIn = require( './../../is-method-in' );
+import IS_MOBILE = require( './../../is-mobile' );
 import isNamedTypedTupleLike = require( './../../is-named-typed-tuple-like' );
 import isnan = require( './../../is-nan' );
 import isNaNArray = require( './../../is-nan-array' );
@@ -238,6 +246,7 @@ import isSymbol = require( './../../is-symbol' );
 import isSymbolArray = require( './../../is-symbol-array' );
 import isSymmetricMatrix = require( './../../is-symmetric-matrix' );
 import isSyntaxError = require( './../../is-syntax-error' );
+import IS_TOUCH_DEVICE = require( './../../is-touch-device' );
 import isTriangularNumber = require( './../../is-triangular-number' );
 import isTruthy = require( './../../is-truthy' );
 import isTruthyArray = require( './../../is-truthy-array' );
@@ -500,6 +509,28 @@ interface Namespace {
 	* // returns <boolean>
 	*/
 	hasBigIntSupport: typeof hasBigIntSupport;
+
+	/**
+	* Tests for native `BigInt64Array` support.
+	*
+	* @returns boolean indicating if an environment has `BigInt64Array` support
+	*
+	* @example
+	* var bool = ns.hasBigInt64ArraySupport();
+	* // returns <boolean>
+	*/
+	hasBigInt64ArraySupport: typeof hasBigInt64ArraySupport;
+
+	/**
+	* Tests for native `BigUint64Array` support.
+	*
+	* @returns boolean indicating if an environment has `BigUint64Array` support
+	*
+	* @example
+	* var bool = ns.hasBigUint64ArraySupport();
+	* // returns <boolean>
+	*/
+	hasBigUint64ArraySupport: typeof hasBigUint64ArraySupport;
 
 	/**
 	* Tests for native `class` support.
@@ -1219,6 +1250,23 @@ interface Namespace {
 	isArrayBuffer: typeof isArrayBuffer;
 
 	/**
+	* Tests if a value is an `ArrayBuffer` view.
+	*
+	* @param value - value to test
+	* @returns boolean indicating whether value is an `ArrayBuffer` view
+	*
+	* @example
+	* var Int8Array = require( `@stdlib/array/int8` );
+	* var bool = ns.isArrayBufferView( new Int8Array() );
+	* // returns true
+	*
+	* @example
+	* var bool = ns.isArrayBufferView( [] );
+	* // returns false
+	*/
+	isArrayBufferView: typeof isArrayBufferView;
+
+	/**
 	* Tests whether a character belongs to the ASCII character set and whether this is true for all characters in a provided string.
 	*
 	* @param value - value to test
@@ -1367,6 +1415,38 @@ interface Namespace {
 	* // returns true
 	*/
 	isBigInt: typeof isBigInt;
+
+	/**
+	* Tests if a value is a BigInt64Array.
+	*
+	* @param value - value to test
+	* @returns boolean indicating whether value is a BigInt64Array
+	*
+	* @example
+	* var bool = ns.isBigInt64Array( new BigInt64Array( 10 ) );
+	* // returns true
+	*
+	* @example
+	* var bool = ns.isBigInt64Array( [] );
+	* // returns false
+	*/
+	isBigInt64Array: typeof isBigInt64Array;
+
+	/**
+	* Tests if a value is a BigUint64Array.
+	*
+	* @param value - value to test
+	* @returns boolean indicating whether value is a BigUint64Array
+	*
+	* @example
+	* var bool = ns.isBigUint64Array( new BigUint64Array( 10 ) );
+	* // returns true
+	*
+	* @example
+	* var bool = ns.isBigUint64Array( [] );
+	* // returns false
+	*/
+	isBigUint64Array: typeof isBigUint64Array;
 
 	/**
 	* Tests if a value is a binary string.
@@ -1649,6 +1729,26 @@ interface Namespace {
 	* // returns false
 	*/
 	isCircularPlainObject: typeof isCircularPlainObject;
+
+	/**
+	* Tests if a value is a class.
+	*
+	* @param value - value to test
+	* @returns boolean indicating whether a value is a class
+	*
+	* @example
+	* var bool = ns.isClass( class Person {} );
+	* // returns true
+	*
+	* @example
+	* var bool = ns.isClass( function Person() {} );
+	* // returns false
+	*
+	* @example
+	* var bool = ns.isClass( null );
+	* // returns false
+	*/
+	isClass: typeof isClass;
 
 	/**
 	* Tests if a value is a collection.
@@ -2092,6 +2192,15 @@ interface Namespace {
 	* // returns false
 	*/
 	isDigitString: typeof isDigitString;
+
+	/**
+	* Boolean indicating if the process is running in a Docker container.
+	*
+	* @example
+	* var bool = ns.IS_DOCKER;
+	* // returns <boolean>
+	*/
+	IS_DOCKER: typeof IS_DOCKER;
 
 	/**
 	* Boolean indicating if the runtime is Electron.
@@ -3123,6 +3232,15 @@ interface Namespace {
 	* // returns false
 	*/
 	isMethodIn: typeof isMethodIn;
+
+	/**
+	* Boolean indicating if the current environment is a mobile device.
+	*
+	* @example
+	* var bool = ns.IS_MOBILE;
+	* // returns <boolean>
+	*/
+	IS_MOBILE: typeof IS_MOBILE;
 
 	/**
 	* Tests if a value is named typed tuple-like.
@@ -5380,6 +5498,15 @@ interface Namespace {
 	* // returns false
 	*/
 	isSyntaxError: typeof isSyntaxError;
+
+	/**
+	* Boolean indicating if the current environment is a touch device.
+	*
+	* @example
+	* var bool = ns.IS_TOUCH_DEVICE;
+	* // returns <boolean>
+	*/
+	IS_TOUCH_DEVICE: typeof IS_TOUCH_DEVICE;
 
 	/**
 	* Tests if a value is a triangular number.
