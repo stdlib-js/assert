@@ -16,38 +16,36 @@
 * limitations under the License.
 */
 
-/* eslint-disable no-restricted-syntax, no-empty-function */
-
 'use strict';
 
-var hasClassSupport = require( './../../has-class-support' );
+// MODULES //
+
 var evil = require( '@stdlib/utils/eval' );
-var isClass = require( './../lib' );
 
-function createClass() {
-	return evil( '(class Person {})' );
+
+// MAIN //
+
+/**
+* Tests for native arrow function support.
+*
+* @returns {boolean} boolean indicating if an environment has native arrow function support
+*
+* @example
+* var bool = hasArrowFunctionSupport();
+* // returns <boolean>
+*/
+function hasArrowFunctionSupport() {
+	var bool;
+	try {
+		evil( '"use strict"; (() => {})' );
+		bool = true;
+	} catch ( err ) { // eslint-disable-line no-unused-vars
+		bool = false;
+	}
+	return bool;
 }
 
-var bool;
 
-if ( hasClassSupport() ) {
-	bool = isClass( createClass() );
-	console.log( bool );
-	// => true
-}
+// EXPORTS //
 
-bool = isClass( function Person() {} );
-console.log( bool );
-// => false
-
-bool = isClass( [] );
-console.log( bool );
-// => false
-
-bool = isClass( {} );
-console.log( bool );
-// => false
-
-bool = isClass( null );
-console.log( bool );
-// => false
+module.exports = hasArrowFunctionSupport;

@@ -22,51 +22,29 @@
 
 var bench = require( '@stdlib/bench' );
 var isBoolean = require( './../../is-boolean' ).isPrimitive;
-var evil = require( '@stdlib/utils/eval' );
-var hasClassSupport = require( './../../has-class-support' );
 var pkg = require( './../package.json' ).name;
-var isClass = require( './../lib' );
-
-
-// FUNCTIONS //
-
-function createClass() {
-	return evil( '(class Person {})' );
-}
+var hasArrowFunctionSupport = require( './../lib' );
 
 
 // MAIN //
 
 bench( pkg, function benchmark( b ) {
-	var values;
 	var bool;
 	var i;
 
-	values = [
-		function Person() {}, // eslint-disable-line no-empty-function
-		'5',
-		5,
-		NaN,
-		true,
-		false,
-		null,
-		void 0
-	];
-	if ( hasClassSupport() ) {
-		values.push( createClass() );
-	}
-
 	b.tic();
 	for ( i = 0; i < b.iterations; i++ ) {
-		bool = isClass( values[ i % values.length ] );
+		// Note: the following *could* be optimized away via loop-invariant code motion. If so, the entire loop will disappear.
+		bool = hasArrowFunctionSupport();
 		if ( !isBoolean( bool ) ) {
 			b.fail( 'should return a boolean' );
 		}
 	}
 	b.toc();
-	if ( !isBoolean( bool ) ) {
+	if ( isBoolean( bool ) ) {
+		b.pass( 'benchmark finished' );
+	} else {
 		b.fail( 'should return a boolean' );
 	}
-	b.pass( 'benchmark finished' );
 	b.end();
 });

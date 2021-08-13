@@ -16,38 +16,19 @@
 * limitations under the License.
 */
 
-/* eslint-disable no-restricted-syntax, no-empty-function */
-
 'use strict';
 
-var hasClassSupport = require( './../../has-class-support' );
-var evil = require( '@stdlib/utils/eval' );
-var isClass = require( './../lib' );
+/* eslint-disable */
 
-function createClass() {
-	return evil( '(class Person {})' );
-}
+// MODULES //
 
-var bool;
+var tape = require( 'tape' );
+var isArrowFunction = require( './../../lib' );
 
-if ( hasClassSupport() ) {
-	bool = isClass( createClass() );
-	console.log( bool );
-	// => true
-}
 
-bool = isClass( function Person() {} );
-console.log( bool );
-// => false
+// TESTS //
 
-bool = isClass( [] );
-console.log( bool );
-// => false
-
-bool = isClass( {} );
-console.log( bool );
-// => false
-
-bool = isClass( null );
-console.log( bool );
-// => false
+tape( 'the function returns `true` if provided an arrow function', function test( t ) {
+	t.equal( isArrowFunction( () => {} ), true, 'returns true' );
+	t.end();
+});

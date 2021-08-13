@@ -16,22 +16,24 @@
 * limitations under the License.
 */
 
+/* eslint-disable no-empty-function */
+
 'use strict';
 
 // MODULES //
 
 var bench = require( '@stdlib/bench' );
-var isBoolean = require( './../../is-boolean' ).isPrimitive;
 var evil = require( '@stdlib/utils/eval' );
-var hasClassSupport = require( './../../has-class-support' );
+var hasArrowFunctionSupport = require( './../../has-arrow-function-support' );
+var isBoolean = require( './../../is-boolean' ).isPrimitive;
 var pkg = require( './../package.json' ).name;
-var isClass = require( './../lib' );
+var isArrowFunction = require( './../lib' );
 
 
 // FUNCTIONS //
 
-function createClass() {
-	return evil( '(class Person {})' );
+function createArrowFunction() {
+	return evil( '( () => {} )' );
 }
 
 
@@ -43,30 +45,34 @@ bench( pkg, function benchmark( b ) {
 	var i;
 
 	values = [
-		function Person() {}, // eslint-disable-line no-empty-function
 		'5',
 		5,
 		NaN,
 		true,
 		false,
 		null,
-		void 0
+		void 0,
+		[],
+		{},
+		new Date(),
+		function noop() {}
 	];
-	if ( hasClassSupport() ) {
-		values.push( createClass() );
+	if ( hasArrowFunctionSupport() ) {
+		values.push( createArrowFunction() );
 	}
 
 	b.tic();
 	for ( i = 0; i < b.iterations; i++ ) {
-		bool = isClass( values[ i % values.length ] );
+		bool = isArrowFunction( values[ i%values.length ] );
 		if ( !isBoolean( bool ) ) {
 			b.fail( 'should return a boolean' );
 		}
 	}
 	b.toc();
-	if ( !isBoolean( bool ) ) {
+	if ( isBoolean( bool ) ) {
+		b.pass( 'benchmark finished' );
+	} else {
 		b.fail( 'should return a boolean' );
 	}
-	b.pass( 'benchmark finished' );
 	b.end();
 });

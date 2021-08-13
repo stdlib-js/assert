@@ -16,38 +16,40 @@
 * limitations under the License.
 */
 
-/* eslint-disable no-restricted-syntax, no-empty-function */
+/* eslint-disable no-empty-function, no-restricted-syntax */
 
 'use strict';
 
-var hasClassSupport = require( './../../has-class-support' );
+var hasArrowFunctionSupport = require( './../../has-arrow-function-support' );
 var evil = require( '@stdlib/utils/eval' );
-var isClass = require( './../lib' );
+var isArrowFunction = require( './../lib' );
 
-function createClass() {
-	return evil( '(class Person {})' );
+function createArrowFunction() {
+	return evil( '( () => {} )' );
 }
 
-var bool;
-
-if ( hasClassSupport() ) {
-	bool = isClass( createClass() );
-	console.log( bool );
+if ( hasArrowFunctionSupport() ) {
+	console.log( isArrowFunction( createArrowFunction() ) );
 	// => true
 }
 
-bool = isClass( function Person() {} );
-console.log( bool );
+console.log( isArrowFunction( function foo() {} ) );
 // => false
 
-bool = isClass( [] );
-console.log( bool );
+console.log( isArrowFunction( 'beep' ) );
 // => false
 
-bool = isClass( {} );
-console.log( bool );
+console.log( isArrowFunction( 5 ) );
 // => false
 
-bool = isClass( null );
-console.log( bool );
+console.log( isArrowFunction( true ) );
+// => false
+
+console.log( isArrowFunction( null ) );
+// => false
+
+console.log( isArrowFunction( [] ) );
+// => false
+
+console.log( isArrowFunction( {} ) );
 // => false
