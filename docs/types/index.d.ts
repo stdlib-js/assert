@@ -26,6 +26,7 @@ import deepEqual = require( './../../deep-equal' );
 import deepHasOwnProp = require( './../../deep-has-own-property' );
 import deepHasProp = require( './../../deep-has-property' );
 import hasArrayBufferSupport = require( './../../has-arraybuffer-support' );
+import hasArrowFunctionSupport = require( './../../has-arrow-function-support' );
 import hasAsyncAwaitSupport = require( './../../has-async-await-support' );
 import hasAsyncIteratorSymbolSupport = require( './../../has-async-iterator-symbol-support' );
 import hasBigIntSupport = require( './../../has-bigint-support' );
@@ -76,6 +77,7 @@ import isArrayLike = require( './../../is-array-like' );
 import isArrayLikeObject = require( './../../is-array-like-object' );
 import isArrayBuffer = require( './../../is-arraybuffer' );
 import isArrayBufferView = require( './../../is-arraybuffer-view' );
+import isArrowFunction = require( './../../is-arrow-function' );
 import isASCII = require( './../../is-ascii' );
 import isBetween = require( './../../is-between' );
 import isBetweenArray = require( './../../is-between-array' );
@@ -472,6 +474,17 @@ interface Namespace {
 	* // returns <boolean>
 	*/
 	hasArrayBufferSupport: typeof hasArrayBufferSupport;
+
+	/**
+	* Tests for native arrow function support.
+	*
+	* @returns boolean indicating if an environment has native arrow function support
+	*
+	* @example
+	* var bool = ns.hasArrowFunctionSupport();
+	* // returns <boolean>
+	*/
+	hasArrowFunctionSupport: typeof hasArrowFunctionSupport;
 
 	/**
 	* Tests for native `async/await` support.
@@ -1265,6 +1278,27 @@ interface Namespace {
 	* // returns false
 	*/
 	isArrayBufferView: typeof isArrayBufferView;
+
+	/**
+	* Tests if a value is an arrow function.
+	*
+	* @param value - value to test
+	* @returns boolean indicating whether value is an arrow function
+	*
+	* @example
+	* var arrow = () => {};
+	* var bool = ns.isArrowFunction( arrow );
+	* // returns true
+	*
+	* @example
+	* function beep() {
+	*     return 'beep';
+	* }
+	
+	* var bool = ns.isArrowFunction( beep );
+	* // returns false
+	*/
+	isArrowFunction: typeof isArrowFunction;
 
 	/**
 	* Tests whether a character belongs to the ASCII character set and whether this is true for all characters in a provided string.
