@@ -310,6 +310,7 @@ To test whether a runtime environment supports certain features, the namespace i
 <div class="namespace-toc">
 
 -   <span class="signature">[`hasArrayBufferSupport()`][@stdlib/assert/has-arraybuffer-support]</span><span class="delimiter">: </span><span class="description">detect native `ArrayBuffer` support.</span>
+-   <span class="signature">[`hasArrowFunctionSupport()`][@stdlib/assert/has-arrow-function-support]</span><span class="delimiter">: </span><span class="description">detect native `arrow function` support.</span>
 -   <span class="signature">[`hasAsyncAwaitSupport()`][@stdlib/assert/has-async-await-support]</span><span class="delimiter">: </span><span class="description">detect native `async`/`await` support.</span>
 -   <span class="signature">[`hasAsyncIteratorSymbolSupport()`][@stdlib/assert/has-async-iterator-symbol-support]</span><span class="delimiter">: </span><span class="description">detect native `Symbol.asyncIterator` support.</span>
 -   <span class="signature">[`hasBigIntSupport()`][@stdlib/assert/has-bigint-support]</span><span class="delimiter">: </span><span class="description">detect native `BigInt` support.</span>
@@ -368,6 +369,7 @@ The remaining namespace utilities are as follows:
 -   <span class="signature">[`isAlphaNumeric( value )`][@stdlib/assert/is-alphanumeric]</span><span class="delimiter">: </span><span class="description">test whether a string contains only alphanumeric characters.</span>
 -   <span class="signature">[`isAnagram( str, value )`][@stdlib/assert/is-anagram]</span><span class="delimiter">: </span><span class="description">test if a value is an anagram.</span>
 -   <span class="signature">[`isArguments( value )`][@stdlib/assert/is-arguments]</span><span class="delimiter">: </span><span class="description">test if a value is an arguments object.</span>
+-   <span class="signature">[`isArrowFunction( value )`][@stdlib/assert/is-arrow-function]</span><span class="delimiter">: </span><span class="description">test if a value is an `arrow function`.</span>
 -   <span class="signature">[`isASCII( value )`][@stdlib/assert/is-ascii]</span><span class="delimiter">: </span><span class="description">test whether a character belongs to the ASCII character set and whether this is true for all characters in a provided string.</span>
 -   <span class="signature">[`isBetween( value, a, b[, left, right] )`][@stdlib/assert/is-between]</span><span class="delimiter">: </span><span class="description">test if a value is between two values.</span>
 -   <span class="signature">[`IS_BIG_ENDIAN`][@stdlib/assert/is-big-endian]</span><span class="delimiter">: </span><span class="description">check if an environment is big endian.</span>
@@ -571,6 +573,8 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/assert/is-arguments]: https://github.com/stdlib-js/assert/tree/main/is-arguments
 
+[@stdlib/assert/is-arrow-function]: https://github.com/stdlib-js/assert/tree/main/is-arrow-function
+
 [@stdlib/assert/is-ascii]: https://github.com/stdlib-js/assert/tree/main/is-ascii
 
 [@stdlib/assert/is-between]: https://github.com/stdlib-js/assert/tree/main/is-between
@@ -744,6 +748,8 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [@stdlib/assert/is-write-only-property]: https://github.com/stdlib-js/assert/tree/main/is-write-only-property
 
 [@stdlib/assert/has-arraybuffer-support]: https://github.com/stdlib-js/assert/tree/main/has-arraybuffer-support
+
+[@stdlib/assert/has-arrow-function-support]: https://github.com/stdlib-js/assert/tree/main/has-arrow-function-support
 
 [@stdlib/assert/has-async-await-support]: https://github.com/stdlib-js/assert/tree/main/has-async-await-support
 
