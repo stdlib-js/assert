@@ -128,7 +128,10 @@ tape( 'the function returns `false` if runtime is not Node.js (`global` variable
 tape( 'the function returns `false` if runtime is not Node.js (`global` variable has wrong class)', function test( t ) {
 	var isNode;
 
-	function nativeClass() {
+	function nativeClass( val ) {
+		if ( val === proc ) {
+			return '[object process]';
+		}
 		return '[object beeeeeeep]';
 	}
 
@@ -180,16 +183,12 @@ tape( 'the function returns `false` if runtime is not Node.js (`global` variable
 tape( 'the function returns `false` if runtime is not Node.js (`process` variable has wrong class)', function test( t ) {
 	var isNode;
 
-	function nativeClass() {
-		// Node.js version <7 (https://github.com/nodejs/node/issues/9274):
-		return '[object global]';
-	}
-
-	function toStr( val ) {
+	function nativeClass( val ) {
 		if ( val === proc ) {
 			return '[object beeeeeeep]';
 		}
-		return Object.prototype.toString.call( val );
+		// Node.js version <7 (https://github.com/nodejs/node/issues/9274):
+		return '[object global]';
 	}
 
 	function isString() {}
@@ -203,8 +202,7 @@ tape( 'the function returns `false` if runtime is not Node.js (`process` variabl
 		'@stdlib/utils/native-class': nativeClass,
 		'./../../is-plain-object': alwaysTrue,
 		'./../../is-string': isString,
-		'./global_scope.js': true,
-		'./to_string.js': toStr
+		'./global_scope.js': true
 	});
 	t.equal( isNode(), false, 'returns false' );
 	t.end();

@@ -25,7 +25,6 @@ var getGlobal = require( '@stdlib/utils/global' );
 var nativeClass = require( '@stdlib/utils/native-class' );
 var isObject = require( './../../is-plain-object' );
 var isString = require( './../../is-string' ).isPrimitive;
-var toStr = require( './to_string.js' );
 var globalScope = require( './global_scope.js' );
 
 
@@ -75,8 +74,14 @@ function isNode() {
 		// Check for a `process` global variable:
 		typeof proc === 'object' &&
 
-		// Check that the `process` global variable has the expected internal class (NOTE: we use `toStr`, rather than `nativecClass` to address changes introduced in Node >= v14.6.0; see https://github.com/stdlib-js/stdlib/issues/375):
-		toStr( proc ) === '[object process]' &&
+		// Check that the `process` global variable has the expected internal class:
+		(
+			// Node < v14.6.0
+			nativeClass( proc ) === '[object process]' ||
+
+			// Node >= v14.6.0
+			nativeClass( proc ) === '[object Object]'
+		) &&
 
 		// Check for a `versions` property:
 		isObject( proc.versions ) &&
