@@ -141,7 +141,29 @@ console.log( isBetweenArray( x, 0.01, 0.99 ) );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/assert/is-between`][@stdlib/assert/is-between]: https://github.com/stdlib-js/assert/tree/main/is-between`][@stdlib/assert/is-between
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
+
+<!-- <related-links> -->
+
+[@stdlib/assert/is-between]: https://github.com/stdlib-js/assert/tree/main/is-between
+
+<!-- </related-links> -->
 
 </section>
 

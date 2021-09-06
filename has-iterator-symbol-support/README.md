@@ -104,9 +104,34 @@ $ has-iterator-symbol-support
 
 <!-- /.cli -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/assert/has-async-iterator-symbol-support`][@stdlib/assert/has-async-iterator-symbol-support]: https://github.com/stdlib-js/assert/tree/main/has-async-iterator-symbol-support`][@stdlib/assert/has-async-iterator-symbol-support
+-   [`@stdlib/assert/has-symbol-support`][@stdlib/assert/has-symbol-support]: https://github.com/stdlib-js/assert/tree/main/has-symbol-support`][@stdlib/assert/has-symbol-support
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [mdn-iterator-symbol]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol/iterator
+
+<!-- <related-links> -->
+
+[@stdlib/assert/has-async-iterator-symbol-support]: https://github.com/stdlib-js/assert/tree/main/has-async-iterator-symbol-support
+
+[@stdlib/assert/has-symbol-support]: https://github.com/stdlib-js/assert/tree/main/has-symbol-support
+
+<!-- </related-links> -->
 
 </section>
 

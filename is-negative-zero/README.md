@@ -129,7 +129,32 @@ bool = isNegativeZero( null );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/assert/is-number`][@stdlib/assert/is-number]: https://github.com/stdlib-js/assert/tree/main/is-number`][@stdlib/assert/is-number
+-   [`@stdlib/assert/is-positive-zero`][@stdlib/assert/is-positive-zero]: https://github.com/stdlib-js/assert/tree/main/is-positive-zero`][@stdlib/assert/is-positive-zero
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
+
+<!-- <related-links> -->
+
+[@stdlib/assert/is-number]: https://github.com/stdlib-js/assert/tree/main/is-number
+
+[@stdlib/assert/is-positive-zero]: https://github.com/stdlib-js/assert/tree/main/is-positive-zero
+
+<!-- </related-links> -->
 
 </section>
 

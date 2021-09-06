@@ -80,9 +80,31 @@ out = isWhitespace( 123 );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/regexp/whitespace`][@stdlib/regexp/whitespace]: return a regular expression to match a white space character.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [whitespace]: https://en.wikipedia.org/wiki/Whitespace_character
+
+<!-- <related-links> -->
+
+[@stdlib/regexp/whitespace]: https://github.com/stdlib-js/regexp-whitespace
+
+<!-- </related-links> -->
 
 </section>
 

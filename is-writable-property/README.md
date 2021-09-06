@@ -141,7 +141,38 @@ bool = isWritableProperty( void 0, 'a' );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/assert/is-readable-property`][@stdlib/assert/is-readable-property]: https://github.com/stdlib-js/assert/tree/main/is-readable-property`][@stdlib/assert/is-readable-property
+-   [`@stdlib/assert/is-read-write-property`][@stdlib/assert/is-read-write-property]: https://github.com/stdlib-js/assert/tree/main/is-read-write-property`][@stdlib/assert/is-read-write-property
+-   [`@stdlib/assert/is-writable-property-in`][@stdlib/assert/is-writable-property-in]: https://github.com/stdlib-js/assert/tree/main/is-writable-property-in`][@stdlib/assert/is-writable-property-in
+-   [`@stdlib/assert/is-write-only-property`][@stdlib/assert/is-write-only-property]: https://github.com/stdlib-js/assert/tree/main/is-write-only-property`][@stdlib/assert/is-write-only-property
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
+
+<!-- <related-links> -->
+
+[@stdlib/assert/is-readable-property]: https://github.com/stdlib-js/assert/tree/main/is-readable-property
+
+[@stdlib/assert/is-read-write-property]: https://github.com/stdlib-js/assert/tree/main/is-read-write-property
+
+[@stdlib/assert/is-writable-property-in]: https://github.com/stdlib-js/assert/tree/main/is-writable-property-in
+
+[@stdlib/assert/is-write-only-property]: https://github.com/stdlib-js/assert/tree/main/is-write-only-property
+
+<!-- </related-links> -->
 
 </section>
 

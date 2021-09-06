@@ -104,7 +104,35 @@ out = isComplexLike( null );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/assert/is-complex`][@stdlib/assert/is-complex]: https://github.com/stdlib-js/assert/tree/main/is-complex`][@stdlib/assert/is-complex
+-   [`@stdlib/assert/is-complex64`][@stdlib/assert/is-complex64]: https://github.com/stdlib-js/assert/tree/main/is-complex64`][@stdlib/assert/is-complex64
+-   [`@stdlib/assert/is-complex128`][@stdlib/assert/is-complex128]: https://github.com/stdlib-js/assert/tree/main/is-complex128`][@stdlib/assert/is-complex128
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
+
+<!-- <related-links> -->
+
+[@stdlib/assert/is-complex]: https://github.com/stdlib-js/assert/tree/main/is-complex
+
+[@stdlib/assert/is-complex64]: https://github.com/stdlib-js/assert/tree/main/is-complex64
+
+[@stdlib/assert/is-complex128]: https://github.com/stdlib-js/assert/tree/main/is-complex128
+
+<!-- </related-links> -->
 
 </section>
 

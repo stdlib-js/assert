@@ -75,7 +75,32 @@ bool = isFalsyArray( null );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/assert/is-falsy`][@stdlib/assert/is-falsy]: https://github.com/stdlib-js/assert/tree/main/is-falsy`][@stdlib/assert/is-falsy
+-   [`@stdlib/assert/is-truthy-array`][@stdlib/assert/is-truthy-array]: https://github.com/stdlib-js/assert/tree/main/is-truthy-array`][@stdlib/assert/is-truthy-array
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
+
+<!-- <related-links> -->
+
+[@stdlib/assert/is-falsy]: https://github.com/stdlib-js/assert/tree/main/is-falsy
+
+[@stdlib/assert/is-truthy-array]: https://github.com/stdlib-js/assert/tree/main/is-truthy-array
+
+<!-- </related-links> -->
 
 </section>
 

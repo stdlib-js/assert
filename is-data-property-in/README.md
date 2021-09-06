@@ -150,7 +150,35 @@ bool = isDataPropertyIn( void 0, 'a' );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/assert/has-property`][@stdlib/assert/has-property]: https://github.com/stdlib-js/assert/tree/main/has-property`][@stdlib/assert/has-property
+-   [`@stdlib/assert/is-accessor-property-in`][@stdlib/assert/is-accessor-property-in]: https://github.com/stdlib-js/assert/tree/main/is-accessor-property-in`][@stdlib/assert/is-accessor-property-in
+-   [`@stdlib/assert/is-data-property`][@stdlib/assert/is-data-property]: https://github.com/stdlib-js/assert/tree/main/is-data-property`][@stdlib/assert/is-data-property
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
+
+<!-- <related-links> -->
+
+[@stdlib/assert/has-property]: https://github.com/stdlib-js/assert/tree/main/has-property
+
+[@stdlib/assert/is-accessor-property-in]: https://github.com/stdlib-js/assert/tree/main/is-accessor-property-in
+
+[@stdlib/assert/is-data-property]: https://github.com/stdlib-js/assert/tree/main/is-data-property
+
+<!-- </related-links> -->
 
 </section>
 

@@ -107,9 +107,37 @@ bool = isUint16Array( null );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/assert/is-typed-array`][@stdlib/assert/is-typed-array]: https://github.com/stdlib-js/assert/tree/main/is-typed-array`][@stdlib/assert/is-typed-array
+-   [`@stdlib/assert/is-uint32array`][@stdlib/assert/is-uint32array]: https://github.com/stdlib-js/assert/tree/main/is-uint32array`][@stdlib/assert/is-uint32array
+-   [`@stdlib/assert/is-uint8array`][@stdlib/assert/is-uint8array]: https://github.com/stdlib-js/assert/tree/main/is-uint8array`][@stdlib/assert/is-uint8array
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [mdn-uint16array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array
+
+<!-- <related-links> -->
+
+[@stdlib/assert/is-typed-array]: https://github.com/stdlib-js/assert/tree/main/is-typed-array
+
+[@stdlib/assert/is-uint32array]: https://github.com/stdlib-js/assert/tree/main/is-uint32array
+
+[@stdlib/assert/is-uint8array]: https://github.com/stdlib-js/assert/tree/main/is-uint8array
+
+<!-- </related-links> -->
 
 </section>
 

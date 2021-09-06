@@ -126,7 +126,35 @@ bool = isComplexTypedArray( null );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/assert/is-complex`][@stdlib/assert/is-complex]: https://github.com/stdlib-js/assert/tree/main/is-complex`][@stdlib/assert/is-complex
+-   [`@stdlib/assert/is-complex64array`][@stdlib/assert/is-complex64array]: https://github.com/stdlib-js/assert/tree/main/is-complex64array`][@stdlib/assert/is-complex64array
+-   [`@stdlib/assert/is-complex128array`][@stdlib/assert/is-complex128array]: https://github.com/stdlib-js/assert/tree/main/is-complex128array`][@stdlib/assert/is-complex128array
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
+
+<!-- <related-links> -->
+
+[@stdlib/assert/is-complex]: https://github.com/stdlib-js/assert/tree/main/is-complex
+
+[@stdlib/assert/is-complex64array]: https://github.com/stdlib-js/assert/tree/main/is-complex64array
+
+[@stdlib/assert/is-complex128array]: https://github.com/stdlib-js/assert/tree/main/is-complex128array
+
+<!-- </related-links> -->
 
 </section>
 

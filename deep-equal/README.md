@@ -106,7 +106,32 @@ bool = deepEqual( a, b );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/assert/is-strict-equal`][@stdlib/assert/is-strict-equal]: https://github.com/stdlib-js/assert/tree/main/is-strict-equal`][@stdlib/assert/is-strict-equal
+-   [`@stdlib/assert/is-same-value`][@stdlib/assert/is-same-value]: https://github.com/stdlib-js/assert/tree/main/is-same-value`][@stdlib/assert/is-same-value
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
+
+<!-- <related-links> -->
+
+[@stdlib/assert/is-strict-equal]: https://github.com/stdlib-js/assert/tree/main/is-strict-equal
+
+[@stdlib/assert/is-same-value]: https://github.com/stdlib-js/assert/tree/main/is-same-value
+
+<!-- </related-links> -->
 
 </section>
 

@@ -138,7 +138,38 @@ bool = instanceOf( {}, Function );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/assert/is-prototype-of`][@stdlib/assert/is-prototype-of]: https://github.com/stdlib-js/assert/tree/main/is-prototype-of`][@stdlib/assert/is-prototype-of
+-   [`@stdlib/utils/constructor-name`][@stdlib/utils/constructor-name]: determine the name of a value's constructor.
+-   [`@stdlib/utils/inherit`][@stdlib/utils/inherit]: implement prototypical inheritance by replacing the prototype of one constructor with the prototype of another constructor.
+-   [`@stdlib/utils/type-of`][@stdlib/utils/type-of]: determine a value's type.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
+
+<!-- <related-links> -->
+
+[@stdlib/assert/is-prototype-of]: https://github.com/stdlib-js/assert/tree/main/is-prototype-of
+
+[@stdlib/utils/constructor-name]: https://github.com/stdlib-js/utils-constructor-name
+
+[@stdlib/utils/inherit]: https://github.com/stdlib-js/utils-inherit
+
+[@stdlib/utils/type-of]: https://github.com/stdlib-js/utils-type-of
+
+<!-- </related-links> -->
 
 </section>
 

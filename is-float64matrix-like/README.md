@@ -79,9 +79,37 @@ out = isFloat64MatrixLike( null );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/assert/is-float32matrix-like`][@stdlib/assert/is-float32matrix-like]: https://github.com/stdlib-js/assert/tree/main/is-float32matrix-like`][@stdlib/assert/is-float32matrix-like
+-   [`@stdlib/assert/is-ndarray-like`][@stdlib/assert/is-ndarray-like]: https://github.com/stdlib-js/assert/tree/main/is-ndarray-like`][@stdlib/assert/is-ndarray-like
+-   [`@stdlib/assert/is-matrix-like`][@stdlib/assert/is-matrix-like]: https://github.com/stdlib-js/assert/tree/main/is-matrix-like`][@stdlib/assert/is-matrix-like
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [@stdlib/ndarray/ctor]: https://github.com/stdlib-js/ndarray-ctor
+
+<!-- <related-links> -->
+
+[@stdlib/assert/is-float32matrix-like]: https://github.com/stdlib-js/assert/tree/main/is-float32matrix-like
+
+[@stdlib/assert/is-ndarray-like]: https://github.com/stdlib-js/assert/tree/main/is-ndarray-like
+
+[@stdlib/assert/is-matrix-like]: https://github.com/stdlib-js/assert/tree/main/is-matrix-like
+
+<!-- </related-links> -->
 
 </section>
 

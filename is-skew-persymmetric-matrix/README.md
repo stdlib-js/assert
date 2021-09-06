@@ -74,9 +74,37 @@ out = isSkewPersymmetricMatrix( null );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/assert/is-matrix-like`][@stdlib/assert/is-matrix-like]: https://github.com/stdlib-js/assert/tree/main/is-matrix-like`][@stdlib/assert/is-matrix-like
+-   [`@stdlib/assert/is-persymmetric-matrix`][@stdlib/assert/is-persymmetric-matrix]: https://github.com/stdlib-js/assert/tree/main/is-persymmetric-matrix`][@stdlib/assert/is-persymmetric-matrix
+-   [`@stdlib/assert/is-skew-symmetric-matrix`][@stdlib/assert/is-skew-symmetric-matrix]: https://github.com/stdlib-js/assert/tree/main/is-skew-symmetric-matrix`][@stdlib/assert/is-skew-symmetric-matrix
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [persymmetric-matrix]: https://en.wikipedia.org/wiki/Persymmetric_matrix
+
+<!-- <related-links> -->
+
+[@stdlib/assert/is-matrix-like]: https://github.com/stdlib-js/assert/tree/main/is-matrix-like
+
+[@stdlib/assert/is-persymmetric-matrix]: https://github.com/stdlib-js/assert/tree/main/is-persymmetric-matrix
+
+[@stdlib/assert/is-skew-symmetric-matrix]: https://github.com/stdlib-js/assert/tree/main/is-skew-symmetric-matrix
+
+<!-- </related-links> -->
 
 </section>
 

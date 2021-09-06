@@ -131,9 +131,31 @@ bool = hasOwnProp( { '[object Object]': false }, {} );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/assert/has-property`][@stdlib/assert/has-property]: https://github.com/stdlib-js/assert/tree/main/has-property`][@stdlib/assert/has-property
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [mdn-object-has-own-property]: https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty
+
+<!-- <related-links> -->
+
+[@stdlib/assert/has-property]: https://github.com/stdlib-js/assert/tree/main/has-property
+
+<!-- </related-links> -->
 
 </section>
 

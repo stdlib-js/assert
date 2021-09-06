@@ -99,9 +99,31 @@ $ is-little-endian
 
 <!-- /.cli -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/assert/is-big-endian`][@stdlib/assert/is-big-endian]: https://github.com/stdlib-js/assert/tree/main/is-big-endian`][@stdlib/assert/is-big-endian
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [endianness]: http://en.wikipedia.org/wiki/Endianness
+
+<!-- <related-links> -->
+
+[@stdlib/assert/is-big-endian]: https://github.com/stdlib-js/assert/tree/main/is-big-endian
+
+<!-- </related-links> -->
 
 </section>
 

@@ -113,7 +113,32 @@ bool = isFalsy( function foo() {} );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/assert/is-falsy-array`][@stdlib/assert/is-falsy-array]: https://github.com/stdlib-js/assert/tree/main/is-falsy-array`][@stdlib/assert/is-falsy-array
+-   [`@stdlib/assert/is-truthy`][@stdlib/assert/is-truthy]: https://github.com/stdlib-js/assert/tree/main/is-truthy`][@stdlib/assert/is-truthy
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
+
+<!-- <related-links> -->
+
+[@stdlib/assert/is-falsy-array]: https://github.com/stdlib-js/assert/tree/main/is-falsy-array
+
+[@stdlib/assert/is-truthy]: https://github.com/stdlib-js/assert/tree/main/is-truthy
+
+<!-- </related-links> -->
 
 </section>
 

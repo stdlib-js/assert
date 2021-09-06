@@ -60,9 +60,34 @@ console.log( IS_ELECTRON_RENDERER );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/assert/is-electron`][@stdlib/assert/is-electron]: https://github.com/stdlib-js/assert/tree/main/is-electron`][@stdlib/assert/is-electron
+-   [`@stdlib/assert/is-electron-main`][@stdlib/assert/is-electron-main]: https://github.com/stdlib-js/assert/tree/main/is-electron-main`][@stdlib/assert/is-electron-main
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [electron]: http://electron.atom.io/
+
+<!-- <related-links> -->
+
+[@stdlib/assert/is-electron]: https://github.com/stdlib-js/assert/tree/main/is-electron
+
+[@stdlib/assert/is-electron-main]: https://github.com/stdlib-js/assert/tree/main/is-electron-main
+
+<!-- </related-links> -->
 
 </section>
 

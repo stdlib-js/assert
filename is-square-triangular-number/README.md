@@ -182,13 +182,41 @@ bool = isSquareTriangularNumber( null );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/assert/is-integer`][@stdlib/assert/is-integer]: https://github.com/stdlib-js/assert/tree/main/is-integer`][@stdlib/assert/is-integer
+-   [`@stdlib/assert/is-number`][@stdlib/assert/is-number]: https://github.com/stdlib-js/assert/tree/main/is-number`][@stdlib/assert/is-number
+-   [`@stdlib/assert/is-square-number`][@stdlib/assert/is-square-number]: https://github.com/stdlib-js/assert/tree/main/is-square-number`][@stdlib/assert/is-square-number
+-   [`@stdlib/assert/is-triangular-number`][@stdlib/assert/is-triangular-number]: https://github.com/stdlib-js/assert/tree/main/is-triangular-number`][@stdlib/assert/is-triangular-number
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [square-triangular-number]: https://en.wikipedia.org/wiki/Square_triangular_number
 
+
+<!-- <related-links> -->
+
+[@stdlib/assert/is-integer]: https://github.com/stdlib-js/assert/tree/main/is-integer
+
+[@stdlib/assert/is-number]: https://github.com/stdlib-js/assert/tree/main/is-number
+
 [@stdlib/assert/is-square-number]: https://github.com/stdlib-js/assert/tree/main/is-square-number
 
 [@stdlib/assert/is-triangular-number]: https://github.com/stdlib-js/assert/tree/main/is-triangular-number
+
+<!-- </related-links> -->
 
 </section>
 

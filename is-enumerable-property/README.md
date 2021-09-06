@@ -134,9 +134,43 @@ bool = isEnumerableProperty( { '[object Object]': false }, {} );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/assert/is-configurable-property`][@stdlib/assert/is-configurable-property]: https://github.com/stdlib-js/assert/tree/main/is-configurable-property`][@stdlib/assert/is-configurable-property
+-   [`@stdlib/assert/is-enumerable-property-in`][@stdlib/assert/is-enumerable-property-in]: https://github.com/stdlib-js/assert/tree/main/is-enumerable-property-in`][@stdlib/assert/is-enumerable-property-in
+-   [`@stdlib/assert/is-nonenumerable-property`][@stdlib/assert/is-nonenumerable-property]: https://github.com/stdlib-js/assert/tree/main/is-nonenumerable-property`][@stdlib/assert/is-nonenumerable-property
+-   [`@stdlib/assert/is-readable-property`][@stdlib/assert/is-readable-property]: https://github.com/stdlib-js/assert/tree/main/is-readable-property`][@stdlib/assert/is-readable-property
+-   [`@stdlib/assert/is-writable-property`][@stdlib/assert/is-writable-property]: https://github.com/stdlib-js/assert/tree/main/is-writable-property`][@stdlib/assert/is-writable-property
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [mdn-object-property-is-enumerable]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/propertyIsEnumerable
+
+<!-- <related-links> -->
+
+[@stdlib/assert/is-configurable-property]: https://github.com/stdlib-js/assert/tree/main/is-configurable-property
+
+[@stdlib/assert/is-enumerable-property-in]: https://github.com/stdlib-js/assert/tree/main/is-enumerable-property-in
+
+[@stdlib/assert/is-nonenumerable-property]: https://github.com/stdlib-js/assert/tree/main/is-nonenumerable-property
+
+[@stdlib/assert/is-readable-property]: https://github.com/stdlib-js/assert/tree/main/is-readable-property
+
+[@stdlib/assert/is-writable-property]: https://github.com/stdlib-js/assert/tree/main/is-writable-property
+
+<!-- </related-links> -->
 
 </section>
 

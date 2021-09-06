@@ -74,9 +74,37 @@ out = isSymmetricMatrix( null );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/assert/is-matrix-like`][@stdlib/assert/is-matrix-like]: https://github.com/stdlib-js/assert/tree/main/is-matrix-like`][@stdlib/assert/is-matrix-like
+-   [`@stdlib/assert/is-nonsymmetric-matrix`][@stdlib/assert/is-nonsymmetric-matrix]: https://github.com/stdlib-js/assert/tree/main/is-nonsymmetric-matrix`][@stdlib/assert/is-nonsymmetric-matrix
+-   [`@stdlib/assert/is-square-matrix`][@stdlib/assert/is-square-matrix]: https://github.com/stdlib-js/assert/tree/main/is-square-matrix`][@stdlib/assert/is-square-matrix
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [symmetric-matrix]: https://en.wikipedia.org/wiki/Symmetric_matrix
+
+<!-- <related-links> -->
+
+[@stdlib/assert/is-matrix-like]: https://github.com/stdlib-js/assert/tree/main/is-matrix-like
+
+[@stdlib/assert/is-nonsymmetric-matrix]: https://github.com/stdlib-js/assert/tree/main/is-nonsymmetric-matrix
+
+[@stdlib/assert/is-square-matrix]: https://github.com/stdlib-js/assert/tree/main/is-square-matrix
+
+<!-- </related-links> -->
 
 </section>
 

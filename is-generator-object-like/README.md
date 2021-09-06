@@ -85,9 +85,34 @@ bool = isGeneratorObjectLike( null );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/assert/has-generator-support`][@stdlib/assert/has-generator-support]: https://github.com/stdlib-js/assert/tree/main/has-generator-support`][@stdlib/assert/has-generator-support
+-   [`@stdlib/assert/is-generator-object`][@stdlib/assert/is-generator-object]: https://github.com/stdlib-js/assert/tree/main/is-generator-object`][@stdlib/assert/is-generator-object
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [mdn-generator-object]: https://developer.mozilla.org/de/docs/Web/JavaScript/Reference/Global_Objects/Generator
+
+<!-- <related-links> -->
+
+[@stdlib/assert/has-generator-support]: https://github.com/stdlib-js/assert/tree/main/has-generator-support
+
+[@stdlib/assert/is-generator-object]: https://github.com/stdlib-js/assert/tree/main/is-generator-object
+
+<!-- </related-links> -->
 
 </section>
 

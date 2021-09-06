@@ -127,9 +127,34 @@ bool = isSameValue( isSameValue, isSameValue );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/assert/is-same-value-zero`][@stdlib/assert/is-same-value-zero]: https://github.com/stdlib-js/assert/tree/main/is-same-value-zero`][@stdlib/assert/is-same-value-zero
+-   [`@stdlib/assert/is-strict-equal`][@stdlib/assert/is-strict-equal]: https://github.com/stdlib-js/assert/tree/main/is-strict-equal`][@stdlib/assert/is-strict-equal
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [ecma-262-same-value-algorithm]: http://ecma-international.org/ecma-262/5.1/#sec-9.12
+
+<!-- <related-links> -->
+
+[@stdlib/assert/is-same-value-zero]: https://github.com/stdlib-js/assert/tree/main/is-same-value-zero
+
+[@stdlib/assert/is-strict-equal]: https://github.com/stdlib-js/assert/tree/main/is-strict-equal
+
+<!-- </related-links> -->
 
 </section>
 

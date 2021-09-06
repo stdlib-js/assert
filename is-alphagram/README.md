@@ -133,11 +133,33 @@ false
 
 <!-- /.cli -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/assert/is-anagram`][@stdlib/assert/is-anagram]: https://github.com/stdlib-js/assert/tree/main/is-anagram`][@stdlib/assert/is-anagram
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [alphagram]: https://en.wiktionary.org/wiki/alphagram
 
 [standard-streams]: https://en.wikipedia.org/wiki/Standard_streams
+
+<!-- <related-links> -->
+
+[@stdlib/assert/is-anagram]: https://github.com/stdlib-js/assert/tree/main/is-anagram
+
+<!-- </related-links> -->
 
 </section>
 

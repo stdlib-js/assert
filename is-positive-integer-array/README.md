@@ -117,7 +117,35 @@ bool = isPositiveIntegerArray( [] );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/assert/is-array`][@stdlib/assert/is-array]: https://github.com/stdlib-js/assert/tree/main/is-array`][@stdlib/assert/is-array
+-   [`@stdlib/assert/is-integer`][@stdlib/assert/is-integer]: https://github.com/stdlib-js/assert/tree/main/is-integer`][@stdlib/assert/is-integer
+-   [`@stdlib/assert/is-positive-integer`][@stdlib/assert/is-positive-integer]: https://github.com/stdlib-js/assert/tree/main/is-positive-integer`][@stdlib/assert/is-positive-integer
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
+
+<!-- <related-links> -->
+
+[@stdlib/assert/is-array]: https://github.com/stdlib-js/assert/tree/main/is-array
+
+[@stdlib/assert/is-integer]: https://github.com/stdlib-js/assert/tree/main/is-integer
+
+[@stdlib/assert/is-positive-integer]: https://github.com/stdlib-js/assert/tree/main/is-positive-integer
+
+<!-- </related-links> -->
 
 </section>
 

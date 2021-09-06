@@ -107,9 +107,34 @@ bool = isInt8Array( null );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/assert/is-int16array`][@stdlib/assert/is-int16array]: https://github.com/stdlib-js/assert/tree/main/is-int16array`][@stdlib/assert/is-int16array
+-   [`@stdlib/assert/is-int32array`][@stdlib/assert/is-int32array]: https://github.com/stdlib-js/assert/tree/main/is-int32array`][@stdlib/assert/is-int32array
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [mdn-int8array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array
+
+<!-- <related-links> -->
+
+[@stdlib/assert/is-int16array]: https://github.com/stdlib-js/assert/tree/main/is-int16array
+
+[@stdlib/assert/is-int32array]: https://github.com/stdlib-js/assert/tree/main/is-int32array
+
+<!-- </related-links> -->
 
 </section>
 

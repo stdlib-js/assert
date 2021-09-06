@@ -154,9 +154,40 @@ bool = isReadOnlyPropertyIn( void 0, 'a' );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/assert/is-read-only-property`][@stdlib/assert/is-read-only-property]: https://github.com/stdlib-js/assert/tree/main/is-read-only-property`][@stdlib/assert/is-read-only-property
+-   [`@stdlib/assert/is-read-write-property-in`][@stdlib/assert/is-read-write-property-in]: https://github.com/stdlib-js/assert/tree/main/is-read-write-property-in`][@stdlib/assert/is-read-write-property-in
+-   [`@stdlib/assert/is-readable-property-in`][@stdlib/assert/is-readable-property-in]: https://github.com/stdlib-js/assert/tree/main/is-readable-property-in`][@stdlib/assert/is-readable-property-in
+-   [`@stdlib/assert/is-writable-property-in`][@stdlib/assert/is-writable-property-in]: https://github.com/stdlib-js/assert/tree/main/is-writable-property-in`][@stdlib/assert/is-writable-property-in
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [@stdlib/utils/define-read-only-property]: https://github.com/stdlib-js/utils-define-read-only-property
+
+<!-- <related-links> -->
+
+[@stdlib/assert/is-read-only-property]: https://github.com/stdlib-js/assert/tree/main/is-read-only-property
+
+[@stdlib/assert/is-read-write-property-in]: https://github.com/stdlib-js/assert/tree/main/is-read-write-property-in
+
+[@stdlib/assert/is-readable-property-in]: https://github.com/stdlib-js/assert/tree/main/is-readable-property-in
+
+[@stdlib/assert/is-writable-property-in]: https://github.com/stdlib-js/assert/tree/main/is-writable-property-in
+
+<!-- </related-links> -->
 
 </section>
 

@@ -129,9 +129,34 @@ false
 
 <!-- /.cli -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/assert/is-lowercase`][@stdlib/assert/is-lowercase]: https://github.com/stdlib-js/assert/tree/main/is-lowercase`][@stdlib/assert/is-lowercase
+-   [`@stdlib/assert/is-string`][@stdlib/assert/is-string]: https://github.com/stdlib-js/assert/tree/main/is-string`][@stdlib/assert/is-string
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [standard-streams]: https://en.wikipedia.org/wiki/Standard_streams
+
+<!-- <related-links> -->
+
+[@stdlib/assert/is-lowercase]: https://github.com/stdlib-js/assert/tree/main/is-lowercase
+
+[@stdlib/assert/is-string]: https://github.com/stdlib-js/assert/tree/main/is-string
+
+<!-- </related-links> -->
 
 </section>
 

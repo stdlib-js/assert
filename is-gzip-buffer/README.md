@@ -131,6 +131,23 @@ bool = isgzipBuffer( null );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/assert/is-buffer`][@stdlib/assert/is-buffer]: https://github.com/stdlib-js/assert/tree/main/is-buffer`][@stdlib/assert/is-buffer
+-   [`@stdlib/assert/is-uint8array`][@stdlib/assert/is-uint8array]: https://github.com/stdlib-js/assert/tree/main/is-uint8array`][@stdlib/assert/is-uint8array
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [gzip-rfc-1952]: https://tools.ietf.org/html/rfc1952
@@ -138,6 +155,14 @@ bool = isgzipBuffer( null );
 [@stdlib/buffer/ctor]: https://github.com/stdlib-js/buffer-ctor
 
 [@stdlib/array/uint8]: https://github.com/stdlib-js/array-uint8
+
+<!-- <related-links> -->
+
+[@stdlib/assert/is-buffer]: https://github.com/stdlib-js/assert/tree/main/is-buffer
+
+[@stdlib/assert/is-uint8array]: https://github.com/stdlib-js/assert/tree/main/is-uint8array
+
+<!-- </related-links> -->
 
 </section>
 

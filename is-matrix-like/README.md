@@ -74,9 +74,43 @@ out = isMatrixLike( null );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/assert/is-array`][@stdlib/assert/is-array]: https://github.com/stdlib-js/assert/tree/main/is-array`][@stdlib/assert/is-array
+-   [`@stdlib/assert/is-array-like`][@stdlib/assert/is-array-like]: https://github.com/stdlib-js/assert/tree/main/is-array-like`][@stdlib/assert/is-array-like
+-   [`@stdlib/assert/is-ndarray-like`][@stdlib/assert/is-ndarray-like]: https://github.com/stdlib-js/assert/tree/main/is-ndarray-like`][@stdlib/assert/is-ndarray-like
+-   [`@stdlib/assert/is-typed-array-like`][@stdlib/assert/is-typed-array-like]: https://github.com/stdlib-js/assert/tree/main/is-typed-array-like`][@stdlib/assert/is-typed-array-like
+-   [`@stdlib/assert/is-vector-like`][@stdlib/assert/is-vector-like]: https://github.com/stdlib-js/assert/tree/main/is-vector-like`][@stdlib/assert/is-vector-like
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [@stdlib/ndarray/ctor]: https://github.com/stdlib-js/ndarray-ctor
+
+<!-- <related-links> -->
+
+[@stdlib/assert/is-array]: https://github.com/stdlib-js/assert/tree/main/is-array
+
+[@stdlib/assert/is-array-like]: https://github.com/stdlib-js/assert/tree/main/is-array-like
+
+[@stdlib/assert/is-ndarray-like]: https://github.com/stdlib-js/assert/tree/main/is-ndarray-like
+
+[@stdlib/assert/is-typed-array-like]: https://github.com/stdlib-js/assert/tree/main/is-typed-array-like
+
+[@stdlib/assert/is-vector-like]: https://github.com/stdlib-js/assert/tree/main/is-vector-like
+
+<!-- </related-links> -->
 
 </section>
 

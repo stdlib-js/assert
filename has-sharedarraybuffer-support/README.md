@@ -108,9 +108,61 @@ $ has-sharedarraybuffer-support
 
 <!-- /.cli -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/assert/has-arraybuffer-support`][@stdlib/assert/has-arraybuffer-support]: https://github.com/stdlib-js/assert/tree/main/has-arraybuffer-support`][@stdlib/assert/has-arraybuffer-support
+-   [`@stdlib/assert/has-float32array-support`][@stdlib/assert/has-float32array-support]: https://github.com/stdlib-js/assert/tree/main/has-float32array-support`][@stdlib/assert/has-float32array-support
+-   [`@stdlib/assert/has-float64array-support`][@stdlib/assert/has-float64array-support]: https://github.com/stdlib-js/assert/tree/main/has-float64array-support`][@stdlib/assert/has-float64array-support
+-   [`@stdlib/assert/has-int16array-support`][@stdlib/assert/has-int16array-support]: https://github.com/stdlib-js/assert/tree/main/has-int16array-support`][@stdlib/assert/has-int16array-support
+-   [`@stdlib/assert/has-int32array-support`][@stdlib/assert/has-int32array-support]: https://github.com/stdlib-js/assert/tree/main/has-int32array-support`][@stdlib/assert/has-int32array-support
+-   [`@stdlib/assert/has-int8array-support`][@stdlib/assert/has-int8array-support]: https://github.com/stdlib-js/assert/tree/main/has-int8array-support`][@stdlib/assert/has-int8array-support
+-   [`@stdlib/assert/has-node-buffer-support`][@stdlib/assert/has-node-buffer-support]: https://github.com/stdlib-js/assert/tree/main/has-node-buffer-support`][@stdlib/assert/has-node-buffer-support
+-   [`@stdlib/assert/has-uint16array-support`][@stdlib/assert/has-uint16array-support]: https://github.com/stdlib-js/assert/tree/main/has-uint16array-support`][@stdlib/assert/has-uint16array-support
+-   [`@stdlib/assert/has-uint32array-support`][@stdlib/assert/has-uint32array-support]: https://github.com/stdlib-js/assert/tree/main/has-uint32array-support`][@stdlib/assert/has-uint32array-support
+-   [`@stdlib/assert/has-uint8array-support`][@stdlib/assert/has-uint8array-support]: https://github.com/stdlib-js/assert/tree/main/has-uint8array-support`][@stdlib/assert/has-uint8array-support
+-   [`@stdlib/assert/has-uint8clampedarray-support`][@stdlib/assert/has-uint8clampedarray-support]: https://github.com/stdlib-js/assert/tree/main/has-uint8clampedarray-support`][@stdlib/assert/has-uint8clampedarray-support
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [mdn-sharedarraybuffer]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer
+
+<!-- <related-links> -->
+
+[@stdlib/assert/has-arraybuffer-support]: https://github.com/stdlib-js/assert/tree/main/has-arraybuffer-support
+
+[@stdlib/assert/has-float32array-support]: https://github.com/stdlib-js/assert/tree/main/has-float32array-support
+
+[@stdlib/assert/has-float64array-support]: https://github.com/stdlib-js/assert/tree/main/has-float64array-support
+
+[@stdlib/assert/has-int16array-support]: https://github.com/stdlib-js/assert/tree/main/has-int16array-support
+
+[@stdlib/assert/has-int32array-support]: https://github.com/stdlib-js/assert/tree/main/has-int32array-support
+
+[@stdlib/assert/has-int8array-support]: https://github.com/stdlib-js/assert/tree/main/has-int8array-support
+
+[@stdlib/assert/has-node-buffer-support]: https://github.com/stdlib-js/assert/tree/main/has-node-buffer-support
+
+[@stdlib/assert/has-uint16array-support]: https://github.com/stdlib-js/assert/tree/main/has-uint16array-support
+
+[@stdlib/assert/has-uint32array-support]: https://github.com/stdlib-js/assert/tree/main/has-uint32array-support
+
+[@stdlib/assert/has-uint8array-support]: https://github.com/stdlib-js/assert/tree/main/has-uint8array-support
+
+[@stdlib/assert/has-uint8clampedarray-support]: https://github.com/stdlib-js/assert/tree/main/has-uint8clampedarray-support
+
+<!-- </related-links> -->
 
 </section>
 

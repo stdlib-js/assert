@@ -207,9 +207,31 @@ true
 
 <!-- /.cli -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/assert/is-absolute-path`][@stdlib/assert/is-absolute-path]: https://github.com/stdlib-js/assert/tree/main/is-absolute-path`][@stdlib/assert/is-absolute-path
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [standard-streams]: https://en.wikipedia.org/wiki/Standard_streams
+
+<!-- <related-links> -->
+
+[@stdlib/assert/is-absolute-path]: https://github.com/stdlib-js/assert/tree/main/is-absolute-path
+
+<!-- </related-links> -->
 
 </section>
 

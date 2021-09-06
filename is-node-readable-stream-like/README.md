@@ -104,9 +104,31 @@ bool = isNodeReadableStreamLike( new Stream() );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/assert/is-node-stream-like`][@stdlib/assert/is-node-stream-like]: https://github.com/stdlib-js/assert/tree/main/is-node-stream-like`][@stdlib/assert/is-node-stream-like
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [nodejs-stream]: https://nodejs.org/api/stream.html
+
+<!-- <related-links> -->
+
+[@stdlib/assert/is-node-stream-like]: https://github.com/stdlib-js/assert/tree/main/is-node-stream-like
+
+<!-- </related-links> -->
 
 </section>
 

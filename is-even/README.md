@@ -132,7 +132,29 @@ bool = isEven( null );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/assert/is-odd`][@stdlib/assert/is-odd]: https://github.com/stdlib-js/assert/tree/main/is-odd`][@stdlib/assert/is-odd
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
+
+<!-- <related-links> -->
+
+[@stdlib/assert/is-odd]: https://github.com/stdlib-js/assert/tree/main/is-odd
+
+<!-- </related-links> -->
 
 </section>
 

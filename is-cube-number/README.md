@@ -146,7 +146,35 @@ bool = isCubeNumber( null );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/assert/is-integer`][@stdlib/assert/is-integer]: https://github.com/stdlib-js/assert/tree/main/is-integer`][@stdlib/assert/is-integer
+-   [`@stdlib/assert/is-number`][@stdlib/assert/is-number]: https://github.com/stdlib-js/assert/tree/main/is-number`][@stdlib/assert/is-number
+-   [`@stdlib/assert/is-square-number`][@stdlib/assert/is-square-number]: https://github.com/stdlib-js/assert/tree/main/is-square-number`][@stdlib/assert/is-square-number
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
+
+<!-- <related-links> -->
+
+[@stdlib/assert/is-integer]: https://github.com/stdlib-js/assert/tree/main/is-integer
+
+[@stdlib/assert/is-number]: https://github.com/stdlib-js/assert/tree/main/is-number
+
+[@stdlib/assert/is-square-number]: https://github.com/stdlib-js/assert/tree/main/is-square-number
+
+<!-- </related-links> -->
 
 </section>
 

@@ -246,7 +246,41 @@ bool = has( { 'a': [ { 'b': { 'c': 'd' } } ] } );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/assert/deep-has-property`][@stdlib/assert/deep-has-property]: https://github.com/stdlib-js/assert/tree/main/deep-has-property`][@stdlib/assert/deep-has-property
+-   [`@stdlib/assert/has-own-property`][@stdlib/assert/has-own-property]: https://github.com/stdlib-js/assert/tree/main/has-own-property`][@stdlib/assert/has-own-property
+-   [`@stdlib/utils/deep-get`][@stdlib/utils/deep-get]: get a nested property value.
+-   [`@stdlib/utils/deep-pluck`][@stdlib/utils/deep-pluck]: extract a nested property value from each element of an object array.
+-   [`@stdlib/utils/deep-set`][@stdlib/utils/deep-set]: set a nested property value.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
+
+<!-- <related-links> -->
+
+[@stdlib/assert/deep-has-property]: https://github.com/stdlib-js/assert/tree/main/deep-has-property
+
+[@stdlib/assert/has-own-property]: https://github.com/stdlib-js/assert/tree/main/has-own-property
+
+[@stdlib/utils/deep-get]: https://github.com/stdlib-js/utils-deep-get
+
+[@stdlib/utils/deep-pluck]: https://github.com/stdlib-js/utils-deep-pluck
+
+[@stdlib/utils/deep-set]: https://github.com/stdlib-js/utils-deep-set
+
+<!-- </related-links> -->
 
 </section>
 

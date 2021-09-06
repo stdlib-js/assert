@@ -103,9 +103,34 @@ bool = isArrayLike( function noop() {} );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/assert/is-array`][@stdlib/assert/is-array]: https://github.com/stdlib-js/assert/tree/main/is-array`][@stdlib/assert/is-array
+-   [`@stdlib/assert/is-array-like-object`][@stdlib/assert/is-array-like-object]: https://github.com/stdlib-js/assert/tree/main/is-array-like-object`][@stdlib/assert/is-array-like-object
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [array-like]: http://www.2ality.com/2013/05/quirk-array-like-objects.html
+
+<!-- <related-links> -->
+
+[@stdlib/assert/is-array]: https://github.com/stdlib-js/assert/tree/main/is-array
+
+[@stdlib/assert/is-array-like-object]: https://github.com/stdlib-js/assert/tree/main/is-array-like-object
+
+<!-- </related-links> -->
 
 </section>
 

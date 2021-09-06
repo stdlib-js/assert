@@ -211,7 +211,29 @@ bool = isPrototypeOf( a, D.prototype );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/utils/get-prototype-of`][@stdlib/utils/get-prototype-of]: return the prototype of a provided object.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
+
+<!-- <related-links> -->
+
+[@stdlib/utils/get-prototype-of]: https://github.com/stdlib-js/utils-get-prototype-of
+
+<!-- </related-links> -->
 
 </section>
 
