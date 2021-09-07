@@ -115,9 +115,9 @@ bool = isUint16Array( null );
 
 ## See Also
 
--   [`@stdlib/assert/is-typed-array`][@stdlib/assert/is-typed-array]: https://github.com/stdlib-js/assert/tree/main/is-typed-array`][@stdlib/assert/is-typed-array
--   [`@stdlib/assert/is-uint32array`][@stdlib/assert/is-uint32array]: https://github.com/stdlib-js/assert/tree/main/is-uint32array`][@stdlib/assert/is-uint32array
--   [`@stdlib/assert/is-uint8array`][@stdlib/assert/is-uint8array]: https://github.com/stdlib-js/assert/tree/main/is-uint8array`][@stdlib/assert/is-uint8array
+-   <span class="package-name">[`@stdlib/assert/is-typed-array`][@stdlib/assert/is-typed-array]</span><span class="delimiter">: </span><span class="description">test if a value is a typed array.</span>
+-   <span class="package-name">[`@stdlib/assert/is-uint32array`][@stdlib/assert/is-uint32array]</span><span class="delimiter">: </span><span class="description">test if a value is a Uint32Array.</span>
+-   <span class="package-name">[`@stdlib/assert/is-uint8array`][@stdlib/assert/is-uint8array]</span><span class="delimiter">: </span><span class="description">test if a value is a Uint8Array.</span>
 
 </section>
 

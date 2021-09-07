@@ -112,7 +112,7 @@ bool = isNativeFunction( {} );
 
 ## See Also
 
--   [`@stdlib/assert/is-function`][@stdlib/assert/is-function]: https://github.com/stdlib-js/assert/tree/main/is-function`][@stdlib/assert/is-function
+-   <span class="package-name">[`@stdlib/assert/is-function`][@stdlib/assert/is-function]</span><span class="delimiter">: </span><span class="description">test if a value is a function.</span>
 
 </section>
 

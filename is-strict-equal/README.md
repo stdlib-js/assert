@@ -122,7 +122,7 @@ bool = isStrictEqual( isStrictEqual, isStrictEqual );
 
 ## See Also
 
--   [`@stdlib/assert/is-same-value`][@stdlib/assert/is-same-value]: https://github.com/stdlib-js/assert/tree/main/is-same-value`][@stdlib/assert/is-same-value
+-   <span class="package-name">[`@stdlib/assert/is-same-value`][@stdlib/assert/is-same-value]</span><span class="delimiter">: </span><span class="description">test if two arguments are the same value.</span>
 
 </section>
 

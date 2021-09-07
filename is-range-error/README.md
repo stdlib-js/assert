@@ -124,7 +124,7 @@ bool = isRangeError( null );
 
 ## See Also
 
--   [`@stdlib/assert/is-error`][@stdlib/assert/is-error]: https://github.com/stdlib-js/assert/tree/main/is-error`][@stdlib/assert/is-error
+-   <span class="package-name">[`@stdlib/assert/is-error`][@stdlib/assert/is-error]</span><span class="delimiter">: </span><span class="description">test if a value is an Error object.</span>
 
 </section>
 

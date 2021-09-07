@@ -108,8 +108,8 @@ bool = isArrayBufferView( null );
 
 ## See Also
 
--   [`@stdlib/assert/is-dataview`][@stdlib/assert/is-dataview]: https://github.com/stdlib-js/assert/tree/main/is-dataview`][@stdlib/assert/is-dataview
--   [`@stdlib/assert/is-typed-array`][@stdlib/assert/is-typed-array]: https://github.com/stdlib-js/assert/tree/main/is-typed-array`][@stdlib/assert/is-typed-array
+-   <span class="package-name">[`@stdlib/assert/is-dataview`][@stdlib/assert/is-dataview]</span><span class="delimiter">: </span><span class="description">test if a value is a DataView.</span>
+-   <span class="package-name">[`@stdlib/assert/is-typed-array`][@stdlib/assert/is-typed-array]</span><span class="delimiter">: </span><span class="description">test if a value is a typed array.</span>
 
 </section>
 

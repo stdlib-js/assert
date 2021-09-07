@@ -114,10 +114,10 @@ bool = isComplexTypedArrayLike( function foo( a, b ) {} );
 
 ## See Also
 
--   [`@stdlib/assert/is-complex-like`][@stdlib/assert/is-complex-like]: https://github.com/stdlib-js/assert/tree/main/is-complex-like`][@stdlib/assert/is-complex-like
--   [`@stdlib/assert/is-complex-typed-array`][@stdlib/assert/is-complex-typed-array]: https://github.com/stdlib-js/assert/tree/main/is-complex-typed-array`][@stdlib/assert/is-complex-typed-array
--   [`@stdlib/assert/is-complex64array`][@stdlib/assert/is-complex64array]: https://github.com/stdlib-js/assert/tree/main/is-complex64array`][@stdlib/assert/is-complex64array
--   [`@stdlib/assert/is-complex128array`][@stdlib/assert/is-complex128array]: https://github.com/stdlib-js/assert/tree/main/is-complex128array`][@stdlib/assert/is-complex128array
+-   <span class="package-name">[`@stdlib/assert/is-complex-like`][@stdlib/assert/is-complex-like]</span><span class="delimiter">: </span><span class="description">test if a value is a complex number-like object.</span>
+-   <span class="package-name">[`@stdlib/assert/is-complex-typed-array`][@stdlib/assert/is-complex-typed-array]</span><span class="delimiter">: </span><span class="description">test if a value is a complex typed array.</span>
+-   <span class="package-name">[`@stdlib/assert/is-complex64array`][@stdlib/assert/is-complex64array]</span><span class="delimiter">: </span><span class="description">test if a value is a Complex64Array.</span>
+-   <span class="package-name">[`@stdlib/assert/is-complex128array`][@stdlib/assert/is-complex128array]</span><span class="delimiter">: </span><span class="description">test if a value is a Complex128Array.</span>
 
 </section>
 

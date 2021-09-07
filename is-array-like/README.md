@@ -111,8 +111,8 @@ bool = isArrayLike( function noop() {} );
 
 ## See Also
 
--   [`@stdlib/assert/is-array`][@stdlib/assert/is-array]: https://github.com/stdlib-js/assert/tree/main/is-array`][@stdlib/assert/is-array
--   [`@stdlib/assert/is-array-like-object`][@stdlib/assert/is-array-like-object]: https://github.com/stdlib-js/assert/tree/main/is-array-like-object`][@stdlib/assert/is-array-like-object
+-   <span class="package-name">[`@stdlib/assert/is-array`][@stdlib/assert/is-array]</span><span class="delimiter">: </span><span class="description">test if a value is an array.</span>
+-   <span class="package-name">[`@stdlib/assert/is-array-like-object`][@stdlib/assert/is-array-like-object]</span><span class="delimiter">: </span><span class="description">test if a value is an array-like object.</span>
 
 </section>
 

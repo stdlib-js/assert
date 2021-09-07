@@ -108,7 +108,7 @@ $ is-little-endian
 
 ## See Also
 
--   [`@stdlib/assert/is-big-endian`][@stdlib/assert/is-big-endian]: https://github.com/stdlib-js/assert/tree/main/is-big-endian`][@stdlib/assert/is-big-endian
+-   <span class="package-name">[`@stdlib/assert/is-big-endian`][@stdlib/assert/is-big-endian]</span><span class="delimiter">: </span><span class="description">check if an environment is big endian.</span>
 
 </section>
 

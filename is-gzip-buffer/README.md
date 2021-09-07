@@ -139,8 +139,8 @@ bool = isgzipBuffer( null );
 
 ## See Also
 
--   [`@stdlib/assert/is-buffer`][@stdlib/assert/is-buffer]: https://github.com/stdlib-js/assert/tree/main/is-buffer`][@stdlib/assert/is-buffer
--   [`@stdlib/assert/is-uint8array`][@stdlib/assert/is-uint8array]: https://github.com/stdlib-js/assert/tree/main/is-uint8array`][@stdlib/assert/is-uint8array
+-   <span class="package-name">[`@stdlib/assert/is-buffer`][@stdlib/assert/is-buffer]</span><span class="delimiter">: </span><span class="description">test if a value is a Buffer object.</span>
+-   <span class="package-name">[`@stdlib/assert/is-uint8array`][@stdlib/assert/is-uint8array]</span><span class="delimiter">: </span><span class="description">test if a value is a Uint8Array.</span>
 
 </section>
 

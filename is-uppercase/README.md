@@ -137,8 +137,8 @@ false
 
 ## See Also
 
--   [`@stdlib/assert/is-lowercase`][@stdlib/assert/is-lowercase]: https://github.com/stdlib-js/assert/tree/main/is-lowercase`][@stdlib/assert/is-lowercase
--   [`@stdlib/assert/is-string`][@stdlib/assert/is-string]: https://github.com/stdlib-js/assert/tree/main/is-string`][@stdlib/assert/is-string
+-   <span class="package-name">[`@stdlib/assert/is-lowercase`][@stdlib/assert/is-lowercase]</span><span class="delimiter">: </span><span class="description">test if a value is a lowercase string.</span>
+-   <span class="package-name">[`@stdlib/assert/is-string`][@stdlib/assert/is-string]</span><span class="delimiter">: </span><span class="description">test if a value is a string.</span>
 
 </section>
 

@@ -215,7 +215,7 @@ true
 
 ## See Also
 
--   [`@stdlib/assert/is-absolute-path`][@stdlib/assert/is-absolute-path]: https://github.com/stdlib-js/assert/tree/main/is-absolute-path`][@stdlib/assert/is-absolute-path
+-   <span class="package-name">[`@stdlib/assert/is-absolute-path`][@stdlib/assert/is-absolute-path]</span><span class="delimiter">: </span><span class="description">test if a value is an absolute path.</span>
 
 </section>
 

@@ -101,8 +101,8 @@ bool = isGeneratorObject( null );
 
 ## See Also
 
--   [`@stdlib/assert/has-generator-support`][@stdlib/assert/has-generator-support]: https://github.com/stdlib-js/assert/tree/main/has-generator-support`][@stdlib/assert/has-generator-support
--   [`@stdlib/assert/is-generator-object-like`][@stdlib/assert/is-generator-object-like]: https://github.com/stdlib-js/assert/tree/main/is-generator-object-like`][@stdlib/assert/is-generator-object-like
+-   <span class="package-name">[`@stdlib/assert/has-generator-support`][@stdlib/assert/has-generator-support]</span><span class="delimiter">: </span><span class="description">detect native generator function support.</span>
+-   <span class="package-name">[`@stdlib/assert/is-generator-object-like`][@stdlib/assert/is-generator-object-like]</span><span class="delimiter">: </span><span class="description">test if a value is generator object-like.</span>
 
 </section>
 

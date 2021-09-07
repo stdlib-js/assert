@@ -125,9 +125,9 @@ bool = isPositiveNumberArray( 78.0 );
 
 ## See Also
 
--   [`@stdlib/assert/is-array`][@stdlib/assert/is-array]: https://github.com/stdlib-js/assert/tree/main/is-array`][@stdlib/assert/is-array
--   [`@stdlib/assert/is-number`][@stdlib/assert/is-number]: https://github.com/stdlib-js/assert/tree/main/is-number`][@stdlib/assert/is-number
--   [`@stdlib/assert/is-positive-number`][@stdlib/assert/is-positive-number]: https://github.com/stdlib-js/assert/tree/main/is-positive-number`][@stdlib/assert/is-positive-number
+-   <span class="package-name">[`@stdlib/assert/is-array`][@stdlib/assert/is-array]</span><span class="delimiter">: </span><span class="description">test if a value is an array.</span>
+-   <span class="package-name">[`@stdlib/assert/is-number`][@stdlib/assert/is-number]</span><span class="delimiter">: </span><span class="description">test if a value is a number.</span>
+-   <span class="package-name">[`@stdlib/assert/is-positive-number`][@stdlib/assert/is-positive-number]</span><span class="delimiter">: </span><span class="description">test if a value is a number having a positive value.</span>
 
 </section>
 

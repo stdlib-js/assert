@@ -128,8 +128,8 @@ bool = isCircular( null );
 
 ## See Also
 
--   [`@stdlib/assert/is-circular-array`][@stdlib/assert/is-circular-array]: https://github.com/stdlib-js/assert/tree/main/is-circular-array`][@stdlib/assert/is-circular-array
--   [`@stdlib/assert/is-circular-plain-object`][@stdlib/assert/is-circular-plain-object]: https://github.com/stdlib-js/assert/tree/main/is-circular-plain-object`][@stdlib/assert/is-circular-plain-object
+-   <span class="package-name">[`@stdlib/assert/is-circular-array`][@stdlib/assert/is-circular-array]</span><span class="delimiter">: </span><span class="description">test if a value is an array containing a circular reference.</span>
+-   <span class="package-name">[`@stdlib/assert/is-circular-plain-object`][@stdlib/assert/is-circular-plain-object]</span><span class="delimiter">: </span><span class="description">test if a value is a plain object containing a circular reference.</span>
 
 </section>
 

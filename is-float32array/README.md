@@ -115,7 +115,7 @@ bool = isFloat32Array( null );
 
 ## See Also
 
--   [`@stdlib/assert/is-float64array`][@stdlib/assert/is-float64array]: https://github.com/stdlib-js/assert/tree/main/is-float64array`][@stdlib/assert/is-float64array
+-   <span class="package-name">[`@stdlib/assert/is-float64array`][@stdlib/assert/is-float64array]</span><span class="delimiter">: </span><span class="description">test if a value is a Float64Array.</span>
 
 </section>
 

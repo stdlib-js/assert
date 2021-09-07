@@ -138,7 +138,7 @@ bool = isNegativeNumber( null );
 
 ## See Also
 
--   [`@stdlib/assert/is-number`][@stdlib/assert/is-number]: https://github.com/stdlib-js/assert/tree/main/is-number`][@stdlib/assert/is-number
+-   <span class="package-name">[`@stdlib/assert/is-number`][@stdlib/assert/is-number]</span><span class="delimiter">: </span><span class="description">test if a value is a number.</span>
 
 </section>
 

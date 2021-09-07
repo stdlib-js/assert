@@ -121,7 +121,7 @@ bool = isPrimitive( new Object() );
 
 ## See Also
 
--   [`@stdlib/assert/is-boxed-primitive`][@stdlib/assert/is-boxed-primitive]: https://github.com/stdlib-js/assert/tree/main/is-boxed-primitive`][@stdlib/assert/is-boxed-primitive
+-   <span class="package-name">[`@stdlib/assert/is-boxed-primitive`][@stdlib/assert/is-boxed-primitive]</span><span class="delimiter">: </span><span class="description">test if a value is a JavaScript boxed primitive.</span>
 
 </section>
 

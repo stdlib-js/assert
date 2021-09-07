@@ -149,10 +149,10 @@ bool = isReadablePropertyIn( void 0, 'a' );
 
 ## See Also
 
--   [`@stdlib/assert/is-read-only-property-in`][@stdlib/assert/is-read-only-property-in]: https://github.com/stdlib-js/assert/tree/main/is-read-only-property-in`][@stdlib/assert/is-read-only-property-in
--   [`@stdlib/assert/is-read-write-property-in`][@stdlib/assert/is-read-write-property-in]: https://github.com/stdlib-js/assert/tree/main/is-read-write-property-in`][@stdlib/assert/is-read-write-property-in
--   [`@stdlib/assert/is-readable-property`][@stdlib/assert/is-readable-property]: https://github.com/stdlib-js/assert/tree/main/is-readable-property`][@stdlib/assert/is-readable-property
--   [`@stdlib/assert/is-writable-property-in`][@stdlib/assert/is-writable-property-in]: https://github.com/stdlib-js/assert/tree/main/is-writable-property-in`][@stdlib/assert/is-writable-property-in
+-   <span class="package-name">[`@stdlib/assert/is-read-only-property-in`][@stdlib/assert/is-read-only-property-in]</span><span class="delimiter">: </span><span class="description">test if an object's own or inherited property is read-only.</span>
+-   <span class="package-name">[`@stdlib/assert/is-read-write-property-in`][@stdlib/assert/is-read-write-property-in]</span><span class="delimiter">: </span><span class="description">test if an object's own and inherited property is readable and writable.</span>
+-   <span class="package-name">[`@stdlib/assert/is-readable-property`][@stdlib/assert/is-readable-property]</span><span class="delimiter">: </span><span class="description">test if an object's own property is readable.</span>
+-   <span class="package-name">[`@stdlib/assert/is-writable-property-in`][@stdlib/assert/is-writable-property-in]</span><span class="delimiter">: </span><span class="description">test if an object's own or inherited property is writable.</span>
 
 </section>
 

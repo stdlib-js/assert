@@ -124,7 +124,7 @@ bool = isDataView( null );
 
 ## See Also
 
--   [`@stdlib/assert/is-arraybuffer`][@stdlib/assert/is-arraybuffer]: https://github.com/stdlib-js/assert/tree/main/is-arraybuffer`][@stdlib/assert/is-arraybuffer
+-   <span class="package-name">[`@stdlib/assert/is-arraybuffer`][@stdlib/assert/is-arraybuffer]</span><span class="delimiter">: </span><span class="description">test if a value is an ArrayBuffer.</span>
 
 </section>
 

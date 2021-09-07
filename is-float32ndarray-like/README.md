@@ -87,8 +87,8 @@ out = isFloat32ndarrayLike( null );
 
 ## See Also
 
--   [`@stdlib/assert/is-float64ndarray-like`][@stdlib/assert/is-float64ndarray-like]: https://github.com/stdlib-js/assert/tree/main/is-float64ndarray-like`][@stdlib/assert/is-float64ndarray-like
--   [`@stdlib/assert/is-ndarray-like`][@stdlib/assert/is-ndarray-like]: https://github.com/stdlib-js/assert/tree/main/is-ndarray-like`][@stdlib/assert/is-ndarray-like
+-   <span class="package-name">[`@stdlib/assert/is-float64ndarray-like`][@stdlib/assert/is-float64ndarray-like]</span><span class="delimiter">: </span><span class="description">test if a value is an ndarray-like object containing double-precision floating-point numbers.</span>
+-   <span class="package-name">[`@stdlib/assert/is-ndarray-like`][@stdlib/assert/is-ndarray-like]</span><span class="delimiter">: </span><span class="description">test if a value is ndarray-like.</span>
 
 </section>
 

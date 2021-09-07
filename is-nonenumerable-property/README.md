@@ -125,12 +125,12 @@ bool = isNonEnumerableProperty( { '[object Object]': false }, {} );
 
 ## See Also
 
--   [`@stdlib/assert/is-configurable-property`][@stdlib/assert/is-configurable-property]: https://github.com/stdlib-js/assert/tree/main/is-configurable-property`][@stdlib/assert/is-configurable-property
--   [`@stdlib/assert/is-enumerable-property`][@stdlib/assert/is-enumerable-property]: https://github.com/stdlib-js/assert/tree/main/is-enumerable-property`][@stdlib/assert/is-enumerable-property
--   [`@stdlib/assert/is-nonconfigurable-property`][@stdlib/assert/is-nonconfigurable-property]: https://github.com/stdlib-js/assert/tree/main/is-nonconfigurable-property`][@stdlib/assert/is-nonconfigurable-property
--   [`@stdlib/assert/is-nonenumerable-property-in`][@stdlib/assert/is-nonenumerable-property-in]: https://github.com/stdlib-js/assert/tree/main/is-nonenumerable-property-in`][@stdlib/assert/is-nonenumerable-property-in
--   [`@stdlib/assert/is-readable-property`][@stdlib/assert/is-readable-property]: https://github.com/stdlib-js/assert/tree/main/is-readable-property`][@stdlib/assert/is-readable-property
--   [`@stdlib/assert/is-writable-property`][@stdlib/assert/is-writable-property]: https://github.com/stdlib-js/assert/tree/main/is-writable-property`][@stdlib/assert/is-writable-property
+-   <span class="package-name">[`@stdlib/assert/is-configurable-property`][@stdlib/assert/is-configurable-property]</span><span class="delimiter">: </span><span class="description">test if an object's own property is configurable.</span>
+-   <span class="package-name">[`@stdlib/assert/is-enumerable-property`][@stdlib/assert/is-enumerable-property]</span><span class="delimiter">: </span><span class="description">test if an object's own property is enumerable.</span>
+-   <span class="package-name">[`@stdlib/assert/is-nonconfigurable-property`][@stdlib/assert/is-nonconfigurable-property]</span><span class="delimiter">: </span><span class="description">test if an object's own property is non-configurable.</span>
+-   <span class="package-name">[`@stdlib/assert/is-nonenumerable-property-in`][@stdlib/assert/is-nonenumerable-property-in]</span><span class="delimiter">: </span><span class="description">test if an object's own or inherited property is non-enumerable.</span>
+-   <span class="package-name">[`@stdlib/assert/is-readable-property`][@stdlib/assert/is-readable-property]</span><span class="delimiter">: </span><span class="description">test if an object's own property is readable.</span>
+-   <span class="package-name">[`@stdlib/assert/is-writable-property`][@stdlib/assert/is-writable-property]</span><span class="delimiter">: </span><span class="description">test if an object's own property is writable.</span>
 
 </section>
 

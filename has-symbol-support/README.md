@@ -112,7 +112,7 @@ $ has-symbol-support
 
 ## See Also
 
--   [`@stdlib/assert/has-iterator-symbol-support`][@stdlib/assert/has-iterator-symbol-support]: https://github.com/stdlib-js/assert/tree/main/has-iterator-symbol-support`][@stdlib/assert/has-iterator-symbol-support
+-   <span class="package-name">[`@stdlib/assert/has-iterator-symbol-support`][@stdlib/assert/has-iterator-symbol-support]</span><span class="delimiter">: </span><span class="description">detect native Symbol.iterator support.</span>
 
 </section>
 

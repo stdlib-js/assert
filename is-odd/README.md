@@ -140,7 +140,7 @@ bool = isOdd( null );
 
 ## See Also
 
--   [`@stdlib/assert/is-even`][@stdlib/assert/is-even]: https://github.com/stdlib-js/assert/tree/main/is-even`][@stdlib/assert/is-even
+-   <span class="package-name">[`@stdlib/assert/is-even`][@stdlib/assert/is-even]</span><span class="delimiter">: </span><span class="description">test if a value is an even number.</span>
 
 </section>
 

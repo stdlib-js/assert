@@ -137,7 +137,7 @@ bool = isNonPositiveIntegerArray( [] );
 
 ## See Also
 
--   [`@stdlib/assert/is-array`][@stdlib/assert/is-array]: https://github.com/stdlib-js/assert/tree/main/is-array`][@stdlib/assert/is-array
+-   <span class="package-name">[`@stdlib/assert/is-array`][@stdlib/assert/is-array]</span><span class="delimiter">: </span><span class="description">test if a value is an array.</span>
 
 </section>
 

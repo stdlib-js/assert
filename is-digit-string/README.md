@@ -134,8 +134,8 @@ true
 
 ## See Also
 
--   [`@stdlib/assert/is-hex-string`][@stdlib/assert/is-hex-string]: https://github.com/stdlib-js/assert/tree/main/is-hex-string`][@stdlib/assert/is-hex-string
--   [`@stdlib/assert/is-string`][@stdlib/assert/is-string]: https://github.com/stdlib-js/assert/tree/main/is-string`][@stdlib/assert/is-string
+-   <span class="package-name">[`@stdlib/assert/is-hex-string`][@stdlib/assert/is-hex-string]</span><span class="delimiter">: </span><span class="description">test whether a string contains only hexadecimal digits.</span>
+-   <span class="package-name">[`@stdlib/assert/is-string`][@stdlib/assert/is-string]</span><span class="delimiter">: </span><span class="description">test if a value is a string.</span>
 
 </section>
 

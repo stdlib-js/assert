@@ -83,8 +83,8 @@ bool = isFalsyArray( null );
 
 ## See Also
 
--   [`@stdlib/assert/is-falsy`][@stdlib/assert/is-falsy]: https://github.com/stdlib-js/assert/tree/main/is-falsy`][@stdlib/assert/is-falsy
--   [`@stdlib/assert/is-truthy-array`][@stdlib/assert/is-truthy-array]: https://github.com/stdlib-js/assert/tree/main/is-truthy-array`][@stdlib/assert/is-truthy-array
+-   <span class="package-name">[`@stdlib/assert/is-falsy`][@stdlib/assert/is-falsy]</span><span class="delimiter">: </span><span class="description">test if a value is falsy.</span>
+-   <span class="package-name">[`@stdlib/assert/is-truthy-array`][@stdlib/assert/is-truthy-array]</span><span class="delimiter">: </span><span class="description">test if a value is an array-like object containing only truthy values.</span>
 
 </section>
 

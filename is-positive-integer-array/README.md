@@ -125,9 +125,9 @@ bool = isPositiveIntegerArray( [] );
 
 ## See Also
 
--   [`@stdlib/assert/is-array`][@stdlib/assert/is-array]: https://github.com/stdlib-js/assert/tree/main/is-array`][@stdlib/assert/is-array
--   [`@stdlib/assert/is-integer`][@stdlib/assert/is-integer]: https://github.com/stdlib-js/assert/tree/main/is-integer`][@stdlib/assert/is-integer
--   [`@stdlib/assert/is-positive-integer`][@stdlib/assert/is-positive-integer]: https://github.com/stdlib-js/assert/tree/main/is-positive-integer`][@stdlib/assert/is-positive-integer
+-   <span class="package-name">[`@stdlib/assert/is-array`][@stdlib/assert/is-array]</span><span class="delimiter">: </span><span class="description">test if a value is an array.</span>
+-   <span class="package-name">[`@stdlib/assert/is-integer`][@stdlib/assert/is-integer]</span><span class="delimiter">: </span><span class="description">test if a value is a number having an integer value.</span>
+-   <span class="package-name">[`@stdlib/assert/is-positive-integer`][@stdlib/assert/is-positive-integer]</span><span class="delimiter">: </span><span class="description">test if a value is a number having a positive integer value.</span>
 
 </section>
 

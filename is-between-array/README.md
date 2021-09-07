@@ -149,7 +149,7 @@ console.log( isBetweenArray( x, 0.01, 0.99 ) );
 
 ## See Also
 
--   [`@stdlib/assert/is-between`][@stdlib/assert/is-between]: https://github.com/stdlib-js/assert/tree/main/is-between`][@stdlib/assert/is-between
+-   <span class="package-name">[`@stdlib/assert/is-between`][@stdlib/assert/is-between]</span><span class="delimiter">: </span><span class="description">test if a value is between two values.</span>
 
 </section>
 

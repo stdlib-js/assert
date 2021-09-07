@@ -82,9 +82,9 @@ out = isSymmetricMatrix( null );
 
 ## See Also
 
--   [`@stdlib/assert/is-matrix-like`][@stdlib/assert/is-matrix-like]: https://github.com/stdlib-js/assert/tree/main/is-matrix-like`][@stdlib/assert/is-matrix-like
--   [`@stdlib/assert/is-nonsymmetric-matrix`][@stdlib/assert/is-nonsymmetric-matrix]: https://github.com/stdlib-js/assert/tree/main/is-nonsymmetric-matrix`][@stdlib/assert/is-nonsymmetric-matrix
--   [`@stdlib/assert/is-square-matrix`][@stdlib/assert/is-square-matrix]: https://github.com/stdlib-js/assert/tree/main/is-square-matrix`][@stdlib/assert/is-square-matrix
+-   <span class="package-name">[`@stdlib/assert/is-matrix-like`][@stdlib/assert/is-matrix-like]</span><span class="delimiter">: </span><span class="description">test if a value is a 2-dimensional ndarray-like object.</span>
+-   <span class="package-name">[`@stdlib/assert/is-nonsymmetric-matrix`][@stdlib/assert/is-nonsymmetric-matrix]</span><span class="delimiter">: </span><span class="description">test if a value is a non-symmetric matrix.</span>
+-   <span class="package-name">[`@stdlib/assert/is-square-matrix`][@stdlib/assert/is-square-matrix]</span><span class="delimiter">: </span><span class="description">test if a value is a 2-dimensional ndarray-like object having equal dimensions.</span>
 
 </section>
 

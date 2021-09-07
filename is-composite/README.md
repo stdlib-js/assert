@@ -154,9 +154,9 @@ bool = isComposite( null );
 
 ## See Also
 
--   [`@stdlib/assert/is-integer`][@stdlib/assert/is-integer]: https://github.com/stdlib-js/assert/tree/main/is-integer`][@stdlib/assert/is-integer
--   [`@stdlib/assert/is-number`][@stdlib/assert/is-number]: https://github.com/stdlib-js/assert/tree/main/is-number`][@stdlib/assert/is-number
--   [`@stdlib/assert/is-prime`][@stdlib/assert/is-prime]: https://github.com/stdlib-js/assert/tree/main/is-prime`][@stdlib/assert/is-prime
+-   <span class="package-name">[`@stdlib/assert/is-integer`][@stdlib/assert/is-integer]</span><span class="delimiter">: </span><span class="description">test if a value is a number having an integer value.</span>
+-   <span class="package-name">[`@stdlib/assert/is-number`][@stdlib/assert/is-number]</span><span class="delimiter">: </span><span class="description">test if a value is a number.</span>
+-   <span class="package-name">[`@stdlib/assert/is-prime`][@stdlib/assert/is-prime]</span><span class="delimiter">: </span><span class="description">test if a value is a prime number.</span>
 
 </section>
 

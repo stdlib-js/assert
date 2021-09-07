@@ -145,8 +145,8 @@ bool = isInheritedProperty( { '[object Object]': false }, {} );
 
 ## See Also
 
--   [`@stdlib/assert/has-own-property`][@stdlib/assert/has-own-property]: https://github.com/stdlib-js/assert/tree/main/has-own-property`][@stdlib/assert/has-own-property
--   [`@stdlib/assert/has-property`][@stdlib/assert/has-property]: https://github.com/stdlib-js/assert/tree/main/has-property`][@stdlib/assert/has-property
+-   <span class="package-name">[`@stdlib/assert/has-own-property`][@stdlib/assert/has-own-property]</span><span class="delimiter">: </span><span class="description">test if an object has a specified property.</span>
+-   <span class="package-name">[`@stdlib/assert/has-property`][@stdlib/assert/has-property]</span><span class="delimiter">: </span><span class="description">test if an object has a specified property, either own or inherited.</span>
 
 </section>
 

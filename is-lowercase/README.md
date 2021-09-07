@@ -140,8 +140,8 @@ true
 
 ## See Also
 
--   [`@stdlib/assert/is-string`][@stdlib/assert/is-string]: https://github.com/stdlib-js/assert/tree/main/is-string`][@stdlib/assert/is-string
--   [`@stdlib/assert/is-uppercase`][@stdlib/assert/is-uppercase]: https://github.com/stdlib-js/assert/tree/main/is-uppercase`][@stdlib/assert/is-uppercase
+-   <span class="package-name">[`@stdlib/assert/is-string`][@stdlib/assert/is-string]</span><span class="delimiter">: </span><span class="description">test if a value is a string.</span>
+-   <span class="package-name">[`@stdlib/assert/is-uppercase`][@stdlib/assert/is-uppercase]</span><span class="delimiter">: </span><span class="description">test if a value is an uppercase string.</span>
 
 </section>
 

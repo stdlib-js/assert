@@ -112,7 +112,7 @@ $ has-dataview-support
 
 ## See Also
 
--   [`@stdlib/assert/has-arraybuffer-support`][@stdlib/assert/has-arraybuffer-support]: https://github.com/stdlib-js/assert/tree/main/has-arraybuffer-support`][@stdlib/assert/has-arraybuffer-support
+-   <span class="package-name">[`@stdlib/assert/has-arraybuffer-support`][@stdlib/assert/has-arraybuffer-support]</span><span class="delimiter">: </span><span class="description">detect native ArrayBuffer support.</span>
 
 </section>
 

@@ -134,9 +134,9 @@ bool = isComplexTypedArray( null );
 
 ## See Also
 
--   [`@stdlib/assert/is-complex`][@stdlib/assert/is-complex]: https://github.com/stdlib-js/assert/tree/main/is-complex`][@stdlib/assert/is-complex
--   [`@stdlib/assert/is-complex64array`][@stdlib/assert/is-complex64array]: https://github.com/stdlib-js/assert/tree/main/is-complex64array`][@stdlib/assert/is-complex64array
--   [`@stdlib/assert/is-complex128array`][@stdlib/assert/is-complex128array]: https://github.com/stdlib-js/assert/tree/main/is-complex128array`][@stdlib/assert/is-complex128array
+-   <span class="package-name">[`@stdlib/assert/is-complex`][@stdlib/assert/is-complex]</span><span class="delimiter">: </span><span class="description">test if a value is a 64-bit or 128-bit complex number.</span>
+-   <span class="package-name">[`@stdlib/assert/is-complex64array`][@stdlib/assert/is-complex64array]</span><span class="delimiter">: </span><span class="description">test if a value is a Complex64Array.</span>
+-   <span class="package-name">[`@stdlib/assert/is-complex128array`][@stdlib/assert/is-complex128array]</span><span class="delimiter">: </span><span class="description">test if a value is a Complex128Array.</span>
 
 </section>
 

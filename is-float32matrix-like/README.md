@@ -87,9 +87,9 @@ out = isFloat32MatrixLike( null );
 
 ## See Also
 
--   [`@stdlib/assert/is-float64matrix-like`][@stdlib/assert/is-float64matrix-like]: https://github.com/stdlib-js/assert/tree/main/is-float64matrix-like`][@stdlib/assert/is-float64matrix-like
--   [`@stdlib/assert/is-ndarray-like`][@stdlib/assert/is-ndarray-like]: https://github.com/stdlib-js/assert/tree/main/is-ndarray-like`][@stdlib/assert/is-ndarray-like
--   [`@stdlib/assert/is-matrix-like`][@stdlib/assert/is-matrix-like]: https://github.com/stdlib-js/assert/tree/main/is-matrix-like`][@stdlib/assert/is-matrix-like
+-   <span class="package-name">[`@stdlib/assert/is-float64matrix-like`][@stdlib/assert/is-float64matrix-like]</span><span class="delimiter">: </span><span class="description">test if a value is a 2-dimensional ndarray-like object containing double-precision floating-point numbers.</span>
+-   <span class="package-name">[`@stdlib/assert/is-ndarray-like`][@stdlib/assert/is-ndarray-like]</span><span class="delimiter">: </span><span class="description">test if a value is ndarray-like.</span>
+-   <span class="package-name">[`@stdlib/assert/is-matrix-like`][@stdlib/assert/is-matrix-like]</span><span class="delimiter">: </span><span class="description">test if a value is a 2-dimensional ndarray-like object.</span>
 
 </section>
 

@@ -120,7 +120,7 @@ bool = isBigInt64Array( null );
 
 ## See Also
 
--   [`@stdlib/assert/is-biguint64array`][@stdlib/assert/is-biguint64array]: https://github.com/stdlib-js/assert/tree/main/is-biguint64array`][@stdlib/assert/is-biguint64array
+-   <span class="package-name">[`@stdlib/assert/is-biguint64array`][@stdlib/assert/is-biguint64array]</span><span class="delimiter">: </span><span class="description">test if a value is a BigUint64Array.</span>
 
 </section>
 

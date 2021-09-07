@@ -143,7 +143,7 @@ bool = isInfinite( null );
 
 ## See Also
 
--   [`@stdlib/assert/is-finite`][@stdlib/assert/is-finite]: https://github.com/stdlib-js/assert/tree/main/is-finite`][@stdlib/assert/is-finite
+-   <span class="package-name">[`@stdlib/assert/is-finite`][@stdlib/assert/is-finite]</span><span class="delimiter">: </span><span class="description">test if a value is a finite number.</span>
 
 </section>
 

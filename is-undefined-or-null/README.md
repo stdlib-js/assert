@@ -105,8 +105,8 @@ bool = isUndefinedOrNull( function foo() {} );
 
 ## See Also
 
--   [`@stdlib/assert/is-null`][@stdlib/assert/is-null]: https://github.com/stdlib-js/assert/tree/main/is-null`][@stdlib/assert/is-null
--   [`@stdlib/assert/is-undefined`][@stdlib/assert/is-undefined]: https://github.com/stdlib-js/assert/tree/main/is-undefined`][@stdlib/assert/is-undefined
+-   <span class="package-name">[`@stdlib/assert/is-null`][@stdlib/assert/is-null]</span><span class="delimiter">: </span><span class="description">test if a value is null.</span>
+-   <span class="package-name">[`@stdlib/assert/is-undefined`][@stdlib/assert/is-undefined]</span><span class="delimiter">: </span><span class="description">test if a value is undefined.</span>
 
 </section>
 

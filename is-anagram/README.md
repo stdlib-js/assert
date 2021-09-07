@@ -155,7 +155,7 @@ false
 
 ## See Also
 
--   [`@stdlib/assert/is-alphagram`][@stdlib/assert/is-alphagram]: https://github.com/stdlib-js/assert/tree/main/is-alphagram`][@stdlib/assert/is-alphagram
+-   <span class="package-name">[`@stdlib/assert/is-alphagram`][@stdlib/assert/is-alphagram]</span><span class="delimiter">: </span><span class="description">test if a value is an alphagram.</span>
 
 </section>
 

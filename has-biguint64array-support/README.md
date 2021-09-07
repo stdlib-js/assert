@@ -112,8 +112,8 @@ $ has-biguint64array-support
 
 ## See Also
 
--   [`@stdlib/assert/has-bigint-support`][@stdlib/assert/has-bigint-support]: https://github.com/stdlib-js/assert/tree/main/has-bigint-support`][@stdlib/assert/has-bigint-support
--   [`@stdlib/assert/has-bigint64array-support`][@stdlib/assert/has-bigint64array-support]: https://github.com/stdlib-js/assert/tree/main/has-bigint64array-support`][@stdlib/assert/has-bigint64array-support
+-   <span class="package-name">[`@stdlib/assert/has-bigint-support`][@stdlib/assert/has-bigint-support]</span><span class="delimiter">: </span><span class="description">detect native BigInt support.</span>
+-   <span class="package-name">[`@stdlib/assert/has-bigint64array-support`][@stdlib/assert/has-bigint64array-support]</span><span class="delimiter">: </span><span class="description">detect native BigInt64Array support.</span>
 
 </section>
 

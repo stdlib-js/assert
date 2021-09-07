@@ -152,9 +152,9 @@ bool = isDataProperty( void 0, 'a' );
 
 ## See Also
 
--   [`@stdlib/assert/has-own-property`][@stdlib/assert/has-own-property]: https://github.com/stdlib-js/assert/tree/main/has-own-property`][@stdlib/assert/has-own-property
--   [`@stdlib/assert/is-accessor-property`][@stdlib/assert/is-accessor-property]: https://github.com/stdlib-js/assert/tree/main/is-accessor-property`][@stdlib/assert/is-accessor-property
--   [`@stdlib/assert/is-data-property-in`][@stdlib/assert/is-data-property-in]: https://github.com/stdlib-js/assert/tree/main/is-data-property-in`][@stdlib/assert/is-data-property-in
+-   <span class="package-name">[`@stdlib/assert/has-own-property`][@stdlib/assert/has-own-property]</span><span class="delimiter">: </span><span class="description">test if an object has a specified property.</span>
+-   <span class="package-name">[`@stdlib/assert/is-accessor-property`][@stdlib/assert/is-accessor-property]</span><span class="delimiter">: </span><span class="description">test if an object's own property has an accessor descriptor.</span>
+-   <span class="package-name">[`@stdlib/assert/is-data-property-in`][@stdlib/assert/is-data-property-in]</span><span class="delimiter">: </span><span class="description">test if an object's own or inherited property has a data descriptor.</span>
 
 </section>
 

@@ -147,7 +147,7 @@ for ( i = 0; i < 100; i++ ) {
 
 ## See Also
 
--   [`@stdlib/assert/is-between-array`][@stdlib/assert/is-between-array]: https://github.com/stdlib-js/assert/tree/main/is-between-array`][@stdlib/assert/is-between-array
+-   <span class="package-name">[`@stdlib/assert/is-between-array`][@stdlib/assert/is-between-array]</span><span class="delimiter">: </span><span class="description">test if a value is an array-like object where every element is between two values.</span>
 
 </section>
 

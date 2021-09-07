@@ -91,8 +91,8 @@ bool = isPrimitiveArray( [ function noop() {}, null ] );
 
 ## See Also
 
--   [`@stdlib/assert/is-array`][@stdlib/assert/is-array]: https://github.com/stdlib-js/assert/tree/main/is-array`][@stdlib/assert/is-array
--   [`@stdlib/assert/is-primitive`][@stdlib/assert/is-primitive]: https://github.com/stdlib-js/assert/tree/main/is-primitive`][@stdlib/assert/is-primitive
+-   <span class="package-name">[`@stdlib/assert/is-array`][@stdlib/assert/is-array]</span><span class="delimiter">: </span><span class="description">test if a value is an array.</span>
+-   <span class="package-name">[`@stdlib/assert/is-primitive`][@stdlib/assert/is-primitive]</span><span class="delimiter">: </span><span class="description">test if a value is a JavaScript primitive.</span>
 
 </section>
 

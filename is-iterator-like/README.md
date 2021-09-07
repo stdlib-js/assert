@@ -100,7 +100,7 @@ bool = isIteratorLike( null );
 
 ## See Also
 
--   [`@stdlib/assert/is-iterable-like`][@stdlib/assert/is-iterable-like]: https://github.com/stdlib-js/assert/tree/main/is-iterable-like`][@stdlib/assert/is-iterable-like
+-   <span class="package-name">[`@stdlib/assert/is-iterable-like`][@stdlib/assert/is-iterable-like]</span><span class="delimiter">: </span><span class="description">test if a value is iterable-like.</span>
 
 </section>
 

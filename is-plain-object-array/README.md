@@ -102,8 +102,8 @@ bool = isPlainObjectArray( [] );
 
 ## See Also
 
--   [`@stdlib/assert/is-array`][@stdlib/assert/is-array]: https://github.com/stdlib-js/assert/tree/main/is-array`][@stdlib/assert/is-array
--   [`@stdlib/assert/is-plain-object`][@stdlib/assert/is-plain-object]: https://github.com/stdlib-js/assert/tree/main/is-plain-object`][@stdlib/assert/is-plain-object
+-   <span class="package-name">[`@stdlib/assert/is-array`][@stdlib/assert/is-array]</span><span class="delimiter">: </span><span class="description">test if a value is an array.</span>
+-   <span class="package-name">[`@stdlib/assert/is-plain-object`][@stdlib/assert/is-plain-object]</span><span class="delimiter">: </span><span class="description">test if a value is a plain object.</span>
 
 </section>
 

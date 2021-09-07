@@ -209,7 +209,7 @@ false
 
 ## See Also
 
--   [`@stdlib/assert/is-relative-path`][@stdlib/assert/is-relative-path]: https://github.com/stdlib-js/assert/tree/main/is-relative-path`][@stdlib/assert/is-relative-path
+-   <span class="package-name">[`@stdlib/assert/is-relative-path`][@stdlib/assert/is-relative-path]</span><span class="delimiter">: </span><span class="description">test if a value is a relative path.</span>
 
 </section>
 

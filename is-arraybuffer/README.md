@@ -119,8 +119,8 @@ bool = isArrayBuffer( null );
 
 ## See Also
 
--   [`@stdlib/assert/is-sharedarraybuffer`][@stdlib/assert/is-sharedarraybuffer]: https://github.com/stdlib-js/assert/tree/main/is-sharedarraybuffer`][@stdlib/assert/is-sharedarraybuffer
--   [`@stdlib/assert/is-typed-array`][@stdlib/assert/is-typed-array]: https://github.com/stdlib-js/assert/tree/main/is-typed-array`][@stdlib/assert/is-typed-array
+-   <span class="package-name">[`@stdlib/assert/is-sharedarraybuffer`][@stdlib/assert/is-sharedarraybuffer]</span><span class="delimiter">: </span><span class="description">test if a value is a SharedArrayBuffer.</span>
+-   <span class="package-name">[`@stdlib/assert/is-typed-array`][@stdlib/assert/is-typed-array]</span><span class="delimiter">: </span><span class="description">test if a value is a typed array.</span>
 
 </section>
 

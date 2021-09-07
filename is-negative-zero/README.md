@@ -137,8 +137,8 @@ bool = isNegativeZero( null );
 
 ## See Also
 
--   [`@stdlib/assert/is-number`][@stdlib/assert/is-number]: https://github.com/stdlib-js/assert/tree/main/is-number`][@stdlib/assert/is-number
--   [`@stdlib/assert/is-positive-zero`][@stdlib/assert/is-positive-zero]: https://github.com/stdlib-js/assert/tree/main/is-positive-zero`][@stdlib/assert/is-positive-zero
+-   <span class="package-name">[`@stdlib/assert/is-number`][@stdlib/assert/is-number]</span><span class="delimiter">: </span><span class="description">test if a value is a number.</span>
+-   <span class="package-name">[`@stdlib/assert/is-positive-zero`][@stdlib/assert/is-positive-zero]</span><span class="delimiter">: </span><span class="description">test if a value is equal to positive zero.</span>
 
 </section>
 

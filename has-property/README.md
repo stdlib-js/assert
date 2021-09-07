@@ -142,7 +142,7 @@ bool = hasProp( { '[object Object]': false }, {} );
 
 ## See Also
 
--   [`@stdlib/assert/has-own-property`][@stdlib/assert/has-own-property]: https://github.com/stdlib-js/assert/tree/main/has-own-property`][@stdlib/assert/has-own-property
+-   <span class="package-name">[`@stdlib/assert/has-own-property`][@stdlib/assert/has-own-property]</span><span class="delimiter">: </span><span class="description">test if an object has a specified property.</span>
 
 </section>
 

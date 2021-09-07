@@ -112,7 +112,7 @@ bool = isNodeWritableStreamLike( new Stream() );
 
 ## See Also
 
--   [`@stdlib/assert/is-node-stream-like`][@stdlib/assert/is-node-stream-like]: https://github.com/stdlib-js/assert/tree/main/is-node-stream-like`][@stdlib/assert/is-node-stream-like
+-   <span class="package-name">[`@stdlib/assert/is-node-stream-like`][@stdlib/assert/is-node-stream-like]</span><span class="delimiter">: </span><span class="description">test if a value is Node stream-like.</span>
 
 </section>
 

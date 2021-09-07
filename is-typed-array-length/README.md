@@ -114,8 +114,8 @@ bool = isTypedArrayLength( null );
 
 ## See Also
 
--   [`@stdlib/assert/is-array-length`][@stdlib/assert/is-array-length]: https://github.com/stdlib-js/assert/tree/main/is-array-length`][@stdlib/assert/is-array-length
--   [`@stdlib/assert/is-typed-array`][@stdlib/assert/is-typed-array]: https://github.com/stdlib-js/assert/tree/main/is-typed-array`][@stdlib/assert/is-typed-array
+-   <span class="package-name">[`@stdlib/assert/is-array-length`][@stdlib/assert/is-array-length]</span><span class="delimiter">: </span><span class="description">test if a value is a valid array length.</span>
+-   <span class="package-name">[`@stdlib/assert/is-typed-array`][@stdlib/assert/is-typed-array]</span><span class="delimiter">: </span><span class="description">test if a value is a typed array.</span>
 
 </section>
 

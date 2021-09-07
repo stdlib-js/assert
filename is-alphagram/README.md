@@ -141,7 +141,7 @@ false
 
 ## See Also
 
--   [`@stdlib/assert/is-anagram`][@stdlib/assert/is-anagram]: https://github.com/stdlib-js/assert/tree/main/is-anagram`][@stdlib/assert/is-anagram
+-   <span class="package-name">[`@stdlib/assert/is-anagram`][@stdlib/assert/is-anagram]</span><span class="delimiter">: </span><span class="description">test if a value is an anagram.</span>
 
 </section>
 

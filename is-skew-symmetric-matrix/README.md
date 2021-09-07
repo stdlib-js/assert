@@ -82,9 +82,9 @@ out = isSkewSymmetricMatrix( null );
 
 ## See Also
 
--   [`@stdlib/assert/is-matrix-like`][@stdlib/assert/is-matrix-like]: https://github.com/stdlib-js/assert/tree/main/is-matrix-like`][@stdlib/assert/is-matrix-like
--   [`@stdlib/assert/is-skew-symmetric-matrix`][@stdlib/assert/is-skew-symmetric-matrix]: https://github.com/stdlib-js/assert/tree/main/is-skew-symmetric-matrix`][@stdlib/assert/is-skew-symmetric-matrix
--   [`@stdlib/assert/is-square-matrix`][@stdlib/assert/is-square-matrix]: https://github.com/stdlib-js/assert/tree/main/is-square-matrix`][@stdlib/assert/is-square-matrix
+-   <span class="package-name">[`@stdlib/assert/is-matrix-like`][@stdlib/assert/is-matrix-like]</span><span class="delimiter">: </span><span class="description">test if a value is a 2-dimensional ndarray-like object.</span>
+-   <span class="package-name">[`@stdlib/assert/is-skew-symmetric-matrix`][@stdlib/assert/is-skew-symmetric-matrix]</span><span class="delimiter">: </span><span class="description">test if a value is a skew-symmetric matrix.</span>
+-   <span class="package-name">[`@stdlib/assert/is-square-matrix`][@stdlib/assert/is-square-matrix]</span><span class="delimiter">: </span><span class="description">test if a value is a 2-dimensional ndarray-like object having equal dimensions.</span>
 
 </section>
 

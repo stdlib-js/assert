@@ -128,7 +128,7 @@ bool = isNaNArray( [ 'a', NaN ] );
 
 ## See Also
 
--   [`@stdlib/assert/is-nan`][@stdlib/assert/is-nan]: https://github.com/stdlib-js/assert/tree/main/is-nan`][@stdlib/assert/is-nan
+-   <span class="package-name">[`@stdlib/assert/is-nan`][@stdlib/assert/is-nan]</span><span class="delimiter">: </span><span class="description">test if a value is NaN.</span>
 
 </section>
 

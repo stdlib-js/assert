@@ -87,9 +87,9 @@ out = isFloat32VectorLike( null );
 
 ## See Also
 
--   [`@stdlib/assert/is-float64vector-like`][@stdlib/assert/is-float64vector-like]: https://github.com/stdlib-js/assert/tree/main/is-float64vector-like`][@stdlib/assert/is-float64vector-like
--   [`@stdlib/assert/is-ndarray-like`][@stdlib/assert/is-ndarray-like]: https://github.com/stdlib-js/assert/tree/main/is-ndarray-like`][@stdlib/assert/is-ndarray-like
--   [`@stdlib/assert/is-vector-like`][@stdlib/assert/is-vector-like]: https://github.com/stdlib-js/assert/tree/main/is-vector-like`][@stdlib/assert/is-vector-like
+-   <span class="package-name">[`@stdlib/assert/is-float64vector-like`][@stdlib/assert/is-float64vector-like]</span><span class="delimiter">: </span><span class="description">test if a value is a 1-dimensional ndarray-like object containing double-precision floating-point numbers.</span>
+-   <span class="package-name">[`@stdlib/assert/is-ndarray-like`][@stdlib/assert/is-ndarray-like]</span><span class="delimiter">: </span><span class="description">test if a value is ndarray-like.</span>
+-   <span class="package-name">[`@stdlib/assert/is-vector-like`][@stdlib/assert/is-vector-like]</span><span class="delimiter">: </span><span class="description">test if a value is a 1-dimensional ndarray-like object.</span>
 
 </section>
 

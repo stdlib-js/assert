@@ -96,11 +96,11 @@ bool = isndarrayLike( null );
 
 ## See Also
 
--   [`@stdlib/assert/is-array`][@stdlib/assert/is-array]: https://github.com/stdlib-js/assert/tree/main/is-array`][@stdlib/assert/is-array
--   [`@stdlib/assert/is-array-like`][@stdlib/assert/is-array-like]: https://github.com/stdlib-js/assert/tree/main/is-array-like`][@stdlib/assert/is-array-like
--   [`@stdlib/assert/is-matrix-like`][@stdlib/assert/is-matrix-like]: https://github.com/stdlib-js/assert/tree/main/is-matrix-like`][@stdlib/assert/is-matrix-like
--   [`@stdlib/assert/is-typed-array-like`][@stdlib/assert/is-typed-array-like]: https://github.com/stdlib-js/assert/tree/main/is-typed-array-like`][@stdlib/assert/is-typed-array-like
--   [`@stdlib/assert/is-vector-like`][@stdlib/assert/is-vector-like]: https://github.com/stdlib-js/assert/tree/main/is-vector-like`][@stdlib/assert/is-vector-like
+-   <span class="package-name">[`@stdlib/assert/is-array`][@stdlib/assert/is-array]</span><span class="delimiter">: </span><span class="description">test if a value is an array.</span>
+-   <span class="package-name">[`@stdlib/assert/is-array-like`][@stdlib/assert/is-array-like]</span><span class="delimiter">: </span><span class="description">test if a value is array-like.</span>
+-   <span class="package-name">[`@stdlib/assert/is-matrix-like`][@stdlib/assert/is-matrix-like]</span><span class="delimiter">: </span><span class="description">test if a value is a 2-dimensional ndarray-like object.</span>
+-   <span class="package-name">[`@stdlib/assert/is-typed-array-like`][@stdlib/assert/is-typed-array-like]</span><span class="delimiter">: </span><span class="description">test if a value is typed-array-like.</span>
+-   <span class="package-name">[`@stdlib/assert/is-vector-like`][@stdlib/assert/is-vector-like]</span><span class="delimiter">: </span><span class="description">test if a value is a 1-dimensional ndarray-like object.</span>
 
 </section>
 

@@ -79,8 +79,8 @@ bool = isEmptyObject( [] );
 
 ## See Also
 
--   [`@stdlib/assert/is-object`][@stdlib/assert/is-object]: https://github.com/stdlib-js/assert/tree/main/is-object`][@stdlib/assert/is-object
--   [`@stdlib/assert/is-plain-object`][@stdlib/assert/is-plain-object]: https://github.com/stdlib-js/assert/tree/main/is-plain-object`][@stdlib/assert/is-plain-object
+-   <span class="package-name">[`@stdlib/assert/is-object`][@stdlib/assert/is-object]</span><span class="delimiter">: </span><span class="description">test if a value is an object.</span>
+-   <span class="package-name">[`@stdlib/assert/is-plain-object`][@stdlib/assert/is-plain-object]</span><span class="delimiter">: </span><span class="description">test if a value is a plain object.</span>
 
 </section>
 

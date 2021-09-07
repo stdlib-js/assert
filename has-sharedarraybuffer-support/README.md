@@ -116,17 +116,17 @@ $ has-sharedarraybuffer-support
 
 ## See Also
 
--   [`@stdlib/assert/has-arraybuffer-support`][@stdlib/assert/has-arraybuffer-support]: https://github.com/stdlib-js/assert/tree/main/has-arraybuffer-support`][@stdlib/assert/has-arraybuffer-support
--   [`@stdlib/assert/has-float32array-support`][@stdlib/assert/has-float32array-support]: https://github.com/stdlib-js/assert/tree/main/has-float32array-support`][@stdlib/assert/has-float32array-support
--   [`@stdlib/assert/has-float64array-support`][@stdlib/assert/has-float64array-support]: https://github.com/stdlib-js/assert/tree/main/has-float64array-support`][@stdlib/assert/has-float64array-support
--   [`@stdlib/assert/has-int16array-support`][@stdlib/assert/has-int16array-support]: https://github.com/stdlib-js/assert/tree/main/has-int16array-support`][@stdlib/assert/has-int16array-support
--   [`@stdlib/assert/has-int32array-support`][@stdlib/assert/has-int32array-support]: https://github.com/stdlib-js/assert/tree/main/has-int32array-support`][@stdlib/assert/has-int32array-support
--   [`@stdlib/assert/has-int8array-support`][@stdlib/assert/has-int8array-support]: https://github.com/stdlib-js/assert/tree/main/has-int8array-support`][@stdlib/assert/has-int8array-support
--   [`@stdlib/assert/has-node-buffer-support`][@stdlib/assert/has-node-buffer-support]: https://github.com/stdlib-js/assert/tree/main/has-node-buffer-support`][@stdlib/assert/has-node-buffer-support
--   [`@stdlib/assert/has-uint16array-support`][@stdlib/assert/has-uint16array-support]: https://github.com/stdlib-js/assert/tree/main/has-uint16array-support`][@stdlib/assert/has-uint16array-support
--   [`@stdlib/assert/has-uint32array-support`][@stdlib/assert/has-uint32array-support]: https://github.com/stdlib-js/assert/tree/main/has-uint32array-support`][@stdlib/assert/has-uint32array-support
--   [`@stdlib/assert/has-uint8array-support`][@stdlib/assert/has-uint8array-support]: https://github.com/stdlib-js/assert/tree/main/has-uint8array-support`][@stdlib/assert/has-uint8array-support
--   [`@stdlib/assert/has-uint8clampedarray-support`][@stdlib/assert/has-uint8clampedarray-support]: https://github.com/stdlib-js/assert/tree/main/has-uint8clampedarray-support`][@stdlib/assert/has-uint8clampedarray-support
+-   <span class="package-name">[`@stdlib/assert/has-arraybuffer-support`][@stdlib/assert/has-arraybuffer-support]</span><span class="delimiter">: </span><span class="description">detect native ArrayBuffer support.</span>
+-   <span class="package-name">[`@stdlib/assert/has-float32array-support`][@stdlib/assert/has-float32array-support]</span><span class="delimiter">: </span><span class="description">detect native Float32Array support.</span>
+-   <span class="package-name">[`@stdlib/assert/has-float64array-support`][@stdlib/assert/has-float64array-support]</span><span class="delimiter">: </span><span class="description">detect native Float64Array support.</span>
+-   <span class="package-name">[`@stdlib/assert/has-int16array-support`][@stdlib/assert/has-int16array-support]</span><span class="delimiter">: </span><span class="description">detect native Int16Array support.</span>
+-   <span class="package-name">[`@stdlib/assert/has-int32array-support`][@stdlib/assert/has-int32array-support]</span><span class="delimiter">: </span><span class="description">detect native Int32Array support.</span>
+-   <span class="package-name">[`@stdlib/assert/has-int8array-support`][@stdlib/assert/has-int8array-support]</span><span class="delimiter">: </span><span class="description">detect native Int8Array support.</span>
+-   <span class="package-name">[`@stdlib/assert/has-node-buffer-support`][@stdlib/assert/has-node-buffer-support]</span><span class="delimiter">: </span><span class="description">detect native Buffer support.</span>
+-   <span class="package-name">[`@stdlib/assert/has-uint16array-support`][@stdlib/assert/has-uint16array-support]</span><span class="delimiter">: </span><span class="description">detect native Uint16Array support.</span>
+-   <span class="package-name">[`@stdlib/assert/has-uint32array-support`][@stdlib/assert/has-uint32array-support]</span><span class="delimiter">: </span><span class="description">detect native Uint32Array support.</span>
+-   <span class="package-name">[`@stdlib/assert/has-uint8array-support`][@stdlib/assert/has-uint8array-support]</span><span class="delimiter">: </span><span class="description">detect native Uint8Array support.</span>
+-   <span class="package-name">[`@stdlib/assert/has-uint8clampedarray-support`][@stdlib/assert/has-uint8clampedarray-support]</span><span class="delimiter">: </span><span class="description">detect native Uint8ClampedArray support.</span>
 
 </section>
 

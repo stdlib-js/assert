@@ -115,8 +115,8 @@ bool = isInt32Array( null );
 
 ## See Also
 
--   [`@stdlib/assert/is-int16array`][@stdlib/assert/is-int16array]: https://github.com/stdlib-js/assert/tree/main/is-int16array`][@stdlib/assert/is-int16array
--   [`@stdlib/assert/is-int8array`][@stdlib/assert/is-int8array]: https://github.com/stdlib-js/assert/tree/main/is-int8array`][@stdlib/assert/is-int8array
+-   <span class="package-name">[`@stdlib/assert/is-int16array`][@stdlib/assert/is-int16array]</span><span class="delimiter">: </span><span class="description">test if a value is an Int16Array.</span>
+-   <span class="package-name">[`@stdlib/assert/is-int8array`][@stdlib/assert/is-int8array]</span><span class="delimiter">: </span><span class="description">test if a value is an Int8Array.</span>
 
 </section>
 

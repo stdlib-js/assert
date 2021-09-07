@@ -83,8 +83,8 @@ out = isComplex128( null );
 
 ## See Also
 
--   [`@stdlib/assert/is-complex`][@stdlib/assert/is-complex]: https://github.com/stdlib-js/assert/tree/main/is-complex`][@stdlib/assert/is-complex
--   [`@stdlib/assert/is-complex64`][@stdlib/assert/is-complex64]: https://github.com/stdlib-js/assert/tree/main/is-complex64`][@stdlib/assert/is-complex64
+-   <span class="package-name">[`@stdlib/assert/is-complex`][@stdlib/assert/is-complex]</span><span class="delimiter">: </span><span class="description">test if a value is a 64-bit or 128-bit complex number.</span>
+-   <span class="package-name">[`@stdlib/assert/is-complex64`][@stdlib/assert/is-complex64]</span><span class="delimiter">: </span><span class="description">test if a value is a 64-bit complex number.</span>
 
 </section>
 

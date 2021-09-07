@@ -82,8 +82,8 @@ out = isSquareMatrix( null );
 
 ## See Also
 
--   [`@stdlib/assert/is-matrix-like`][@stdlib/assert/is-matrix-like]: https://github.com/stdlib-js/assert/tree/main/is-matrix-like`][@stdlib/assert/is-matrix-like
--   [`@stdlib/assert/is-symmetric-matrix`][@stdlib/assert/is-symmetric-matrix]: https://github.com/stdlib-js/assert/tree/main/is-symmetric-matrix`][@stdlib/assert/is-symmetric-matrix
+-   <span class="package-name">[`@stdlib/assert/is-matrix-like`][@stdlib/assert/is-matrix-like]</span><span class="delimiter">: </span><span class="description">test if a value is a 2-dimensional ndarray-like object.</span>
+-   <span class="package-name">[`@stdlib/assert/is-symmetric-matrix`][@stdlib/assert/is-symmetric-matrix]</span><span class="delimiter">: </span><span class="description">test if a value is a symmetric matrix.</span>
 
 </section>
 
