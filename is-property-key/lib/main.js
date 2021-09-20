@@ -20,9 +20,9 @@
 
 // MODULES //
 
-var isString = require( './../../is-string' );
-var isSymbol = require( './../../is-symbol' );
-var isNonNegativeInteger = require( './../../is-nonnegative-integer' );
+var isString = require( './../../is-string' ).isPrimitive;
+var isSymbol = require( './../../is-symbol' ).isPrimitive;
+var isNonNegativeInteger = require( './../../is-nonnegative-integer' ).isPrimitive;
 
 
 // MAIN //
@@ -39,10 +39,6 @@ var isNonNegativeInteger = require( './../../is-nonnegative-integer' );
 *
 * @example
 * var bool = isPropertyKey( 'beep' );
-* // returns true
-*
-* @example
-* var bool = isPropertyKey( Symbol.iterator );
 * // returns true
 *
 * @example
