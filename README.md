@@ -22,7 +22,7 @@ limitations under the License.
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
 
-> Standard library assertion utilities.
+> Assertion utilities.
 
 <section class="installation">
 
@@ -44,7 +44,7 @@ var assert = require( '@stdlib/assert' );
 
 #### assert
 
-Included in this namespace is a comprehensive suite of assertion utilities, such as utilities for testing for various data types and others for testing for JavaScript feature support.
+Namespace providing utilities for data type testing and feature detection.
 
 ```javascript
 var o = assert;
@@ -166,7 +166,7 @@ The namespace also contains utilities to test for numbers within a certain range
 
 <!-- </toc> -->
 
-The namespace provides various utilities for validating typed arrays:
+The namespace provides utilities for validating typed arrays:
 
 <!-- <toc pattern="is-+(int8|int16|int32|uint8clamped|uint8|uint16|uint32|float32|float64)array"> -->
 
