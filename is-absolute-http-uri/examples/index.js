@@ -1,4 +1,4 @@
-/*
+/**
 * @license Apache-2.0
 *
 * Copyright (c) 2021 The Stdlib Authors.
@@ -16,33 +16,30 @@
 * limitations under the License.
 */
 
-// TypeScript Version: 2.0
+'use strict';
 
-/**
-* Tests whether a value is a relative URI.
-*
-* @param value - value to test
-* @returns boolean indicating whether a value is a relative URI
-*
-* @example
-* var bool = isRelativeURI( './beep/boop' );
-* // returns true
-*
-* @example
-* var bool = isRelativeURI( '/dashboard/admin' );
-* // returns true
-*
-* @example
-* var bool = isRelativeURI( 'http://wikipedia.org' );
-* // returns false
-*
-* @example
-* var bool = isRelativeURI( null );
-* // returns false
-*/
-declare function isRelativeURI( value: any ): boolean;
+var isAbsoluteHttpURI = require( './../lib' );
 
+var bool = isAbsoluteHttpURI( 'https://www.google.com/' );
+console.log( bool );
+// => true
 
-// EXPORTS //
+bool = isAbsoluteHttpURI( 'https://www.google.com/search?q=node.js' );
+console.log( bool );
+// => true
 
-export = isRelativeURI;
+bool = isAbsoluteHttpURI( 'https://www.google.com#footer' );
+console.log( bool );
+// => true
+
+bool = isAbsoluteHttpURI( '/search?q=node.js' );
+console.log( bool );
+// => false
+
+bool = isAbsoluteHttpURI( 'C:\\Users\\nodejs\\node.js' );
+console.log( bool );
+// => false
+
+bool = isAbsoluteHttpURI( null );
+console.log( bool );
+// => false

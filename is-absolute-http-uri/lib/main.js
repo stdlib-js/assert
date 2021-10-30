@@ -1,4 +1,4 @@
-/*
+/**
 * @license Apache-2.0
 *
 * Copyright (c) 2021 The Stdlib Authors.
@@ -16,37 +16,55 @@
 * limitations under the License.
 */
 
-// TypeScript Version: 2.0
+'use strict';
+
+// MODULES //
+
+var isURI = require( './../../is-uri' );
+
+
+// VARIABLES //
+
+var RE_HTTPS = /^https?:\/\//;
+
+
+// MAIN //
 
 /**
-* Tests whether a value is an absolute URI.
+* Tests whether a value is an absolute HTTP(S) URI.
 *
-* @param value - value to test
-* @returns boolean indicating whether a value is an absolute URI
+* @param {*} value - value to test
+* @returns {boolean} boolean indicating whether a value is an absolute URI
 *
 * @example
-* var bool = isAbsoluteURI( 'http://example.com/' );
+* var bool = isAbsoluteHttpURI( 'https://example.com' );
 * // returns true
 *
 * @example
-* var bool = isAbsoluteURI( 'https://example.com/docs#heading' );
+* var bool = isAbsoluteHttpURI( 'https://example.com/docs#heading' );
 * // returns true
 *
 * @example
-* var bool = isAbsoluteURI( '/dashboard' );
+* var bool = isAbsoluteHttpURI( 'ftp://example.com' );
 * // returns false
 *
 * @example
-* var bool = isAbsoluteURI( './png.json' );
+* var bool = isAbsoluteHttpURI( '/dashboard' );
 * // returns false
 *
 * @example
-* var bool = isAbsoluteURI( null );
+* var bool = isAbsoluteHttpURI( './png.json' );
+* // returns false
+*
+* @example
+* var bool = isAbsoluteHttpURI( null );
 * // returns false
 */
-declare function isAbsoluteURI( value: any ): boolean;
+function isAbsoluteHttpURI( value ) {
+	return isURI( value ) && RE_HTTPS.test( value );
+}
 
 
 // EXPORTS //
 
-export = isAbsoluteURI;
+module.exports = isAbsoluteHttpURI;

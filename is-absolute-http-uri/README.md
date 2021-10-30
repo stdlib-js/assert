@@ -18,9 +18,9 @@ limitations under the License.
 
 -->
 
-# isRelativeURI
+# isAbsoluteHttpURI
 
-> Test whether a value is a relative [URI][uri].
+> Test whether a value is an absolute HTTP(S) [URI][uri].
 
 <!-- Section to include introductory text. Make sure to keep an empty line after the intro `section` element and another before the `/section` close. -->
 
@@ -37,18 +37,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
-var isRelativeURI = require( '@stdlib/assert/is-relative-uri' );
+var isAbsoluteHttpURI = require( '@stdlib/assert/is-absolute-http-uri' );
 ```
 
-#### isRelativeURI( value )
+#### isAbsoluteHttpURI( value )
 
-Tests whether a value is a relative [URI][uri].
+Tests whether a value is an absolute HTTP(S) [URI][uri].
 
 ```javascript
-var bool = isRelativeURI( 'foo/bar' );
+var bool = isAbsoluteHttpURI( 'http://example.com' );
 // returns true
 
-bool = isRelativeURI( 'https://example.com/' );
+bool = isAbsoluteHttpURI( './beep/boop' );
 // returns false
 ```
 
@@ -78,33 +78,24 @@ bool = isRelativeURI( 'https://example.com/' );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-var isRelativeURI = require( '@stdlib/assert/is-relative-uri' );
+var isAbsoluteHttpURI = require( '@stdlib/assert/is-absolute-http-uri' );
 
-var bool = isRelativeURI( './foo.js' );
+var bool = isAbsoluteHttpURI( 'https://www.google.com/' );
 // returns true
 
-bool = isRelativeURI( '/dashboard/admin' );
+bool = isAbsoluteHttpURI( 'https://www.google.com/search?q=node.js' );
 // returns true
 
-bool = isRelativeURI( 'image.png' );
+bool = isAbsoluteHttpURI( 'https://www.google.com#footer' );
 // returns true
 
-bool = isRelativeURI( 'http://www.example.com/' );
+bool = isAbsoluteHttpURI( '/search?q=node.js' );
 // returns false
 
-bool = isRelativeURI( 'https://www.example.com/' );
+bool = isAbsoluteHttpURI( 'C:\\Users\\nodejs\\node.js' );
 // returns false
 
-bool = isRelativeURI( 'ftp://ftp.is.co.za/rfc/rfc1808.txt' );
-// returns false
-
-bool = isRelativeURI( 'data:text/plain;base64,SGVsbG8sIFdvcmxkIQ%3D%3D' );
-// returns false
-
-bool = isRelativeURI( 'mailto:beep@boop.com' );
-// returns false
-
-bool = isRelativeURI( null );
+bool = isAbsoluteHttpURI( null );
 // returns false
 ```
 
@@ -128,7 +119,7 @@ bool = isRelativeURI( null );
 ### Usage
 
 ```text
-Usage: is-relative-uri [options] [<uri>]
+Usage: is-absolute-http-uri [options] [<uri>]
 
 Options:
 
@@ -156,23 +147,23 @@ Options:
 ### Examples
 
 ```bash
-$ is-relative-uri google.com
+$ is-absolute-http-uri https://google.com
 true
 ```
 
 To use as a [standard stream][standard-streams],
 
 ```bash
-$ echo -n 'https://google.com' | is-relative-uri
-false
+$ echo -n 'https://google.com' | is-absolute-http-uri
+true
 ```
 
 By default, when used as a [standard stream][standard-streams], the implementation assumes newline-delimited data. To specify an alternative delimiter, set the `split` option.
 
 ```bash
-$ echo -n 'https://google.com\tbeep' | is-absolute-uri --split '\t'
-false
+$ echo -n 'https://google.com\tbeep' | is-absolute-http-uri --split '\t'
 true
+false
 ```
 
 </section>

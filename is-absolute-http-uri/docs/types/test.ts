@@ -16,33 +16,19 @@
 * limitations under the License.
 */
 
-// TypeScript Version: 2.0
-
-/**
-* Tests whether a value is a relative URI.
-*
-* @param value - value to test
-* @returns boolean indicating whether a value is a relative URI
-*
-* @example
-* var bool = isRelativeURI( './beep/boop' );
-* // returns true
-*
-* @example
-* var bool = isRelativeURI( '/dashboard/admin' );
-* // returns true
-*
-* @example
-* var bool = isRelativeURI( 'http://wikipedia.org' );
-* // returns false
-*
-* @example
-* var bool = isRelativeURI( null );
-* // returns false
-*/
-declare function isRelativeURI( value: any ): boolean;
+import isAbsoluteURI = require( './index' );
 
 
-// EXPORTS //
+// TESTS //
 
-export = isRelativeURI;
+// The function returns a boolean...
+{
+	isAbsoluteURI( 'https://www.google.com' ); // $ExpectType boolean
+	isAbsoluteURI( 'https://www.google.com/search?q=node.js' ); // $ExpectType boolean
+	isAbsoluteURI( null ); // $ExpectType boolean
+}
+
+// The compiler throws an error if the function is provided an unsupported number of arguments...
+{
+	isAbsoluteURI(); // $ExpectError
+}

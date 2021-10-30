@@ -19,30 +19,38 @@
 // TypeScript Version: 2.0
 
 /**
-* Tests whether a value is a relative URI.
+* Tests whether a value is an absolute HTTP(S) URI.
 *
 * @param value - value to test
-* @returns boolean indicating whether a value is a relative URI
+* @returns boolean indicating whether a value is an absolute HTTP(S) URI
 *
 * @example
-* var bool = isRelativeURI( './beep/boop' );
+* var bool = isAbsoluteHttpURI( 'http://example.com/' );
 * // returns true
 *
 * @example
-* var bool = isRelativeURI( '/dashboard/admin' );
+* var bool = isAbsoluteHttpURI( 'https://example.com/docs#heading' );
 * // returns true
 *
 * @example
-* var bool = isRelativeURI( 'http://wikipedia.org' );
+* var bool = isAbsoluteHttpURI( 'ftp://example.com' );
 * // returns false
 *
 * @example
-* var bool = isRelativeURI( null );
+* var bool = isAbsoluteHttpURI( '/dashboard' );
+* // returns false
+*
+* @example
+* var bool = isAbsoluteHttpURI( './png.json' );
+* // returns false
+*
+* @example
+* var bool = isAbsoluteHttpURI( null );
 * // returns false
 */
-declare function isRelativeURI( value: any ): boolean;
+declare function isAbsoluteHttpURI( value: any ): boolean;
 
 
 // EXPORTS //
 
-export = isRelativeURI;
+export = isAbsoluteHttpURI;

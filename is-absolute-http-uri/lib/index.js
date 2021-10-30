@@ -1,4 +1,4 @@
-/*
+/**
 * @license Apache-2.0
 *
 * Copyright (c) 2021 The Stdlib Authors.
@@ -16,33 +16,28 @@
 * limitations under the License.
 */
 
-// TypeScript Version: 2.0
+'use strict';
 
 /**
-* Tests whether a value is a relative URI.
+* Test whether a value is an absolute HTTP(S) URI.
 *
-* @param value - value to test
-* @returns boolean indicating whether a value is a relative URI
+* @module @stdlib/assert/is-absolute-http-uri
 *
 * @example
-* var bool = isRelativeURI( './beep/boop' );
+* var isAbsoluteHttpURI = require( '@stdlib/assert/is-absolute-http-uri' );
+*
+* var bool = isAbsoluteHttpURI( 'http://example.com' );
 * // returns true
 *
-* @example
-* var bool = isRelativeURI( '/dashboard/admin' );
-* // returns true
-*
-* @example
-* var bool = isRelativeURI( 'http://wikipedia.org' );
-* // returns false
-*
-* @example
-* var bool = isRelativeURI( null );
+* bool = isAbsoluteHttpURI( './beep/boop' );
 * // returns false
 */
-declare function isRelativeURI( value: any ): boolean;
+
+// MODULES //
+
+var isAbsoluteHttpURI = require( './main.js' );
 
 
 // EXPORTS //
 
-export = isRelativeURI;
+module.exports = isAbsoluteHttpURI;

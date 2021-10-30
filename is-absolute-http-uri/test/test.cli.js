@@ -142,7 +142,7 @@ tape( 'when invoked with a `-V` flag, the command-line interface prints the vers
 	}
 });
 
-tape( 'the command-line interface tests whether a value is an absolute URI', opts, function test( t ) {
+tape( 'the command-line interface tests whether a value is an absolute HTTP(S) URI', opts, function test( t ) {
 	var opts;
 	var cmd;
 
