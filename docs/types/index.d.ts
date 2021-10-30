@@ -63,7 +63,9 @@ import hasWebAssemblySupport = require( './../../has-wasm-support' );
 import hasWeakMapSupport = require( './../../has-weakmap-support' );
 import hasWeakSetSupport = require( './../../has-weakset-support' );
 import instanceOf = require( './../../instance-of' );
+import isAbsoluteHttpURI = require( './../../is-absolute-http-uri' );
 import isAbsolutePath = require( './../../is-absolute-path' );
+import isAbsoluteURI = require( './../../is-absolute-uri' );
 import isAccessorProperty = require( './../../is-accessor-property' );
 import isAccessorPropertyIn = require( './../../is-accessor-property-in' );
 import isAlphagram = require( './../../is-alphagram' );
@@ -159,6 +161,7 @@ import isIteratorLike = require( './../../is-iterator-like' );
 import isJSON = require( './../../is-json' );
 import isLeapYear = require( './../../is-leap-year' );
 import IS_LITTLE_ENDIAN = require( './../../is-little-endian' );
+import isLocalhost = require( './../../is-localhost' );
 import isLowercase = require( './../../is-lowercase' );
 import isMatrixLike = require( './../../is-matrix-like' );
 import isMethod = require( './../../is-method' );
@@ -218,6 +221,7 @@ import isPrimitiveArray = require( './../../is-primitive-array' );
 import isPRNGLike = require( './../../is-prng-like' );
 import isProbability = require( './../../is-probability' );
 import isProbabilityArray = require( './../../is-probability-array' );
+import isPropertyKey = require( './../../is-property-key' );
 import isPrototypeOf = require( './../../is-prototype-of' );
 import isRangeError = require( './../../is-range-error' );
 import isReadOnlyProperty = require( './../../is-read-only-property' );
@@ -230,6 +234,7 @@ import isReferenceError = require( './../../is-reference-error' );
 import isRegExp = require( './../../is-regexp' );
 import isRegExpString = require( './../../is-regexp-string' );
 import isRelativePath = require( './../../is-relative-path' );
+import isRelativeURI = require( './../../is-relative-uri' );
 import isSafeInteger = require( './../../is-safe-integer' );
 import isSafeIntegerArray = require( './../../is-safe-integer-array' );
 import isSameValue = require( './../../is-same-value' );
@@ -947,6 +952,38 @@ interface Namespace {
 	instanceOf: typeof instanceOf;
 
 	/**
+	* Tests whether a value is an absolute HTTP(S) URI.
+	*
+	* @param value - value to test
+	* @returns boolean indicating whether a value is an absolute HTTP(S) URI
+	*
+	* @example
+	* var bool = ns.isAbsoluteHttpURI( 'http://example.com/' );
+	* // returns true
+	*
+	* @example
+	* var bool = ns.isAbsoluteHttpURI( 'https://example.com/docs#heading' );
+	* // returns true
+	*
+	* @example
+	* var bool = ns.isAbsoluteHttpURI( 'ftp://example.com' );
+	* // returns false
+	*
+	* @example
+	* var bool = ns.isAbsoluteHttpURI( '/dashboard' );
+	* // returns false
+	*
+	* @example
+	* var bool = ns.isAbsoluteHttpURI( './png.json' );
+	* // returns false
+	*
+	* @example
+	* var bool = ns.isAbsoluteHttpURI( null );
+	* // returns false
+	*/
+	isAbsoluteHttpURI: typeof isAbsoluteHttpURI;
+
+	/**
 	* Tests if a value is an absolute path.
 	*
 	* ## Notes
@@ -984,6 +1021,34 @@ interface Namespace {
 	* // returns false
 	*/
 	isAbsolutePath: typeof isAbsolutePath;
+
+	/**
+	* Tests whether a value is an absolute URI.
+	*
+	* @param value - value to test
+	* @returns boolean indicating whether a value is an absolute URI
+	*
+	* @example
+	* var bool = ns.isAbsoluteURI( 'http://example.com/' );
+	* // returns true
+	*
+	* @example
+	* var bool = ns.isAbsoluteURI( 'https://example.com/docs#heading' );
+	* // returns true
+	*
+	* @example
+	* var bool = ns.isAbsoluteURI( '/dashboard' );
+	* // returns false
+	*
+	* @example
+	* var bool = ns.isAbsoluteURI( './png.json' );
+	* // returns false
+	*
+	* @example
+	* var bool = ns.isAbsoluteURI( null );
+	* // returns false
+	*/
+	isAbsoluteURI: typeof isAbsoluteURI;
 
 	/**
 	* Tests if an object's own property has an accessor descriptor.
@@ -1294,7 +1359,7 @@ interface Namespace {
 	* function beep() {
 	*     return 'beep';
 	* }
-	
+	*
 	* var bool = ns.isArrowFunction( beep );
 	* // returns false
 	*/
@@ -3174,6 +3239,38 @@ interface Namespace {
 	IS_LITTLE_ENDIAN: typeof IS_LITTLE_ENDIAN;
 
 	/**
+	* Tests whether a value is a localhost hostname.
+	*
+	* @param value - value to test
+	* @returns boolean indicating whether value is a localhost hostname
+	*
+	* @example
+	* var bool = ns.isLocalhost( 'localhost' );
+	* // returns true
+	*
+	* @example
+	* var bool = ns.isLocalhost( '127.0.0.1' );
+	* // returns true
+	*
+	* @example
+	* var bool = ns.isLocalhost( '[::1]' );
+	* // returns true
+	*
+	* @example
+	* var bool = ns.isLocalhost( 'wikipedia.org' );
+	* // returns false
+	*
+	* @example
+	* var bool = ns.isLocalhost( 'stdlib.io' );
+	* // returns false
+	*
+	* @example
+	* var bool = ns.isLocalhost( null );
+	* // returns false
+	*/
+	isLocalhost: typeof isLocalhost;
+
+	/**
 	* Tests if a value is a lowercase string.
 	*
 	* @param value - value to test
@@ -4637,6 +4734,34 @@ interface Namespace {
 	isProbabilityArray: typeof isProbabilityArray;
 
 	/**
+	* Tests whether a value is a property key.
+	*
+	* ## Notes
+	*
+	* -   A property key is either a string, symbol, or a nonnegative integer.
+	*
+	* @param value - value to test
+	* @returns boolean indicating whether value is a property key
+	*
+	* @example
+	* var bool = ns.isPropertyKey( 'beep' );
+	* // returns true
+	*
+	* @example
+	* var bool = ns.isPropertyKey( 37 );
+	* // returns true
+	*
+	* @example
+	* var bool = ns.isPropertyKey( {} );
+	* // returns false
+	*
+	* @example
+	* var bool = ns.isPropertyKey( [] );
+	* // returns false
+	*/
+	isPropertyKey: typeof isPropertyKey;
+
+	/**
 	* Tests if an object's prototype chain contains a provided prototype.
 	*
 	* @param value - value to test
@@ -4977,6 +5102,30 @@ interface Namespace {
 	* // returns false
 	*/
 	isRelativePath: typeof isRelativePath;
+
+	/**
+	* Tests whether a value is a relative URI.
+	*
+	* @param value - value to test
+	* @returns boolean indicating whether a value is a relative URI
+	*
+	* @example
+	* var bool = ns.isRelativeURI( './beep/boop' );
+	* // returns true
+	*
+	* @example
+	* var bool = ns.isRelativeURI( '/dashboard/admin' );
+	* // returns true
+	*
+	* @example
+	* var bool = ns.isRelativeURI( 'http://wikipedia.org' );
+	* // returns false
+	*
+	* @example
+	* var bool = ns.isRelativeURI( null );
+	* // returns false
+	*/
+	isRelativeURI: typeof isRelativeURI;
 
 	/**
 	* Tests if a value is a safe integer.
