@@ -23,6 +23,7 @@
 var isString = require( './../../is-string' ).isPrimitive;
 var isObject = require( './../../is-plain-object' );
 var hasOwnProp = require( './../../has-own-property' );
+var format = require( '@stdlib/string/format' );
 
 
 // MAIN //
@@ -48,12 +49,12 @@ var hasOwnProp = require( './../../has-own-property' );
 */
 function validate( opts, options ) {
 	if ( !isObject( options ) ) {
-		return new TypeError( 'invalid argument. Options argument must be an object. Value: `' + options + '`.' );
+		return new TypeError( format( 'invalid argument. Options argument must be an object. Value: `%s`.', options ) );
 	}
 	if ( hasOwnProp( options, 'sep' ) ) {
 		opts.sep = options.sep;
 		if ( !isString( opts.sep ) ) {
-			return new TypeError( 'invalid option. `sep` option must be a string primitive. Option: `' + opts.sep + '`.' );
+			return new TypeError( format( 'invalid option. `%s` option must be a string primitive. Option: `%s`.', 'sep', opts.sep ) );
 		}
 	}
 	return null;
