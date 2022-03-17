@@ -21,6 +21,7 @@
 // MODULES //
 
 var isArray = require( './../../../is-array' );
+var format = require( '@stdlib/string/format' );
 
 
 // MAIN //
@@ -48,7 +49,7 @@ var isArray = require( './../../../is-array' );
 */
 function arrayfcn( predicate ) {
 	if ( typeof predicate !== 'function' ) {
-		throw new TypeError( 'invalid argument. Must provide a function. Value: `' + predicate + '`.' );
+		throw new TypeError( format( 'invalid argument. Must provide a function. Value: `%s`.', predicate ) );
 	}
 	return every;
 
