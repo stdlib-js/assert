@@ -88,6 +88,7 @@ import isBigInt = require( './../../is-bigint' );
 import isBigInt64Array = require( './../../is-bigint64array' );
 import isBigUint64Array = require( './../../is-biguint64array' );
 import isBinaryString = require( './../../is-binary-string' );
+import isBlankString = require( './../../is-blank-string' );
 import isBoolean = require( './../../is-boolean' );
 import isBooleanArray = require( './../../is-boolean-array' );
 import isBoxedPrimitive = require( './../../is-boxed-primitive' );
@@ -124,6 +125,8 @@ import IS_ELECTRON_MAIN = require( './../../is-electron-main' );
 import IS_ELECTRON_RENDERER = require( './../../is-electron-renderer' );
 import isEmailAddress = require( './../../is-email-address' );
 import isEmptyArray = require( './../../is-empty-array' );
+import isEmptyArrayLikeObject = require( './../../is-empty-array-like-object' );
+import isEmptyCollection = require( './../../is-empty-collection' );
 import isEmptyObject = require( './../../is-empty-object' );
 import isEmptyString = require( './../../is-empty-string' );
 import isEnumerableProperty = require( './../../is-enumerable-property' );
@@ -237,6 +240,8 @@ import isRelativePath = require( './../../is-relative-path' );
 import isRelativeURI = require( './../../is-relative-uri' );
 import isSafeInteger = require( './../../is-safe-integer' );
 import isSafeIntegerArray = require( './../../is-safe-integer-array' );
+import isSameNativeClass = require( './../../is-same-native-class' );
+import isSameType = require( './../../is-same-type' );
 import isSameValue = require( './../../is-same-value' );
 import isSameValueZero = require( './../../is-same-value-zero' );
 import isSharedArrayBuffer = require( './../../is-sharedarraybuffer' );
@@ -1568,6 +1573,34 @@ interface Namespace {
 	isBinaryString: typeof isBinaryString;
 
 	/**
+	* Tests if a value is a blank string (i.e., an empty string or a string consisting only of whitespace characters).
+	*
+	* @param value - value to test
+	* @returns boolean indicating if an input value is a blank string
+	*
+	* @example
+	* var bool = ns.isBlankString( '   ' );
+	* // returns true
+	*
+	* @example
+	* var bool = ns.isBlankString( '' );
+	* // returns true
+	*
+	* @example
+	* var bool = ns.isBlankString( '\t\t\t' );
+	* // returns true
+	*
+	* @example
+	* var bool = ns.isBlankString( '\r\n\r\n' );
+	* // returns true
+	*
+	* @example
+	* var bool = ns.isBlankString( 'beep' );
+	* // returns false
+	*/
+	isBlankString: typeof isBlankString;
+
+	/**
 	* Tests if a value is a boolean.
 	*
 	* @param value - value to test
@@ -2371,6 +2404,54 @@ interface Namespace {
 	* // returns false
 	*/
 	isEmptyArray: typeof isEmptyArray;
+
+	/**
+	* Tests if a value is an empty array-like object.
+	*
+	* ## Notes
+	*
+	* -   If provided a string, the function returns `false`.
+	*
+	* @param value - value to test
+	* @returns boolean indicating if a value is an empty array-like object
+	*
+	* @example
+	* var bool = ns.isEmptyArrayLikeObject( [] );
+	* // returns true
+	*
+	* @example
+	* var bool = ns.isEmptyArrayLikeObject( { 'length': 0 } );
+	* // returns true
+	*
+	* @example
+	* var bool = ns.isEmptyArrayLikeObject( '' );
+	* // returns false
+	*/
+	isEmptyArrayLikeObject: typeof isEmptyArrayLikeObject;
+
+	/**
+	* Tests if a value is an empty collection.
+	*
+	* @param value - value to test
+	* @returns boolean indicating whether value is an empty collection
+	*
+	* @example
+	* var bool = ns.isEmptyCollection( [] );
+	* // returns true
+	*
+	* @example
+	* var bool = ns.isEmptyCollection( { 'length': 0 } );
+	* // returns true
+	*
+	* @example
+	* var bool = ns.isEmptyCollection( [ 1, 2, 3 ] );
+	* // returns false
+	*
+	* @example
+	* var bool = ns.isEmptyCollection( {} );
+	* // returns false
+	*/
+	isEmptyCollection: typeof isEmptyCollection;
 
 	/**
 	* Tests if a value is an empty object.
@@ -5210,6 +5291,60 @@ interface Namespace {
 	* // returns false
 	*/
 	isSafeIntegerArray: typeof isSafeIntegerArray;
+
+	/**
+	* Tests if two arguments have the same native class.
+	*
+	* @param a - first input value
+	* @param b - second input value
+	* @returns boolean indicating whether two arguments have the same native class
+	*
+	* @example
+	* var bool = ns.isSameNativeClass( 3.14, new Number( 3.14 ) );
+	* // returns true
+	*
+	* @example
+	* var bool = ns.isSameNativeClass( 'beep', 'boop' );
+	* // returns true
+	*
+	* @example
+	* var bool = ns.isSameNativeClass( [], {} );
+	* // returns false
+	*/
+	isSameNativeClass: typeof isSameNativeClass;
+
+	/**
+	* Tests if two arguments have the same type.
+	*
+	* ## Notes
+	*
+	* -   The function uses the `typeof` operator to test for the same type.
+	*
+	* @param a - first input value
+	* @param b - second input value
+	* @returns boolean indicating whether two arguments have the same type
+	*
+	* @example
+	* var bool = ns.isSameType( true, true );
+	* // returns true
+	*
+	* @example
+	* var bool = ns.isSameType( 3.14, 3.14 );
+	* // returns true
+	*
+	* @example
+	* var bool = ns.isSameType( {}, [] );
+	* // returns true
+	*
+	* @example
+	* var bool = ns.isSameType( NaN, NaN );
+	* // returns true
+	*
+	* @example
+	* var bool = ns.isSameType( 0.0, '0.0' );
+	* // returns false
+	*/
+	isSameType: typeof isSameType;
 
 	/**
 	* Tests if two arguments are the same value.
