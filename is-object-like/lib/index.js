@@ -52,9 +52,14 @@ var arrayfun = require( './../../tools/array-function' );
 var isObjectLike = require( './main.js' );
 
 
+// VARIABLES //
+
+var isObjectLikeArray = arrayfun( isObjectLike );
+
+
 // MAIN //
 
-setReadOnly( isObjectLike, 'isObjectLikeArray', arrayfun( isObjectLike ) );
+setReadOnly( isObjectLike, 'isObjectLikeArray', isObjectLikeArray );
 
 
 // EXPORTS //

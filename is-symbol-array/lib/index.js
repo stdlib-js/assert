@@ -58,11 +58,17 @@ var arrayfun = require( './../../tools/array-like-function' );
 var isSymbol = require( './../../is-symbol' );
 
 
+// VARIABLES //
+
+var isPrimitiveArray = arrayfun( isSymbol.isPrimitive );
+var isObjectArray = arrayfun( isSymbol.isObject );
+
+
 // MAIN //
 
 var isSymbolArray = arrayfun( isSymbol );
-setReadOnly( isSymbolArray, 'primitives', arrayfun( isSymbol.isPrimitive ) );
-setReadOnly( isSymbolArray, 'objects', arrayfun( isSymbol.isObject ) );
+setReadOnly( isSymbolArray, 'primitives', isPrimitiveArray );
+setReadOnly( isSymbolArray, 'objects', isObjectArray );
 
 
 // EXPORTS //

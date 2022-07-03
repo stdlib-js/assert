@@ -55,11 +55,17 @@ var arrayfun = require( './../../tools/array-like-function' );
 var isnan = require( './../../is-nan' );
 
 
+// VARIABLES //
+
+var isPrimitiveArray = arrayfun( isnan.isPrimitive );
+var isObjectArray = arrayfun( isnan.isObject );
+
+
 // MAIN //
 
 var isNaNArray = arrayfun( isnan );
-setReadOnly( isNaNArray, 'primitives', arrayfun( isnan.isPrimitive ) );
-setReadOnly( isNaNArray, 'objects', arrayfun( isnan.isObject ) );
+setReadOnly( isNaNArray, 'primitives', isPrimitiveArray );
+setReadOnly( isNaNArray, 'objects', isObjectArray );
 
 
 // EXPORTS //
