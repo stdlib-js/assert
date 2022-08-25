@@ -37,6 +37,7 @@
   },
   "dependencies": {
     "@stdlib/array": "github:stdlib-js/array#main",
+    "@stdlib/boolean": "github:stdlib-js/boolean#main",
     "@stdlib/cli": "github:stdlib-js/cli#main",
     "@stdlib/complex": "github:stdlib-js/complex#main",
     "@stdlib/constants": "github:stdlib-js/constants#main",
@@ -59,6 +60,7 @@
     "@stdlib/bigint": "github:stdlib-js/bigint",
     "@stdlib/buffer": "github:stdlib-js/buffer",
     "@stdlib/datasets": "github:stdlib-js/datasets",
+    "@stdlib/object": "github:stdlib-js/object",
     "@stdlib/random": "github:stdlib-js/random",
     "proxyquire": "^2.0.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
