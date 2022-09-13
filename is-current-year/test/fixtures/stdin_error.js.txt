@@ -1,4 +1,4 @@
-/*
+/**
 * @license Apache-2.0
 *
 * Copyright (c) 2022 The Stdlib Authors.
@@ -16,33 +16,18 @@
 * limitations under the License.
 */
 
-'use strict';
+var proc = require( 'process' );
+var resolve = require( 'path' ).resolve;
+var proxyquire = require( 'proxyquire' );
 
-// MODULES //
+var fpath = resolve( __dirname, '..', 'bin', 'cli' );
 
-var bench = require( '@stdlib/bench' );
-var isBoolean = require( './../../is-boolean' ).isPrimitive;
-var pkg = require( './../package.json' ).name;
-var isCurrentYear = require( './../lib' );
+proc.stdin.isTTY = false;
 
-
-// MAIN //
-
-bench( pkg, function benchmark( b ) {
-	var y;
-	var i;
-
-	b.tic();
-	for ( i = 0; i < b.iterations; i++ ) {
-		y = isCurrentYear( i );
-		if ( !isBoolean( y ) ) {
-			b.fail( 'should return a boolean' );
-		}
-	}
-	b.toc();
-	if ( !isBoolean( y ) ) {
-		b.fail( 'should return a boolean' );
-	}
-	b.pass( 'benchmark finished' );
-	b.end();
+proxyquire( fpath, {
+	'@stdlib/process-read-stdin': stdin
 });
+
+function stdin( clbk ) {
+	clbk( new Error( 'beep' ) );
+}
