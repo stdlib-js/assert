@@ -21,6 +21,7 @@
 // MODULES //
 
 var isFunction = require( './../../is-function' );
+var Object = require( '@stdlib/object/ctor' );
 
 
 // MAIN //
