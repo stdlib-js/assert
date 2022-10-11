@@ -113,11 +113,13 @@ import isComposite = require( './../../is-composite' );
 import isConfigurableProperty = require( './../../is-configurable-property' );
 import isConfigurablePropertyIn = require( './../../is-configurable-property-in' );
 import isCubeNumber = require( './../../is-cube-number' );
+import isCurrentYear = require( './../../is-current-year' );
 import IS_DARWIN = require( './../../is-darwin' );
 import isDataProperty = require( './../../is-data-property' );
 import isDataPropertyIn = require( './../../is-data-property-in' );
 import isDataView = require( './../../is-dataview' );
 import isDateObject = require( './../../is-date-object' );
+import isDateObjectArray = require( './../../is-date-object-array' );
 import isDigitString = require( './../../is-digit-string' );
 import IS_DOCKER = require( './../../is-docker' );
 import IS_ELECTRON = require( './../../is-electron' );
@@ -244,6 +246,7 @@ import isSameNativeClass = require( './../../is-same-native-class' );
 import isSameType = require( './../../is-same-type' );
 import isSameValue = require( './../../is-same-value' );
 import isSameValueZero = require( './../../is-same-value-zero' );
+import isSemVer = require( './../../is-semver' );
 import isSharedArrayBuffer = require( './../../is-sharedarraybuffer' );
 import isSkewCentrosymmetricMatrix = require( './../../is-skew-centrosymmetric-matrix' );
 import isSkewPersymmetricMatrix = require( './../../is-skew-persymmetric-matrix' );
@@ -1615,10 +1618,14 @@ interface Namespace {
 	* // returns true
 	*
 	* @example
+	* var Boolean = require( `@stdlib/boolean/ctor` );
+	*
 	* var bool = ns.isBoolean.isPrimitive( new Boolean( true ) );
 	* // returns false
 	*
 	* @example
+	* var Boolean = require( `@stdlib/boolean/ctor` );
+	*
 	* var bool = ns.isBoolean.isObject( new Boolean( false ) );
 	* // returns true
 	*/
@@ -1643,6 +1650,8 @@ interface Namespace {
 	* // returns true
 	*
 	* @example
+	* var Boolean = require( `@stdlib/boolean/ctor` );
+	*
 	* var bool = ns.isBooleanArray.objects( [ new Boolean( false ), new Boolean( true ) ] );
 	* // returns true
 	*/
@@ -2189,6 +2198,31 @@ interface Namespace {
 	isCubeNumber: typeof isCubeNumber;
 
 	/**
+	* Tests if a value is either an integer equal to the current year or a `Date` object representing the current year.
+	*
+	* @param value - value to test
+	* @returns boolean indicating whether a provided value is the current year
+	*
+	* @example
+	* var bool = ns.isCurrentYear( new Date() );
+	* // returns true
+	*
+	* @example
+	* var currentYear = require( `@stdlib/time/current-year` );
+	* var bool = ns.isCurrentYear( currentYear() );
+	* // returns true
+	*
+	* @example
+	* var bool = ns.isCurrentYear( 2021 );
+	* // returns false
+	*
+	* @example
+	* var bool = ns.isCurrentYear( null );
+	* // returns false
+	*/
+	isCurrentYear: typeof isCurrentYear;
+
+	/**
 	* Boolean indicating if the current process is running on Darwin.
 	*
 	* @example
@@ -2300,6 +2334,8 @@ interface Namespace {
 	* // returns false
 	*/
 	isDateObject: typeof isDateObject;
+
+	isDateObjectArray: typeof isDateObjectArray;
 
 	/**
 	* Tests whether a string contains only numeric digits.
@@ -5427,6 +5463,30 @@ interface Namespace {
 	* // returns false
 	*/
 	isSameValueZero: typeof isSameValueZero;
+
+	/**
+	* Tests if a value is a semantic version string.
+	*
+	* @param value - value to test
+	* @returns boolean indicating whether a provided value is a semantic version string
+	*
+	* @example
+	* var bool = ns.isSemVer( '1.0.0' );
+	* // returns true
+	*
+	* @example
+	* var bool = ns.isSemVer( '1.0.0-alpha.1' );
+	* // returns true
+	*
+	* @example
+	* var bool = ns.isSemVer( '0.1' );
+	* // returns false
+	*
+	* @example
+	* var bool = ns.isSemVer( null );
+	* // returns false
+	*/
+	isSemVer: typeof isSemVer;
 
 	/**
 	* Tests if a value is a `SharedArrayBuffer`.
