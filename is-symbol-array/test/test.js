@@ -22,6 +22,7 @@
 
 var tape = require( 'tape' );
 var Symbol = require( '@stdlib/symbol/ctor' );
+var Object = require( '@stdlib/object/ctor' );
 var hasSymbols = require( './../../has-symbol-support' );
 var isSymbolArray = require( './../lib' );
 
