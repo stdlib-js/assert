@@ -21,6 +21,7 @@
 // MODULES //
 
 var hasOwnProp = require( './../../has-own-property' );
+var Symbol = require( '@stdlib/symbol/ctor' );
 
 
 // MAIN //
