@@ -94,6 +94,7 @@ import isBooleanArray = require( './../../is-boolean-array' );
 import isBoxedPrimitive = require( './../../is-boxed-primitive' );
 import IS_BROWSER = require( './../../is-browser' );
 import isBuffer = require( './../../is-buffer' );
+import isCamelcase = require( './../../is-camelcase' );
 import isCapitalized = require( './../../is-capitalized' );
 import isCentrosymmetricMatrix = require( './../../is-centrosymmetric-matrix' );
 import isCircular = require( './../../is-circular' );
@@ -112,6 +113,7 @@ import isComplex128Array = require( './../../is-complex128array' );
 import isComposite = require( './../../is-composite' );
 import isConfigurableProperty = require( './../../is-configurable-property' );
 import isConfigurablePropertyIn = require( './../../is-configurable-property-in' );
+import isConstantcase = require( './../../is-constantcase' );
 import isCubeNumber = require( './../../is-cube-number' );
 import isCurrentYear = require( './../../is-current-year' );
 import IS_DARWIN = require( './../../is-darwin' );
@@ -122,6 +124,7 @@ import isDateObject = require( './../../is-date-object' );
 import isDateObjectArray = require( './../../is-date-object-array' );
 import isDigitString = require( './../../is-digit-string' );
 import IS_DOCKER = require( './../../is-docker' );
+import isDomainName = require( './../../is-domain-name' );
 import IS_ELECTRON = require( './../../is-electron' );
 import IS_ELECTRON_MAIN = require( './../../is-electron-main' );
 import IS_ELECTRON_RENDERER = require( './../../is-electron-renderer' );
@@ -164,6 +167,7 @@ import isIntegerArray = require( './../../is-integer-array' );
 import isIterableLike = require( './../../is-iterable-like' );
 import isIteratorLike = require( './../../is-iterator-like' );
 import isJSON = require( './../../is-json' );
+import isKebabcase = require( './../../is-kebabcase' );
 import isLeapYear = require( './../../is-leap-year' );
 import IS_LITTLE_ENDIAN = require( './../../is-little-endian' );
 import isLocalhost = require( './../../is-localhost' );
@@ -212,6 +216,7 @@ import isObject = require( './../../is-object' );
 import isObjectArray = require( './../../is-object-array' );
 import isObjectLike = require( './../../is-object-like' );
 import isOdd = require( './../../is-odd' );
+import isPascalcase = require( './../../is-pascalcase' );
 import isPersymmetricMatrix = require( './../../is-persymmetric-matrix' );
 import isPlainObject = require( './../../is-plain-object' );
 import isPlainObjectArray = require( './../../is-plain-object-array' );
@@ -251,6 +256,7 @@ import isSharedArrayBuffer = require( './../../is-sharedarraybuffer' );
 import isSkewCentrosymmetricMatrix = require( './../../is-skew-centrosymmetric-matrix' );
 import isSkewPersymmetricMatrix = require( './../../is-skew-persymmetric-matrix' );
 import isSkewSymmetricMatrix = require( './../../is-skew-symmetric-matrix' );
+import isSnakecase = require( './../../is-snakecase' );
 import isSquareMatrix = require( './../../is-square-matrix' );
 import isSquareNumber = require( './../../is-square-number' );
 import isSquareTriangularNumber = require( './../../is-square-triangular-number' );
@@ -288,6 +294,7 @@ import isWritableProperty = require( './../../is-writable-property' );
 import isWritablePropertyIn = require( './../../is-writable-property-in' );
 import isWriteOnlyProperty = require( './../../is-write-only-property' );
 import isWriteOnlyPropertyIn = require( './../../is-write-only-property-in' );
+import tools = require( './../../tools' );
 
 /**
 * Interface describing the `assert` namespace.
@@ -1725,6 +1732,30 @@ interface Namespace {
 	isBuffer: typeof isBuffer;
 
 	/**
+	* Tests if a value is a camelcase string.
+	*
+	* @param value - value to test
+	* @returns boolean indicating whether value is a camelcase string
+	*
+	* @example
+	* var bool = ns.isCamelcase( 'beepBoop' );
+	* // returns true
+	*
+	* @example
+	* var bool = ns.isCamelcase( 'HelloWorld' );
+	* // returns true
+	*
+	* @example
+	* var bool = ns.isCamelcase( 'Hello World' );
+	* // returns false
+	*
+	* @example
+	* var bool = ns.isCamelcase( 'hello world' );
+	* // returns false
+	*/
+	isCamelcase: typeof isCamelcase;
+
+	/**
 	* Tests if a value is a string having an uppercase first character.
 	*
 	* @param value - value to test
@@ -2162,6 +2193,36 @@ interface Namespace {
 	isConfigurablePropertyIn: typeof isConfigurablePropertyIn;
 
 	/**
+	* Tests if a value is a constantcase string.
+	*
+	* @param value - value to test
+	* @returns boolean indicating whether a value is a constantcase string
+	*
+	* @example
+	* var bool = ns.isConstantcase( 'BEEP_BOOP' );
+	* // returns true
+	*
+	* bool = ns.isConstantcase( 'beep_boop' );
+	* // returns false
+	*
+	* bool = ns.isConstantcase( 'BEEP-BOOP' );
+	* // returns false
+	*
+	* bool = ns.isConstantcase( 'beep boop' );
+	* // returns false
+	*
+	* bool = ns.isConstantcase( 'beep' );
+	* // returns false
+	*
+	* bool = ns.isConstantcase( '' );
+	* // returns false
+	*
+	* bool = ns.isConstantcase( null );
+	* // returns false
+	*/
+	isConstantcase: typeof isConstantcase;
+
+	/**
 	* Tests if a value is a cube number.
 	*
 	* @param value - value to test
@@ -2369,6 +2430,22 @@ interface Namespace {
 	* // returns <boolean>
 	*/
 	IS_DOCKER: typeof IS_DOCKER;
+
+	/**
+	* Tests if a value is a domain name.
+	*
+	* @param value - value to test
+	* @returns boolean indicating whether a value is a domain name
+	*
+	* @example
+	* var bool = ns.isDomainName( 'beep.boop' );
+	* // returns true
+	*
+	* @example
+	* var bool = ns.isDomainName( 'foo@bar.com' );
+	* // returns false
+	*/
+	isDomainName: typeof isDomainName;
 
 	/**
 	* Boolean indicating if the runtime is Electron.
@@ -3317,6 +3394,30 @@ interface Namespace {
 	* // returns false
 	*/
 	isJSON: typeof isJSON;
+
+	/**
+	* Tests if a value is a string in kebab case.
+	*
+	* @param value - value to test
+	* @returns boolean indicating whether a value is a string in kebab case
+	*
+	* @example
+	* var bool = ns.isKebabcase( `beep-boop` );
+	* // returns true
+	*
+	* @example
+	* var bool = ns.isKebabcase( `Beep-boop` );
+	* // returns false
+	*
+	* @example
+	* var bool = ns.isKebabcase( `BEEP_BOOP` );
+	* // returns false
+	*
+	* @example
+	* var bool = ns.isKebabcase( 1 );
+	* // returns false
+	*/
+	isKebabcase: typeof isKebabcase;
 
 	/**
 	* Tests whether a value corresponds to a leap year in the Gregorian calendar.
@@ -4483,6 +4584,30 @@ interface Namespace {
 	isOdd: typeof isOdd;
 
 	/**
+	* Tests if a value is a string in Pascal case.
+	*
+	* @param value - value to test
+	* @returns boolean indicating whether a value is a string in Pascal case
+	*
+	* @example
+	* var bool = ns.isPascalcase( 'HelloWorld' );
+	* // returns true
+	*
+	* @example
+	* var bool = ns.isPascalcase( 'helloWorld' );
+	* // returns false
+	*
+	* @example
+	* var bool = ns.isPascalcase( 'HELLO_WORLD' );
+	* // returns false
+	*
+	* @example
+	* var bool = ns.isPascalcase( null );
+	* // returns false
+	*/
+	isPascalcase: typeof isPascalcase;
+
+	/**
 	* Tests if a value is a persymmetric matrix.
 	*
 	* ## Notes
@@ -5580,6 +5705,34 @@ interface Namespace {
 	isSkewSymmetricMatrix: typeof isSkewSymmetricMatrix;
 
 	/**
+	* Tests if a value is a string in snake case.
+	*
+	* @param value - value to test
+	* @returns boolean indicating whether a value is a string in snake case
+	*
+	* @example
+	* var bool = ns.isSnakecase( 'hello_world' );
+	* // returns true
+	*
+	* @example
+	* var bool = ns.isSnakecase( 'Hello World' );
+	* // returns false
+	*
+	* @example
+	* var bool = ns.isSnakecase( 'Hello_World' );
+	* // returns false
+	*
+	* @example
+	* var bool = ns.isSnakecase( '' );
+	* // returns true
+	*
+	* @example
+	* var bool = ns.isSnakecase( null );
+	* // returns false
+	*/
+	isSnakecase: typeof isSnakecase;
+
+	/**
 	* Tests if a value is a 2-dimensional ndarray-like object having equal dimensions.
 	*
 	* @param v - value to test
@@ -6548,6 +6701,11 @@ interface Namespace {
 	* // returns true
 	*/
 	isWriteOnlyPropertyIn: typeof isWriteOnlyPropertyIn;
+
+	/**
+	* Assertion utility tools.
+	*/
+	tools: typeof tools;
 }
 
 /**
