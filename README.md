@@ -410,6 +410,7 @@ The remaining namespace utilities are as follows:
 -   <span class="signature">[`isDataView( value )`][@stdlib/assert/is-dataview]</span><span class="delimiter">: </span><span class="description">test if a value is a DataView.</span>
 -   <span class="signature">[`isDigitString( value )`][@stdlib/assert/is-digit-string]</span><span class="delimiter">: </span><span class="description">test whether a string contains only numeric digits.</span>
 -   <span class="signature">[`isDomainName( value )`][@stdlib/assert/is-domain-name]</span><span class="delimiter">: </span><span class="description">test if a value is a domain name.</span>
+-   <span class="signature">[`isDurationString( value )`][@stdlib/assert/is-duration-string]</span><span class="delimiter">: </span><span class="description">test if a value is a duration string.</span>
 -   <span class="signature">[`isEmailAddress( value )`][@stdlib/assert/is-email-address]</span><span class="delimiter">: </span><span class="description">test if a value is an email address.</span>
 -   <span class="signature">[`isEmptyCollection( value )`][@stdlib/assert/is-empty-collection]</span><span class="delimiter">: </span><span class="description">test if a value is an empty collection.</span>
 -   <span class="signature">[`isEmptyObject( value )`][@stdlib/assert/is-empty-object]</span><span class="delimiter">: </span><span class="description">test if a value is an empty object.</span>
@@ -672,6 +673,8 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [@stdlib/assert/is-digit-string]: https://github.com/stdlib-js/assert/tree/main/is-digit-string
 
 [@stdlib/assert/is-domain-name]: https://github.com/stdlib-js/assert/tree/main/is-domain-name
+
+[@stdlib/assert/is-duration-string]: https://github.com/stdlib-js/assert/tree/main/is-duration-string
 
 [@stdlib/assert/is-email-address]: https://github.com/stdlib-js/assert/tree/main/is-email-address
 
