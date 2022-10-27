@@ -125,6 +125,7 @@ import isDateObjectArray = require( './../../is-date-object-array' );
 import isDigitString = require( './../../is-digit-string' );
 import IS_DOCKER = require( './../../is-docker' );
 import isDomainName = require( './../../is-domain-name' );
+import isDurationString = require( './../../is-duration-string' );
 import IS_ELECTRON = require( './../../is-electron' );
 import IS_ELECTRON_MAIN = require( './../../is-electron-main' );
 import IS_ELECTRON_RENDERER = require( './../../is-electron-renderer' );
@@ -2446,6 +2447,38 @@ interface Namespace {
 	* // returns false
 	*/
 	isDomainName: typeof isDomainName;
+
+	/**
+	* Tests if a value is a duration string.
+	*
+	* ## Notes
+	*
+	* -   The function validates that a value is a string. For all other types, the function returns `false`.
+	*
+	* -   A duration string is a string containing a sequence of time units. A time unit is a non-negative integer followed by a unit identifier. The following unit identifiers are supported:
+	*
+	*     -   `d`: days
+	*     -   `h`: hours
+	*     -   `m`: minutes
+	*     -   `s`: seconds
+	*     -   `ms`: milliseconds
+	*
+	*     For example, the string `1m3s10ms` is a duration string containing three time units: `1m` (1 minute), `3s` (3 seconds), and `10ms` (10 milliseconds). The string `60m` is a duration string containing a single time unit: `60m` (60 minutes). Time units must be supplied in descending order of magnitude (i.e., days, hours, minutes, seconds, milliseconds).
+	*
+	* -   Duration strings are case insensitive. For example, the string `1M3S10MS` is equivalent to `1m3s10ms`.
+	*
+	* @param value - value to test
+	* @returns boolean indicating if a value is a duration string
+	*
+	* @example
+	* var bool = ns.isDurationString( '1d' );
+	* // returns true
+	*
+	* @example
+	* var bool = ns.isDurationString( '1d2h' );
+	* // returns true
+	*/
+	isDurationString: typeof isDurationString;
 
 	/**
 	* Boolean indicating if the runtime is Electron.
