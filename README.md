@@ -24,14 +24,30 @@ limitations under the License.
 
 > Assertion utilities.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/assert
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import assert from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert@deno/mod.js';
+var assert = require( '@stdlib/assert' );
 ```
 
 #### assert
@@ -71,7 +87,8 @@ For primitive types having corresponding object wrappers, assertion utilities pr
 <!-- eslint-disable no-new-wrappers -->
 
 ```javascript
-import isBoolean from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert/is-boolean@deno/mod.js';
+var Boolean = require( '@stdlib/boolean/ctor' );
+var isBoolean = require( '@stdlib/assert/is-boolean' );
 
 var bool = isBoolean.isObject( new Boolean( false ) );
 // returns true
@@ -91,6 +108,7 @@ Many of the assertion utilities have corresponding packages that test whether ar
 
 -   <span class="signature">[`isArrayArray( value )`][@stdlib/assert/is-array-array]</span><span class="delimiter">: </span><span class="description">test if a value is an array of arrays.</span>
 -   <span class="signature">[`isBooleanArray( value )`][@stdlib/assert/is-boolean-array]</span><span class="delimiter">: </span><span class="description">test if a value is an array-like object of booleans.</span>
+-   <span class="signature">[`isDateObjectArray( value )`][@stdlib/assert/is-date-object-array]</span><span class="delimiter">: </span><span class="description">test if a value is an array-like object containing only Date objects.</span>
 -   <span class="signature">[`isFunctionArray( value )`][@stdlib/assert/is-function-array]</span><span class="delimiter">: </span><span class="description">test if a value is an array-like object containing only functions.</span>
 -   <span class="signature">[`isNaNArray( value )`][@stdlib/assert/is-nan-array]</span><span class="delimiter">: </span><span class="description">test if a value is an array-like object containing only NaN values.</span>
 -   <span class="signature">[`isNullArray( value )`][@stdlib/assert/is-null-array]</span><span class="delimiter">: </span><span class="description">test if a value is an array-like object containing only null values.</span>
@@ -108,7 +126,7 @@ Where applicable, similar to the assertion utilities for built-in data types, ar
 <!-- eslint-disable no-new-wrappers -->
 
 ```javascript
-import isStringArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert/is-string-array@deno/mod.js';
+var isStringArray = require( '@stdlib/assert/is-string-array' );
 
 var bool = isStringArray( [ 'hello', 'world' ] );
 // returns true
@@ -240,6 +258,7 @@ The namespace includes utilities for validating other special arrays or buffers:
 -   <span class="signature">[`isBigInt64Array( value )`][@stdlib/assert/is-bigint64array]</span><span class="delimiter">: </span><span class="description">test if a value is a BigInt64Array.</span>
 -   <span class="signature">[`isBigUint64Array( value )`][@stdlib/assert/is-biguint64array]</span><span class="delimiter">: </span><span class="description">test if a value is a BigUint64Array.</span>
 -   <span class="signature">[`isCircularArray( value )`][@stdlib/assert/is-circular-array]</span><span class="delimiter">: </span><span class="description">test if a value is an array containing a circular reference.</span>
+-   <span class="signature">[`isEmptyArrayLikeObject( value )`][@stdlib/assert/is-empty-array-like-object]</span><span class="delimiter">: </span><span class="description">test if a value is an empty array-like object.</span>
 -   <span class="signature">[`isEmptyArray( value )`][@stdlib/assert/is-empty-array]</span><span class="delimiter">: </span><span class="description">test if a value is an empty array.</span>
 -   <span class="signature">[`isFalsyArray( value )`][@stdlib/assert/is-falsy-array]</span><span class="delimiter">: </span><span class="description">test if a value is an array-like object containing only falsy values.</span>
 -   <span class="signature">[`isFiniteArray( value )`][@stdlib/assert/is-finite-array]</span><span class="delimiter">: </span><span class="description">test if a value is an array-like object containing only finite numbers.</span>
@@ -372,8 +391,10 @@ The remaining namespace utilities are as follows:
 -   <span class="signature">[`isBetween( value, a, b[, left, right] )`][@stdlib/assert/is-between]</span><span class="delimiter">: </span><span class="description">test if a value is between two values.</span>
 -   <span class="signature">[`isBigInt( value )`][@stdlib/assert/is-bigint]</span><span class="delimiter">: </span><span class="description">test if a value is a BigInt.</span>
 -   <span class="signature">[`isBinaryString( value )`][@stdlib/assert/is-binary-string]</span><span class="delimiter">: </span><span class="description">test if a value is a binary string.</span>
+-   <span class="signature">[`isBlankString( value )`][@stdlib/assert/is-blank-string]</span><span class="delimiter">: </span><span class="description">test if a value is a blank string.</span>
 -   <span class="signature">[`isBoxedPrimitive( value )`][@stdlib/assert/is-boxed-primitive]</span><span class="delimiter">: </span><span class="description">test if a value is a JavaScript boxed primitive.</span>
 -   <span class="signature">[`isBuffer( value )`][@stdlib/assert/is-buffer]</span><span class="delimiter">: </span><span class="description">test if a value is a Buffer object.</span>
+-   <span class="signature">[`isCamelcase( value )`][@stdlib/assert/is-camelcase]</span><span class="delimiter">: </span><span class="description">test if a value is a camelcase string.</span>
 -   <span class="signature">[`isCapitalized( value )`][@stdlib/assert/is-capitalized]</span><span class="delimiter">: </span><span class="description">test if a value is a string having an uppercase first character.</span>
 -   <span class="signature">[`isCircular( value )`][@stdlib/assert/is-circular]</span><span class="delimiter">: </span><span class="description">test if a value is a plain object containing a circular reference.</span>
 -   <span class="signature">[`isCircular( value )`][@stdlib/assert/is-circular]</span><span class="delimiter">: </span><span class="description">test if an object-like value contains a circular reference.</span>
@@ -382,11 +403,16 @@ The remaining namespace utilities are as follows:
 -   <span class="signature">[`isComposite( value )`][@stdlib/assert/is-composite]</span><span class="delimiter">: </span><span class="description">test if a value is a composite number.</span>
 -   <span class="signature">[`isConfigurablePropertyIn( value, property )`][@stdlib/assert/is-configurable-property-in]</span><span class="delimiter">: </span><span class="description">test if an object's own or inherited property is configurable.</span>
 -   <span class="signature">[`isConfigurableProperty( value, property )`][@stdlib/assert/is-configurable-property]</span><span class="delimiter">: </span><span class="description">test if an object's own property is configurable.</span>
+-   <span class="signature">[`isConstantcase( value )`][@stdlib/assert/is-constantcase]</span><span class="delimiter">: </span><span class="description">test if a value is a constantcase string.</span>
+-   <span class="signature">[`isCurrentYear( value )`][@stdlib/assert/is-current-year]</span><span class="delimiter">: </span><span class="description">test if a value is the current year.</span>
 -   <span class="signature">[`isDataPropertyIn( value, property )`][@stdlib/assert/is-data-property-in]</span><span class="delimiter">: </span><span class="description">test if an object's own or inherited property has a data descriptor.</span>
 -   <span class="signature">[`isDataProperty( value, property )`][@stdlib/assert/is-data-property]</span><span class="delimiter">: </span><span class="description">test if an object's own property has a data descriptor.</span>
 -   <span class="signature">[`isDataView( value )`][@stdlib/assert/is-dataview]</span><span class="delimiter">: </span><span class="description">test if a value is a DataView.</span>
 -   <span class="signature">[`isDigitString( value )`][@stdlib/assert/is-digit-string]</span><span class="delimiter">: </span><span class="description">test whether a string contains only numeric digits.</span>
+-   <span class="signature">[`isDomainName( value )`][@stdlib/assert/is-domain-name]</span><span class="delimiter">: </span><span class="description">test if a value is a domain name.</span>
+-   <span class="signature">[`isDurationString( value )`][@stdlib/assert/is-duration-string]</span><span class="delimiter">: </span><span class="description">test if a value is a duration string.</span>
 -   <span class="signature">[`isEmailAddress( value )`][@stdlib/assert/is-email-address]</span><span class="delimiter">: </span><span class="description">test if a value is an email address.</span>
+-   <span class="signature">[`isEmptyCollection( value )`][@stdlib/assert/is-empty-collection]</span><span class="delimiter">: </span><span class="description">test if a value is an empty collection.</span>
 -   <span class="signature">[`isEmptyObject( value )`][@stdlib/assert/is-empty-object]</span><span class="delimiter">: </span><span class="description">test if a value is an empty object.</span>
 -   <span class="signature">[`isEmptyString( value )`][@stdlib/assert/is-empty-string]</span><span class="delimiter">: </span><span class="description">test if a value is an empty string.</span>
 -   <span class="signature">[`isEnumerablePropertyIn( value, property )`][@stdlib/assert/is-enumerable-property-in]</span><span class="delimiter">: </span><span class="description">test if an object's own or inherited property is enumerable.</span>
@@ -403,6 +429,7 @@ The remaining namespace utilities are as follows:
 -   <span class="signature">[`isIterableLike( value )`][@stdlib/assert/is-iterable-like]</span><span class="delimiter">: </span><span class="description">test if a value is `iterable`-like.</span>
 -   <span class="signature">[`isIteratorLike( value )`][@stdlib/assert/is-iterator-like]</span><span class="delimiter">: </span><span class="description">test if a value is `iterator`-like.</span>
 -   <span class="signature">[`isJSON( value )`][@stdlib/assert/is-json]</span><span class="delimiter">: </span><span class="description">test if a value is a parseable JSON string.</span>
+-   <span class="signature">[`isKebabcase( value )`][@stdlib/assert/is-kebabcase]</span><span class="delimiter">: </span><span class="description">test if a value is a string in kebab case.</span>
 -   <span class="signature">[`isLeapYear( [value] )`][@stdlib/assert/is-leap-year]</span><span class="delimiter">: </span><span class="description">test if a value corresponds to a leap year in the Gregorian calendar.</span>
 -   <span class="signature">[`isLocalhost( value )`][@stdlib/assert/is-localhost]</span><span class="delimiter">: </span><span class="description">test whether a value is a localhost hostname.</span>
 -   <span class="signature">[`isLowercase( value )`][@stdlib/assert/is-lowercase]</span><span class="delimiter">: </span><span class="description">test if a value is a lowercase string.</span>
@@ -424,6 +451,7 @@ The remaining namespace utilities are as follows:
 -   <span class="signature">[`isNonEnumerableProperty( value, property )`][@stdlib/assert/is-nonenumerable-property]</span><span class="delimiter">: </span><span class="description">test if an object's own property is non-enumerable.</span>
 -   <span class="signature">[`isObjectLike( value )`][@stdlib/assert/is-object-like]</span><span class="delimiter">: </span><span class="description">test if a value is object-like.</span>
 -   <span class="signature">[`isOdd( value )`][@stdlib/assert/is-odd]</span><span class="delimiter">: </span><span class="description">test if a value is an odd number.</span>
+-   <span class="signature">[`isPascalcase( value )`][@stdlib/assert/is-pascalcase]</span><span class="delimiter">: </span><span class="description">test if a value is a string in Pascal case.</span>
 -   <span class="signature">[`isPlainObject( value )`][@stdlib/assert/is-plain-object]</span><span class="delimiter">: </span><span class="description">test if a value is a plain object.</span>
 -   <span class="signature">[`isPositiveZero( value )`][@stdlib/assert/is-positive-zero]</span><span class="delimiter">: </span><span class="description">test if a value is a number equal to positive zero.</span>
 -   <span class="signature">[`isPrime( value )`][@stdlib/assert/is-prime]</span><span class="delimiter">: </span><span class="description">test if a value is a prime number.</span>
@@ -441,8 +469,12 @@ The remaining namespace utilities are as follows:
 -   <span class="signature">[`isRegExpString( value )`][@stdlib/assert/is-regexp-string]</span><span class="delimiter">: </span><span class="description">test if a value is a regular expression string.</span>
 -   <span class="signature">[`isRelativePath( value )`][@stdlib/assert/is-relative-path]</span><span class="delimiter">: </span><span class="description">test if a value is a relative path.</span>
 -   <span class="signature">[`isRelativeURI( value )`][@stdlib/assert/is-relative-uri]</span><span class="delimiter">: </span><span class="description">test whether a value is a relative URI.</span>
+-   <span class="signature">[`isSameNativeClass( a, b )`][@stdlib/assert/is-same-native-class]</span><span class="delimiter">: </span><span class="description">test if two arguments have the same native class.</span>
+-   <span class="signature">[`isSameType( a, b )`][@stdlib/assert/is-same-type]</span><span class="delimiter">: </span><span class="description">test if two arguments have the same type.</span>
 -   <span class="signature">[`isSameValueZero( a, b )`][@stdlib/assert/is-same-value-zero]</span><span class="delimiter">: </span><span class="description">test if two arguments are the same value.</span>
 -   <span class="signature">[`isSameValue( a, b )`][@stdlib/assert/is-same-value]</span><span class="delimiter">: </span><span class="description">test if two arguments are the same value.</span>
+-   <span class="signature">[`isSemVer( value )`][@stdlib/assert/is-semver]</span><span class="delimiter">: </span><span class="description">test if a value is a semantic version string.</span>
+-   <span class="signature">[`isSnakecase( value )`][@stdlib/assert/is-snakecase]</span><span class="delimiter">: </span><span class="description">test if a value is a string in snake case.</span>
 -   <span class="signature">[`isStrictEqual( a, b )`][@stdlib/assert/is-strict-equal]</span><span class="delimiter">: </span><span class="description">test if two arguments are strictly equal.</span>
 -   <span class="signature">[`isTruthy( value )`][@stdlib/assert/is-truthy]</span><span class="delimiter">: </span><span class="description">test if a value is truthy.</span>
 -   <span class="signature">[`isUNCPath( value )`][@stdlib/assert/is-unc-path]</span><span class="delimiter">: </span><span class="description">test if a value is a UNC path.</span>
@@ -454,6 +486,7 @@ The remaining namespace utilities are as follows:
 -   <span class="signature">[`isWritableProperty( value, property )`][@stdlib/assert/is-writable-property]</span><span class="delimiter">: </span><span class="description">test if an object's own property is writable.</span>
 -   <span class="signature">[`isWriteOnlyPropertyIn( value, property )`][@stdlib/assert/is-write-only-property-in]</span><span class="delimiter">: </span><span class="description">test if an object's own or inherited property is write-only.</span>
 -   <span class="signature">[`isWriteOnlyProperty( value, property )`][@stdlib/assert/is-write-only-property]</span><span class="delimiter">: </span><span class="description">test if an object's own property is write-only.</span>
+-   <span class="signature">[`tools`][@stdlib/assert/tools]</span><span class="delimiter">: </span><span class="description">assertion utility tools.</span>
 
 </div>
 
@@ -472,8 +505,8 @@ The remaining namespace utilities are as follows:
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils/keys@deno/mod.js';
-import assert from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert@deno/mod.js';
+var objectKeys = require( '@stdlib/utils/keys' );
+var assert = require( '@stdlib/assert' );
 
 console.log( objectKeys( assert ) );
 ```
@@ -499,7 +532,7 @@ console.log( objectKeys( assert ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -605,9 +638,13 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/assert/is-binary-string]: https://github.com/stdlib-js/assert/tree/main/is-binary-string
 
+[@stdlib/assert/is-blank-string]: https://github.com/stdlib-js/assert/tree/main/is-blank-string
+
 [@stdlib/assert/is-boxed-primitive]: https://github.com/stdlib-js/assert/tree/main/is-boxed-primitive
 
 [@stdlib/assert/is-buffer]: https://github.com/stdlib-js/assert/tree/main/is-buffer
+
+[@stdlib/assert/is-camelcase]: https://github.com/stdlib-js/assert/tree/main/is-camelcase
 
 [@stdlib/assert/is-capitalized]: https://github.com/stdlib-js/assert/tree/main/is-capitalized
 
@@ -623,6 +660,10 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/assert/is-configurable-property]: https://github.com/stdlib-js/assert/tree/main/is-configurable-property
 
+[@stdlib/assert/is-constantcase]: https://github.com/stdlib-js/assert/tree/main/is-constantcase
+
+[@stdlib/assert/is-current-year]: https://github.com/stdlib-js/assert/tree/main/is-current-year
+
 [@stdlib/assert/is-data-property-in]: https://github.com/stdlib-js/assert/tree/main/is-data-property-in
 
 [@stdlib/assert/is-data-property]: https://github.com/stdlib-js/assert/tree/main/is-data-property
@@ -631,7 +672,13 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/assert/is-digit-string]: https://github.com/stdlib-js/assert/tree/main/is-digit-string
 
+[@stdlib/assert/is-domain-name]: https://github.com/stdlib-js/assert/tree/main/is-domain-name
+
+[@stdlib/assert/is-duration-string]: https://github.com/stdlib-js/assert/tree/main/is-duration-string
+
 [@stdlib/assert/is-email-address]: https://github.com/stdlib-js/assert/tree/main/is-email-address
+
+[@stdlib/assert/is-empty-collection]: https://github.com/stdlib-js/assert/tree/main/is-empty-collection
 
 [@stdlib/assert/is-empty-object]: https://github.com/stdlib-js/assert/tree/main/is-empty-object
 
@@ -664,6 +711,8 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [@stdlib/assert/is-iterator-like]: https://github.com/stdlib-js/assert/tree/main/is-iterator-like
 
 [@stdlib/assert/is-json]: https://github.com/stdlib-js/assert/tree/main/is-json
+
+[@stdlib/assert/is-kebabcase]: https://github.com/stdlib-js/assert/tree/main/is-kebabcase
 
 [@stdlib/assert/is-leap-year]: https://github.com/stdlib-js/assert/tree/main/is-leap-year
 
@@ -707,6 +756,8 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/assert/is-odd]: https://github.com/stdlib-js/assert/tree/main/is-odd
 
+[@stdlib/assert/is-pascalcase]: https://github.com/stdlib-js/assert/tree/main/is-pascalcase
+
 [@stdlib/assert/is-plain-object]: https://github.com/stdlib-js/assert/tree/main/is-plain-object
 
 [@stdlib/assert/is-positive-zero]: https://github.com/stdlib-js/assert/tree/main/is-positive-zero
@@ -741,9 +792,17 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/assert/is-relative-uri]: https://github.com/stdlib-js/assert/tree/main/is-relative-uri
 
+[@stdlib/assert/is-same-native-class]: https://github.com/stdlib-js/assert/tree/main/is-same-native-class
+
+[@stdlib/assert/is-same-type]: https://github.com/stdlib-js/assert/tree/main/is-same-type
+
 [@stdlib/assert/is-same-value-zero]: https://github.com/stdlib-js/assert/tree/main/is-same-value-zero
 
 [@stdlib/assert/is-same-value]: https://github.com/stdlib-js/assert/tree/main/is-same-value
+
+[@stdlib/assert/is-semver]: https://github.com/stdlib-js/assert/tree/main/is-semver
+
+[@stdlib/assert/is-snakecase]: https://github.com/stdlib-js/assert/tree/main/is-snakecase
 
 [@stdlib/assert/is-strict-equal]: https://github.com/stdlib-js/assert/tree/main/is-strict-equal
 
@@ -766,6 +825,8 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [@stdlib/assert/is-write-only-property-in]: https://github.com/stdlib-js/assert/tree/main/is-write-only-property-in
 
 [@stdlib/assert/is-write-only-property]: https://github.com/stdlib-js/assert/tree/main/is-write-only-property
+
+[@stdlib/assert/tools]: https://github.com/stdlib-js/assert/tree/main/tools
 
 [@stdlib/assert/has-arraybuffer-support]: https://github.com/stdlib-js/assert/tree/main/has-arraybuffer-support
 
@@ -892,6 +953,8 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [@stdlib/assert/is-biguint64array]: https://github.com/stdlib-js/assert/tree/main/is-biguint64array
 
 [@stdlib/assert/is-circular-array]: https://github.com/stdlib-js/assert/tree/main/is-circular-array
+
+[@stdlib/assert/is-empty-array-like-object]: https://github.com/stdlib-js/assert/tree/main/is-empty-array-like-object
 
 [@stdlib/assert/is-empty-array]: https://github.com/stdlib-js/assert/tree/main/is-empty-array
 
@@ -1036,6 +1099,8 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [@stdlib/assert/is-array-array]: https://github.com/stdlib-js/assert/tree/main/is-array-array
 
 [@stdlib/assert/is-boolean-array]: https://github.com/stdlib-js/assert/tree/main/is-boolean-array
+
+[@stdlib/assert/is-date-object-array]: https://github.com/stdlib-js/assert/tree/main/is-date-object-array
 
 [@stdlib/assert/is-function-array]: https://github.com/stdlib-js/assert/tree/main/is-function-array
 
