@@ -66,6 +66,7 @@ import instanceOf = require( './../../instance-of' );
 import isAbsoluteHttpURI = require( './../../is-absolute-http-uri' );
 import isAbsolutePath = require( './../../is-absolute-path' );
 import isAbsoluteURI = require( './../../is-absolute-uri' );
+import isAccessorArray = require( './../../is-accessor-array' );
 import isAccessorProperty = require( './../../is-accessor-property' );
 import isAccessorPropertyIn = require( './../../is-accessor-property-in' );
 import isAlphagram = require( './../../is-alphagram' );
@@ -261,6 +262,7 @@ import isSnakecase = require( './../../is-snakecase' );
 import isSquareMatrix = require( './../../is-square-matrix' );
 import isSquareNumber = require( './../../is-square-number' );
 import isSquareTriangularNumber = require( './../../is-square-triangular-number' );
+import isStartcase = require( './../../is-startcase' );
 import isStrictEqual = require( './../../is-strict-equal' );
 import isString = require( './../../is-string' );
 import isStringArray = require( './../../is-string-array' );
@@ -1065,6 +1067,29 @@ interface Namespace {
 	* // returns false
 	*/
 	isAbsoluteURI: typeof isAbsoluteURI;
+
+	/**
+	* Tests if a value is an array-like object supporting the accessor (get/set) protocol.
+	*
+	* @param value - value to test
+	* @returns boolean indicating whether a value is an accessor array
+	*
+	* @example
+	* var Complex128Array = require( `@stdlib/array/complex128` );
+	*
+	* var arr = new Complex128Array( 10 );
+	* var bool = ns.isAccessorArray( arr );
+	* // returns true
+	*
+	* @example
+	* var bool = ns.isAccessorArray( [] );
+	* // returns false
+	*
+	* @example
+	* var bool = ns.isAccessorArray( {} );
+	* // returns false
+	*/
+	isAccessorArray: typeof isAccessorArray;
 
 	/**
 	* Tests if an object's own property has an accessor descriptor.
@@ -5858,6 +5883,24 @@ interface Namespace {
 	* // returns true
 	*/
 	isSquareTriangularNumber: typeof isSquareTriangularNumber;
+
+	/**
+	* Tests if a value is a startcase string (i.e., the first character of each word is uppercase).
+	*
+	* @param value - value to test
+	* @returns boolean indicating if a value is a startcase string
+	*
+	* @example
+	* var bool = ns.isStartcase( 'Beep Boop' );
+	* // returns true
+	*
+	* bool = ns.isStartcase( 'beep boop' );
+	* // returns false
+	*
+	* bool = ns.isStartcase( 'Beep and Boop' );
+	* // returns false
+	*/
+	isStartcase: typeof isStartcase;
 
 	/**
 	* Tests if two arguments are strictly equal.
