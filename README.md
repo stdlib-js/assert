@@ -249,6 +249,7 @@ The namespace includes utilities for validating other special arrays or buffers:
 
 <div class="namespace-toc">
 
+-   <span class="signature">[`isAccessorArray( value )`][@stdlib/assert/is-accessor-array]</span><span class="delimiter">: </span><span class="description">test if a value is an array-like object supporting the accessor (get/set) protocol.</span>
 -   <span class="signature">[`isArrayLength( value )`][@stdlib/assert/is-array-length]</span><span class="delimiter">: </span><span class="description">test if a value is a valid array length.</span>
 -   <span class="signature">[`isArrayLikeObject( value )`][@stdlib/assert/is-array-like-object]</span><span class="delimiter">: </span><span class="description">test if a value is an array-like object.</span>
 -   <span class="signature">[`isArrayLike( value )`][@stdlib/assert/is-array-like]</span><span class="delimiter">: </span><span class="description">test if a value is array-like.</span>
@@ -475,6 +476,7 @@ The remaining namespace utilities are as follows:
 -   <span class="signature">[`isSameValue( a, b )`][@stdlib/assert/is-same-value]</span><span class="delimiter">: </span><span class="description">test if two arguments are the same value.</span>
 -   <span class="signature">[`isSemVer( value )`][@stdlib/assert/is-semver]</span><span class="delimiter">: </span><span class="description">test if a value is a semantic version string.</span>
 -   <span class="signature">[`isSnakecase( value )`][@stdlib/assert/is-snakecase]</span><span class="delimiter">: </span><span class="description">test if a value is a string in snake case.</span>
+-   <span class="signature">[`isStartcase( value )`][@stdlib/assert/is-startcase]</span><span class="delimiter">: </span><span class="description">test if a value is a startcase string.</span>
 -   <span class="signature">[`isStrictEqual( a, b )`][@stdlib/assert/is-strict-equal]</span><span class="delimiter">: </span><span class="description">test if two arguments are strictly equal.</span>
 -   <span class="signature">[`isTruthy( value )`][@stdlib/assert/is-truthy]</span><span class="delimiter">: </span><span class="description">test if a value is truthy.</span>
 -   <span class="signature">[`isUNCPath( value )`][@stdlib/assert/is-unc-path]</span><span class="delimiter">: </span><span class="description">test if a value is a UNC path.</span>
@@ -804,6 +806,8 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/assert/is-snakecase]: https://github.com/stdlib-js/assert/tree/main/is-snakecase
 
+[@stdlib/assert/is-startcase]: https://github.com/stdlib-js/assert/tree/main/is-startcase
+
 [@stdlib/assert/is-strict-equal]: https://github.com/stdlib-js/assert/tree/main/is-strict-equal
 
 [@stdlib/assert/is-truthy]: https://github.com/stdlib-js/assert/tree/main/is-truthy
@@ -935,6 +939,8 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [@stdlib/assert/is-type-error]: https://github.com/stdlib-js/assert/tree/main/is-type-error
 
 [@stdlib/assert/is-uri-error]: https://github.com/stdlib-js/assert/tree/main/is-uri-error
+
+[@stdlib/assert/is-accessor-array]: https://github.com/stdlib-js/assert/tree/main/is-accessor-array
 
 [@stdlib/assert/is-array-length]: https://github.com/stdlib-js/assert/tree/main/is-array-length
 
