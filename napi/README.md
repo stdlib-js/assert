@@ -18,13 +18,15 @@ limitations under the License.
 
 -->
 
-# ok status
+# Assertions for Native Add-ons
 
-> C utilities for asserting that a Node-API call returns an "ok" status.
+> C utilities for Node-API call assertions.
 
 <!-- Section to include introductory text. Make sure to keep an empty line after the intro `section` element and another before the `/section` close. -->
 
 <section class="intro">
+
+This package exposes an absolute file path for the directory containing header files for various C assertion APIs.
 
 </section>
 
@@ -37,7 +39,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-var headerDir = require( '@stdlib/assert/napi/status-ok' );
+var headerDir = require( '@stdlib/assert/napi' );
 ```
 
 #### headerDir
@@ -68,7 +70,7 @@ var dir = headerDir;
 ## Examples
 
 ```javascript
-var headerDir = require( '@stdlib/assert/napi/status-ok' );
+var headerDir = require( '@stdlib/assert/napi' );
 
 console.log( headerDir );
 // => <string>
@@ -90,6 +92,12 @@ console.log( headerDir );
 
 <section class="intro">
 
+This package exposes various C utilities for Node-API call assertions. The included C APIs are the APIs implemented in the following packages:
+
+<!-- NOTE: please keep in alphabetical order -->
+
+For API documentation, consult the individual packages.
+
 </section>
 
 <!-- /.intro -->
@@ -101,88 +109,8 @@ console.log( headerDir );
 ### Usage
 
 ```c
-#include "stdlib/assert/napi/status_ok.h"
+#include "stdlib/assert/napi.h"
 ```
-
-#### STDLIB_ASSERT_NAPI_STATUS_OK_RET_VOID( env, call, message )
-
-Macro for asserting that a Node-API API call returns an "ok" status.
-
-```c
-#include <node_api.h>
-
-static void foo( const napi_env env, const napi_value value, double *out ) {
-    // ...
-
-    STDLIB_ASSERT_NAPI_STATUS_OK_RET_VOID( env, napi_get_value_double( env, value, out ), "" )
-
-    // ...
-
-    return;
-}
-```
-
-The macro expects the following arguments:
-
--   **env**: environment under which the function is invoked.
--   **call**: expression which returns a Node-API status.
--   **message**: error message.
-
-If a status is not "ok", an exception is raised and `void` returned.
-
-#### STDLIB_ASSERT_NAPI_STATUS_OK_RET_NULL( env, call, message )
-
-Macro for asserting that a Node-API API call returns an "ok" status.
-
-```c
-#include <node_api.h>
-
-static napi_value foo( const napi_env env, const napi_value value, double *out ) {
-    // ...
-
-    STDLIB_ASSERT_NAPI_STATUS_OK_RET_NULL( env, napi_get_value_double( env, value, out ), "" )
-
-    // ...
-
-    return NULL;
-}
-```
-
-The macro expects the following arguments:
-
--   **env**: environment under which the function is invoked.
--   **call**: expression which returns a Node-API status.
--   **message**: error message.
-
-If a status is not "ok", an exception is raised and `NULL` returned.
-
-#### STDLIB_ASSERT_NAPI_STATUS_OK_RET_VALUE( env, call, message, value )
-
-Macro for asserting that a Node-API API call returns an "ok" status.
-
-```c
-#include <node_api.h>
-
-static double foo( const napi_env env, const napi_value value ) {
-    // ...
-
-    double *out;
-    STDLIB_ASSERT_NAPI_STATUS_OK_RET_VALUE( env, napi_get_value_double( env, value, out ), "", 0.0/0.0 )
-
-    // ...
-
-    return out;
-}
-```
-
-The macro expects the following arguments:
-
--   **env**: environment under which the function is invoked.
--   **call**: expression which returns a Node-API status.
--   **message**: error message.
--   **value**: return value.
-
-If a status is not "ok", an exception is raised and the value specified by `value` returned.
 
 </section>
 
@@ -199,6 +127,12 @@ If a status is not "ok", an exception is raised and the value specified by `valu
 <!-- C API usage examples. -->
 
 <section class="examples">
+
+### Examples
+
+```c
+#include "stdlib/assert/napi.h"
+```
 
 </section>
 
