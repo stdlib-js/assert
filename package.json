@@ -50,6 +50,7 @@
     "@stdlib/os": "github:stdlib-js/os#main",
     "@stdlib/process": "github:stdlib-js/process#main",
     "@stdlib/regexp": "github:stdlib-js/regexp#main",
+    "@stdlib/slice": "github:stdlib-js/slice#main",
     "@stdlib/streams": "github:stdlib-js/streams#main",
     "@stdlib/string": "github:stdlib-js/string#main",
     "@stdlib/symbol": "github:stdlib-js/symbol#main",
