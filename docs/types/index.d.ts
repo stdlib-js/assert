@@ -178,6 +178,7 @@ import isMatrixLike = require( './../../is-matrix-like' );
 import isMethod = require( './../../is-method' );
 import isMethodIn = require( './../../is-method-in' );
 import IS_MOBILE = require( './../../is-mobile' );
+import isMultiSlice = require( './../../is-multi-slice' );
 import isNamedTypedTupleLike = require( './../../is-named-typed-tuple-like' );
 import isnan = require( './../../is-nan' );
 import isNaNArray = require( './../../is-nan-array' );
@@ -258,6 +259,7 @@ import isSharedArrayBuffer = require( './../../is-sharedarraybuffer' );
 import isSkewCentrosymmetricMatrix = require( './../../is-skew-centrosymmetric-matrix' );
 import isSkewPersymmetricMatrix = require( './../../is-skew-persymmetric-matrix' );
 import isSkewSymmetricMatrix = require( './../../is-skew-symmetric-matrix' );
+import isSlice = require( './../../is-slice' );
 import isSnakecase = require( './../../is-snakecase' );
 import isSquareMatrix = require( './../../is-square-matrix' );
 import isSquareNumber = require( './../../is-square-number' );
@@ -3650,6 +3652,23 @@ interface Namespace {
 	IS_MOBILE: typeof IS_MOBILE;
 
 	/**
+	* Tests if a value is a MultiSlice object.
+	*
+	* @param value - value to test
+	* @returns boolean indicating if a value is a MultiSlice object
+	*
+	* @example
+	* var Slice = require( `@stdlib/slice/ctor` );
+	* var MultiSlice = require( `@stdlib/slice/multi` );
+	*
+	* var s = new MultiSlice( new Slice( 0, 10, 1 ), null, 1 );
+	*
+	* var bool = ns.isMultiSlice( s );
+	* // returns true
+	*/
+	isMultiSlice: typeof isMultiSlice;
+
+	/**
 	* Tests if a value is named typed tuple-like.
 	*
 	* @param v - value to test
@@ -5761,6 +5780,22 @@ interface Namespace {
 	* // returns false
 	*/
 	isSkewSymmetricMatrix: typeof isSkewSymmetricMatrix;
+
+	/**
+	* Tests if a value is a Slice object.
+	*
+	* @param value - value to test
+	* @returns boolean indicating if a value is a Slice object
+	*
+	* @example
+	* var Slice = require( `@stdlib/slice/ctor` );
+	*
+	* var s = new Slice( 0, 10, 1 );
+	*
+	* var bool = ns.isSlice( s );
+	* // returns true
+	*/
+	isSlice: typeof isSlice;
 
 	/**
 	* Tests if a value is a string in snake case.
