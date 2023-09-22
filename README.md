@@ -35,38 +35,30 @@ limitations under the License.
 
 > Assertion utilities.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/assert
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-assert = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var assert = require( 'path/to/vendor/umd/assert/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.assert;
-})();
-</script>
+var assert = require( '@stdlib/assert' );
 ```
 
 #### assert
@@ -455,6 +447,7 @@ The remaining namespace utilities are as follows:
 -   <span class="signature">[`isLowercase( value )`][@stdlib/assert/is-lowercase]</span><span class="delimiter">: </span><span class="description">test if a value is a lowercase string.</span>
 -   <span class="signature">[`isMethodIn( value, property )`][@stdlib/assert/is-method-in]</span><span class="delimiter">: </span><span class="description">test if an object has a specified method name, either own or inherited.</span>
 -   <span class="signature">[`isMethod( value, property )`][@stdlib/assert/is-method]</span><span class="delimiter">: </span><span class="description">test if an object has a specified method name.</span>
+-   <span class="signature">[`isMultiSlice( value )`][@stdlib/assert/is-multi-slice]</span><span class="delimiter">: </span><span class="description">test if a value is a `MultiSlice`.</span>
 -   <span class="signature">[`isNamedTypedTupleLike( value )`][@stdlib/assert/is-named-typed-tuple-like]</span><span class="delimiter">: </span><span class="description">test if a value is named typed tuple-like.</span>
 -   <span class="signature">[`isNativeFunction( value )`][@stdlib/assert/is-native-function]</span><span class="delimiter">: </span><span class="description">test if a value is a native function.</span>
 -   <span class="signature">[`isNegativeZero( value )`][@stdlib/assert/is-negative-zero]</span><span class="delimiter">: </span><span class="description">test if a value is a number equal to negative zero.</span>
@@ -494,6 +487,7 @@ The remaining namespace utilities are as follows:
 -   <span class="signature">[`isSameValueZero( a, b )`][@stdlib/assert/is-same-value-zero]</span><span class="delimiter">: </span><span class="description">test if two arguments are the same value.</span>
 -   <span class="signature">[`isSameValue( a, b )`][@stdlib/assert/is-same-value]</span><span class="delimiter">: </span><span class="description">test if two arguments are the same value.</span>
 -   <span class="signature">[`isSemVer( value )`][@stdlib/assert/is-semver]</span><span class="delimiter">: </span><span class="description">test if a value is a semantic version string.</span>
+-   <span class="signature">[`isSlice( value )`][@stdlib/assert/is-slice]</span><span class="delimiter">: </span><span class="description">test if a value is a `Slice`.</span>
 -   <span class="signature">[`isSnakecase( value )`][@stdlib/assert/is-snakecase]</span><span class="delimiter">: </span><span class="description">test if a value is a string in snake case.</span>
 -   <span class="signature">[`isStartcase( value )`][@stdlib/assert/is-startcase]</span><span class="delimiter">: </span><span class="description">test if a value is a startcase string.</span>
 -   <span class="signature">[`isStrictEqual( a, b )`][@stdlib/assert/is-strict-equal]</span><span class="delimiter">: </span><span class="description">test if two arguments are strictly equal.</span>
@@ -525,21 +519,11 @@ The remaining namespace utilities are as follows:
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils/keys@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var objectKeys = require( '@stdlib/utils/keys' );
+var assert = require( '@stdlib/assert' );
 
 console.log( objectKeys( assert ) );
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -755,6 +739,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/assert/is-method]: https://github.com/stdlib-js/assert/tree/main/is-method
 
+[@stdlib/assert/is-multi-slice]: https://github.com/stdlib-js/assert/tree/main/is-multi-slice
+
 [@stdlib/assert/is-named-typed-tuple-like]: https://github.com/stdlib-js/assert/tree/main/is-named-typed-tuple-like
 
 [@stdlib/assert/is-native-function]: https://github.com/stdlib-js/assert/tree/main/is-native-function
@@ -832,6 +818,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [@stdlib/assert/is-same-value]: https://github.com/stdlib-js/assert/tree/main/is-same-value
 
 [@stdlib/assert/is-semver]: https://github.com/stdlib-js/assert/tree/main/is-semver
+
+[@stdlib/assert/is-slice]: https://github.com/stdlib-js/assert/tree/main/is-slice
 
 [@stdlib/assert/is-snakecase]: https://github.com/stdlib-js/assert/tree/main/is-snakecase
 
