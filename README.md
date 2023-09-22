@@ -447,6 +447,7 @@ The remaining namespace utilities are as follows:
 -   <span class="signature">[`isLowercase( value )`][@stdlib/assert/is-lowercase]</span><span class="delimiter">: </span><span class="description">test if a value is a lowercase string.</span>
 -   <span class="signature">[`isMethodIn( value, property )`][@stdlib/assert/is-method-in]</span><span class="delimiter">: </span><span class="description">test if an object has a specified method name, either own or inherited.</span>
 -   <span class="signature">[`isMethod( value, property )`][@stdlib/assert/is-method]</span><span class="delimiter">: </span><span class="description">test if an object has a specified method name.</span>
+-   <span class="signature">[`isMultiSlice( value )`][@stdlib/assert/is-multi-slice]</span><span class="delimiter">: </span><span class="description">test if a value is a `MultiSlice`.</span>
 -   <span class="signature">[`isNamedTypedTupleLike( value )`][@stdlib/assert/is-named-typed-tuple-like]</span><span class="delimiter">: </span><span class="description">test if a value is named typed tuple-like.</span>
 -   <span class="signature">[`isNativeFunction( value )`][@stdlib/assert/is-native-function]</span><span class="delimiter">: </span><span class="description">test if a value is a native function.</span>
 -   <span class="signature">[`isNegativeZero( value )`][@stdlib/assert/is-negative-zero]</span><span class="delimiter">: </span><span class="description">test if a value is a number equal to negative zero.</span>
@@ -486,6 +487,7 @@ The remaining namespace utilities are as follows:
 -   <span class="signature">[`isSameValueZero( a, b )`][@stdlib/assert/is-same-value-zero]</span><span class="delimiter">: </span><span class="description">test if two arguments are the same value.</span>
 -   <span class="signature">[`isSameValue( a, b )`][@stdlib/assert/is-same-value]</span><span class="delimiter">: </span><span class="description">test if two arguments are the same value.</span>
 -   <span class="signature">[`isSemVer( value )`][@stdlib/assert/is-semver]</span><span class="delimiter">: </span><span class="description">test if a value is a semantic version string.</span>
+-   <span class="signature">[`isSlice( value )`][@stdlib/assert/is-slice]</span><span class="delimiter">: </span><span class="description">test if a value is a `Slice`.</span>
 -   <span class="signature">[`isSnakecase( value )`][@stdlib/assert/is-snakecase]</span><span class="delimiter">: </span><span class="description">test if a value is a string in snake case.</span>
 -   <span class="signature">[`isStartcase( value )`][@stdlib/assert/is-startcase]</span><span class="delimiter">: </span><span class="description">test if a value is a startcase string.</span>
 -   <span class="signature">[`isStrictEqual( a, b )`][@stdlib/assert/is-strict-equal]</span><span class="delimiter">: </span><span class="description">test if two arguments are strictly equal.</span>
@@ -737,6 +739,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/assert/is-method]: https://github.com/stdlib-js/assert/tree/main/is-method
 
+[@stdlib/assert/is-multi-slice]: https://github.com/stdlib-js/assert/tree/main/is-multi-slice
+
 [@stdlib/assert/is-named-typed-tuple-like]: https://github.com/stdlib-js/assert/tree/main/is-named-typed-tuple-like
 
 [@stdlib/assert/is-native-function]: https://github.com/stdlib-js/assert/tree/main/is-native-function
@@ -814,6 +818,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [@stdlib/assert/is-same-value]: https://github.com/stdlib-js/assert/tree/main/is-same-value
 
 [@stdlib/assert/is-semver]: https://github.com/stdlib-js/assert/tree/main/is-semver
+
+[@stdlib/assert/is-slice]: https://github.com/stdlib-js/assert/tree/main/is-slice
 
 [@stdlib/assert/is-snakecase]: https://github.com/stdlib-js/assert/tree/main/is-snakecase
 
