@@ -50,8 +50,6 @@ bool = isRegExp( {} );
 
 ## Examples
 
-<!-- eslint-disable prefer-regex-literals -->
-
 <!-- eslint no-undef: "error" -->
 
 ```javascript
