@@ -98,6 +98,12 @@ bool = isDateObjectArray( [] );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/assert/is-date-object`][@stdlib/assert/is-date-object]</span><span class="delimiter">: </span><span class="description">test if a value is a Date object.</span>
+
 </section>
 
 <!-- /.related -->
@@ -107,6 +113,10 @@ bool = isDateObjectArray( [] );
 <section class="links">
 
 [@stdlib/assert/is-date-object]: https://github.com/stdlib-js/assert/tree/main/is-date-object
+
+<!-- <related-links> -->
+
+<!-- </related-links> -->
 
 </section>
 
