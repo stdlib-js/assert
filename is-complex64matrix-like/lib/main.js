@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2020 The Stdlib Authors.
+* Copyright (c) 2023 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -20,35 +20,35 @@
 
 // MODULES //
 
-var isndarrayLike = require( './../../is-ndarray-like' );
+var isMatrixLike = require( './../../is-matrix-like' );
 
 
 // MAIN //
 
 /**
-* Tests if a value is an ndarray-like object whose underlying data type is `float64`.
+* Tests if a value is a 2-dimensional ndarray-like object whose underlying data type is `complex64`.
 *
 * @param {*} v - value to test
-* @returns {boolean} boolean indicating if a value is an ndarray-like object whose underlying data type is `float64`
+* @returns {boolean} boolean indicating if a value is a 2-dimensional ndarray-like object whose underlying data type is `complex64`
 *
 * @example
-* var Float64Array = require( '@stdlib/array/float64' );
+* var Complex64Array = require( '@stdlib/array/complex64' );
 * var ndarray = require( '@stdlib/ndarray/ctor' );
 *
-* var buffer = new Float64Array( [ 0, 0, 0, 0 ] );
-* var arr = ndarray( 'float64', buffer, [ 2, 2 ], [ 2, 1 ], 0, 'row-major' );
+* var buffer = new Complex64Array( [ 0, 0, 0, 0, 0, 0, 0, 0 ] );
+* var arr = ndarray( 'complex64', buffer, [ 2, 2 ], [ 2, 1 ], 0, 'row-major' );
 *
-* var bool = isFloat64ndarrayLike( arr );
+* var bool = isComplex64MatrixLike( arr );
 * // returns true
 *
-* bool = isFloat64ndarrayLike( [] );
+* bool = isComplex64MatrixLike( [] );
 * // returns false
 */
-function isFloat64ndarrayLike( v ) {
-	return ( isndarrayLike( v ) && v.dtype === 'float64' );
+function isComplex64MatrixLike( v ) {
+	return ( isMatrixLike( v ) && v.dtype === 'complex64' );
 }
 
 
 // EXPORTS //
 
-module.exports = isFloat64ndarrayLike;
+module.exports = isComplex64MatrixLike;

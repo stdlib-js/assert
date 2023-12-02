@@ -21,7 +21,6 @@
 // MODULES //
 
 var isMatrixLike = require( './../../is-matrix-like' );
-var isFloat64Array = require( './../../is-float64array' );
 
 
 // MAIN //
@@ -46,7 +45,7 @@ var isFloat64Array = require( './../../is-float64array' );
 * // returns false
 */
 function isFloat64MatrixLike( v ) {
-	return ( isMatrixLike( v ) && isFloat64Array( v.data ) );
+	return ( isMatrixLike( v ) && v.dtype === 'float64' );
 }
 
 

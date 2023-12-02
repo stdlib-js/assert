@@ -21,7 +21,6 @@
 // MODULES //
 
 var isVectorLike = require( './../../is-vector-like' );
-var isFloat32Array = require( './../../is-float32array' );
 
 
 // MAIN //
@@ -46,7 +45,7 @@ var isFloat32Array = require( './../../is-float32array' );
 * // returns false
 */
 function isFloat32VectorLike( v ) {
-	return ( isVectorLike( v ) && isFloat32Array( v.data ) );
+	return ( isVectorLike( v ) && v.dtype === 'float32' );
 }
 
 
