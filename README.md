@@ -35,38 +35,30 @@ limitations under the License.
 
 > Assertion utilities.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/assert
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-assert = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var assert = require( 'path/to/vendor/umd/assert/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.assert;
-})();
-</script>
+var assert = require( '@stdlib/assert' );
 ```
 
 #### assert
@@ -222,6 +214,12 @@ The namespace includes utilities for validating `ndarray`s (n-dimensional arrays
 <div class="namespace-toc">
 
 -   <span class="signature">[`isCentrosymmetricMatrix( value )`][@stdlib/assert/is-centrosymmetric-matrix]</span><span class="delimiter">: </span><span class="description">test if a value is a centrosymmetric matrix.</span>
+-   <span class="signature">[`isComplex128MatrixLike( value )`][@stdlib/assert/is-complex128matrix-like]</span><span class="delimiter">: </span><span class="description">test if a value is a 2-dimensional ndarray-like object containing double-precision complex floating-point numbers.</span>
+-   <span class="signature">[`isComplex128ndarrayLike( value )`][@stdlib/assert/is-complex128ndarray-like]</span><span class="delimiter">: </span><span class="description">test if a value is an ndarray-like object containing double-precision complex floating-point numbers.</span>
+-   <span class="signature">[`isComplex128VectorLike( value )`][@stdlib/assert/is-complex128vector-like]</span><span class="delimiter">: </span><span class="description">test if a value is a 1-dimensional ndarray-like object containing double-precision complex floating-point numbers.</span>
+-   <span class="signature">[`isComplex64MatrixLike( value )`][@stdlib/assert/is-complex64matrix-like]</span><span class="delimiter">: </span><span class="description">test if a value is a 2-dimensional ndarray-like object containing single-precision complex floating-point numbers.</span>
+-   <span class="signature">[`isComplex64ndarrayLike( value )`][@stdlib/assert/is-complex64ndarray-like]</span><span class="delimiter">: </span><span class="description">test if a value is an ndarray-like object containing single-precision complex floating-point numbers.</span>
+-   <span class="signature">[`isComplex64VectorLike( value )`][@stdlib/assert/is-complex64vector-like]</span><span class="delimiter">: </span><span class="description">test if a value is a 1-dimensional ndarray-like object containing single-precision complex floating-point numbers.</span>
 -   <span class="signature">[`isFloat32MatrixLike( value )`][@stdlib/assert/is-float32matrix-like]</span><span class="delimiter">: </span><span class="description">test if a value is a 2-dimensional ndarray-like object containing single-precision floating-point numbers.</span>
 -   <span class="signature">[`isFloat32ndarrayLike( value )`][@stdlib/assert/is-float32ndarray-like]</span><span class="delimiter">: </span><span class="description">test if a value is an ndarray-like object containing single-precision floating-point numbers.</span>
 -   <span class="signature">[`isFloat32VectorLike( value )`][@stdlib/assert/is-float32vector-like]</span><span class="delimiter">: </span><span class="description">test if a value is a 1-dimensional ndarray-like object containing single-precision floating-point numbers.</span>
@@ -527,21 +525,11 @@ The remaining namespace utilities are as follows:
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils/keys@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var objectKeys = require( '@stdlib/utils/keys' );
+var assert = require( '@stdlib/assert' );
 
 console.log( objectKeys( assert ) );
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -1038,6 +1026,18 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [@stdlib/assert/is-complex64array]: https://github.com/stdlib-js/assert/tree/main/is-complex64array
 
 [@stdlib/assert/is-centrosymmetric-matrix]: https://github.com/stdlib-js/assert/tree/main/is-centrosymmetric-matrix
+
+[@stdlib/assert/is-complex128matrix-like]: https://github.com/stdlib-js/assert/tree/main/is-complex128matrix-like
+
+[@stdlib/assert/is-complex128ndarray-like]: https://github.com/stdlib-js/assert/tree/main/is-complex128ndarray-like
+
+[@stdlib/assert/is-complex128vector-like]: https://github.com/stdlib-js/assert/tree/main/is-complex128vector-like
+
+[@stdlib/assert/is-complex64matrix-like]: https://github.com/stdlib-js/assert/tree/main/is-complex64matrix-like
+
+[@stdlib/assert/is-complex64ndarray-like]: https://github.com/stdlib-js/assert/tree/main/is-complex64ndarray-like
+
+[@stdlib/assert/is-complex64vector-like]: https://github.com/stdlib-js/assert/tree/main/is-complex64vector-like
 
 [@stdlib/assert/is-float32matrix-like]: https://github.com/stdlib-js/assert/tree/main/is-float32matrix-like
 
