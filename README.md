@@ -35,38 +35,32 @@ limitations under the License.
 
 > Assertion utilities.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/assert
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-assert = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var assert = require( 'path/to/vendor/umd/assert/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.assert;
-})();
-</script>
+var assert = require( '@stdlib/assert' );
 ```
 
 #### assert
@@ -291,6 +285,11 @@ The namespace includes utilities for validating other special arrays or buffers:
 -   <span class="signature">[`isNumericArray( value )`][@stdlib/assert/is-numeric-array]</span><span class="delimiter">: </span><span class="description">test if a value is a numeric array.</span>
 -   <span class="signature">[`isPlainObjectArray( value )`][@stdlib/assert/is-plain-object-array]</span><span class="delimiter">: </span><span class="description">test if a value is an array-like object containing only plain objects.</span>
 -   <span class="signature">[`isProbabilityArray( value )`][@stdlib/assert/is-probability-array]</span><span class="delimiter">: </span><span class="description">test if a value is an array-like object containing only probabilities.</span>
+-   <span class="signature">[`isSameArray( v1, v2 )`][@stdlib/assert/is-same-array]</span><span class="delimiter">: </span><span class="description">test if two arguments are both generic arrays and have the same values.</span>
+-   <span class="signature">[`isSameComplex128Array( v1, v2 )`][@stdlib/assert/is-same-complex128array]</span><span class="delimiter">: </span><span class="description">test if two arguments are both Complex128Arrays and have the same values.</span>
+-   <span class="signature">[`isSameComplex64Array( v1, v2 )`][@stdlib/assert/is-same-complex64array]</span><span class="delimiter">: </span><span class="description">test if two arguments are both Complex64Arrays and have the same values.</span>
+-   <span class="signature">[`isSameFloat32Array( v1, v2 )`][@stdlib/assert/is-same-float32array]</span><span class="delimiter">: </span><span class="description">test if two arguments are both Float32Arrays and have the same values.</span>
+-   <span class="signature">[`isSameFloat64Array( v1, v2 )`][@stdlib/assert/is-same-float64array]</span><span class="delimiter">: </span><span class="description">test if two arguments are both Float64Arrays and have the same values.</span>
 -   <span class="signature">[`isSharedArrayBuffer( value )`][@stdlib/assert/is-sharedarraybuffer]</span><span class="delimiter">: </span><span class="description">test if a value is a SharedArrayBuffer.</span>
 -   <span class="signature">[`isTruthyArray( value )`][@stdlib/assert/is-truthy-array]</span><span class="delimiter">: </span><span class="description">test if a value is an array-like object containing only truthy values.</span>
 -   <span class="signature">[`isTypedArrayLength( value )`][@stdlib/assert/is-typed-array-length]</span><span class="delimiter">: </span><span class="description">test if a value is a valid typed array length.</span>
@@ -496,6 +495,8 @@ The remaining namespace utilities are as follows:
 -   <span class="signature">[`isRegExpString( value )`][@stdlib/assert/is-regexp-string]</span><span class="delimiter">: </span><span class="description">test if a value is a regular expression string.</span>
 -   <span class="signature">[`isRelativePath( value )`][@stdlib/assert/is-relative-path]</span><span class="delimiter">: </span><span class="description">test if a value is a relative path.</span>
 -   <span class="signature">[`isRelativeURI( value )`][@stdlib/assert/is-relative-uri]</span><span class="delimiter">: </span><span class="description">test whether a value is a relative URI.</span>
+-   <span class="signature">[`isSameComplex128( v1, v2 )`][@stdlib/assert/is-same-complex128]</span><span class="delimiter">: </span><span class="description">test if two arguments are both double-precision complex floating-point numbers and have the same value.</span>
+-   <span class="signature">[`isSameComplex64( v1, v2 )`][@stdlib/assert/is-same-complex64]</span><span class="delimiter">: </span><span class="description">test if two arguments are both single-precision complex floating-point numbers and have the same value.</span>
 -   <span class="signature">[`isSameNativeClass( a, b )`][@stdlib/assert/is-same-native-class]</span><span class="delimiter">: </span><span class="description">test if two arguments have the same native class.</span>
 -   <span class="signature">[`isSameType( a, b )`][@stdlib/assert/is-same-type]</span><span class="delimiter">: </span><span class="description">test if two arguments have the same type.</span>
 -   <span class="signature">[`isSameValueZero( a, b )`][@stdlib/assert/is-same-value-zero]</span><span class="delimiter">: </span><span class="description">test if two arguments are the same value.</span>
@@ -533,21 +534,11 @@ The remaining namespace utilities are as follows:
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils/keys@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var objectKeys = require( '@stdlib/utils/keys' );
+var assert = require( '@stdlib/assert' );
 
 console.log( objectKeys( assert ) );
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -836,6 +827,10 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/assert/is-relative-uri]: https://github.com/stdlib-js/assert/tree/main/is-relative-uri
 
+[@stdlib/assert/is-same-complex128]: https://github.com/stdlib-js/assert/tree/main/is-same-complex128
+
+[@stdlib/assert/is-same-complex64]: https://github.com/stdlib-js/assert/tree/main/is-same-complex64
+
 [@stdlib/assert/is-same-native-class]: https://github.com/stdlib-js/assert/tree/main/is-same-native-class
 
 [@stdlib/assert/is-same-type]: https://github.com/stdlib-js/assert/tree/main/is-same-type
@@ -1017,6 +1012,16 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [@stdlib/assert/is-plain-object-array]: https://github.com/stdlib-js/assert/tree/main/is-plain-object-array
 
 [@stdlib/assert/is-probability-array]: https://github.com/stdlib-js/assert/tree/main/is-probability-array
+
+[@stdlib/assert/is-same-array]: https://github.com/stdlib-js/assert/tree/main/is-same-array
+
+[@stdlib/assert/is-same-complex128array]: https://github.com/stdlib-js/assert/tree/main/is-same-complex128array
+
+[@stdlib/assert/is-same-complex64array]: https://github.com/stdlib-js/assert/tree/main/is-same-complex64array
+
+[@stdlib/assert/is-same-float32array]: https://github.com/stdlib-js/assert/tree/main/is-same-float32array
+
+[@stdlib/assert/is-same-float64array]: https://github.com/stdlib-js/assert/tree/main/is-same-float64array
 
 [@stdlib/assert/is-sharedarraybuffer]: https://github.com/stdlib-js/assert/tree/main/is-sharedarraybuffer
 
