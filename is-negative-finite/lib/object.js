@@ -21,7 +21,7 @@
 // MODULES //
 
 var isNumber = require( './../../is-number' ).isObject;
-var isFinite = require( './../../is-finite' ).isObject; // eslint-disable-line stdlib/no-redeclare
+var NINF = require( '@stdlib/constants/float64/ninf' );
 
 
 // MAIN //
@@ -51,7 +51,8 @@ var isFinite = require( './../../is-finite' ).isObject; // eslint-disable-line s
 function isNegativeFinite( value ) {
 	return (
 		isNumber( value ) &&
-		value.valueOf() < 0.0 && isFinite(value)
+		value.valueOf() < 0.0 &&
+		value.valueOf() > NINF
 	);
 }
 
