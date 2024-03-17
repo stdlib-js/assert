@@ -206,6 +206,7 @@ import isNonConfigurableProperty = require( './../../is-nonconfigurable-property
 import isNonConfigurablePropertyIn = require( './../../is-nonconfigurable-property-in' );
 import isNonEnumerableProperty = require( './../../is-nonenumerable-property' );
 import isNonEnumerablePropertyIn = require( './../../is-nonenumerable-property-in' );
+import isNonNegativeFinite = require( './../../is-nonnegative-finite' );
 import isNonNegativeInteger = require( './../../is-nonnegative-integer' );
 import isNonNegativeIntegerArray = require( './../../is-nonnegative-integer-array' );
 import isNonNegativeNumber = require( './../../is-nonnegative-number' );
@@ -4335,6 +4336,8 @@ interface Namespace {
 	* // returns true
 	*/
 	isNonEnumerablePropertyIn: typeof isNonEnumerablePropertyIn;
+
+	isNonNegativeFinite: typeof isNonNegativeFinite;
 
 	/**
 	* Tests if a value is a nonnegative integer.
