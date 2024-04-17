@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2022 The Stdlib Authors.
+* Copyright (c) 2024 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,15 +16,33 @@
 * limitations under the License.
 */
 
-#ifndef STDLIB_ASSERT_NAPI_H
-#define STDLIB_ASSERT_NAPI_H
+'use strict';
 
-// Note: keep in alphabetical order...
-#include "stdlib/assert/napi/equal_typedarray_types.h"
-#include "stdlib/assert/napi/equal_types.h"
-#include "stdlib/assert/napi/has_property.h"
-#include "stdlib/assert/napi/is_type.h"
-#include "stdlib/assert/napi/is_typedarray.h"
-#include "stdlib/assert/napi/status_ok.h"
+// MODULES //
 
-#endif // !STDLIB_ASSERT_NAPI_H
+var addon = require( './../src/addon.node' );
+
+
+// MAIN //
+
+/**
+* Wrapper function exposing the C API to JavaScript.
+*
+* @private
+* @param {Object} obj - input value
+*
+* @example
+* var obj = {
+*     'foo': 'bar'
+* };
+*
+* wrapper( obj );
+*/
+function wrapper( obj ) {
+	addon( obj );
+}
+
+
+// EXPORTS //
+
+module.exports = wrapper;

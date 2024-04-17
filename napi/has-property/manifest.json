@@ -24,20 +24,17 @@
 	],
 	"confs": [
 		{
-			"src": [],
+			"src": [
+        "./src/main.c"
+      ],
 			"include": [
 				"./include"
 			],
 			"libraries": [],
 			"libpath": [],
 			"dependencies": [
-				"@stdlib/assert/napi/equal-typedarray-types",
-				"@stdlib/assert/napi/equal-types",
-        "@stdlib/assert/napi/has-property",
-				"@stdlib/assert/napi/is-type",
-				"@stdlib/assert/napi/is-typedarray",
-				"@stdlib/assert/napi/status-ok"
-			]
+        "@stdlib/assert/napi/status-ok"
+      ]
 		}
 	]
 }

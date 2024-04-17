@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2022 The Stdlib Authors.
+* Copyright (c) 2024 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,15 +16,24 @@
 * limitations under the License.
 */
 
-#ifndef STDLIB_ASSERT_NAPI_H
-#define STDLIB_ASSERT_NAPI_H
+'use strict';
 
-// Note: keep in alphabetical order...
-#include "stdlib/assert/napi/equal_typedarray_types.h"
-#include "stdlib/assert/napi/equal_types.h"
-#include "stdlib/assert/napi/has_property.h"
-#include "stdlib/assert/napi/is_type.h"
-#include "stdlib/assert/napi/is_typedarray.h"
-#include "stdlib/assert/napi/status_ok.h"
+/**
+* Absolute file path for the directory containing header files for C APIs.
+*
+* @module @stdlib/assert/napi/has-property
+*
+* @example
+* var headerDir = require( '@stdlib/assert/napi/has-property' );
+*
+* console.log( headerDir );
+*/
 
-#endif // !STDLIB_ASSERT_NAPI_H
+// MODULES //
+
+var main = require( './main.js' );
+
+
+// EXPORTS //
+
+module.exports = main;
