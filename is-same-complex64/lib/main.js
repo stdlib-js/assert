@@ -21,7 +21,7 @@
 // MODULES //
 
 var isComplex64 = require( './../../is-complex64' );
-var isSameValuef = require( '@stdlib/complex/base/assert/is-same-valuef' );
+var isSameValuef = require( '@stdlib/complex/float32/base/assert/is-same-value' );
 
 
 // MAIN //
