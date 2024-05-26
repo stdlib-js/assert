@@ -107,7 +107,7 @@ out = isSameComplex128( x, y );
 
 <section class="links">
 
-[@stdlib/complex/float64/ctor]: https://github.com/stdlib-js/complex-float64
+[@stdlib/complex/float64/ctor]: https://github.com/stdlib-js/complex-float64-ctor
 
 [@stdlib/assert/is-same-value]: https://github.com/stdlib-js/assert/tree/main/is-same-value
 

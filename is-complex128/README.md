@@ -94,7 +94,7 @@ out = isComplex128( null );
 
 <section class="links">
 
-[@stdlib/complex/float64/ctor]: https://github.com/stdlib-js/complex-float64
+[@stdlib/complex/float64/ctor]: https://github.com/stdlib-js/complex-float64-ctor
 
 <!-- <related-links> -->
 
