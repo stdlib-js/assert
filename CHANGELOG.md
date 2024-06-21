@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-06-05)
+## Unreleased (2024-06-21)
 
 <section class="packages">
 
@@ -1298,6 +1298,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="assert-is-same-booleanarray-unreleased">
+
+#### [@stdlib/assert/is-same-booleanarray](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-same-booleanarray)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`a5c9e56`](https://github.com/stdlib-js/stdlib/commit/a5c9e56a3ea7198ae4fe3248d4bfaa9e1d19bfcd) - add `assert/is-same-booleanarray` [(#2401)](https://github.com/stdlib-js/stdlib/pull/2401)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="assert-is-same-date-object-unreleased">
 
 #### [@stdlib/assert/is-same-date-object](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-same-date-object)
@@ -1671,6 +1693,7 @@ A total of 10 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`a5c9e56`](https://github.com/stdlib-js/stdlib/commit/a5c9e56a3ea7198ae4fe3248d4bfaa9e1d19bfcd) - **feat:** add `assert/is-same-booleanarray` [(#2401)](https://github.com/stdlib-js/stdlib/pull/2401) _(by Jaysukh Makvana, Athan Reines)_
 -   [`7c36ea3`](https://github.com/stdlib-js/stdlib/commit/7c36ea3437d16b7ce4fd86d76636b5a5d77d04c3) - **feat:** add `assert/is-booleanarray` [(#2299)](https://github.com/stdlib-js/stdlib/pull/2299) _(by Jaysukh Makvana, Athan Reines)_
 -   [`3a3b1e0`](https://github.com/stdlib-js/stdlib/commit/3a3b1e08f73a54c5ee46d73045805aee0bb1196d) - **docs:** update package URLs [(##2269)](#2269) _(by stdlib-bot)_
 -   [`8089b88`](https://github.com/stdlib-js/stdlib/commit/8089b886a4d7d89f15abb068b1021d93f9c4f64e) - **docs:** update paths _(by Athan Reines)_
