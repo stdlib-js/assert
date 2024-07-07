@@ -20,8 +20,8 @@
 
 // MODULES //
 
-var isString = require('./../../is-string');
-var isWellFormed = require('./iswellformed.js');
+var isString = require( './../../is-string' );
+var isWellFormed = require( './iswellformed.js' );
 
 
 // MAIN //

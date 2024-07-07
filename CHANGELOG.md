@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-06-21)
+## Unreleased (2024-07-07)
 
 <section class="packages">
 
@@ -1693,6 +1693,7 @@ A total of 10 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`659f752`](https://github.com/stdlib-js/stdlib/commit/659f752db18317bf5fc237fdbcad0d74b61e1ed9) - **style:** add missing spaces _(by Philipp Burckhardt)_
 -   [`a5c9e56`](https://github.com/stdlib-js/stdlib/commit/a5c9e56a3ea7198ae4fe3248d4bfaa9e1d19bfcd) - **feat:** add `assert/is-same-booleanarray` [(#2401)](https://github.com/stdlib-js/stdlib/pull/2401) _(by Jaysukh Makvana, Athan Reines)_
 -   [`7c36ea3`](https://github.com/stdlib-js/stdlib/commit/7c36ea3437d16b7ce4fd86d76636b5a5d77d04c3) - **feat:** add `assert/is-booleanarray` [(#2299)](https://github.com/stdlib-js/stdlib/pull/2299) _(by Jaysukh Makvana, Athan Reines)_
 -   [`3a3b1e0`](https://github.com/stdlib-js/stdlib/commit/3a3b1e08f73a54c5ee46d73045805aee0bb1196d) - **docs:** update package URLs [(##2269)](#2269) _(by stdlib-bot)_
