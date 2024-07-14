@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-07-07)
+## Unreleased (2024-07-14)
 
 <section class="packages">
 
@@ -1693,6 +1693,7 @@ A total of 10 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`d04dcbd`](https://github.com/stdlib-js/stdlib/commit/d04dcbd6dc3b0bf4a89bd3947d317fa5ff15bb38) - **docs:** remove private annotations in C comments _(by Philipp Burckhardt)_
 -   [`659f752`](https://github.com/stdlib-js/stdlib/commit/659f752db18317bf5fc237fdbcad0d74b61e1ed9) - **style:** add missing spaces _(by Philipp Burckhardt)_
 -   [`a5c9e56`](https://github.com/stdlib-js/stdlib/commit/a5c9e56a3ea7198ae4fe3248d4bfaa9e1d19bfcd) - **feat:** add `assert/is-same-booleanarray` [(#2401)](https://github.com/stdlib-js/stdlib/pull/2401) _(by Jaysukh Makvana, Athan Reines)_
 -   [`7c36ea3`](https://github.com/stdlib-js/stdlib/commit/7c36ea3437d16b7ce4fd86d76636b5a5d77d04c3) - **feat:** add `assert/is-booleanarray` [(#2299)](https://github.com/stdlib-js/stdlib/pull/2299) _(by Jaysukh Makvana, Athan Reines)_
