@@ -2,6 +2,16 @@
 
 > Package changelog.
 
+<section class="release" id="v0.3.1">
+
+## 0.3.1 (2024-08-18)
+
+No changes reported for this release.
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.3.0">
 
 ## 0.3.0 (2024-08-17)
@@ -10,7 +20,7 @@
 
 ### Packages
 
-<section class="package" id="assert-unreleased">
+<section class="package" id="assert-v0.3.0">
 
 #### [@stdlib/assert](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert)
 
@@ -33,7 +43,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="assert-is--unreleased">
+<section class="package" id="assert-is--v0.3.0">
 
 #### [@stdlib/assert/is-](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-)
 
@@ -55,7 +65,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="assert-is-absolute-http-uri-unreleased">
+<section class="package" id="assert-is-absolute-http-uri-v0.3.0">
 
 #### [@stdlib/assert/is-absolute-http-uri](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-absolute-http-uri)
 
@@ -77,7 +87,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="assert-is-absolute-path-unreleased">
+<section class="package" id="assert-is-absolute-path-v0.3.0">
 
 #### [@stdlib/assert/is-absolute-path](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-absolute-path)
 
@@ -99,7 +109,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="assert-is-absolute-uri-unreleased">
+<section class="package" id="assert-is-absolute-uri-v0.3.0">
 
 #### [@stdlib/assert/is-absolute-uri](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-absolute-uri)
 
@@ -121,7 +131,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="assert-is-alphagram-unreleased">
+<section class="package" id="assert-is-alphagram-v0.3.0">
 
 #### [@stdlib/assert/is-alphagram](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-alphagram)
 
@@ -143,7 +153,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="assert-is-alphanumeric-unreleased">
+<section class="package" id="assert-is-alphanumeric-v0.3.0">
 
 #### [@stdlib/assert/is-alphanumeric](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-alphanumeric)
 
@@ -165,7 +175,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="assert-is-array-length-unreleased">
+<section class="package" id="assert-is-array-length-v0.3.0">
 
 #### [@stdlib/assert/is-array-length](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-array-length)
 
@@ -187,7 +197,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="assert-is-ascii-unreleased">
+<section class="package" id="assert-is-ascii-v0.3.0">
 
 #### [@stdlib/assert/is-ascii](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-ascii)
 
@@ -209,7 +219,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="assert-is-between-unreleased">
+<section class="package" id="assert-is-between-v0.3.0">
 
 #### [@stdlib/assert/is-between](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-between)
 
@@ -231,7 +241,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="assert-is-blank-string-unreleased">
+<section class="package" id="assert-is-blank-string-v0.3.0">
 
 #### [@stdlib/assert/is-blank-string](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-blank-string)
 
@@ -253,7 +263,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="assert-is-booleanarray-unreleased">
+<section class="package" id="assert-is-booleanarray-v0.3.0">
 
 #### [@stdlib/assert/is-booleanarray](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-booleanarray)
 
@@ -275,7 +285,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="assert-is-camelcase-unreleased">
+<section class="package" id="assert-is-camelcase-v0.3.0">
 
 #### [@stdlib/assert/is-camelcase](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-camelcase)
 
@@ -297,7 +307,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="assert-is-capitalized-unreleased">
+<section class="package" id="assert-is-capitalized-v0.3.0">
 
 #### [@stdlib/assert/is-capitalized](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-capitalized)
 
@@ -319,7 +329,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="assert-is-composite-unreleased">
+<section class="package" id="assert-is-composite-v0.3.0">
 
 #### [@stdlib/assert/is-composite](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-composite)
 
@@ -341,7 +351,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="assert-is-constantcase-unreleased">
+<section class="package" id="assert-is-constantcase-v0.3.0">
 
 #### [@stdlib/assert/is-constantcase](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-constantcase)
 
@@ -363,7 +373,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="assert-is-cube-number-unreleased">
+<section class="package" id="assert-is-cube-number-v0.3.0">
 
 #### [@stdlib/assert/is-cube-number](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-cube-number)
 
@@ -385,7 +395,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="assert-is-digit-string-unreleased">
+<section class="package" id="assert-is-digit-string-v0.3.0">
 
 #### [@stdlib/assert/is-digit-string](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-digit-string)
 
@@ -407,7 +417,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="assert-is-docker-unreleased">
+<section class="package" id="assert-is-docker-v0.3.0">
 
 #### [@stdlib/assert/is-docker](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-docker)
 
@@ -429,7 +439,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="assert-is-domain-name-unreleased">
+<section class="package" id="assert-is-domain-name-v0.3.0">
 
 #### [@stdlib/assert/is-domain-name](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-domain-name)
 
@@ -451,7 +461,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="assert-is-duration-string-unreleased">
+<section class="package" id="assert-is-duration-string-v0.3.0">
 
 #### [@stdlib/assert/is-duration-string](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-duration-string)
 
@@ -473,7 +483,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="assert-is-email-address-unreleased">
+<section class="package" id="assert-is-email-address-v0.3.0">
 
 #### [@stdlib/assert/is-email-address](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-email-address)
 
@@ -495,7 +505,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="assert-is-empty-string-unreleased">
+<section class="package" id="assert-is-empty-string-v0.3.0">
 
 #### [@stdlib/assert/is-empty-string](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-empty-string)
 
@@ -517,7 +527,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="assert-is-even-unreleased">
+<section class="package" id="assert-is-even-v0.3.0">
 
 #### [@stdlib/assert/is-even](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-even)
 
@@ -539,7 +549,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="assert-is-finite-unreleased">
+<section class="package" id="assert-is-finite-v0.3.0">
 
 #### [@stdlib/assert/is-finite](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-finite)
 
@@ -561,7 +571,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="assert-is-hex-string-unreleased">
+<section class="package" id="assert-is-hex-string-v0.3.0">
 
 #### [@stdlib/assert/is-hex-string](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-hex-string)
 
@@ -583,7 +593,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="assert-is-infinite-unreleased">
+<section class="package" id="assert-is-infinite-v0.3.0">
 
 #### [@stdlib/assert/is-infinite](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-infinite)
 
@@ -605,7 +615,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="assert-is-integer-unreleased">
+<section class="package" id="assert-is-integer-v0.3.0">
 
 #### [@stdlib/assert/is-integer](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-integer)
 
@@ -627,7 +637,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="assert-is-json-unreleased">
+<section class="package" id="assert-is-json-v0.3.0">
 
 #### [@stdlib/assert/is-json](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-json)
 
@@ -649,7 +659,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="assert-is-kebabcase-unreleased">
+<section class="package" id="assert-is-kebabcase-v0.3.0">
 
 #### [@stdlib/assert/is-kebabcase](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-kebabcase)
 
@@ -671,7 +681,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="assert-is-localhost-unreleased">
+<section class="package" id="assert-is-localhost-v0.3.0">
 
 #### [@stdlib/assert/is-localhost](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-localhost)
 
@@ -693,7 +703,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="assert-is-lowercase-unreleased">
+<section class="package" id="assert-is-lowercase-v0.3.0">
 
 #### [@stdlib/assert/is-lowercase](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-lowercase)
 
@@ -715,7 +725,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="assert-is-nan-unreleased">
+<section class="package" id="assert-is-nan-v0.3.0">
 
 #### [@stdlib/assert/is-nan](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-nan)
 
@@ -737,7 +747,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="assert-is-negative-finite-unreleased">
+<section class="package" id="assert-is-negative-finite-v0.3.0">
 
 #### [@stdlib/assert/is-negative-finite](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-negative-finite)
 
@@ -769,7 +779,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="assert-is-negative-integer-unreleased">
+<section class="package" id="assert-is-negative-integer-v0.3.0">
 
 #### [@stdlib/assert/is-negative-integer](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-negative-integer)
 
@@ -791,7 +801,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="assert-is-negative-number-unreleased">
+<section class="package" id="assert-is-negative-number-v0.3.0">
 
 #### [@stdlib/assert/is-negative-number](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-negative-number)
 
@@ -813,7 +823,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="assert-is-negative-zero-unreleased">
+<section class="package" id="assert-is-negative-zero-v0.3.0">
 
 #### [@stdlib/assert/is-negative-zero](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-negative-zero)
 
@@ -835,7 +845,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="assert-is-nonnegative-finite-unreleased">
+<section class="package" id="assert-is-nonnegative-finite-v0.3.0">
 
 #### [@stdlib/assert/is-nonnegative-finite](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-nonnegative-finite)
 
@@ -868,7 +878,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="assert-is-nonnegative-integer-unreleased">
+<section class="package" id="assert-is-nonnegative-integer-v0.3.0">
 
 #### [@stdlib/assert/is-nonnegative-integer](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-nonnegative-integer)
 
@@ -890,7 +900,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="assert-is-nonnegative-number-unreleased">
+<section class="package" id="assert-is-nonnegative-number-v0.3.0">
 
 #### [@stdlib/assert/is-nonnegative-number](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-nonnegative-number)
 
@@ -912,7 +922,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="assert-is-nonpositive-finite-unreleased">
+<section class="package" id="assert-is-nonpositive-finite-v0.3.0">
 
 #### [@stdlib/assert/is-nonpositive-finite](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-nonpositive-finite)
 
@@ -956,7 +966,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="assert-is-nonpositive-integer-unreleased">
+<section class="package" id="assert-is-nonpositive-integer-v0.3.0">
 
 #### [@stdlib/assert/is-nonpositive-integer](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-nonpositive-integer)
 
@@ -978,7 +988,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="assert-is-nonpositive-number-unreleased">
+<section class="package" id="assert-is-nonpositive-number-v0.3.0">
 
 #### [@stdlib/assert/is-nonpositive-number](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-nonpositive-number)
 
@@ -1000,7 +1010,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="assert-is-odd-unreleased">
+<section class="package" id="assert-is-odd-v0.3.0">
 
 #### [@stdlib/assert/is-odd](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-odd)
 
@@ -1022,7 +1032,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="assert-is-pascalcase-unreleased">
+<section class="package" id="assert-is-pascalcase-v0.3.0">
 
 #### [@stdlib/assert/is-pascalcase](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-pascalcase)
 
@@ -1044,7 +1054,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="assert-is-positive-finite-unreleased">
+<section class="package" id="assert-is-positive-finite-v0.3.0">
 
 #### [@stdlib/assert/is-positive-finite](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-positive-finite)
 
@@ -1066,7 +1076,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="assert-is-positive-integer-unreleased">
+<section class="package" id="assert-is-positive-integer-v0.3.0">
 
 #### [@stdlib/assert/is-positive-integer](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-positive-integer)
 
@@ -1088,7 +1098,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="assert-is-positive-number-unreleased">
+<section class="package" id="assert-is-positive-number-v0.3.0">
 
 #### [@stdlib/assert/is-positive-number](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-positive-number)
 
@@ -1110,7 +1120,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="assert-is-positive-zero-unreleased">
+<section class="package" id="assert-is-positive-zero-v0.3.0">
 
 #### [@stdlib/assert/is-positive-zero](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-positive-zero)
 
@@ -1132,7 +1142,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="assert-is-prime-unreleased">
+<section class="package" id="assert-is-prime-v0.3.0">
 
 #### [@stdlib/assert/is-prime](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-prime)
 
@@ -1154,7 +1164,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="assert-is-probability-unreleased">
+<section class="package" id="assert-is-probability-v0.3.0">
 
 #### [@stdlib/assert/is-probability](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-probability)
 
@@ -1176,7 +1186,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="assert-is-ragged-nested-array-unreleased">
+<section class="package" id="assert-is-ragged-nested-array-v0.3.0">
 
 #### [@stdlib/assert/is-ragged-nested-array](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-ragged-nested-array)
 
@@ -1210,7 +1220,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="assert-is-regexp-string-unreleased">
+<section class="package" id="assert-is-regexp-string-v0.3.0">
 
 #### [@stdlib/assert/is-regexp-string](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-regexp-string)
 
@@ -1232,7 +1242,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="assert-is-relative-path-unreleased">
+<section class="package" id="assert-is-relative-path-v0.3.0">
 
 #### [@stdlib/assert/is-relative-path](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-relative-path)
 
@@ -1254,7 +1264,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="assert-is-relative-uri-unreleased">
+<section class="package" id="assert-is-relative-uri-v0.3.0">
 
 #### [@stdlib/assert/is-relative-uri](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-relative-uri)
 
@@ -1276,7 +1286,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="assert-is-safe-integer-unreleased">
+<section class="package" id="assert-is-safe-integer-v0.3.0">
 
 #### [@stdlib/assert/is-safe-integer](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-safe-integer)
 
@@ -1298,7 +1308,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="assert-is-same-booleanarray-unreleased">
+<section class="package" id="assert-is-same-booleanarray-v0.3.0">
 
 #### [@stdlib/assert/is-same-booleanarray](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-same-booleanarray)
 
@@ -1320,7 +1330,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="assert-is-same-date-object-unreleased">
+<section class="package" id="assert-is-same-date-object-v0.3.0">
 
 #### [@stdlib/assert/is-same-date-object](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-same-date-object)
 
@@ -1342,7 +1352,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="assert-is-semver-unreleased">
+<section class="package" id="assert-is-semver-v0.3.0">
 
 #### [@stdlib/assert/is-semver](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-semver)
 
@@ -1364,7 +1374,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="assert-is-snakecase-unreleased">
+<section class="package" id="assert-is-snakecase-v0.3.0">
 
 #### [@stdlib/assert/is-snakecase](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-snakecase)
 
@@ -1386,7 +1396,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="assert-is-square-triangular-number-unreleased">
+<section class="package" id="assert-is-square-triangular-number-v0.3.0">
 
 #### [@stdlib/assert/is-square-triangular-number](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-square-triangular-number)
 
@@ -1408,7 +1418,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="assert-is-startcase-unreleased">
+<section class="package" id="assert-is-startcase-v0.3.0">
 
 #### [@stdlib/assert/is-startcase](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-startcase)
 
@@ -1430,7 +1440,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="assert-is-triangular-number-unreleased">
+<section class="package" id="assert-is-triangular-number-v0.3.0">
 
 #### [@stdlib/assert/is-triangular-number](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-triangular-number)
 
@@ -1452,7 +1462,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="assert-is-typed-array-length-unreleased">
+<section class="package" id="assert-is-typed-array-length-v0.3.0">
 
 #### [@stdlib/assert/is-typed-array-length](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-typed-array-length)
 
@@ -1474,7 +1484,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="assert-is-unc-path-unreleased">
+<section class="package" id="assert-is-unc-path-v0.3.0">
 
 #### [@stdlib/assert/is-unc-path](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-unc-path)
 
@@ -1496,7 +1506,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="assert-is-uppercase-unreleased">
+<section class="package" id="assert-is-uppercase-v0.3.0">
 
 #### [@stdlib/assert/is-uppercase](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-uppercase)
 
@@ -1518,7 +1528,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="assert-is-uri-unreleased">
+<section class="package" id="assert-is-uri-v0.3.0">
 
 #### [@stdlib/assert/is-uri](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-uri)
 
@@ -1540,7 +1550,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="assert-is-well-formed-string-unreleased">
+<section class="package" id="assert-is-well-formed-string-v0.3.0">
 
 #### [@stdlib/assert/is-well-formed-string](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-well-formed-string)
 
@@ -1584,7 +1594,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="assert-is-whitespace-unreleased">
+<section class="package" id="assert-is-whitespace-v0.3.0">
 
 #### [@stdlib/assert/is-whitespace](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-whitespace)
 
@@ -1606,7 +1616,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="assert-napi-unreleased">
+<section class="package" id="assert-napi-v0.3.0">
 
 #### [@stdlib/assert/napi](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/napi)
 
@@ -1628,7 +1638,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="assert-napi-has-property-unreleased">
+<section class="package" id="assert-napi-has-property-v0.3.0">
 
 #### [@stdlib/assert/napi/has-property](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/napi/has-property)
 
