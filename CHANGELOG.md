@@ -2,6 +2,93 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2024-09-08)
+
+<section class="packages">
+
+### Packages
+
+<section class="package" id="assert-unreleased">
+
+#### [@stdlib/assert](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`d64eaf8`](https://github.com/stdlib-js/stdlib/commit/d64eaf86a770b6d7fad0078d65afe7e2a79361cb) - add `isSameArrayLike` to namespace
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="assert-is-same-array-like-unreleased">
+
+#### [@stdlib/assert/is-same-array-like](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-same-array-like)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`4e4d18d`](https://github.com/stdlib-js/stdlib/commit/4e4d18d142ca65c1257c2e2b7fa979dbbafb4741) - add `assert/is-same-array-like`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+</section>
+
+<!-- /.packages -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Athan Reines
+
+</section>
+
+<!-- /.contributors -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`d64eaf8`](https://github.com/stdlib-js/stdlib/commit/d64eaf86a770b6d7fad0078d65afe7e2a79361cb) - **feat:** add `isSameArrayLike` to namespace _(by Athan Reines)_
+-   [`4e4d18d`](https://github.com/stdlib-js/stdlib/commit/4e4d18d142ca65c1257c2e2b7fa979dbbafb4741) - **feat:** add `assert/is-same-array-like` _(by Athan Reines)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.3.1">
 
 ## 0.3.1 (2024-08-18)
