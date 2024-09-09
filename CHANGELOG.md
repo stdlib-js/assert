@@ -20,8 +20,54 @@
 
 ##### Features
 
+-   [`e97215f`](https://github.com/stdlib-js/stdlib/commit/e97215fbf9f4d1ec8548086f78ed04a0ec80a43f) - add `hasBtoaSupport` to namespace
+-   [`80b8061`](https://github.com/stdlib-js/stdlib/commit/80b8061c5888d04dcaa48f0363669ba2606856df) - add `hasAtobSupport` to namespace
 -   [`1123204`](https://github.com/stdlib-js/stdlib/commit/11232044680f87bb3b53b447dab24e4e54b659ef) - add `isEqualArray` to namespace
 -   [`d64eaf8`](https://github.com/stdlib-js/stdlib/commit/d64eaf86a770b6d7fad0078d65afe7e2a79361cb) - add `isSameArrayLike` to namespace
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="assert-has-atob-support-unreleased">
+
+#### [@stdlib/assert/has-atob-support](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/has-atob-support)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`f8e39ea`](https://github.com/stdlib-js/stdlib/commit/f8e39ea1a6d25ebb156f0d37219c6680d87c454f) - add `assert/has-atob-support`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="assert-has-btoa-support-unreleased">
+
+#### [@stdlib/assert/has-btoa-support](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/has-btoa-support)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`33219ce`](https://github.com/stdlib-js/stdlib/commit/33219cecbc347a85b4bb9659d00005fe7b5a6e64) - add `assert/has-btoa-support`
 
 </section>
 
@@ -99,6 +145,10 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 <details>
 
+-   [`e97215f`](https://github.com/stdlib-js/stdlib/commit/e97215fbf9f4d1ec8548086f78ed04a0ec80a43f) - **feat:** add `hasBtoaSupport` to namespace _(by Athan Reines)_
+-   [`33219ce`](https://github.com/stdlib-js/stdlib/commit/33219cecbc347a85b4bb9659d00005fe7b5a6e64) - **feat:** add `assert/has-btoa-support` _(by Athan Reines)_
+-   [`80b8061`](https://github.com/stdlib-js/stdlib/commit/80b8061c5888d04dcaa48f0363669ba2606856df) - **feat:** add `hasAtobSupport` to namespace _(by Athan Reines)_
+-   [`f8e39ea`](https://github.com/stdlib-js/stdlib/commit/f8e39ea1a6d25ebb156f0d37219c6680d87c454f) - **feat:** add `assert/has-atob-support` _(by Athan Reines)_
 -   [`1123204`](https://github.com/stdlib-js/stdlib/commit/11232044680f87bb3b53b447dab24e4e54b659ef) - **feat:** add `isEqualArray` to namespace _(by Athan Reines)_
 -   [`c992288`](https://github.com/stdlib-js/stdlib/commit/c99228859333cce71cb2f913aa8acb2020cda9a0) - **feat:** add `assert/is-equal-array` _(by Athan Reines)_
 -   [`d64eaf8`](https://github.com/stdlib-js/stdlib/commit/d64eaf86a770b6d7fad0078d65afe7e2a79361cb) - **feat:** add `isSameArrayLike` to namespace _(by Athan Reines)_
