@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-09-08)
+## Unreleased (2024-09-09)
 
 <section class="packages">
 
@@ -20,7 +20,30 @@
 
 ##### Features
 
+-   [`1123204`](https://github.com/stdlib-js/stdlib/commit/11232044680f87bb3b53b447dab24e4e54b659ef) - add `isEqualArray` to namespace
 -   [`d64eaf8`](https://github.com/stdlib-js/stdlib/commit/d64eaf86a770b6d7fad0078d65afe7e2a79361cb) - add `isSameArrayLike` to namespace
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="assert-is-equal-array-unreleased">
+
+#### [@stdlib/assert/is-equal-array](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-equal-array)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`c992288`](https://github.com/stdlib-js/stdlib/commit/c99228859333cce71cb2f913aa8acb2020cda9a0) - add `assert/is-equal-array`
 
 </section>
 
@@ -76,6 +99,8 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 <details>
 
+-   [`1123204`](https://github.com/stdlib-js/stdlib/commit/11232044680f87bb3b53b447dab24e4e54b659ef) - **feat:** add `isEqualArray` to namespace _(by Athan Reines)_
+-   [`c992288`](https://github.com/stdlib-js/stdlib/commit/c99228859333cce71cb2f913aa8acb2020cda9a0) - **feat:** add `assert/is-equal-array` _(by Athan Reines)_
 -   [`d64eaf8`](https://github.com/stdlib-js/stdlib/commit/d64eaf86a770b6d7fad0078d65afe7e2a79361cb) - **feat:** add `isSameArrayLike` to namespace _(by Athan Reines)_
 -   [`4e4d18d`](https://github.com/stdlib-js/stdlib/commit/4e4d18d142ca65c1257c2e2b7fa979dbbafb4741) - **feat:** add `assert/is-same-array-like` _(by Athan Reines)_
 
