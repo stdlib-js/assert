@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-09-09)
+## Unreleased (2024-09-11)
 
 <section class="packages">
 
@@ -131,9 +131,11 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Philipp Burckhardt
+-   Soumajit Chatterjee
 
 </section>
 
@@ -145,6 +147,7 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 <details>
 
+-   [`1f6fc8b`](https://github.com/stdlib-js/stdlib/commit/1f6fc8b5b99837f9d8b378413298f7544f1cb38e) - **bench:** update benchmarks to measure affirmative/negative test values _(by Soumajit Chatterjee, Philipp Burckhardt)_
 -   [`e97215f`](https://github.com/stdlib-js/stdlib/commit/e97215fbf9f4d1ec8548086f78ed04a0ec80a43f) - **feat:** add `hasBtoaSupport` to namespace _(by Athan Reines)_
 -   [`33219ce`](https://github.com/stdlib-js/stdlib/commit/33219cecbc347a85b4bb9659d00005fe7b5a6e64) - **feat:** add `assert/has-btoa-support` _(by Athan Reines)_
 -   [`80b8061`](https://github.com/stdlib-js/stdlib/commit/80b8061c5888d04dcaa48f0363669ba2606856df) - **feat:** add `hasAtobSupport` to namespace _(by Athan Reines)_
