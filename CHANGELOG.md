@@ -145,6 +145,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="assert-is-same-array-like-object-unreleased">
+
+#### [@stdlib/assert/is-same-array-like-object](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-same-array-like-object)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`15e6c71`](https://github.com/stdlib-js/stdlib/commit/15e6c71cac991fadbb8f804a7811650daa0d5e87) - add `assert/is-same-array-like-object`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 </section>
 
 <!-- /.packages -->
@@ -153,12 +175,13 @@
 
 ### Contributors
 
-A total of 4 people contributed to this release. Thank you to the following contributors:
+A total of 5 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Athan Reines
 -   Philipp Burckhardt
 -   Soumajit Chatterjee
+-   yaswanth
 
 </section>
 
@@ -170,6 +193,7 @@ A total of 4 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`15e6c71`](https://github.com/stdlib-js/stdlib/commit/15e6c71cac991fadbb8f804a7811650daa0d5e87) - **feat:** add `assert/is-same-array-like-object` _(by yaswanth, Philipp Burckhardt)_
 -   [`7bb8e20`](https://github.com/stdlib-js/stdlib/commit/7bb8e2020d334d9f9a838291e78d2f7442b24a67) - **feat:** add `@stdlib/assert/is-same-accessor-array` _(by Aayush Khanna, Philipp Burckhardt)_
 -   [`1f6fc8b`](https://github.com/stdlib-js/stdlib/commit/1f6fc8b5b99837f9d8b378413298f7544f1cb38e) - **bench:** update benchmarks to measure affirmative/negative test values _(by Soumajit Chatterjee, Philipp Burckhardt)_
 -   [`e97215f`](https://github.com/stdlib-js/stdlib/commit/e97215fbf9f4d1ec8548086f78ed04a0ec80a43f) - **feat:** add `hasBtoaSupport` to namespace _(by Athan Reines)_
