@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-09-11)
+## Unreleased (2024-09-15)
 
 <section class="packages">
 
@@ -101,6 +101,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="assert-is-same-accessor-array-unreleased">
+
+#### [@stdlib/assert/is-same-accessor-array](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-same-accessor-array)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`7bb8e20`](https://github.com/stdlib-js/stdlib/commit/7bb8e2020d334d9f9a838291e78d2f7442b24a67) - add `@stdlib/assert/is-same-accessor-array`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="assert-is-same-array-like-unreleased">
 
 #### [@stdlib/assert/is-same-array-like](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-same-array-like)
@@ -131,8 +153,9 @@
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
+-   Aayush Khanna
 -   Athan Reines
 -   Philipp Burckhardt
 -   Soumajit Chatterjee
@@ -147,6 +170,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`7bb8e20`](https://github.com/stdlib-js/stdlib/commit/7bb8e2020d334d9f9a838291e78d2f7442b24a67) - **feat:** add `@stdlib/assert/is-same-accessor-array` _(by Aayush Khanna, Philipp Burckhardt)_
 -   [`1f6fc8b`](https://github.com/stdlib-js/stdlib/commit/1f6fc8b5b99837f9d8b378413298f7544f1cb38e) - **bench:** update benchmarks to measure affirmative/negative test values _(by Soumajit Chatterjee, Philipp Burckhardt)_
 -   [`e97215f`](https://github.com/stdlib-js/stdlib/commit/e97215fbf9f4d1ec8548086f78ed04a0ec80a43f) - **feat:** add `hasBtoaSupport` to namespace _(by Athan Reines)_
 -   [`33219ce`](https://github.com/stdlib-js/stdlib/commit/33219cecbc347a85b4bb9659d00005fe7b5a6e64) - **feat:** add `assert/has-btoa-support` _(by Athan Reines)_
