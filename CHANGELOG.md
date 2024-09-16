@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-09-15)
+## Unreleased (2024-09-16)
 
 <section class="packages">
 
@@ -20,6 +20,7 @@
 
 ##### Features
 
+-   [`5279713`](https://github.com/stdlib-js/stdlib/commit/527971383e70a0e92dbca647dabfef27f294f149) - add `isWebAssemblyMemory` to namespace
 -   [`e97215f`](https://github.com/stdlib-js/stdlib/commit/e97215fbf9f4d1ec8548086f78ed04a0ec80a43f) - add `hasBtoaSupport` to namespace
 -   [`80b8061`](https://github.com/stdlib-js/stdlib/commit/80b8061c5888d04dcaa48f0363669ba2606856df) - add `hasAtobSupport` to namespace
 -   [`1123204`](https://github.com/stdlib-js/stdlib/commit/11232044680f87bb3b53b447dab24e4e54b659ef) - add `isEqualArray` to namespace
@@ -167,6 +168,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="assert-is-wasm-memory-unreleased">
+
+#### [@stdlib/assert/is-wasm-memory](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-wasm-memory)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`718ba36`](https://github.com/stdlib-js/stdlib/commit/718ba365fd18e0e35582433c22f6878a0e744675) - add `assert/is-wasm-memory`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 </section>
 
 <!-- /.packages -->
@@ -193,6 +216,8 @@ A total of 5 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`5279713`](https://github.com/stdlib-js/stdlib/commit/527971383e70a0e92dbca647dabfef27f294f149) - **feat:** add `isWebAssemblyMemory` to namespace _(by Athan Reines)_
+-   [`718ba36`](https://github.com/stdlib-js/stdlib/commit/718ba365fd18e0e35582433c22f6878a0e744675) - **feat:** add `assert/is-wasm-memory` _(by Athan Reines)_
 -   [`15e6c71`](https://github.com/stdlib-js/stdlib/commit/15e6c71cac991fadbb8f804a7811650daa0d5e87) - **feat:** add `assert/is-same-array-like-object` _(by yaswanth, Philipp Burckhardt)_
 -   [`7bb8e20`](https://github.com/stdlib-js/stdlib/commit/7bb8e2020d334d9f9a838291e78d2f7442b24a67) - **feat:** add `@stdlib/assert/is-same-accessor-array` _(by Aayush Khanna, Philipp Burckhardt)_
 -   [`1f6fc8b`](https://github.com/stdlib-js/stdlib/commit/1f6fc8b5b99837f9d8b378413298f7544f1cb38e) - **bench:** update benchmarks to measure affirmative/negative test values _(by Soumajit Chatterjee, Philipp Burckhardt)_
