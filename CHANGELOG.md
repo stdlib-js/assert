@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-09-16)
+## Unreleased (2024-09-17)
 
 <section class="packages">
 
@@ -216,6 +216,9 @@ A total of 5 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`f387603`](https://github.com/stdlib-js/stdlib/commit/f387603e739f88a38af3263ce6ff675ad903ee8c) - **docs:** consistently use declarative instead of imperative sentences outside of intros _(by Philipp Burckhardt)_
+-   [`ed44fee`](https://github.com/stdlib-js/stdlib/commit/ed44feecb9eaa5e0849d1a533e5415624d0aa338) - **style:** use imperative in package.json description and end with period _(by Philipp Burckhardt)_
+-   [`31fd427`](https://github.com/stdlib-js/stdlib/commit/31fd42744ec5d7073041f97c6f72350b8005c0fc) - **style:** remove unwanted empty lines _(by Philipp Burckhardt)_
 -   [`5279713`](https://github.com/stdlib-js/stdlib/commit/527971383e70a0e92dbca647dabfef27f294f149) - **feat:** add `isWebAssemblyMemory` to namespace _(by Athan Reines)_
 -   [`718ba36`](https://github.com/stdlib-js/stdlib/commit/718ba365fd18e0e35582433c22f6878a0e744675) - **feat:** add `assert/is-wasm-memory` _(by Athan Reines)_
 -   [`15e6c71`](https://github.com/stdlib-js/stdlib/commit/15e6c71cac991fadbb8f804a7811650daa0d5e87) - **feat:** add `assert/is-same-array-like-object` _(by yaswanth, Philipp Burckhardt)_
