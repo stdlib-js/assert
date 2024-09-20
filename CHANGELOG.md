@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-09-17)
+## Unreleased (2024-09-20)
 
 <section class="packages">
 
@@ -20,6 +20,7 @@
 
 ##### Features
 
+-   [`786e74e`](https://github.com/stdlib-js/stdlib/commit/786e74e1a1eb5ca959ac7150cb6c1a75cd86c843) - add `isndarrayLikeWithDataType` to namespace
 -   [`5279713`](https://github.com/stdlib-js/stdlib/commit/527971383e70a0e92dbca647dabfef27f294f149) - add `isWebAssemblyMemory` to namespace
 -   [`e97215f`](https://github.com/stdlib-js/stdlib/commit/e97215fbf9f4d1ec8548086f78ed04a0ec80a43f) - add `hasBtoaSupport` to namespace
 -   [`80b8061`](https://github.com/stdlib-js/stdlib/commit/80b8061c5888d04dcaa48f0363669ba2606856df) - add `hasAtobSupport` to namespace
@@ -91,6 +92,28 @@
 ##### Features
 
 -   [`c992288`](https://github.com/stdlib-js/stdlib/commit/c99228859333cce71cb2f913aa8acb2020cda9a0) - add `assert/is-equal-array`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="assert-is-ndarray-like-with--unreleased">
+
+#### [@stdlib/assert/is-ndarray-like-with-](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-ndarray-like-with-)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`755425a`](https://github.com/stdlib-js/stdlib/commit/755425a26f81cc16d2d37d8217efaab339c6416a) - add `assert/is-ndarray-like-with-data-type`
 
 </section>
 
@@ -216,6 +239,8 @@ A total of 5 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`786e74e`](https://github.com/stdlib-js/stdlib/commit/786e74e1a1eb5ca959ac7150cb6c1a75cd86c843) - **feat:** add `isndarrayLikeWithDataType` to namespace _(by Athan Reines)_
+-   [`755425a`](https://github.com/stdlib-js/stdlib/commit/755425a26f81cc16d2d37d8217efaab339c6416a) - **feat:** add `assert/is-ndarray-like-with-data-type` _(by Athan Reines)_
 -   [`f387603`](https://github.com/stdlib-js/stdlib/commit/f387603e739f88a38af3263ce6ff675ad903ee8c) - **docs:** consistently use declarative instead of imperative sentences outside of intros _(by Philipp Burckhardt)_
 -   [`ed44fee`](https://github.com/stdlib-js/stdlib/commit/ed44feecb9eaa5e0849d1a533e5415624d0aa338) - **style:** use imperative in package.json description and end with period _(by Philipp Burckhardt)_
 -   [`31fd427`](https://github.com/stdlib-js/stdlib/commit/31fd42744ec5d7073041f97c6f72350b8005c0fc) - **style:** remove unwanted empty lines _(by Philipp Burckhardt)_
