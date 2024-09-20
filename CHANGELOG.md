@@ -239,6 +239,7 @@ A total of 5 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`50ab973`](https://github.com/stdlib-js/stdlib/commit/50ab973780d5569b7a5e30d7cd9236abcca8d648) - **docs:** fix description _(by Athan Reines)_
 -   [`786e74e`](https://github.com/stdlib-js/stdlib/commit/786e74e1a1eb5ca959ac7150cb6c1a75cd86c843) - **feat:** add `isndarrayLikeWithDataType` to namespace _(by Athan Reines)_
 -   [`755425a`](https://github.com/stdlib-js/stdlib/commit/755425a26f81cc16d2d37d8217efaab339c6416a) - **feat:** add `assert/is-ndarray-like-with-data-type` _(by Athan Reines)_
 -   [`f387603`](https://github.com/stdlib-js/stdlib/commit/f387603e739f88a38af3263ce6ff675ad903ee8c) - **docs:** consistently use declarative instead of imperative sentences outside of intros _(by Philipp Burckhardt)_
