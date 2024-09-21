@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-09-20)
+## Unreleased (2024-09-21)
 
 <section class="packages">
 
@@ -239,6 +239,7 @@ A total of 5 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`6e9f42e`](https://github.com/stdlib-js/stdlib/commit/6e9f42e4c912485d9896eaa16c88b70fd3688e97) - **docs:** harmonize list formatting in repl.txt and ensure starting newline _(by Philipp Burckhardt)_
 -   [`50ab973`](https://github.com/stdlib-js/stdlib/commit/50ab973780d5569b7a5e30d7cd9236abcca8d648) - **docs:** fix description _(by Athan Reines)_
 -   [`786e74e`](https://github.com/stdlib-js/stdlib/commit/786e74e1a1eb5ca959ac7150cb6c1a75cd86c843) - **feat:** add `isndarrayLikeWithDataType` to namespace _(by Athan Reines)_
 -   [`755425a`](https://github.com/stdlib-js/stdlib/commit/755425a26f81cc16d2d37d8217efaab339c6416a) - **feat:** add `assert/is-ndarray-like-with-data-type` _(by Athan Reines)_
