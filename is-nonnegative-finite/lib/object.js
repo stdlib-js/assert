@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var isNonNegativeNumber = require( './../../is-nonnegative-number').isObject;
+var isNonNegativeNumber = require( './../../is-nonnegative-number' ).isObject;
 var PINF = require( '@stdlib/constants/float64/pinf' );
 
 
