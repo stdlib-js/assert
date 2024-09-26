@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-09-24)
+## Unreleased (2024-09-26)
 
 <section class="packages">
 
@@ -239,6 +239,7 @@ A total of 5 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`f477e26`](https://github.com/stdlib-js/stdlib/commit/f477e26a03e5e365f2e7c4035959a2fb789698a3) - **chore:** move functions to parent scope _(by Philipp Burckhardt)_
 -   [`8f72b43`](https://github.com/stdlib-js/stdlib/commit/8f72b432c0fc81a78641d5689722ecc9671c6f02) - **style:** add missing spaces around parentheses _(by Philipp Burckhardt)_
 -   [`6e9f42e`](https://github.com/stdlib-js/stdlib/commit/6e9f42e4c912485d9896eaa16c88b70fd3688e97) - **docs:** harmonize list formatting in repl.txt and ensure starting newline _(by Philipp Burckhardt)_
 -   [`50ab973`](https://github.com/stdlib-js/stdlib/commit/50ab973780d5569b7a5e30d7cd9236abcca8d648) - **docs:** fix description _(by Athan Reines)_
