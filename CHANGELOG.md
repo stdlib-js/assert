@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-09-28)
+## Unreleased (2024-10-08)
 
 <section class="packages">
 
@@ -191,6 +191,40 @@
 
 <!-- /.package -->
 
+<section class="package" id="assert-is-same-typed-array-like-unreleased">
+
+#### [@stdlib/assert/is-same-typed-array-like](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-same-typed-array-like)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`4927336`](https://github.com/stdlib-js/stdlib/commit/4927336d5b2b4a7d2baf0e7d854b406d309fac17) - add `assert/is-same-typed-array-like` [(#2939)](https://github.com/stdlib-js/stdlib/pull/2939)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#2887](https://github.com/stdlib-js/stdlib/issues/2887)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="assert-is-wasm-memory-unreleased">
 
 #### [@stdlib/assert/is-wasm-memory](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-wasm-memory)
@@ -217,13 +251,26 @@
 
 <!-- /.packages -->
 
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#2887](https://github.com/stdlib-js/stdlib/issues/2887)
+
+</section>
+
+<!-- /.issues -->
+
 <section class="contributors">
 
 ### Contributors
 
-A total of 5 people contributed to this release. Thank you to the following contributors:
+A total of 6 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
+-   Aditya Sapra
 -   Athan Reines
 -   Philipp Burckhardt
 -   Soumajit Chatterjee
@@ -239,6 +286,7 @@ A total of 5 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`4927336`](https://github.com/stdlib-js/stdlib/commit/4927336d5b2b4a7d2baf0e7d854b406d309fac17) - **feat:** add `assert/is-same-typed-array-like` [(#2939)](https://github.com/stdlib-js/stdlib/pull/2939) _(by Aditya Sapra, Philipp Burckhardt)_
 -   [`abf0407`](https://github.com/stdlib-js/stdlib/commit/abf040787f6598438b0100a729a8331b7f80f62f) - **chore:** resolve lint errors in TS files _(by Philipp Burckhardt)_
 -   [`ff9fa81`](https://github.com/stdlib-js/stdlib/commit/ff9fa81f917d539f1a11fba5580e1744991a8a11) - **docs:** fix TSDoc lint errors _(by Philipp Burckhardt)_
 -   [`f477e26`](https://github.com/stdlib-js/stdlib/commit/f477e26a03e5e365f2e7c4035959a2fb789698a3) - **chore:** move functions to parent scope _(by Philipp Burckhardt)_
