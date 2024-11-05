@@ -2,6 +2,16 @@
 
 > Package changelog.
 
+<section class="release" id="v0.3.3">
+
+## 0.3.3 (2024-11-05)
+
+No changes reported for this release.
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.3.2">
 
 ## 0.3.2 (2024-11-05)
@@ -10,7 +20,7 @@
 
 ### Packages
 
-<section class="package" id="assert-unreleased">
+<section class="package" id="assert-v0.3.2">
 
 #### [@stdlib/assert](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert)
 
@@ -37,7 +47,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="assert-has-atob-support-unreleased">
+<section class="package" id="assert-has-atob-support-v0.3.2">
 
 #### [@stdlib/assert/has-atob-support](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/has-atob-support)
 
@@ -59,7 +69,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="assert-has-btoa-support-unreleased">
+<section class="package" id="assert-has-btoa-support-v0.3.2">
 
 #### [@stdlib/assert/has-btoa-support](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/has-btoa-support)
 
@@ -81,7 +91,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="assert-is-equal-array-unreleased">
+<section class="package" id="assert-is-equal-array-v0.3.2">
 
 #### [@stdlib/assert/is-equal-array](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-equal-array)
 
@@ -103,7 +113,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="assert-is-ndarray-like-with--unreleased">
+<section class="package" id="assert-is-ndarray-like-with--v0.3.2">
 
 #### [@stdlib/assert/is-ndarray-like-with-](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-ndarray-like-with-)
 
@@ -125,7 +135,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="assert-is-same-accessor-array-unreleased">
+<section class="package" id="assert-is-same-accessor-array-v0.3.2">
 
 #### [@stdlib/assert/is-same-accessor-array](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-same-accessor-array)
 
@@ -147,7 +157,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="assert-is-same-array-like-unreleased">
+<section class="package" id="assert-is-same-array-like-v0.3.2">
 
 #### [@stdlib/assert/is-same-array-like](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-same-array-like)
 
@@ -169,7 +179,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="assert-is-same-array-like-object-unreleased">
+<section class="package" id="assert-is-same-array-like-object-v0.3.2">
 
 #### [@stdlib/assert/is-same-array-like-object](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-same-array-like-object)
 
@@ -191,7 +201,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="assert-is-same-typed-array-like-unreleased">
+<section class="package" id="assert-is-same-typed-array-like-v0.3.2">
 
 #### [@stdlib/assert/is-same-typed-array-like](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-same-typed-array-like)
 
@@ -225,7 +235,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="assert-is-wasm-memory-unreleased">
+<section class="package" id="assert-is-wasm-memory-v0.3.2">
 
 #### [@stdlib/assert/is-wasm-memory](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/is-wasm-memory)
 
