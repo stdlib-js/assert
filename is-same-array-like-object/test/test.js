@@ -21,7 +21,7 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var isSameArrayLikeObject = require( './../../is-same-array-like-object/lib' );
+var isSameArrayLikeObject = require( './../lib' );
 
 
 // TESTS //
