@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-11-21)
+## Unreleased (2024-12-08)
 
 <section class="packages">
 
@@ -79,6 +79,7 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`7e8187a`](https://github.com/stdlib-js/stdlib/commit/7e8187a766886c2fb9cdc356cf781f0a1802172c) - **docs:** update related packages sections [(#3368)](https://github.com/stdlib-js/stdlib/pull/3368) _(by stdlib-bot)_
 -   [`9ba0dbd`](https://github.com/stdlib-js/stdlib/commit/9ba0dbd839707695a05fda5d4f50d67c5aba52f7) - **chore:** use relative paths to load main package export _(by Philipp Burckhardt)_
 -   [`b6a2b0b`](https://github.com/stdlib-js/stdlib/commit/b6a2b0b27dc8cc1e9fc02d9679a3ce468cf49b9d) - **docs:** update namespace table of contents [(#3192)](https://github.com/stdlib-js/stdlib/pull/3192) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`2507d8e`](https://github.com/stdlib-js/stdlib/commit/2507d8eea8259c4ebc393a8150202b60c8302ec0) - **build:** support bundling of tests and benchmarks _(by Athan Reines)_
@@ -376,7 +377,7 @@ A total of 6 people contributed to this release. Thank you to the following cont
 -   Athan Reines
 -   Philipp Burckhardt
 -   Soumajit Chatterjee
--   yaswanth
+-   Yaswanth Kosuru
 
 </section>
 
@@ -403,7 +404,7 @@ A total of 6 people contributed to this release. Thank you to the following cont
 -   [`31fd427`](https://github.com/stdlib-js/stdlib/commit/31fd42744ec5d7073041f97c6f72350b8005c0fc) - **style:** remove unwanted empty lines _(by Philipp Burckhardt)_
 -   [`5279713`](https://github.com/stdlib-js/stdlib/commit/527971383e70a0e92dbca647dabfef27f294f149) - **feat:** add `isWebAssemblyMemory` to namespace _(by Athan Reines)_
 -   [`718ba36`](https://github.com/stdlib-js/stdlib/commit/718ba365fd18e0e35582433c22f6878a0e744675) - **feat:** add `assert/is-wasm-memory` _(by Athan Reines)_
--   [`15e6c71`](https://github.com/stdlib-js/stdlib/commit/15e6c71cac991fadbb8f804a7811650daa0d5e87) - **feat:** add `assert/is-same-array-like-object` _(by yaswanth, Philipp Burckhardt)_
+-   [`15e6c71`](https://github.com/stdlib-js/stdlib/commit/15e6c71cac991fadbb8f804a7811650daa0d5e87) - **feat:** add `assert/is-same-array-like-object` _(by Yaswanth Kosuru, Philipp Burckhardt)_
 -   [`7bb8e20`](https://github.com/stdlib-js/stdlib/commit/7bb8e2020d334d9f9a838291e78d2f7442b24a67) - **feat:** add `@stdlib/assert/is-same-accessor-array` _(by Aayush Khanna, Philipp Burckhardt)_
 -   [`1f6fc8b`](https://github.com/stdlib-js/stdlib/commit/1f6fc8b5b99837f9d8b378413298f7544f1cb38e) - **bench:** update benchmarks to measure affirmative/negative test values _(by Soumajit Chatterjee, Philipp Burckhardt)_
 -   [`e97215f`](https://github.com/stdlib-js/stdlib/commit/e97215fbf9f4d1ec8548086f78ed04a0ec80a43f) - **feat:** add `hasBtoaSupport` to namespace _(by Athan Reines)_
@@ -2110,7 +2111,7 @@ A total of 9 people contributed to this release. Thank you to the following cont
 -   Gunj Joshi
 -   Jaysukh Makvana
 -   Philipp Burckhardt
--   Rutam
+-   Rutam Kathale
 -   Shubham Mishra
 -   Snehil Shah
 -   Spandan Barve
@@ -2162,7 +2163,7 @@ A total of 9 people contributed to this release. Thank you to the following cont
 -   [`30112b7`](https://github.com/stdlib-js/stdlib/commit/30112b7202358710becc8ea77f4261dd3e7459f3) - **fix:** replace use of type guards with boolean return type _(by Philipp Burckhardt)_
 -   [`0f3838c`](https://github.com/stdlib-js/stdlib/commit/0f3838c60707ee9e1fd9632c8117f598ff8a60eb) - **feat:** add `assert/is-well-formed-string` [(#1388)](https://github.com/stdlib-js/stdlib/pull/1388) _(by Gunj Joshi, Philipp Burckhardt)_
 -   [`f36bef4`](https://github.com/stdlib-js/stdlib/commit/f36bef4200f32f136243c0ff1ebd083dfcf1c133) - **feat:** add `assert/is-nonpositive-finite` [(#1396)](https://github.com/stdlib-js/stdlib/pull/1396) _(by Shubham Mishra, Philipp Burckhardt)_
--   [`0fb4869`](https://github.com/stdlib-js/stdlib/commit/0fb486917502a8397c281872831c70b2e58b7f27) - **feat:** add `assert/is-ragged-nested-array` (#1368) [(#1368)](https://github.com/stdlib-js/stdlib/pull/1368 ) _(by Rutam, Athan Reines)_
+-   [`0fb4869`](https://github.com/stdlib-js/stdlib/commit/0fb486917502a8397c281872831c70b2e58b7f27) - **feat:** add `assert/is-ragged-nested-array` (#1368) [(#1368)](https://github.com/stdlib-js/stdlib/pull/1368 ) _(by Rutam Kathale, Athan Reines)_
 -   [`2f1f30e`](https://github.com/stdlib-js/stdlib/commit/2f1f30e14ba74c4e767eadd5650a84e3c3901b6c) - **refactor:** avoid duplicate assertion logic and fix documentation errors _(by Athan Reines)_
 -   [`8ebd6f7`](https://github.com/stdlib-js/stdlib/commit/8ebd6f770e563cc7cce79e11424c3fb85736ad42) - **refactor:** avoid assertion duplication and fix package meta data _(by Athan Reines)_
 -   [`0a081ce`](https://github.com/stdlib-js/stdlib/commit/0a081ce87dec3491252ffb9c45cc9fa6e695cbe5) - **fix:** use `valueOf` to return primitive value _(by Athan Reines)_
