@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-01-06)
+## Unreleased (2025-01-20)
 
 <section class="packages">
 
@@ -79,6 +79,7 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`ff97e29`](https://github.com/stdlib-js/stdlib/commit/ff97e29be19b90e74565d410af768774bf96bf2e) - **chore:** update wording from non-negative to nonnegative _(by Philipp Burckhardt)_
 -   [`563a4f8`](https://github.com/stdlib-js/stdlib/commit/563a4f826ab757636ae08094fc6f62746042da4b) - **docs:** update related packages sections [(#4594)](https://github.com/stdlib-js/stdlib/pull/4594) _(by stdlib-bot)_
 -   [`8a15baa`](https://github.com/stdlib-js/stdlib/commit/8a15baa639e8c4f45479821cf7331715e0546e86) - **docs:** update related packages sections [(#4425)](https://github.com/stdlib-js/stdlib/pull/4425) _(by stdlib-bot)_
 -   [`4a70790`](https://github.com/stdlib-js/stdlib/commit/4a707903dfef7c2b56216000165706497d19a251) - **style:** add missing spaces _(by Philipp Burckhardt)_
