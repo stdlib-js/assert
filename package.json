@@ -64,6 +64,7 @@
     "@stdlib/bigint": "github:stdlib-js/bigint#main",
     "@stdlib/buffer": "github:stdlib-js/buffer#main",
     "@stdlib/datasets": "github:stdlib-js/datasets#main",
+    "@stdlib/dstructs": "github:stdlib-js/dstructs#main",
     "@stdlib/random": "github:stdlib-js/random#main",
     "proxyquire": "^2.0.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
