@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-02-21)
+## Unreleased (2025-02-22)
 
 <section class="packages">
 
@@ -20,6 +20,7 @@
 
 ##### Features
 
+-   [`9789396`](https://github.com/stdlib-js/stdlib/commit/9789396bd5111e963f4662c57c6b4159d4166946) - update namespace TypeScript declarations [(#5364)](https://github.com/stdlib-js/stdlib/pull/5364)
 -   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec) - update namespace TypeScript declarations [(#3190)](https://github.com/stdlib-js/stdlib/pull/3190)
 
 </section>
@@ -79,6 +80,7 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`9789396`](https://github.com/stdlib-js/stdlib/commit/9789396bd5111e963f4662c57c6b4159d4166946) - **feat:** update namespace TypeScript declarations [(#5364)](https://github.com/stdlib-js/stdlib/pull/5364) _(by stdlib-bot)_
 -   [`d631f9f`](https://github.com/stdlib-js/stdlib/commit/d631f9f628dd9ebe8a1db319e00ae2ef69e92edc) - **refactor:** update require paths _(by Athan Reines)_
 -   [`fb7cbd3`](https://github.com/stdlib-js/stdlib/commit/fb7cbd31c78b05a7008a06e232fded012bab9c52) - **docs:** update related packages sections [(#5002)](https://github.com/stdlib-js/stdlib/pull/5002) _(by stdlib-bot)_
 -   [`e18ac04`](https://github.com/stdlib-js/stdlib/commit/e18ac04fcc119deda36c9da4a996a3b75b1e6d9f) - **style:** add missing spaces _(by Philipp Burckhardt)_
