@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-06)
+## Unreleased (2025-03-30)
 
 <section class="packages">
 
@@ -34,6 +34,88 @@
 -   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec): update namespace declarations
 
     -   To migrate, users should consult the corresponding packages containing the respective implementations to determine what is breaking. The primary breakages come from the `blas/*` namespace, where we recently refactored how top-level BLAS APIs operate on input arguments.
+
+</section>
+
+<!-- /.breaking-changes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="assert-contains-unreleased">
+
+#### [@stdlib/assert/contains](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/assert/contains)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`fa71a1e`](https://github.com/stdlib-js/stdlib/commit/fa71a1e16b3abbb33e716c96999579fb74a28058) - distinguish between signed zeros
+
+</section>
+
+<!-- /.features -->
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`fa71a1e`](https://github.com/stdlib-js/stdlib/commit/fa71a1e16b3abbb33e716c96999579fb74a28058): distinguish signed zeros
+
+    -   To migrate, users should normalize signed zeros before invoking
+        this function. Otherwise, users should use a different algorithm
+        which uses strict equality to determine \"sameness\" (e.g., a package
+        such as `@stdlib/array/base/includes`).
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: passed
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: passed
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: passed
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
 
 </section>
 
@@ -77,6 +159,58 @@ This release closes the following issue:
 
 ### BREAKING CHANGES
 
+-   [`fa71a1e`](https://github.com/stdlib-js/stdlib/commit/fa71a1e16b3abbb33e716c96999579fb74a28058): distinguish signed zeros
+
+    -   To migrate, users should normalize signed zeros before invoking
+        this function. Otherwise, users should use a different algorithm
+        which uses strict equality to determine \"sameness\" (e.g., a package
+        such as `@stdlib/array/base/includes`).
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: passed
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: passed
+          - task: lint_javascript_src
+            status: passed
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: passed
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: passed
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+
 -   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec): update namespace declarations
 
     -   To migrate, users should consult the corresponding packages containing the respective implementations to determine what is breaking. The primary breakages come from the `blas/*` namespace, where we recently refactored how top-level BLAS APIs operate on input arguments.
@@ -117,6 +251,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`fa71a1e`](https://github.com/stdlib-js/stdlib/commit/fa71a1e16b3abbb33e716c96999579fb74a28058) - **feat:** distinguish between signed zeros _(by Athan Reines)_
 -   [`8fe91fb`](https://github.com/stdlib-js/stdlib/commit/8fe91fb43e957de06c91f7cfcb77f6d806acac00) - **chore:** require process module to resolve lint error [(#5819)](https://github.com/stdlib-js/stdlib/pull/5819) _(by Anshu Kumar, Philipp Burckhardt)_
 -   [`9789396`](https://github.com/stdlib-js/stdlib/commit/9789396bd5111e963f4662c57c6b4159d4166946) - **feat:** update namespace TypeScript declarations [(#5364)](https://github.com/stdlib-js/stdlib/pull/5364) _(by stdlib-bot)_
 -   [`d631f9f`](https://github.com/stdlib-js/stdlib/commit/d631f9f628dd9ebe8a1db319e00ae2ef69e92edc) - **refactor:** update require paths _(by Athan Reines)_

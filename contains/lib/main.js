@@ -23,7 +23,7 @@
 var isCollection = require( './../../is-collection' );
 var isInteger = require( './../../is-integer' ).isPrimitive;
 var isString = require( './../../is-string' ).isPrimitive;
-var isnan = require( './../../is-nan' ).isPrimitive;
+var isSameValue = require( './../../is-same-value' );
 var format = require( '@stdlib/string/format' );
 
 
@@ -32,7 +32,7 @@ var format = require( '@stdlib/string/format' );
 /**
 * Tests if an array-like value contains a search value.
 *
-* @param {(Collection|string)} val - input value
+* @param {(Collection|string)} value - input value
 * @param {*} searchValue - search value
 * @param {integer} [position=0] - position at which to start searching for `searchValue`
 * @throws {TypeError} first argument must be array-like
@@ -69,12 +69,15 @@ var format = require( '@stdlib/string/format' );
 * var bool = contains( 'Hidden Treasures', '' );
 * // returns true
 */
-function contains( val, searchValue, position ) {
+function contains( value, searchValue, position ) {
+	var isStr;
 	var len;
 	var pos;
 	var i;
-	if ( !isCollection( val ) && !isString( val ) ) {
-		throw new TypeError( format( 'invalid argument. First argument must be array-like. Value: `%s`.', val ) );
+
+	isStr = isString( value );
+	if ( !isCollection( value ) && !isStr ) {
+		throw new TypeError( format( 'invalid argument. First argument must be array-like. Value: `%s`.', value ) );
 	}
 	if ( arguments.length < 2 ) {
 		throw new Error( 'insufficient arguments. Must provide a search value.' );
@@ -90,23 +93,15 @@ function contains( val, searchValue, position ) {
 	} else {
 		pos = 0;
 	}
-	if ( isString( val ) ) {
+	if ( isStr ) {
 		if ( !isString( searchValue ) ) {
 			throw new TypeError( format( 'invalid argument. Second argument must be a string. Value: `%s`.', searchValue ) );
 		}
-		return val.indexOf( searchValue, pos ) !== -1;
+		return value.indexOf( searchValue, pos ) !== -1;
 	}
-	len = val.length;
-	if ( isnan( searchValue ) ) {
-		for ( i = pos; i < len; i++ ) {
-			if ( isnan( val[ i ] ) ) {
-				return true;
-			}
-		}
-		return false;
-	}
+	len = value.length;
 	for ( i = pos; i < len; i++ ) {
-		if ( val[ i ] === searchValue ) {
+		if ( isSameValue( value[ i ], searchValue ) ) {
 			return true;
 		}
 	}
