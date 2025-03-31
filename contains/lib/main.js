@@ -23,7 +23,7 @@
 var isCollection = require( './../../is-collection' );
 var isInteger = require( './../../is-integer' ).isPrimitive;
 var isString = require( './../../is-string' ).isPrimitive;
-var isSameValue = require( './../../is-same-value' );
+var indexOfSameValue = require( '@stdlib/array/base/index-of-same-value' );
 var format = require( '@stdlib/string/format' );
 
 
@@ -71,9 +71,7 @@ var format = require( '@stdlib/string/format' );
 */
 function contains( value, searchValue, position ) {
 	var isStr;
-	var len;
 	var pos;
-	var i;
 
 	isStr = isString( value );
 	if ( !isCollection( value ) && !isStr ) {
@@ -99,13 +97,7 @@ function contains( value, searchValue, position ) {
 		}
 		return value.indexOf( searchValue, pos ) !== -1;
 	}
-	len = value.length;
-	for ( i = pos; i < len; i++ ) {
-		if ( isSameValue( value[ i ], searchValue ) ) {
-			return true;
-		}
-	}
-	return false;
+	return indexOfSameValue( value, searchValue, pos ) !== -1;
 }
 
 
