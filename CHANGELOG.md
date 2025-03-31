@@ -253,6 +253,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`9998d76`](https://github.com/stdlib-js/stdlib/commit/9998d768131de91b59e2808ddf4ee552407d4175) - **docs:** update namespace table of contents [(#6461)](https://github.com/stdlib-js/stdlib/pull/6461) _(by stdlib-bot)_
 -   [`7899d23`](https://github.com/stdlib-js/stdlib/commit/7899d23195464e9fc0a10b1f0e57b5aa230de5e2) - **feat:** update namespace TypeScript declarations [(#6459)](https://github.com/stdlib-js/stdlib/pull/6459) _(by stdlib-bot)_
 -   [`7ff916d`](https://github.com/stdlib-js/stdlib/commit/7ff916d9ab887aea71d5b3e525d60a0922440ded) - **feat:** add accessor protocol support _(by Athan Reines)_
 -   [`fa71a1e`](https://github.com/stdlib-js/stdlib/commit/fa71a1e16b3abbb33e716c96999579fb74a28058) - **feat:** distinguish between signed zeros _(by Athan Reines)_
