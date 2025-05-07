@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-05-03)
+## Unreleased (2025-05-07)
 
 <section class="features">
 
@@ -57,6 +57,10 @@ A total of 2 issues were closed in this release:
 
 <details>
 
+-   [`c146634`](https://github.com/stdlib-js/stdlib/commit/c1466343f33692d3019f34d6ad7f29025f5a6d2c) - **docs:** use abbreviated alias _(by Athan Reines)_
+-   [`5bfe900`](https://github.com/stdlib-js/stdlib/commit/5bfe90097b8de743489f2859f1f2f01911961740) - **docs:** use abbreviated alias _(by Athan Reines)_
+-   [`49f901a`](https://github.com/stdlib-js/stdlib/commit/49f901a5b29fa9d967e1f15750f06a5338c29b9c) - **docs:** use consistent alias _(by Athan Reines)_
+-   [`aea0a01`](https://github.com/stdlib-js/stdlib/commit/aea0a01e0c1b86a9e21e3f34df32d04e24a4cbc5) - **docs:** use consistent alias _(by Athan Reines)_
 -   [`384672f`](https://github.com/stdlib-js/stdlib/commit/384672f535a570ae66d10e24d098a8d12657c9ba) - **chore:** fix EditorConfig lint errors [(#6904)](https://github.com/stdlib-js/stdlib/pull/6904) _(by Dipjyoti Das)_
 -   [`9998d76`](https://github.com/stdlib-js/stdlib/commit/9998d768131de91b59e2808ddf4ee552407d4175) - **docs:** update namespace table of contents [(#6461)](https://github.com/stdlib-js/stdlib/pull/6461) _(by stdlib-bot)_
 -   [`7899d23`](https://github.com/stdlib-js/stdlib/commit/7899d23195464e9fc0a10b1f0e57b5aa230de5e2) - **feat:** update namespace TypeScript declarations [(#6459)](https://github.com/stdlib-js/stdlib/pull/6459) _(by stdlib-bot)_
