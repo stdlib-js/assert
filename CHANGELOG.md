@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-05-07)
+## Unreleased (2025-05-08)
 
 <section class="features">
 
@@ -43,9 +43,9 @@
 
 ### Closed Issues
 
-A total of 2 issues were closed in this release:
+A total of 3 issues were closed in this release:
 
-[#5814](https://github.com/stdlib-js/stdlib/issues/5814), [#6901](https://github.com/stdlib-js/stdlib/issues/6901)
+[#5814](https://github.com/stdlib-js/stdlib/issues/5814), [#6901](https://github.com/stdlib-js/stdlib/issues/6901), [#6925](https://github.com/stdlib-js/stdlib/issues/6925)
 
 </section>
 
@@ -57,6 +57,7 @@ A total of 2 issues were closed in this release:
 
 <details>
 
+-   [`669f8e5`](https://github.com/stdlib-js/stdlib/commit/669f8e55d710847a949d08299f580b2d2d6357f8) - **chore:** fix EditorConfig lint errors [(#6937)](https://github.com/stdlib-js/stdlib/pull/6937) _(by Lalit Narayan Yadav, Athan Reines, Shabareesh Shetty, stdlib-bot)_
 -   [`c146634`](https://github.com/stdlib-js/stdlib/commit/c1466343f33692d3019f34d6ad7f29025f5a6d2c) - **docs:** use abbreviated alias _(by Athan Reines)_
 -   [`5bfe900`](https://github.com/stdlib-js/stdlib/commit/5bfe90097b8de743489f2859f1f2f01911961740) - **docs:** use abbreviated alias _(by Athan Reines)_
 -   [`49f901a`](https://github.com/stdlib-js/stdlib/commit/49f901a5b29fa9d967e1f15750f06a5338c29b9c) - **docs:** use consistent alias _(by Athan Reines)_
@@ -101,12 +102,14 @@ A total of 2 issues were closed in this release:
 
 ### Contributors
 
-A total of 4 people contributed to this release. Thank you to the following contributors:
+A total of 6 people contributed to this release. Thank you to the following contributors:
 
 -   Anshu Kumar
 -   Athan Reines
 -   Dipjyoti Das
+-   Lalit Narayan Yadav
 -   Philipp Burckhardt
+-   Shabareesh Shetty
 
 </section>
 
