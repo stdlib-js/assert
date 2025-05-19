@@ -4,12 +4,33 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-05-08)
+## Unreleased (2025-05-19)
 
 <section class="features">
 
 ### Features
 
+-   [`25231ce`](https://github.com/stdlib-js/stdlib/commit/25231ce28c32227f3514a468dd6b9b2ca494e53b) - add `isEqualUint8ClampedArray` to namespace
+-   [`b5c4b2c`](https://github.com/stdlib-js/stdlib/commit/b5c4b2caf155d22f1e18c3843294b8af70a30ce7) - add `assert/is-equal-uint8clampedarray`
+-   [`e166067`](https://github.com/stdlib-js/stdlib/commit/e16606740154f7fd9dc727918b3b1c91a4dabd1c) - add `isEqualUint8Array` to namespace
+-   [`fc389aa`](https://github.com/stdlib-js/stdlib/commit/fc389aa17d8efb2bc951688f075a1db643398b8b) - add `assert/is-equal-uint8array` to namespace
+-   [`d26ebbe`](https://github.com/stdlib-js/stdlib/commit/d26ebbe1b4d25462e268c36136af4ce96f537887) - add `isEqualUint16Array` to namespace
+-   [`e556b6e`](https://github.com/stdlib-js/stdlib/commit/e556b6e4ab49bd8e8995a9154a82a4c93b46d84e) - add `assert/is-equal-uint16array`
+-   [`2b1076f`](https://github.com/stdlib-js/stdlib/commit/2b1076f075bcfef6f18fc4318878863a87056f49) - add `isEqualUint32Array` to namespace
+-   [`3c3514f`](https://github.com/stdlib-js/stdlib/commit/3c3514f9dbac38514db2a04701259ad4dfda76a6) - add `assert/is-equal-uint32array`
+-   [`aae7623`](https://github.com/stdlib-js/stdlib/commit/aae76239c23144a092995e22a5c50a64a115d621) - add `isEqualInt8Array` to namespace
+-   [`3f9732c`](https://github.com/stdlib-js/stdlib/commit/3f9732c9d21636d96316bd2c01f90edd50f0805f) - add `assert/is-equal-int8array`
+-   [`4ab1928`](https://github.com/stdlib-js/stdlib/commit/4ab192805184fcce9b7def031c1abb97cd09faa3) - add `isEqualInt16Array` to namespace
+-   [`52d148a`](https://github.com/stdlib-js/stdlib/commit/52d148a7c32085d3f133a0c5a2ce6cc31cfdd6f9) - add `assert/is-equal-int16array`
+-   [`a355128`](https://github.com/stdlib-js/stdlib/commit/a35512895adec8d5749ad26d8dda7f0a9a881a52) - add `isEqualDateObject` to namespace
+-   [`dd49180`](https://github.com/stdlib-js/stdlib/commit/dd4918035f7c85aa0d69697e9d1eb05bc7688ee2) - add `assert/is-equal-date-object`
+-   [`da7cd36`](https://github.com/stdlib-js/stdlib/commit/da7cd36c6233b19e9ebc5140ee497b95e822559a) - add `isSameTypedArrayLike` to namespace
+-   [`4c37780`](https://github.com/stdlib-js/stdlib/commit/4c3778042bee27fe41910c5c0ec94a5c5c219f13) - add `isSameArrayLikeObject` to namespace
+-   [`3e1cf70`](https://github.com/stdlib-js/stdlib/commit/3e1cf706cab583d76379448eed6b973c194a12f4) - add `isSameAccessorArray` to namespace
+-   [`4bd2e6d`](https://github.com/stdlib-js/stdlib/commit/4bd2e6d16c24ce62967d5cd43b6b5a63b8820675) - add `isEqualInt32Array` to namespace
+-   [`2562ae5`](https://github.com/stdlib-js/stdlib/commit/2562ae5291e724fdef5468e80789f427afec669e) - add `isEqualBooleanArray` to namespace
+-   [`b0071b2`](https://github.com/stdlib-js/stdlib/commit/b0071b257c59721a7f0dc27a30861fe7cca75c4c) - add `assert/is-equal-booleanarray`
+-   [`d992247`](https://github.com/stdlib-js/stdlib/commit/d99224762b96e2adacd801f1e9c84558f2847ef0) - add `assert/is-equal-int32array`
 -   [`7899d23`](https://github.com/stdlib-js/stdlib/commit/7899d23195464e9fc0a10b1f0e57b5aa230de5e2) - update namespace TypeScript declarations [(#6459)](https://github.com/stdlib-js/stdlib/pull/6459)
 -   [`7ff916d`](https://github.com/stdlib-js/stdlib/commit/7ff916d9ab887aea71d5b3e525d60a0922440ded) - add accessor protocol support
 -   [`fa71a1e`](https://github.com/stdlib-js/stdlib/commit/fa71a1e16b3abbb33e716c96999579fb74a28058) - distinguish between signed zeros
@@ -23,6 +44,21 @@
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
+
+-   [`175765c`](https://github.com/stdlib-js/stdlib/commit/175765cf2181ed5ac877b74fa1378367573e271f): remove `assert/is-same-date-object`
+
+    -   To migrate, users should update their import paths to use
+        `@stdlib/assert/is-equal-date-object`.
+
+-   [`6e6299e`](https://github.com/stdlib-js/stdlib/commit/6e6299ec821002ff57bd4f4d6f3fd7a0e56a77bd): remove `assert/is-same-booleanarray`
+
+    -   To migrate, users should update their import paths to use
+        `@stdlib/assert/is-equal-booleanarray`. The behavior is the same.
+        The removed package used the same value algorithm which is not
+        necessary for comparing boolean values. By migrating to use
+        `is-equal-booleanarray`, the comparison should faster and have
+        better performance, as the underlying implementation uses strict
+        equality.
 
 -   [`fa71a1e`](https://github.com/stdlib-js/stdlib/commit/fa71a1e16b3abbb33e716c96999579fb74a28058): distinguish signed zeros
 
@@ -57,6 +93,43 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`25231ce`](https://github.com/stdlib-js/stdlib/commit/25231ce28c32227f3514a468dd6b9b2ca494e53b) - **feat:** add `isEqualUint8ClampedArray` to namespace _(by Athan Reines)_
+-   [`b5c4b2c`](https://github.com/stdlib-js/stdlib/commit/b5c4b2caf155d22f1e18c3843294b8af70a30ce7) - **feat:** add `assert/is-equal-uint8clampedarray` _(by Athan Reines)_
+-   [`e166067`](https://github.com/stdlib-js/stdlib/commit/e16606740154f7fd9dc727918b3b1c91a4dabd1c) - **feat:** add `isEqualUint8Array` to namespace _(by Athan Reines)_
+-   [`fc389aa`](https://github.com/stdlib-js/stdlib/commit/fc389aa17d8efb2bc951688f075a1db643398b8b) - **feat:** add `assert/is-equal-uint8array` to namespace _(by Athan Reines)_
+-   [`d26ebbe`](https://github.com/stdlib-js/stdlib/commit/d26ebbe1b4d25462e268c36136af4ce96f537887) - **feat:** add `isEqualUint16Array` to namespace _(by Athan Reines)_
+-   [`e556b6e`](https://github.com/stdlib-js/stdlib/commit/e556b6e4ab49bd8e8995a9154a82a4c93b46d84e) - **feat:** add `assert/is-equal-uint16array` _(by Athan Reines)_
+-   [`2b1076f`](https://github.com/stdlib-js/stdlib/commit/2b1076f075bcfef6f18fc4318878863a87056f49) - **feat:** add `isEqualUint32Array` to namespace _(by Athan Reines)_
+-   [`3c3514f`](https://github.com/stdlib-js/stdlib/commit/3c3514f9dbac38514db2a04701259ad4dfda76a6) - **feat:** add `assert/is-equal-uint32array` _(by Athan Reines)_
+-   [`aae7623`](https://github.com/stdlib-js/stdlib/commit/aae76239c23144a092995e22a5c50a64a115d621) - **feat:** add `isEqualInt8Array` to namespace _(by Athan Reines)_
+-   [`3f9732c`](https://github.com/stdlib-js/stdlib/commit/3f9732c9d21636d96316bd2c01f90edd50f0805f) - **feat:** add `assert/is-equal-int8array` _(by Athan Reines)_
+-   [`4ab1928`](https://github.com/stdlib-js/stdlib/commit/4ab192805184fcce9b7def031c1abb97cd09faa3) - **feat:** add `isEqualInt16Array` to namespace _(by Athan Reines)_
+-   [`52d148a`](https://github.com/stdlib-js/stdlib/commit/52d148a7c32085d3f133a0c5a2ce6cc31cfdd6f9) - **feat:** add `assert/is-equal-int16array` _(by Athan Reines)_
+-   [`a355128`](https://github.com/stdlib-js/stdlib/commit/a35512895adec8d5749ad26d8dda7f0a9a881a52) - **feat:** add `isEqualDateObject` to namespace _(by Athan Reines)_
+-   [`175765c`](https://github.com/stdlib-js/stdlib/commit/175765cf2181ed5ac877b74fa1378367573e271f) - **remove:** remove `assert/is-same-date-object` _(by Athan Reines)_
+-   [`dd49180`](https://github.com/stdlib-js/stdlib/commit/dd4918035f7c85aa0d69697e9d1eb05bc7688ee2) - **feat:** add `assert/is-equal-date-object` _(by Athan Reines)_
+-   [`da7cd36`](https://github.com/stdlib-js/stdlib/commit/da7cd36c6233b19e9ebc5140ee497b95e822559a) - **feat:** add `isSameTypedArrayLike` to namespace _(by Athan Reines)_
+-   [`4c37780`](https://github.com/stdlib-js/stdlib/commit/4c3778042bee27fe41910c5c0ec94a5c5c219f13) - **feat:** add `isSameArrayLikeObject` to namespace _(by Athan Reines)_
+-   [`3e1cf70`](https://github.com/stdlib-js/stdlib/commit/3e1cf706cab583d76379448eed6b973c194a12f4) - **feat:** add `isSameAccessorArray` to namespace _(by Athan Reines)_
+-   [`ccf69dc`](https://github.com/stdlib-js/stdlib/commit/ccf69dc0beccc374941e7edfb766a1732d994cbd) - **docs:** fix description _(by Athan Reines)_
+-   [`4bd2e6d`](https://github.com/stdlib-js/stdlib/commit/4bd2e6d16c24ce62967d5cd43b6b5a63b8820675) - **feat:** add `isEqualInt32Array` to namespace _(by Athan Reines)_
+-   [`2562ae5`](https://github.com/stdlib-js/stdlib/commit/2562ae5291e724fdef5468e80789f427afec669e) - **feat:** add `isEqualBooleanArray` to namespace _(by Athan Reines)_
+-   [`6e6299e`](https://github.com/stdlib-js/stdlib/commit/6e6299ec821002ff57bd4f4d6f3fd7a0e56a77bd) - **remove:** remove `assert/is-same-booleanarray` _(by Athan Reines)_
+-   [`b0071b2`](https://github.com/stdlib-js/stdlib/commit/b0071b257c59721a7f0dc27a30861fe7cca75c4c) - **feat:** add `assert/is-equal-booleanarray` _(by Athan Reines)_
+-   [`2748988`](https://github.com/stdlib-js/stdlib/commit/27489884ce92a99ddc545684e4bbb1c12e4471cd) - **refactor:** consolidate into a single line _(by Athan Reines)_
+-   [`6a430d7`](https://github.com/stdlib-js/stdlib/commit/6a430d7465fae0732b6dfdb13cc5e89c7b6ded2a) - **refactor:** consolidate into a single line _(by Athan Reines)_
+-   [`3af943d`](https://github.com/stdlib-js/stdlib/commit/3af943de04b70b8151f3db29d0725cf7558c0e94) - **refactor:** consolidate into a single line _(by Athan Reines)_
+-   [`0c75a9b`](https://github.com/stdlib-js/stdlib/commit/0c75a9b0f5c86a5b912b073808b1a45ae4d503f8) - **refactor:** consolidate into a single line _(by Athan Reines)_
+-   [`a256f35`](https://github.com/stdlib-js/stdlib/commit/a256f353b37fe5b1cdb0ba900ee1c056a2b54cc2) - **refactor:** consolidate into a single line _(by Athan Reines)_
+-   [`f6f9485`](https://github.com/stdlib-js/stdlib/commit/f6f9485b3f2b225d51c5409bdcb51384848040bf) - **refactor:** consolidate into a single line _(by Athan Reines)_
+-   [`b3a13ca`](https://github.com/stdlib-js/stdlib/commit/b3a13ca6c8f0d98a616a2113c51e8dafd7aef906) - **refactor:** consolidate into a single line _(by Athan Reines)_
+-   [`5b6e996`](https://github.com/stdlib-js/stdlib/commit/5b6e996601393004b47a1b993f0fcf1728923487) - **refactor:** consolidate into a single line _(by Athan Reines)_
+-   [`34dd872`](https://github.com/stdlib-js/stdlib/commit/34dd8723b2d5273032a355528a8bd736342bd26a) - **refactor:** consolidate into a single line _(by Athan Reines)_
+-   [`76c6660`](https://github.com/stdlib-js/stdlib/commit/76c666029858a1a2b8095b5c597788400155cf1f) - **refactor:** consolidate into single line _(by Athan Reines)_
+-   [`52fdc1c`](https://github.com/stdlib-js/stdlib/commit/52fdc1c3fce187d4bac3f072f15156ea0ac90371) - **refactor:** consolidate into a single line _(by Athan Reines)_
+-   [`d0356d1`](https://github.com/stdlib-js/stdlib/commit/d0356d11a8dbb533e432505033425cdb1975119e) - **refactor:** consolidate into a single line _(by Athan Reines)_
+-   [`c211225`](https://github.com/stdlib-js/stdlib/commit/c211225353b6474b34ee770eb40e91d73176ce02) - **refactor:** consolidate branching into a single line _(by Athan Reines)_
+-   [`d992247`](https://github.com/stdlib-js/stdlib/commit/d99224762b96e2adacd801f1e9c84558f2847ef0) - **feat:** add `assert/is-equal-int32array` _(by Athan Reines)_
 -   [`669f8e5`](https://github.com/stdlib-js/stdlib/commit/669f8e55d710847a949d08299f580b2d2d6357f8) - **chore:** fix EditorConfig lint errors [(#6937)](https://github.com/stdlib-js/stdlib/pull/6937) _(by Lalit Narayan Yadav, Athan Reines, Shabareesh Shetty, stdlib-bot)_
 -   [`c146634`](https://github.com/stdlib-js/stdlib/commit/c1466343f33692d3019f34d6ad7f29025f5a6d2c) - **docs:** use abbreviated alias _(by Athan Reines)_
 -   [`5bfe900`](https://github.com/stdlib-js/stdlib/commit/5bfe90097b8de743489f2859f1f2f01911961740) - **docs:** use abbreviated alias _(by Athan Reines)_
