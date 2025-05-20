@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-05-19)
+## Unreleased (2025-05-20)
 
 <section class="features">
 
@@ -93,6 +93,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`89d9dc3`](https://github.com/stdlib-js/stdlib/commit/89d9dc316985aa3c194222afbf8146e58ff6d761) - **docs:** update namespace table of contents [(#7046)](https://github.com/stdlib-js/stdlib/pull/7046) _(by stdlib-bot)_
 -   [`25231ce`](https://github.com/stdlib-js/stdlib/commit/25231ce28c32227f3514a468dd6b9b2ca494e53b) - **feat:** add `isEqualUint8ClampedArray` to namespace _(by Athan Reines)_
 -   [`b5c4b2c`](https://github.com/stdlib-js/stdlib/commit/b5c4b2caf155d22f1e18c3843294b8af70a30ce7) - **feat:** add `assert/is-equal-uint8clampedarray` _(by Athan Reines)_
 -   [`e166067`](https://github.com/stdlib-js/stdlib/commit/e16606740154f7fd9dc727918b3b1c91a4dabd1c) - **feat:** add `isEqualUint8Array` to namespace _(by Athan Reines)_
