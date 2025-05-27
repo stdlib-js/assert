@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-05-26)
+## Unreleased (2025-05-27)
 
 <section class="features">
 
@@ -79,9 +79,9 @@
 
 ### Closed Issues
 
-A total of 3 issues were closed in this release:
+A total of 4 issues were closed in this release:
 
-[#5814](https://github.com/stdlib-js/stdlib/issues/5814), [#6901](https://github.com/stdlib-js/stdlib/issues/6901), [#6925](https://github.com/stdlib-js/stdlib/issues/6925)
+[#5814](https://github.com/stdlib-js/stdlib/issues/5814), [#6901](https://github.com/stdlib-js/stdlib/issues/6901), [#6925](https://github.com/stdlib-js/stdlib/issues/6925), [#7084](https://github.com/stdlib-js/stdlib/issues/7084)
 
 </section>
 
@@ -93,6 +93,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`26f5797`](https://github.com/stdlib-js/stdlib/commit/26f5797c30ac9fbdb8a5d11e3dc58ae71813ab0f) - **chore:** fix EditorConfig lint errors [(#7099)](https://github.com/stdlib-js/stdlib/pull/7099) _(by Lalit Narayan Yadav)_
 -   [`89d9dc3`](https://github.com/stdlib-js/stdlib/commit/89d9dc316985aa3c194222afbf8146e58ff6d761) - **docs:** update namespace table of contents [(#7046)](https://github.com/stdlib-js/stdlib/pull/7046) _(by stdlib-bot)_
 -   [`25231ce`](https://github.com/stdlib-js/stdlib/commit/25231ce28c32227f3514a468dd6b9b2ca494e53b) - **feat:** add `isEqualUint8ClampedArray` to namespace _(by Athan Reines)_
 -   [`b5c4b2c`](https://github.com/stdlib-js/stdlib/commit/b5c4b2caf155d22f1e18c3843294b8af70a30ce7) - **feat:** add `assert/is-equal-uint8clampedarray` _(by Athan Reines)_
