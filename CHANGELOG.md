@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-05-27)
+## Unreleased (2025-05-31)
 
 <section class="features">
 
@@ -40,6 +40,16 @@
 </section>
 
 <!-- /.features -->
+
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`21cdf0c`](https://github.com/stdlib-js/stdlib/commit/21cdf0c4d3de902744dfecd3387bc64317eddfd4) - javascript lint errors [(#7143)](https://github.com/stdlib-js/stdlib/pull/7143)
+
+</section>
+
+<!-- /.bug-fixes -->
 
 <section class="breaking-changes">
 
@@ -79,9 +89,9 @@
 
 ### Closed Issues
 
-A total of 4 issues were closed in this release:
+A total of 5 issues were closed in this release:
 
-[#5814](https://github.com/stdlib-js/stdlib/issues/5814), [#6901](https://github.com/stdlib-js/stdlib/issues/6901), [#6925](https://github.com/stdlib-js/stdlib/issues/6925), [#7084](https://github.com/stdlib-js/stdlib/issues/7084)
+[#5814](https://github.com/stdlib-js/stdlib/issues/5814), [#6901](https://github.com/stdlib-js/stdlib/issues/6901), [#6925](https://github.com/stdlib-js/stdlib/issues/6925), [#7084](https://github.com/stdlib-js/stdlib/issues/7084), [#7107](https://github.com/stdlib-js/stdlib/issues/7107)
 
 </section>
 
@@ -93,6 +103,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`21cdf0c`](https://github.com/stdlib-js/stdlib/commit/21cdf0c4d3de902744dfecd3387bc64317eddfd4) - **fix:** javascript lint errors [(#7143)](https://github.com/stdlib-js/stdlib/pull/7143) _(by Tushar Bhardwaj, Athan Reines)_
 -   [`26f5797`](https://github.com/stdlib-js/stdlib/commit/26f5797c30ac9fbdb8a5d11e3dc58ae71813ab0f) - **chore:** fix EditorConfig lint errors [(#7099)](https://github.com/stdlib-js/stdlib/pull/7099) _(by Lalit Narayan Yadav)_
 -   [`89d9dc3`](https://github.com/stdlib-js/stdlib/commit/89d9dc316985aa3c194222afbf8146e58ff6d761) - **docs:** update namespace table of contents [(#7046)](https://github.com/stdlib-js/stdlib/pull/7046) _(by stdlib-bot)_
 -   [`25231ce`](https://github.com/stdlib-js/stdlib/commit/25231ce28c32227f3514a468dd6b9b2ca494e53b) - **feat:** add `isEqualUint8ClampedArray` to namespace _(by Athan Reines)_
@@ -177,7 +188,7 @@ A total of 4 issues were closed in this release:
 
 ### Contributors
 
-A total of 6 people contributed to this release. Thank you to the following contributors:
+A total of 7 people contributed to this release. Thank you to the following contributors:
 
 -   Anshu Kumar
 -   Athan Reines
@@ -185,6 +196,7 @@ A total of 6 people contributed to this release. Thank you to the following cont
 -   Lalit Narayan Yadav
 -   Philipp Burckhardt
 -   Shabareesh Shetty
+-   Tushar Bhardwaj
 
 </section>
 
