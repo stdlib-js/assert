@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-05-31)
+## Unreleased (2025-06-05)
 
 <section class="features">
 
@@ -89,9 +89,9 @@
 
 ### Closed Issues
 
-A total of 5 issues were closed in this release:
+A total of 6 issues were closed in this release:
 
-[#5814](https://github.com/stdlib-js/stdlib/issues/5814), [#6901](https://github.com/stdlib-js/stdlib/issues/6901), [#6925](https://github.com/stdlib-js/stdlib/issues/6925), [#7084](https://github.com/stdlib-js/stdlib/issues/7084), [#7107](https://github.com/stdlib-js/stdlib/issues/7107)
+[#5814](https://github.com/stdlib-js/stdlib/issues/5814), [#6901](https://github.com/stdlib-js/stdlib/issues/6901), [#6925](https://github.com/stdlib-js/stdlib/issues/6925), [#7084](https://github.com/stdlib-js/stdlib/issues/7084), [#7107](https://github.com/stdlib-js/stdlib/issues/7107), [#7199](https://github.com/stdlib-js/stdlib/issues/7199)
 
 </section>
 
@@ -103,6 +103,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`d40eeed`](https://github.com/stdlib-js/stdlib/commit/d40eeedd3e34280593e10be51238e0d80cf2a7cf) - **chore:** fix EditorConfig lint errors [(#7205)](https://github.com/stdlib-js/stdlib/pull/7205) _(by Deepak Singh)_
 -   [`21cdf0c`](https://github.com/stdlib-js/stdlib/commit/21cdf0c4d3de902744dfecd3387bc64317eddfd4) - **fix:** javascript lint errors [(#7143)](https://github.com/stdlib-js/stdlib/pull/7143) _(by Tushar Bhardwaj, Athan Reines)_
 -   [`26f5797`](https://github.com/stdlib-js/stdlib/commit/26f5797c30ac9fbdb8a5d11e3dc58ae71813ab0f) - **chore:** fix EditorConfig lint errors [(#7099)](https://github.com/stdlib-js/stdlib/pull/7099) _(by Lalit Narayan Yadav)_
 -   [`89d9dc3`](https://github.com/stdlib-js/stdlib/commit/89d9dc316985aa3c194222afbf8146e58ff6d761) - **docs:** update namespace table of contents [(#7046)](https://github.com/stdlib-js/stdlib/pull/7046) _(by stdlib-bot)_
@@ -188,10 +189,11 @@ A total of 5 issues were closed in this release:
 
 ### Contributors
 
-A total of 7 people contributed to this release. Thank you to the following contributors:
+A total of 8 people contributed to this release. Thank you to the following contributors:
 
 -   Anshu Kumar
 -   Athan Reines
+-   Deepak Singh
 -   Dipjyoti Das
 -   Lalit Narayan Yadav
 -   Philipp Burckhardt
