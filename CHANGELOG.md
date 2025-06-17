@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-05)
+## Unreleased (2025-06-17)
 
 <section class="features">
 
 ### Features
 
+-   [`f58120f`](https://github.com/stdlib-js/stdlib/commit/f58120f6a16840c817e26f439224a67e1680e21c) - add header for asserting is a Node-API value is a DataView
+-   [`393b4e1`](https://github.com/stdlib-js/stdlib/commit/393b4e118d8152c99490be25c1953f48afc64087) - add `assert/napi/is-dataview`
 -   [`25231ce`](https://github.com/stdlib-js/stdlib/commit/25231ce28c32227f3514a468dd6b9b2ca494e53b) - add `isEqualUint8ClampedArray` to namespace
 -   [`b5c4b2c`](https://github.com/stdlib-js/stdlib/commit/b5c4b2caf155d22f1e18c3843294b8af70a30ce7) - add `assert/is-equal-uint8clampedarray`
 -   [`e166067`](https://github.com/stdlib-js/stdlib/commit/e16606740154f7fd9dc727918b3b1c91a4dabd1c) - add `isEqualUint8Array` to namespace
@@ -103,6 +105,8 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`f58120f`](https://github.com/stdlib-js/stdlib/commit/f58120f6a16840c817e26f439224a67e1680e21c) - **feat:** add header for asserting is a Node-API value is a DataView _(by Athan Reines)_
+-   [`393b4e1`](https://github.com/stdlib-js/stdlib/commit/393b4e118d8152c99490be25c1953f48afc64087) - **feat:** add `assert/napi/is-dataview` _(by Athan Reines)_
 -   [`d40eeed`](https://github.com/stdlib-js/stdlib/commit/d40eeedd3e34280593e10be51238e0d80cf2a7cf) - **chore:** fix EditorConfig lint errors [(#7205)](https://github.com/stdlib-js/stdlib/pull/7205) _(by Deepak Singh)_
 -   [`21cdf0c`](https://github.com/stdlib-js/stdlib/commit/21cdf0c4d3de902744dfecd3387bc64317eddfd4) - **fix:** javascript lint errors [(#7143)](https://github.com/stdlib-js/stdlib/pull/7143) _(by Tushar Bhardwaj, Athan Reines)_
 -   [`26f5797`](https://github.com/stdlib-js/stdlib/commit/26f5797c30ac9fbdb8a5d11e3dc58ae71813ab0f) - **chore:** fix EditorConfig lint errors [(#7099)](https://github.com/stdlib-js/stdlib/pull/7099) _(by Lalit Narayan Yadav)_
