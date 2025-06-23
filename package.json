@@ -66,6 +66,7 @@
     "@stdlib/datasets": "github:stdlib-js/datasets#main",
     "@stdlib/dstructs": "github:stdlib-js/dstructs#main",
     "@stdlib/random": "github:stdlib-js/random#main",
+    "@stdlib/stats": "github:stdlib-js/stats#main",
     "proxyquire": "^2.0.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",

@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-17)
+## Unreleased (2025-06-23)
 
 <section class="features">
 
 ### Features
 
+-   [`0ba0d91`](https://github.com/stdlib-js/stdlib/commit/0ba0d912c0608c3fa8daff70874c9fa8de672a3a) - add `isStructConstructorLike` to namespace
+-   [`67b59c6`](https://github.com/stdlib-js/stdlib/commit/67b59c6d61abd31bc0fa7fadc673a0dbfb02d387) - add `assert/is-struct-constructor-like`
 -   [`f58120f`](https://github.com/stdlib-js/stdlib/commit/f58120f6a16840c817e26f439224a67e1680e21c) - add header for asserting is a Node-API value is a DataView
 -   [`393b4e1`](https://github.com/stdlib-js/stdlib/commit/393b4e118d8152c99490be25c1953f48afc64087) - add `assert/napi/is-dataview`
 -   [`25231ce`](https://github.com/stdlib-js/stdlib/commit/25231ce28c32227f3514a468dd6b9b2ca494e53b) - add `isEqualUint8ClampedArray` to namespace
@@ -105,6 +107,8 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`0ba0d91`](https://github.com/stdlib-js/stdlib/commit/0ba0d912c0608c3fa8daff70874c9fa8de672a3a) - **feat:** add `isStructConstructorLike` to namespace _(by Athan Reines)_
+-   [`67b59c6`](https://github.com/stdlib-js/stdlib/commit/67b59c6d61abd31bc0fa7fadc673a0dbfb02d387) - **feat:** add `assert/is-struct-constructor-like` _(by Athan Reines)_
 -   [`f58120f`](https://github.com/stdlib-js/stdlib/commit/f58120f6a16840c817e26f439224a67e1680e21c) - **feat:** add header for asserting is a Node-API value is a DataView _(by Athan Reines)_
 -   [`393b4e1`](https://github.com/stdlib-js/stdlib/commit/393b4e118d8152c99490be25c1953f48afc64087) - **feat:** add `assert/napi/is-dataview` _(by Athan Reines)_
 -   [`d40eeed`](https://github.com/stdlib-js/stdlib/commit/d40eeedd3e34280593e10be51238e0d80cf2a7cf) - **chore:** fix EditorConfig lint errors [(#7205)](https://github.com/stdlib-js/stdlib/pull/7205) _(by Deepak Singh)_
