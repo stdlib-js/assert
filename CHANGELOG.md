@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`62419d0`](https://github.com/stdlib-js/stdlib/commit/62419d0162b5fc9e4d18a97b67d8a2aea556b1a5) - add `isStruct` to namespace
+-   [`76f2fd3`](https://github.com/stdlib-js/stdlib/commit/76f2fd3b4df1d68fa5619bbe6cc7ea2878a4bc8e) - add `assert/is-struct`
 -   [`0ba0d91`](https://github.com/stdlib-js/stdlib/commit/0ba0d912c0608c3fa8daff70874c9fa8de672a3a) - add `isStructConstructorLike` to namespace
 -   [`67b59c6`](https://github.com/stdlib-js/stdlib/commit/67b59c6d61abd31bc0fa7fadc673a0dbfb02d387) - add `assert/is-struct-constructor-like`
 -   [`f58120f`](https://github.com/stdlib-js/stdlib/commit/f58120f6a16840c817e26f439224a67e1680e21c) - add header for asserting is a Node-API value is a DataView
@@ -108,6 +110,8 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`62419d0`](https://github.com/stdlib-js/stdlib/commit/62419d0162b5fc9e4d18a97b67d8a2aea556b1a5) - **feat:** add `isStruct` to namespace _(by Athan Reines)_
+-   [`76f2fd3`](https://github.com/stdlib-js/stdlib/commit/76f2fd3b4df1d68fa5619bbe6cc7ea2878a4bc8e) - **feat:** add `assert/is-struct` _(by Athan Reines)_
 -   [`edef1e2`](https://github.com/stdlib-js/stdlib/commit/edef1e298a551ed453c4edc3d769746baf5dbde1) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`04fbd21`](https://github.com/stdlib-js/stdlib/commit/04fbd2138efb9db2fc14dcff5be31f200004a9e2) - **fix:** add missing `isStruct` method check _(by Athan Reines)_
 -   [`0ba0d91`](https://github.com/stdlib-js/stdlib/commit/0ba0d912c0608c3fa8daff70874c9fa8de672a3a) - **feat:** add `isStructConstructorLike` to namespace _(by Athan Reines)_
