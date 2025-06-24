@@ -524,6 +524,8 @@ The remaining namespace utilities are as follows:
 -   <span class="signature">[`isSnakecase( value )`][@stdlib/assert/is-snakecase]</span><span class="delimiter">: </span><span class="description">test if a value is a string in snake case.</span>
 -   <span class="signature">[`isStartcase( value )`][@stdlib/assert/is-startcase]</span><span class="delimiter">: </span><span class="description">test if a value is a startcase string.</span>
 -   <span class="signature">[`isStrictEqual( a, b )`][@stdlib/assert/is-strict-equal]</span><span class="delimiter">: </span><span class="description">test if two arguments are strictly equal.</span>
+-   <span class="signature">[`isStructConstructorLike( value )`][@stdlib/assert/is-struct-constructor-like]</span><span class="delimiter">: </span><span class="description">test if a value is struct constructor-like.</span>
+-   <span class="signature">[`isStruct( value )`][@stdlib/assert/is-struct]</span><span class="delimiter">: </span><span class="description">test if a value is a `struct` instance.</span>
 -   <span class="signature">[`isTruthy( value )`][@stdlib/assert/is-truthy]</span><span class="delimiter">: </span><span class="description">test if a value is truthy.</span>
 -   <span class="signature">[`isUNCPath( value )`][@stdlib/assert/is-unc-path]</span><span class="delimiter">: </span><span class="description">test if a value is a UNC path.</span>
 -   <span class="signature">[`isUndefinedOrNull( value )`][@stdlib/assert/is-undefined-or-null]</span><span class="delimiter">: </span><span class="description">test if a value is undefined or null.</span>
@@ -871,6 +873,10 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 [@stdlib/assert/is-startcase]: https://github.com/stdlib-js/assert/tree/main/is-startcase
 
 [@stdlib/assert/is-strict-equal]: https://github.com/stdlib-js/assert/tree/main/is-strict-equal
+
+[@stdlib/assert/is-struct-constructor-like]: https://github.com/stdlib-js/assert/tree/main/is-struct-constructor-like
+
+[@stdlib/assert/is-struct]: https://github.com/stdlib-js/assert/tree/main/is-struct
 
 [@stdlib/assert/is-truthy]: https://github.com/stdlib-js/assert/tree/main/is-truthy
 
