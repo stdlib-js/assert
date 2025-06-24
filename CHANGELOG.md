@@ -108,6 +108,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`edef1e2`](https://github.com/stdlib-js/stdlib/commit/edef1e298a551ed453c4edc3d769746baf5dbde1) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`04fbd21`](https://github.com/stdlib-js/stdlib/commit/04fbd2138efb9db2fc14dcff5be31f200004a9e2) - **fix:** add missing `isStruct` method check _(by Athan Reines)_
 -   [`0ba0d91`](https://github.com/stdlib-js/stdlib/commit/0ba0d912c0608c3fa8daff70874c9fa8de672a3a) - **feat:** add `isStructConstructorLike` to namespace _(by Athan Reines)_
 -   [`67b59c6`](https://github.com/stdlib-js/stdlib/commit/67b59c6d61abd31bc0fa7fadc673a0dbfb02d387) - **feat:** add `assert/is-struct-constructor-like` _(by Athan Reines)_
