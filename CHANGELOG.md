@@ -51,6 +51,8 @@
 
 ### Bug Fixes
 
+-   [`b34ff7a`](https://github.com/stdlib-js/stdlib/commit/b34ff7a7f7f86904c29001a89d35abcdbbc5b04e) - return boolean to avoid misleading type predicate
+-   [`220a673`](https://github.com/stdlib-js/stdlib/commit/220a67316e33fbbfcd336073bb5bc2396f7bfacf) - update to return false for empty strings
 -   [`04fbd21`](https://github.com/stdlib-js/stdlib/commit/04fbd2138efb9db2fc14dcff5be31f200004a9e2) - add missing `isStruct` method check
 -   [`21cdf0c`](https://github.com/stdlib-js/stdlib/commit/21cdf0c4d3de902744dfecd3387bc64317eddfd4) - javascript lint errors [(#7143)](https://github.com/stdlib-js/stdlib/pull/7143)
 
@@ -110,6 +112,10 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`b34ff7a`](https://github.com/stdlib-js/stdlib/commit/b34ff7a7f7f86904c29001a89d35abcdbbc5b04e) - **fix:** return boolean to avoid misleading type predicate _(by Philipp Burckhardt)_
+-   [`220a673`](https://github.com/stdlib-js/stdlib/commit/220a67316e33fbbfcd336073bb5bc2396f7bfacf) - **fix:** update to return false for empty strings _(by Philipp Burckhardt)_
+-   [`7c9afed`](https://github.com/stdlib-js/stdlib/commit/7c9afed6a288c9e7d3048dfa0ac8f085759d73f4) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`ed5e336`](https://github.com/stdlib-js/stdlib/commit/ed5e33607785b54d61361d0399c6c47ed5775d64) - **docs:** minor clean-up _(by Philipp Burckhardt)_
 -   [`bc3632a`](https://github.com/stdlib-js/stdlib/commit/bc3632a5a7b48a8973b1418e861ddc45b3e8d0fa) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`6f019ca`](https://github.com/stdlib-js/stdlib/commit/6f019ca3fa544d44dfdfd7a28580ba1031971a9d) - **docs:** update namespace table of contents [(#7472)](https://github.com/stdlib-js/stdlib/pull/7472) _(by stdlib-bot)_
 -   [`62419d0`](https://github.com/stdlib-js/stdlib/commit/62419d0162b5fc9e4d18a97b67d8a2aea556b1a5) - **feat:** add `isStruct` to namespace _(by Athan Reines)_
