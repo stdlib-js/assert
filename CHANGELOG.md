@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-24)
+## Unreleased (2025-06-25)
 
 <section class="features">
 
@@ -110,6 +110,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`bc3632a`](https://github.com/stdlib-js/stdlib/commit/bc3632a5a7b48a8973b1418e861ddc45b3e8d0fa) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`6f019ca`](https://github.com/stdlib-js/stdlib/commit/6f019ca3fa544d44dfdfd7a28580ba1031971a9d) - **docs:** update namespace table of contents [(#7472)](https://github.com/stdlib-js/stdlib/pull/7472) _(by stdlib-bot)_
 -   [`62419d0`](https://github.com/stdlib-js/stdlib/commit/62419d0162b5fc9e4d18a97b67d8a2aea556b1a5) - **feat:** add `isStruct` to namespace _(by Athan Reines)_
 -   [`76f2fd3`](https://github.com/stdlib-js/stdlib/commit/76f2fd3b4df1d68fa5619bbe6cc7ea2878a4bc8e) - **feat:** add `assert/is-struct` _(by Athan Reines)_
