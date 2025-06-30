@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-26)
+## Unreleased (2025-06-30)
 
 <section class="features">
 
@@ -112,6 +112,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`0643357`](https://github.com/stdlib-js/stdlib/commit/0643357a47588bc83f4539b8fd801f1994374949) - **test:** ensure passing on newer Node.js and cleanup after each test _(by Philipp Burckhardt)_
 -   [`cbb9a3c`](https://github.com/stdlib-js/stdlib/commit/cbb9a3cb07582ffd3b2f1406a81fa8fd31dacc3b) - **docs:** minor clean-up _(by Philipp Burckhardt)_
 -   [`b34ff7a`](https://github.com/stdlib-js/stdlib/commit/b34ff7a7f7f86904c29001a89d35abcdbbc5b04e) - **fix:** return boolean to avoid misleading type predicate _(by Philipp Burckhardt)_
 -   [`220a673`](https://github.com/stdlib-js/stdlib/commit/220a67316e33fbbfcd336073bb5bc2396f7bfacf) - **fix:** update to return false for empty strings _(by Philipp Burckhardt)_
