@@ -27,7 +27,7 @@ var nativeClass = require( '@stdlib/utils/native-class' );
 
 // VARIABLES //
 
-var hasFloat16Array = ( typeof Float16Array === 'function' );
+var hasFloat16Array = ( typeof Float16Array === 'function' ); // eslint-disable-line stdlib/require-globals
 
 
 // MAIN //
@@ -50,7 +50,7 @@ var hasFloat16Array = ( typeof Float16Array === 'function' );
 */
 function isFloat16Array( value ) {
 	return (
-		( hasFloat16Array && value instanceof Float16Array ) ||
+		( hasFloat16Array && value instanceof Float16Array ) || // eslint-disable-line stdlib/require-globals
 		nativeClass( value ) === '[object Float16Array]'
 	);
 }
