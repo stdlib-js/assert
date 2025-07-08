@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`e6e4501`](https://github.com/stdlib-js/stdlib/commit/e6e450169e77f4fa6f21ffc888db59db156b7ad8) - add `assert/has-float16array-support` [(#7347)](https://github.com/stdlib-js/stdlib/pull/7347)
 -   [`77b2415`](https://github.com/stdlib-js/stdlib/commit/77b2415c59c5f000c37b3e005ca9b6323199ba60) - add `assert/is-float16array` [(#7273)](https://github.com/stdlib-js/stdlib/pull/7273)
 -   [`62419d0`](https://github.com/stdlib-js/stdlib/commit/62419d0162b5fc9e4d18a97b67d8a2aea556b1a5) - add `isStruct` to namespace
 -   [`76f2fd3`](https://github.com/stdlib-js/stdlib/commit/76f2fd3b4df1d68fa5619bbe6cc7ea2878a4bc8e) - add `assert/is-struct`
@@ -113,6 +114,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`e6e4501`](https://github.com/stdlib-js/stdlib/commit/e6e450169e77f4fa6f21ffc888db59db156b7ad8) - **feat:** add `assert/has-float16array-support` [(#7347)](https://github.com/stdlib-js/stdlib/pull/7347) _(by Uday Kakade, Athan Reines, stdlib-bot)_
 -   [`77b2415`](https://github.com/stdlib-js/stdlib/commit/77b2415c59c5f000c37b3e005ca9b6323199ba60) - **feat:** add `assert/is-float16array` [(#7273)](https://github.com/stdlib-js/stdlib/pull/7273) _(by Uday Kakade, Athan Reines, stdlib-bot)_
 -   [`ad7be7a`](https://github.com/stdlib-js/stdlib/commit/ad7be7addead1754f9f65800e946722b0829cc52) - **docs:** update related packages sections [(#7569)](https://github.com/stdlib-js/stdlib/pull/7569) _(by stdlib-bot, Athan Reines)_
 -   [`0643357`](https://github.com/stdlib-js/stdlib/commit/0643357a47588bc83f4539b8fd801f1994374949) - **test:** ensure passing on newer Node.js and cleanup after each test _(by Philipp Burckhardt)_
