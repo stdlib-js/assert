@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-07-06)
+## Unreleased (2025-07-08)
 
 <section class="features">
 
 ### Features
 
+-   [`77b2415`](https://github.com/stdlib-js/stdlib/commit/77b2415c59c5f000c37b3e005ca9b6323199ba60) - add `assert/is-float16array` [(#7273)](https://github.com/stdlib-js/stdlib/pull/7273)
 -   [`62419d0`](https://github.com/stdlib-js/stdlib/commit/62419d0162b5fc9e4d18a97b67d8a2aea556b1a5) - add `isStruct` to namespace
 -   [`76f2fd3`](https://github.com/stdlib-js/stdlib/commit/76f2fd3b4df1d68fa5619bbe6cc7ea2878a4bc8e) - add `assert/is-struct`
 -   [`0ba0d91`](https://github.com/stdlib-js/stdlib/commit/0ba0d912c0608c3fa8daff70874c9fa8de672a3a) - add `isStructConstructorLike` to namespace
@@ -112,6 +113,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`77b2415`](https://github.com/stdlib-js/stdlib/commit/77b2415c59c5f000c37b3e005ca9b6323199ba60) - **feat:** add `assert/is-float16array` [(#7273)](https://github.com/stdlib-js/stdlib/pull/7273) _(by Uday Kakade, Athan Reines, stdlib-bot)_
 -   [`ad7be7a`](https://github.com/stdlib-js/stdlib/commit/ad7be7addead1754f9f65800e946722b0829cc52) - **docs:** update related packages sections [(#7569)](https://github.com/stdlib-js/stdlib/pull/7569) _(by stdlib-bot, Athan Reines)_
 -   [`0643357`](https://github.com/stdlib-js/stdlib/commit/0643357a47588bc83f4539b8fd801f1994374949) - **test:** ensure passing on newer Node.js and cleanup after each test _(by Philipp Burckhardt)_
 -   [`cbb9a3c`](https://github.com/stdlib-js/stdlib/commit/cbb9a3cb07582ffd3b2f1406a81fa8fd31dacc3b) - **docs:** minor clean-up _(by Philipp Burckhardt)_
@@ -215,7 +217,7 @@ A total of 6 issues were closed in this release:
 
 ### Contributors
 
-A total of 8 people contributed to this release. Thank you to the following contributors:
+A total of 9 people contributed to this release. Thank you to the following contributors:
 
 -   Anshu Kumar
 -   Athan Reines
@@ -225,6 +227,7 @@ A total of 8 people contributed to this release. Thank you to the following cont
 -   Philipp Burckhardt
 -   Shabareesh Shetty
 -   Tushar Bhardwaj
+-   Uday Kakade
 
 </section>
 
