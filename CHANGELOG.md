@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-07-09)
+## Unreleased (2025-07-12)
 
 <section class="features">
 
@@ -114,6 +114,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`f7dfbfa`](https://github.com/stdlib-js/stdlib/commit/f7dfbfad9666fe2bcf77b3a0499cd577e2d2e41a) - **test:** fix typo in test description _(by Philipp Burckhardt)_
 -   [`0f08ba1`](https://github.com/stdlib-js/stdlib/commit/0f08ba1e4edb1ab637fb2827d87965be4bb11781) - **docs:** update related packages sections [(#7592)](https://github.com/stdlib-js/stdlib/pull/7592) _(by stdlib-bot)_
 -   [`de93d8f`](https://github.com/stdlib-js/stdlib/commit/de93d8f17831ad02c68e33181fa9226f88e42d29) - **chore:** resolve lint errors and update examples _(by Athan Reines)_
 -   [`e6e4501`](https://github.com/stdlib-js/stdlib/commit/e6e450169e77f4fa6f21ffc888db59db156b7ad8) - **feat:** add `assert/has-float16array-support` [(#7347)](https://github.com/stdlib-js/stdlib/pull/7347) _(by Uday Kakade, Athan Reines, stdlib-bot)_
