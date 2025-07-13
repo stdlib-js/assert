@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-07-12)
+## Unreleased (2025-07-13)
 
 <section class="features">
 
@@ -53,6 +53,7 @@
 
 ### Bug Fixes
 
+-   [`78090a6`](https://github.com/stdlib-js/stdlib/commit/78090a6c01ccb7e5e726f9b8bd3bebfb46dd5a11) - make CLI scripts executable [(#7635)](https://github.com/stdlib-js/stdlib/pull/7635)
 -   [`b34ff7a`](https://github.com/stdlib-js/stdlib/commit/b34ff7a7f7f86904c29001a89d35abcdbbc5b04e) - return boolean to avoid misleading type predicate
 -   [`220a673`](https://github.com/stdlib-js/stdlib/commit/220a67316e33fbbfcd336073bb5bc2396f7bfacf) - update to return false for empty strings
 -   [`04fbd21`](https://github.com/stdlib-js/stdlib/commit/04fbd2138efb9db2fc14dcff5be31f200004a9e2) - add missing `isStruct` method check
@@ -114,6 +115,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`78090a6`](https://github.com/stdlib-js/stdlib/commit/78090a6c01ccb7e5e726f9b8bd3bebfb46dd5a11) - **fix:** make CLI scripts executable [(#7635)](https://github.com/stdlib-js/stdlib/pull/7635) _(by stdlib-bot)_
 -   [`f7dfbfa`](https://github.com/stdlib-js/stdlib/commit/f7dfbfad9666fe2bcf77b3a0499cd577e2d2e41a) - **test:** fix typo in test description _(by Philipp Burckhardt)_
 -   [`0f08ba1`](https://github.com/stdlib-js/stdlib/commit/0f08ba1e4edb1ab637fb2827d87965be4bb11781) - **docs:** update related packages sections [(#7592)](https://github.com/stdlib-js/stdlib/pull/7592) _(by stdlib-bot)_
 -   [`de93d8f`](https://github.com/stdlib-js/stdlib/commit/de93d8f17831ad02c68e33181fa9226f88e42d29) - **chore:** resolve lint errors and update examples _(by Athan Reines)_
