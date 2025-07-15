@@ -10,6 +10,9 @@
 
 ### Features
 
+-   [`2970a90`](https://github.com/stdlib-js/stdlib/commit/2970a90f9c71de04ed25070e0d3f790f96cc3b7e) - add `isAlmostEqualFloat64Array` to namespace
+-   [`bac21f9`](https://github.com/stdlib-js/stdlib/commit/bac21f9b30228f567f6d8ac827f8620664bc7cbd) - add `isAlmostEqual` to namespace
+-   [`be8fafe`](https://github.com/stdlib-js/stdlib/commit/be8fafe689a27e0fd76fda792d553d2f6c493a50) - add `assert/is-almost-equal-float64array`
 -   [`f5434d9`](https://github.com/stdlib-js/stdlib/commit/f5434d95461167ddb7367b67f33772f357e076e2) - add `assert/is-almost-equal` [(#7649)](https://github.com/stdlib-js/stdlib/pull/7649)
 -   [`e6e4501`](https://github.com/stdlib-js/stdlib/commit/e6e450169e77f4fa6f21ffc888db59db156b7ad8) - add `assert/has-float16array-support` [(#7347)](https://github.com/stdlib-js/stdlib/pull/7347)
 -   [`77b2415`](https://github.com/stdlib-js/stdlib/commit/77b2415c59c5f000c37b3e005ca9b6323199ba60) - add `assert/is-float16array` [(#7273)](https://github.com/stdlib-js/stdlib/pull/7273)
@@ -116,6 +119,9 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`2970a90`](https://github.com/stdlib-js/stdlib/commit/2970a90f9c71de04ed25070e0d3f790f96cc3b7e) - **feat:** add `isAlmostEqualFloat64Array` to namespace _(by Athan Reines)_
+-   [`bac21f9`](https://github.com/stdlib-js/stdlib/commit/bac21f9b30228f567f6d8ac827f8620664bc7cbd) - **feat:** add `isAlmostEqual` to namespace _(by Athan Reines)_
+-   [`be8fafe`](https://github.com/stdlib-js/stdlib/commit/be8fafe689a27e0fd76fda792d553d2f6c493a50) - **feat:** add `assert/is-almost-equal-float64array` _(by Athan Reines)_
 -   [`f5434d9`](https://github.com/stdlib-js/stdlib/commit/f5434d95461167ddb7367b67f33772f357e076e2) - **feat:** add `assert/is-almost-equal` [(#7649)](https://github.com/stdlib-js/stdlib/pull/7649) _(by Karan Anand, Athan Reines)_
 -   [`78090a6`](https://github.com/stdlib-js/stdlib/commit/78090a6c01ccb7e5e726f9b8bd3bebfb46dd5a11) - **fix:** make CLI scripts executable [(#7635)](https://github.com/stdlib-js/stdlib/pull/7635) _(by stdlib-bot)_
 -   [`f7dfbfa`](https://github.com/stdlib-js/stdlib/commit/f7dfbfad9666fe2bcf77b3a0499cd577e2d2e41a) - **test:** fix typo in test description _(by Philipp Burckhardt)_
