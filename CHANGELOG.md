@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-07-13)
+## Unreleased (2025-07-15)
 
 <section class="features">
 
 ### Features
 
+-   [`f5434d9`](https://github.com/stdlib-js/stdlib/commit/f5434d95461167ddb7367b67f33772f357e076e2) - add `assert/is-almost-equal` [(#7649)](https://github.com/stdlib-js/stdlib/pull/7649)
 -   [`e6e4501`](https://github.com/stdlib-js/stdlib/commit/e6e450169e77f4fa6f21ffc888db59db156b7ad8) - add `assert/has-float16array-support` [(#7347)](https://github.com/stdlib-js/stdlib/pull/7347)
 -   [`77b2415`](https://github.com/stdlib-js/stdlib/commit/77b2415c59c5f000c37b3e005ca9b6323199ba60) - add `assert/is-float16array` [(#7273)](https://github.com/stdlib-js/stdlib/pull/7273)
 -   [`62419d0`](https://github.com/stdlib-js/stdlib/commit/62419d0162b5fc9e4d18a97b67d8a2aea556b1a5) - add `isStruct` to namespace
@@ -115,6 +116,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`f5434d9`](https://github.com/stdlib-js/stdlib/commit/f5434d95461167ddb7367b67f33772f357e076e2) - **feat:** add `assert/is-almost-equal` [(#7649)](https://github.com/stdlib-js/stdlib/pull/7649) _(by Karan Anand, Athan Reines)_
 -   [`78090a6`](https://github.com/stdlib-js/stdlib/commit/78090a6c01ccb7e5e726f9b8bd3bebfb46dd5a11) - **fix:** make CLI scripts executable [(#7635)](https://github.com/stdlib-js/stdlib/pull/7635) _(by stdlib-bot)_
 -   [`f7dfbfa`](https://github.com/stdlib-js/stdlib/commit/f7dfbfad9666fe2bcf77b3a0499cd577e2d2e41a) - **test:** fix typo in test description _(by Philipp Burckhardt)_
 -   [`0f08ba1`](https://github.com/stdlib-js/stdlib/commit/0f08ba1e4edb1ab637fb2827d87965be4bb11781) - **docs:** update related packages sections [(#7592)](https://github.com/stdlib-js/stdlib/pull/7592) _(by stdlib-bot)_
@@ -224,12 +226,13 @@ A total of 6 issues were closed in this release:
 
 ### Contributors
 
-A total of 9 people contributed to this release. Thank you to the following contributors:
+A total of 10 people contributed to this release. Thank you to the following contributors:
 
 -   Anshu Kumar
 -   Athan Reines
 -   Deepak Singh
 -   Dipjyoti Das
+-   Karan Anand
 -   Lalit Narayan Yadav
 -   Philipp Burckhardt
 -   Shabareesh Shetty
