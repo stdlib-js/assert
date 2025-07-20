@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`11565b7`](https://github.com/stdlib-js/stdlib/commit/11565b764ce89e756d1a862d3f49f1f81e3c60c4) - add `assert/is-almost-equal-array` [(#7690)](https://github.com/stdlib-js/stdlib/pull/7690)
 -   [`f0d6484`](https://github.com/stdlib-js/stdlib/commit/f0d6484f7659f752a589af95dbee03916ba2db39) - add `assert/is-almost-equal-complex128array` [(#7687)](https://github.com/stdlib-js/stdlib/pull/7687)
 -   [`2037f1e`](https://github.com/stdlib-js/stdlib/commit/2037f1e0e37cb7e60f19ec3bc4d54538132f6dee) - add `assert/is-almost-equal-complex64array` [(#7688)](https://github.com/stdlib-js/stdlib/pull/7688)
 -   [`be12cf9`](https://github.com/stdlib-js/stdlib/commit/be12cf90444b3999e47eaae62a35d82117957eeb) - add `assert/is-almost-equal-float32array` [(#7682)](https://github.com/stdlib-js/stdlib/pull/7682)
@@ -122,6 +123,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`11565b7`](https://github.com/stdlib-js/stdlib/commit/11565b764ce89e756d1a862d3f49f1f81e3c60c4) - **feat:** add `assert/is-almost-equal-array` [(#7690)](https://github.com/stdlib-js/stdlib/pull/7690) _(by Karan Anand, Philipp Burckhardt)_
 -   [`f0d6484`](https://github.com/stdlib-js/stdlib/commit/f0d6484f7659f752a589af95dbee03916ba2db39) - **feat:** add `assert/is-almost-equal-complex128array` [(#7687)](https://github.com/stdlib-js/stdlib/pull/7687) _(by Karan Anand)_
 -   [`2037f1e`](https://github.com/stdlib-js/stdlib/commit/2037f1e0e37cb7e60f19ec3bc4d54538132f6dee) - **feat:** add `assert/is-almost-equal-complex64array` [(#7688)](https://github.com/stdlib-js/stdlib/pull/7688) _(by Karan Anand)_
 -   [`be12cf9`](https://github.com/stdlib-js/stdlib/commit/be12cf90444b3999e47eaae62a35d82117957eeb) - **feat:** add `assert/is-almost-equal-float32array` [(#7682)](https://github.com/stdlib-js/stdlib/pull/7682) _(by Karan Anand)_
