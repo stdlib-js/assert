@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-07-15)
+## Unreleased (2025-07-20)
 
 <section class="features">
 
 ### Features
 
+-   [`be12cf9`](https://github.com/stdlib-js/stdlib/commit/be12cf90444b3999e47eaae62a35d82117957eeb) - add `assert/is-almost-equal-float32array` [(#7682)](https://github.com/stdlib-js/stdlib/pull/7682)
 -   [`2970a90`](https://github.com/stdlib-js/stdlib/commit/2970a90f9c71de04ed25070e0d3f790f96cc3b7e) - add `isAlmostEqualFloat64Array` to namespace
 -   [`bac21f9`](https://github.com/stdlib-js/stdlib/commit/bac21f9b30228f567f6d8ac827f8620664bc7cbd) - add `isAlmostEqual` to namespace
 -   [`be8fafe`](https://github.com/stdlib-js/stdlib/commit/be8fafe689a27e0fd76fda792d553d2f6c493a50) - add `assert/is-almost-equal-float64array`
@@ -119,6 +120,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`be12cf9`](https://github.com/stdlib-js/stdlib/commit/be12cf90444b3999e47eaae62a35d82117957eeb) - **feat:** add `assert/is-almost-equal-float32array` [(#7682)](https://github.com/stdlib-js/stdlib/pull/7682) _(by Karan Anand)_
 -   [`2970a90`](https://github.com/stdlib-js/stdlib/commit/2970a90f9c71de04ed25070e0d3f790f96cc3b7e) - **feat:** add `isAlmostEqualFloat64Array` to namespace _(by Athan Reines)_
 -   [`bac21f9`](https://github.com/stdlib-js/stdlib/commit/bac21f9b30228f567f6d8ac827f8620664bc7cbd) - **feat:** add `isAlmostEqual` to namespace _(by Athan Reines)_
 -   [`be8fafe`](https://github.com/stdlib-js/stdlib/commit/be8fafe689a27e0fd76fda792d553d2f6c493a50) - **feat:** add `assert/is-almost-equal-float64array` _(by Athan Reines)_
