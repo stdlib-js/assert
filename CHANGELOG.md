@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-07-20)
+## Unreleased (2025-08-05)
 
 <section class="features">
 
@@ -123,6 +123,8 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`8a0618b`](https://github.com/stdlib-js/stdlib/commit/8a0618bf4e79916cd2e32e9159e0299b7c1bcf34) - **style:** fix indentation in JSON files _(by Philipp Burckhardt)_
+-   [`6eee151`](https://github.com/stdlib-js/stdlib/commit/6eee15199727d04e3757e66f38384e97b8a333da) - **style:** fix indentation in JSON files _(by Philipp Burckhardt)_
 -   [`11565b7`](https://github.com/stdlib-js/stdlib/commit/11565b764ce89e756d1a862d3f49f1f81e3c60c4) - **feat:** add `assert/is-almost-equal-array` [(#7690)](https://github.com/stdlib-js/stdlib/pull/7690) _(by Karan Anand, Philipp Burckhardt)_
 -   [`f0d6484`](https://github.com/stdlib-js/stdlib/commit/f0d6484f7659f752a589af95dbee03916ba2db39) - **feat:** add `assert/is-almost-equal-complex128array` [(#7687)](https://github.com/stdlib-js/stdlib/pull/7687) _(by Karan Anand)_
 -   [`2037f1e`](https://github.com/stdlib-js/stdlib/commit/2037f1e0e37cb7e60f19ec3bc4d54538132f6dee) - **feat:** add `assert/is-almost-equal-complex64array` [(#7688)](https://github.com/stdlib-js/stdlib/pull/7688) _(by Karan Anand)_
