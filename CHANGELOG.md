@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-24)
+## Unreleased (2025-09-01)
 
 <section class="features">
 
 ### Features
 
+-   [`6695311`](https://github.com/stdlib-js/stdlib/commit/6695311c0b16e2821fc135a1f1b799f4ee2c7d39) - add missing exports to `assert` namespace
 -   [`11565b7`](https://github.com/stdlib-js/stdlib/commit/11565b764ce89e756d1a862d3f49f1f81e3c60c4) - add `assert/is-almost-equal-array` [(#7690)](https://github.com/stdlib-js/stdlib/pull/7690)
 -   [`f0d6484`](https://github.com/stdlib-js/stdlib/commit/f0d6484f7659f752a589af95dbee03916ba2db39) - add `assert/is-almost-equal-complex128array` [(#7687)](https://github.com/stdlib-js/stdlib/pull/7687)
 -   [`2037f1e`](https://github.com/stdlib-js/stdlib/commit/2037f1e0e37cb7e60f19ec3bc4d54538132f6dee) - add `assert/is-almost-equal-complex64array` [(#7688)](https://github.com/stdlib-js/stdlib/pull/7688)
@@ -123,6 +124,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`6695311`](https://github.com/stdlib-js/stdlib/commit/6695311c0b16e2821fc135a1f1b799f4ee2c7d39) - **feat:** add missing exports to `assert` namespace _(by Philipp Burckhardt)_
 -   [`0002d25`](https://github.com/stdlib-js/stdlib/commit/0002d2537ef86840e1bfb479a37df8b236ae53cc) - **docs:** clean-up example code _(by Philipp Burckhardt)_
 -   [`11581aa`](https://github.com/stdlib-js/stdlib/commit/11581aaca8c3cb824cbb92c0c0f80e76890bdb20) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
 -   [`07f7c05`](https://github.com/stdlib-js/stdlib/commit/07f7c0522c73e6ad9505e1d45035ae439344200d) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
