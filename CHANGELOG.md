@@ -110,9 +110,9 @@
 
 ### Closed Issues
 
-A total of 6 issues were closed in this release:
+A total of 7 issues were closed in this release:
 
-[#5814](https://github.com/stdlib-js/stdlib/issues/5814), [#6901](https://github.com/stdlib-js/stdlib/issues/6901), [#6925](https://github.com/stdlib-js/stdlib/issues/6925), [#7084](https://github.com/stdlib-js/stdlib/issues/7084), [#7107](https://github.com/stdlib-js/stdlib/issues/7107), [#7199](https://github.com/stdlib-js/stdlib/issues/7199)
+[#5814](https://github.com/stdlib-js/stdlib/issues/5814), [#6901](https://github.com/stdlib-js/stdlib/issues/6901), [#6925](https://github.com/stdlib-js/stdlib/issues/6925), [#7084](https://github.com/stdlib-js/stdlib/issues/7084), [#7107](https://github.com/stdlib-js/stdlib/issues/7107), [#7199](https://github.com/stdlib-js/stdlib/issues/7199), [#8013](https://github.com/stdlib-js/stdlib/issues/8013)
 
 </section>
 
@@ -124,6 +124,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`afee9b8`](https://github.com/stdlib-js/stdlib/commit/afee9b8ccfb8688748b390a1960be38f562f22f3) - **chore:** resolve JavaScript lint errors [(#8018)](https://github.com/stdlib-js/stdlib/pull/8018) _(by Gauravkaushik-1206, Athan Reines)_
 -   [`3e6159b`](https://github.com/stdlib-js/stdlib/commit/3e6159bbb50ef50bf9ef464e99a207fa3878995d) - **docs:** resolve doctest errors in TSDoc _(by Philipp Burckhardt)_
 -   [`6695311`](https://github.com/stdlib-js/stdlib/commit/6695311c0b16e2821fc135a1f1b799f4ee2c7d39) - **feat:** add missing exports to `assert` namespace _(by Philipp Burckhardt)_
 -   [`0002d25`](https://github.com/stdlib-js/stdlib/commit/0002d2537ef86840e1bfb479a37df8b236ae53cc) - **docs:** clean-up example code _(by Philipp Burckhardt)_
@@ -249,12 +250,13 @@ A total of 6 issues were closed in this release:
 
 ### Contributors
 
-A total of 10 people contributed to this release. Thank you to the following contributors:
+A total of 11 people contributed to this release. Thank you to the following contributors:
 
 -   Anshu Kumar
 -   Athan Reines
 -   Deepak Singh
 -   Dipjyoti Das
+-   Gauravkaushik-1206
 -   Karan Anand
 -   Lalit Narayan Yadav
 -   Philipp Burckhardt
