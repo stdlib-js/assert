@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-09-06)
+## Unreleased (2025-09-08)
 
 <section class="features">
 
@@ -125,7 +125,7 @@ A total of 7 issues were closed in this release:
 <details>
 
 -   [`b44e0a7`](https://github.com/stdlib-js/stdlib/commit/b44e0a71e52944270193e56c6cff4507bb085144) - **docs:** clean-up TSDoc examples _(by Philipp Burckhardt)_
--   [`afee9b8`](https://github.com/stdlib-js/stdlib/commit/afee9b8ccfb8688748b390a1960be38f562f22f3) - **chore:** resolve JavaScript lint errors [(#8018)](https://github.com/stdlib-js/stdlib/pull/8018) _(by Gauravkaushik-1206, Athan Reines)_
+-   [`afee9b8`](https://github.com/stdlib-js/stdlib/commit/afee9b8ccfb8688748b390a1960be38f562f22f3) - **chore:** resolve JavaScript lint errors [(#8018)](https://github.com/stdlib-js/stdlib/pull/8018) _(by Gaurav Kaushik, Athan Reines)_
 -   [`3e6159b`](https://github.com/stdlib-js/stdlib/commit/3e6159bbb50ef50bf9ef464e99a207fa3878995d) - **docs:** resolve doctest errors in TSDoc _(by Philipp Burckhardt)_
 -   [`6695311`](https://github.com/stdlib-js/stdlib/commit/6695311c0b16e2821fc135a1f1b799f4ee2c7d39) - **feat:** add missing exports to `assert` namespace _(by Philipp Burckhardt)_
 -   [`0002d25`](https://github.com/stdlib-js/stdlib/commit/0002d2537ef86840e1bfb479a37df8b236ae53cc) - **docs:** clean-up example code _(by Philipp Burckhardt)_
@@ -257,7 +257,7 @@ A total of 11 people contributed to this release. Thank you to the following con
 -   Athan Reines
 -   Deepak Singh
 -   Dipjyoti Das
--   Gauravkaushik-1206
+-   Gaurav Kaushik
 -   Karan Anand
 -   Lalit Narayan Yadav
 -   Philipp Burckhardt
