@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-09-17)
+## Unreleased (2025-09-18)
 
 <section class="features">
 
@@ -124,6 +124,7 @@ A total of 11 issues were closed in this release:
 
 <details>
 
+-   [`b6d34c9`](https://github.com/stdlib-js/stdlib/commit/b6d34c9e53f2b877e0647914ba21ebbc6091db18) - **refactor:** use functional API to resolve dtype and relax `dtype` property requirements _(by Athan Reines)_
 -   [`66605d6`](https://github.com/stdlib-js/stdlib/commit/66605d64a64a00d8343cb41d5d570d52be66294d) - **chore:** fix JavaScript lint errors [(#8090)](https://github.com/stdlib-js/stdlib/pull/8090) _(by Seth-Banker, Athan Reines)_
 -   [`510bbde`](https://github.com/stdlib-js/stdlib/commit/510bbde67c11f367968bf73a63c8dfea99db6dde) - **chore:** fix JavaScript lint errors [(#8086)](https://github.com/stdlib-js/stdlib/pull/8086) _(by Payal Goswami, Athan Reines)_
 -   [`47678cb`](https://github.com/stdlib-js/stdlib/commit/47678cbfcb7f1475f8eea7cc39dc9675fdfc3984) - **chore:** fix JavaScript lint errors [(#8075)](https://github.com/stdlib-js/stdlib/pull/8075) _(by Vara Rahul Rajana, Athan Reines)_

@@ -21,6 +21,7 @@
 // MODULES //
 
 var isMatrixLike = require( './../../is-matrix-like' );
+var getDType = require( '@stdlib/ndarray/base/dtype' );
 
 
 // MAIN //
@@ -45,7 +46,7 @@ var isMatrixLike = require( './../../is-matrix-like' );
 * // returns false
 */
 function isFloat64MatrixLike( v ) {
-	return ( isMatrixLike( v ) && v.dtype === 'float64' );
+	return ( isMatrixLike( v ) && getDType( v ) === 'float64' );
 }
 
 

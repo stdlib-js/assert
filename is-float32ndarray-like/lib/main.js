@@ -21,6 +21,7 @@
 // MODULES //
 
 var isndarrayLike = require( './../../is-ndarray-like' );
+var getDType = require( '@stdlib/ndarray/base/dtype' );
 
 
 // MAIN //
@@ -45,7 +46,7 @@ var isndarrayLike = require( './../../is-ndarray-like' );
 * // returns false
 */
 function isFloat32ndarrayLike( v ) {
-	return ( isndarrayLike( v ) && v.dtype === 'float32' );
+	return ( isndarrayLike( v ) && getDType( v ) === 'float32' );
 }
 
 
