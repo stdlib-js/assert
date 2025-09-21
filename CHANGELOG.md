@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-09-18)
+## Unreleased (2025-09-21)
 
 <section class="features">
 
 ### Features
 
+-   [`1cfd7f2`](https://github.com/stdlib-js/stdlib/commit/1cfd7f22c3c5a1565ca7b5c34189102a93c1a28c) - update `assert` TypeScript declarations
 -   [`6695311`](https://github.com/stdlib-js/stdlib/commit/6695311c0b16e2821fc135a1f1b799f4ee2c7d39) - add missing exports to `assert` namespace
 -   [`11565b7`](https://github.com/stdlib-js/stdlib/commit/11565b764ce89e756d1a862d3f49f1f81e3c60c4) - add `assert/is-almost-equal-array` [(#7690)](https://github.com/stdlib-js/stdlib/pull/7690)
 -   [`f0d6484`](https://github.com/stdlib-js/stdlib/commit/f0d6484f7659f752a589af95dbee03916ba2db39) - add `assert/is-almost-equal-complex128array` [(#7687)](https://github.com/stdlib-js/stdlib/pull/7687)
@@ -124,6 +125,8 @@ A total of 11 issues were closed in this release:
 
 <details>
 
+-   [`1cfd7f2`](https://github.com/stdlib-js/stdlib/commit/1cfd7f22c3c5a1565ca7b5c34189102a93c1a28c) - **feat:** update `assert` TypeScript declarations _(by Philipp Burckhardt)_
+-   [`af59fdf`](https://github.com/stdlib-js/stdlib/commit/af59fdfb5f2aae5ced449bd6ccddc012047f0089) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`b6d34c9`](https://github.com/stdlib-js/stdlib/commit/b6d34c9e53f2b877e0647914ba21ebbc6091db18) - **refactor:** use functional API to resolve dtype and relax `dtype` property requirements _(by Athan Reines)_
 -   [`66605d6`](https://github.com/stdlib-js/stdlib/commit/66605d64a64a00d8343cb41d5d570d52be66294d) - **chore:** fix JavaScript lint errors [(#8090)](https://github.com/stdlib-js/stdlib/pull/8090) _(by Seth-Banker, Athan Reines)_
 -   [`510bbde`](https://github.com/stdlib-js/stdlib/commit/510bbde67c11f367968bf73a63c8dfea99db6dde) - **chore:** fix JavaScript lint errors [(#8086)](https://github.com/stdlib-js/stdlib/pull/8086) _(by Payal Goswami, Athan Reines)_
