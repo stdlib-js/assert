@@ -111,9 +111,9 @@
 
 ### Closed Issues
 
-A total of 12 issues were closed in this release:
+A total of 13 issues were closed in this release:
 
-[#5814](https://github.com/stdlib-js/stdlib/issues/5814), [#6901](https://github.com/stdlib-js/stdlib/issues/6901), [#6925](https://github.com/stdlib-js/stdlib/issues/6925), [#7084](https://github.com/stdlib-js/stdlib/issues/7084), [#7107](https://github.com/stdlib-js/stdlib/issues/7107), [#7199](https://github.com/stdlib-js/stdlib/issues/7199), [#8013](https://github.com/stdlib-js/stdlib/issues/8013), [#8043](https://github.com/stdlib-js/stdlib/issues/8043), [#8050](https://github.com/stdlib-js/stdlib/issues/8050), [#8082](https://github.com/stdlib-js/stdlib/issues/8082), [#8088](https://github.com/stdlib-js/stdlib/issues/8088), [#8129](https://github.com/stdlib-js/stdlib/issues/8129)
+[#5814](https://github.com/stdlib-js/stdlib/issues/5814), [#6901](https://github.com/stdlib-js/stdlib/issues/6901), [#6925](https://github.com/stdlib-js/stdlib/issues/6925), [#7084](https://github.com/stdlib-js/stdlib/issues/7084), [#7107](https://github.com/stdlib-js/stdlib/issues/7107), [#7199](https://github.com/stdlib-js/stdlib/issues/7199), [#8013](https://github.com/stdlib-js/stdlib/issues/8013), [#8043](https://github.com/stdlib-js/stdlib/issues/8043), [#8050](https://github.com/stdlib-js/stdlib/issues/8050), [#8082](https://github.com/stdlib-js/stdlib/issues/8082), [#8088](https://github.com/stdlib-js/stdlib/issues/8088), [#8129](https://github.com/stdlib-js/stdlib/issues/8129), [#8135](https://github.com/stdlib-js/stdlib/issues/8135)
 
 </section>
 
@@ -125,6 +125,7 @@ A total of 12 issues were closed in this release:
 
 <details>
 
+-   [`e7bd1d0`](https://github.com/stdlib-js/stdlib/commit/e7bd1d04143a9e72e40a3cf8bf7daa17e4ad3620) - **style:** re-enable lint rule [(#8138)](https://github.com/stdlib-js/stdlib/pull/8138) _(by Zuhair Ahmad)_
 -   [`4dba8a6`](https://github.com/stdlib-js/stdlib/commit/4dba8a659480c7c39382084ba3bb7fdace936609) - **chore:** fix JavaScript lint errors [(#8134)](https://github.com/stdlib-js/stdlib/pull/8134) _(by Payal Goswami, Athan Reines)_
 -   [`1cfd7f2`](https://github.com/stdlib-js/stdlib/commit/1cfd7f22c3c5a1565ca7b5c34189102a93c1a28c) - **feat:** update `assert` TypeScript declarations _(by Philipp Burckhardt)_
 -   [`af59fdf`](https://github.com/stdlib-js/stdlib/commit/af59fdfb5f2aae5ced449bd6ccddc012047f0089) - **chore:** minor clean-up _(by Philipp Burckhardt)_
@@ -260,7 +261,7 @@ A total of 12 issues were closed in this release:
 
 ### Contributors
 
-A total of 14 people contributed to this release. Thank you to the following contributors:
+A total of 15 people contributed to this release. Thank you to the following contributors:
 
 -   Anshu Kumar
 -   Athan Reines
@@ -276,6 +277,7 @@ A total of 14 people contributed to this release. Thank you to the following con
 -   Tushar Bhardwaj
 -   Uday Kakade
 -   Vara Rahul Rajana
+-   Zuhair Ahmad
 
 </section>
 
