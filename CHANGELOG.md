@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-10-17)
+## Unreleased (2025-11-07)
 
 <section class="features">
 
 ### Features
 
+-   [`aad9fb9`](https://github.com/stdlib-js/stdlib/commit/aad9fb90278125579b2627f502fcce1da45c283c) - add `hasIsConcatSpreadableSymbolSupport` to namespace
+-   [`cf849e4`](https://github.com/stdlib-js/stdlib/commit/cf849e4bc5127c9c7b6b861478b16b623a886c96) - add `assert/has-is-concat-spreadable-symbol-support`
 -   [`1cfd7f2`](https://github.com/stdlib-js/stdlib/commit/1cfd7f22c3c5a1565ca7b5c34189102a93c1a28c) - update `assert` TypeScript declarations
 -   [`6695311`](https://github.com/stdlib-js/stdlib/commit/6695311c0b16e2821fc135a1f1b799f4ee2c7d39) - add missing exports to `assert` namespace
 -   [`11565b7`](https://github.com/stdlib-js/stdlib/commit/11565b764ce89e756d1a862d3f49f1f81e3c60c4) - add `assert/is-almost-equal-array` [(#7690)](https://github.com/stdlib-js/stdlib/pull/7690)
@@ -125,6 +127,8 @@ A total of 19 issues were closed in this release:
 
 <details>
 
+-   [`aad9fb9`](https://github.com/stdlib-js/stdlib/commit/aad9fb90278125579b2627f502fcce1da45c283c) - **feat:** add `hasIsConcatSpreadableSymbolSupport` to namespace _(by Athan Reines)_
+-   [`cf849e4`](https://github.com/stdlib-js/stdlib/commit/cf849e4bc5127c9c7b6b861478b16b623a886c96) - **feat:** add `assert/has-is-concat-spreadable-symbol-support` _(by Athan Reines)_
 -   [`61dddeb`](https://github.com/stdlib-js/stdlib/commit/61dddeb7d3bddb33aa7d60fb692baf43ec8f462d) - **chore:** remove unused ESLint directives from `@stdlib/assert` examples [(#8248)](https://github.com/stdlib-js/stdlib/pull/8248) _(by youzi-forge)_
 -   [`82439fb`](https://github.com/stdlib-js/stdlib/commit/82439fb2f744b94a6c6d30cf62fbefc59093c43c) - **chore:** remove unused ESLint directives [(#8247)](https://github.com/stdlib-js/stdlib/pull/8247) _(by Payal Goswami, Athan Reines)_
 -   [`9faaec9`](https://github.com/stdlib-js/stdlib/commit/9faaec9f79725850e0a6dd969a2792a950f3f31d) - **chore:** resolve lint errors [(#8239)](https://github.com/stdlib-js/stdlib/pull/8239) _(by RudrakshRaina07, Athan Reines)_
