@@ -127,6 +127,7 @@ A total of 19 issues were closed in this release:
 
 <details>
 
+-   [`5f5bb2d`](https://github.com/stdlib-js/stdlib/commit/5f5bb2d4277a24000b57fb07bc28d821500cd7e8) - **docs:** update namespace table of contents [(#8425)](https://github.com/stdlib-js/stdlib/pull/8425) _(by stdlib-bot, Athan Reines)_
 -   [`aad9fb9`](https://github.com/stdlib-js/stdlib/commit/aad9fb90278125579b2627f502fcce1da45c283c) - **feat:** add `hasIsConcatSpreadableSymbolSupport` to namespace _(by Athan Reines)_
 -   [`cf849e4`](https://github.com/stdlib-js/stdlib/commit/cf849e4bc5127c9c7b6b861478b16b623a886c96) - **feat:** add `assert/has-is-concat-spreadable-symbol-support` _(by Athan Reines)_
 -   [`61dddeb`](https://github.com/stdlib-js/stdlib/commit/61dddeb7d3bddb33aa7d60fb692baf43ec8f462d) - **chore:** remove unused ESLint directives from `@stdlib/assert` examples [(#8248)](https://github.com/stdlib-js/stdlib/pull/8248) _(by youzi-forge)_
