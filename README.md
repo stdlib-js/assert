@@ -35,20 +35,32 @@ limitations under the License.
 
 > Assertion utilities.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/assert
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import assert from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert@esm/index.mjs';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { IS_BIG_ENDIAN, IS_BROWSER, IS_DARWIN, IS_DOCKER, IS_ELECTRON, IS_ELECTRON_MAIN, IS_ELECTRON_RENDERER, IS_LITTLE_ENDIAN, IS_MOBILE, IS_NODE, IS_TOUCH_DEVICE, IS_WEB_WORKER, IS_WINDOWS, contains, deepEqual, deepHasOwnProp, deepHasProp, hasArrayBufferSupport, hasArrowFunctionSupport, hasAsyncAwaitSupport, hasAsyncIteratorSymbolSupport, hasAtobSupport, hasBigInt64ArraySupport, hasBigIntSupport, hasBigUint64ArraySupport, hasBtoaSupport, hasClassSupport, hasDataViewSupport, hasDefinePropertiesSupport, hasDefinePropertySupport, hasFloat16ArraySupport, hasFloat32ArraySupport, hasFloat64ArraySupport, hasFunctionNameSupport, hasGeneratorSupport, hasGlobalThisSupport, hasInt16ArraySupport, hasInt32ArraySupport, hasInt8ArraySupport, hasIsConcatSpreadableSymbolSupport, hasIteratorSymbolSupport, hasMapSupport, hasNodeBufferSupport, hasOwnProp, hasProp, hasProxySupport, hasSetSupport, hasSharedArrayBufferSupport, hasSymbolSupport, hasToStringTagSupport, hasUTF16SurrogatePairAt, hasUint16ArraySupport, hasUint32ArraySupport, hasUint8ArraySupport, hasUint8ClampedArraySupport, hasWeakMapSupport, hasWeakSetSupport, hasWebAssemblySupport, instanceOf, isASCII, isAbsoluteHttpURI, isAbsolutePath, isAbsoluteURI, isAccessorArray, isAccessorProperty, isAccessorPropertyIn, isAlmostEqual, isAlmostEqualArray, isAlmostEqualComplex128array, isAlmostEqualComplex64array, isAlmostEqualFloat32array, isAlmostEqualFloat64Array, isAlphaNumeric, isAlphagram, isAnagram, isArguments, isArray, isArrayArray, isArrayBuffer, isArrayBufferView, isArrayLength, isArrayLike, isArrayLikeObject, isArrowFunction, isBetween, isBetweenArray, isBigInt, isBigInt64Array, isBigUint64Array, isBinaryString, isBlankString, isBoolean, isBooleanArray, isBoxedPrimitive, isBuffer, isCamelcase, isCapitalized, isCentrosymmetricMatrix, isCircular, isCircularArray, isCircularPlainObject, isClass, isCollection, isComplex, isComplex128, isComplex128Array, isComplex128MatrixLike, isComplex128VectorLike, isComplex128ndarrayLike, isComplex64, isComplex64Array, isComplex64MatrixLike, isComplex64VectorLike, isComplex64ndarrayLike, isComplexLike, isComplexTypedArray, isComplexTypedArrayLike, isComposite, isConfigurableProperty, isConfigurablePropertyIn, isConstantcase, isCubeNumber, isCurrentYear, isDataProperty, isDataPropertyIn, isDataView, isDateObject, isDateObjectArray, isDigitString, isDomainName, isDurationString, isEmailAddress, isEmptyArray, isEmptyArrayLikeObject, isEmptyCollection, isEmptyObject, isEmptyString, isEnumerableProperty, isEnumerablePropertyIn, isEqualArray, isEqualBooleanArray, isEqualDateObject, isEqualInt16Array, isEqualInt32Array, isEqualInt8Array, isEqualUint16Array, isEqualUint32Array, isEqualUint8Array, isEqualUint8ClampedArray, isError, isEvalError, isEven, isFalsy, isFalsyArray, isFinite, isFiniteArray, isFloat16Array, isFloat32Array, isFloat32MatrixLike, isFloat32VectorLike, isFloat32ndarrayLike, isFloat64Array, isFloat64MatrixLike, isFloat64VectorLike, isFloat64ndarrayLike, isFunction, isFunctionArray, isGeneratorObject, isGeneratorObjectLike, isHexString, isInfinite, isInheritedProperty, isInt16Array, isInt32Array, isInt8Array, isInteger, isIntegerArray, isIterableLike, isIteratorLike, isJSON, isKebabcase, isLeapYear, isLocalhost, isLowercase, isMatrixLike, isMethod, isMethodIn, isMultiSlice, isNaNArray, isNamedTypedTupleLike, isNativeFunction, isNegativeFinite, isNegativeInteger, isNegativeIntegerArray, isNegativeNumber, isNegativeNumberArray, isNegativeZero, isNodeBuiltin, isNodeDuplexStreamLike, isNodeREPL, isNodeReadableStreamLike, isNodeStreamLike, isNodeTransformStreamLike, isNodeWritableStreamLike, isNonConfigurableProperty, isNonConfigurablePropertyIn, isNonEnumerableProperty, isNonEnumerablePropertyIn, isNonNegativeFinite, isNonNegativeInteger, isNonNegativeIntegerArray, isNonNegativeNumber, isNonNegativeNumberArray, isNonPositiveFinite, isNonPositiveInteger, isNonPositiveIntegerArray, isNonPositiveNumber, isNonPositiveNumberArray, isNonSymmetricMatrix, isNull, isNullArray, isNumber, isNumberArray, isNumericArray, isObject, isObjectArray, isObjectLike, isOdd, isPRNGLike, isPascalcase, isPersymmetricMatrix, isPlainObject, isPlainObjectArray, isPositiveFinite, isPositiveInteger, isPositiveIntegerArray, isPositiveNumber, isPositiveNumberArray, isPositiveZero, isPrime, isPrimitive, isPrimitiveArray, isProbability, isProbabilityArray, isPropertyKey, isPrototypeOf, isRaggedNestedArray, isRangeError, isReadOnlyProperty, isReadOnlyPropertyIn, isReadWriteProperty, isReadWritePropertyIn, isReadableProperty, isReadablePropertyIn, isReferenceError, isRegExp, isRegExpString, isRelativePath, isRelativeURI, isSafeInteger, isSafeIntegerArray, isSameAccessorArray, isSameArray, isSameArrayLike, isSameArrayLikeObject, isSameComplex128, isSameComplex128Array, isSameComplex64, isSameComplex64Array, isSameFloat32Array, isSameFloat64Array, isSameNativeClass, isSameType, isSameTypedArrayLike, isSameValue, isSameValueZero, isSemVer, isSharedArrayBuffer, isSkewCentrosymmetricMatrix, isSkewPersymmetricMatrix, isSkewSymmetricMatrix, isSlice, isSnakecase, isSquareMatrix, isSquareNumber, isSquareTriangularNumber, isStartcase, isStrictEqual, isString, isStringArray, isStruct, isStructConstructorLike, isSymbol, isSymbolArray, isSymmetricMatrix, isSyntaxError, isTriangularNumber, isTruthy, isTruthyArray, isTypeError, isTypedArray, isTypedArrayLength, isTypedArrayLike, isUNCPath, isURI, isURIError, isUint16Array, isUint32Array, isUint8Array, isUint8ClampedArray, isUndefined, isUndefinedOrNull, isUnityProbabilityArray, isUppercase, isVectorLike, isWebAssemblyMemory, isWellFormedString, isWhitespace, isWritableProperty, isWritablePropertyIn, isWriteOnlyProperty, isWriteOnlyPropertyIn, isgzipBuffer, isnan, isndarrayLike, isndarrayLikeWithDataType, tools } from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert@esm/index.mjs';
+var assert = require( '@stdlib/assert' );
 ```
 
 #### assert
@@ -88,8 +100,8 @@ For primitive types having corresponding object wrappers, assertion utilities pr
 <!-- eslint-disable no-new-wrappers -->
 
 ```javascript
-import Boolean from 'https://cdn.jsdelivr.net/gh/stdlib-js/boolean/ctor@esm/index.mjs';
-import isBoolean from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert/is-boolean@esm/index.mjs';
+var Boolean = require( '@stdlib/boolean/ctor' );
+var isBoolean = require( '@stdlib/assert/is-boolean' );
 
 var bool = isBoolean.isObject( new Boolean( false ) );
 // returns true
@@ -127,7 +139,7 @@ Where applicable, similar to the assertion utilities for built-in data types, ar
 <!-- eslint-disable no-new-wrappers -->
 
 ```javascript
-import isStringArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert/is-string-array@esm/index.mjs';
+var isStringArray = require( '@stdlib/assert/is-string-array' );
 
 var bool = isStringArray( [ 'hello', 'world' ] );
 // returns true
@@ -258,6 +270,11 @@ The namespace includes utilities for validating other special arrays or buffers:
 <div class="namespace-toc">
 
 -   <span class="signature">[`isAccessorArray( value )`][@stdlib/assert/is-accessor-array]</span><span class="delimiter">: </span><span class="description">test if a value is an array-like object supporting the accessor (get/set) protocol.</span>
+-   <span class="signature">[`isAlmostEqualArray( v1, v2, maxULP )`][@stdlib/assert/is-almost-equal-array]</span><span class="delimiter">: </span><span class="description">test if two arguments are both generic arrays and contain respective elements which are approximately equal within a specified number of ULPs (units in the last place).</span>
+-   <span class="signature">[`isAlmostEqualComplex128array( v1, v2, maxULP )`][@stdlib/assert/is-almost-equal-complex128array]</span><span class="delimiter">: </span><span class="description">test if two arguments are both Complex128Arrays and contain respective elements which are approximately equal within a specified number of ULPs (units in the last place).</span>
+-   <span class="signature">[`isAlmostEqualComplex64array( v1, v2, maxULP )`][@stdlib/assert/is-almost-equal-complex64array]</span><span class="delimiter">: </span><span class="description">test if two arguments are both Complex64Arrays and contain respective elements which are approximately equal within a specified number of ULPs (units in the last place).</span>
+-   <span class="signature">[`isAlmostEqualFloat32array( v1, v2, maxULP )`][@stdlib/assert/is-almost-equal-float32array]</span><span class="delimiter">: </span><span class="description">test if two arguments are both Float32Arrays and contain respective elements which are approximately equal within a specified number of ULPs (units in the last place).</span>
+-   <span class="signature">[`isAlmostEqualFloat64Array( v1, v2, maxULP )`][@stdlib/assert/is-almost-equal-float64array]</span><span class="delimiter">: </span><span class="description">test if two arguments are both Float64Arrays and contain respective elements which are approximately equal within a specified number of ULPs (units in the last place).</span>
 -   <span class="signature">[`isArrayLength( value )`][@stdlib/assert/is-array-length]</span><span class="delimiter">: </span><span class="description">test if a value is a valid array length.</span>
 -   <span class="signature">[`isArrayLikeObject( value )`][@stdlib/assert/is-array-like-object]</span><span class="delimiter">: </span><span class="description">test if a value is an array-like object.</span>
 -   <span class="signature">[`isArrayLike( value )`][@stdlib/assert/is-array-like]</span><span class="delimiter">: </span><span class="description">test if a value is array-like.</span>
@@ -280,9 +297,11 @@ The namespace includes utilities for validating other special arrays or buffers:
 -   <span class="signature">[`isEqualUint8ClampedArray( v1, v2 )`][@stdlib/assert/is-equal-uint8clampedarray]</span><span class="delimiter">: </span><span class="description">test if two arguments are both Uint8ClampedArrays and have equal values.</span>
 -   <span class="signature">[`isFalsyArray( value )`][@stdlib/assert/is-falsy-array]</span><span class="delimiter">: </span><span class="description">test if a value is an array-like object containing only falsy values.</span>
 -   <span class="signature">[`isFiniteArray( value )`][@stdlib/assert/is-finite-array]</span><span class="delimiter">: </span><span class="description">test if a value is an array-like object containing only finite numbers.</span>
+-   <span class="signature">[`isFloat16Array( value )`][@stdlib/assert/is-float16array]</span><span class="delimiter">: </span><span class="description">test if a value is a Float16Array.</span>
 -   <span class="signature">[`isNumericArray( value )`][@stdlib/assert/is-numeric-array]</span><span class="delimiter">: </span><span class="description">test if a value is a numeric array.</span>
 -   <span class="signature">[`isPlainObjectArray( value )`][@stdlib/assert/is-plain-object-array]</span><span class="delimiter">: </span><span class="description">test if a value is an array-like object containing only plain objects.</span>
 -   <span class="signature">[`isProbabilityArray( value )`][@stdlib/assert/is-probability-array]</span><span class="delimiter">: </span><span class="description">test if a value is an array-like object containing only probabilities.</span>
+-   <span class="signature">[`isRaggedNestedArray( value )`][@stdlib/assert/is-ragged-nested-array]</span><span class="delimiter">: </span><span class="description">test if a value is a ragged nested array.</span>
 -   <span class="signature">[`isSameAccessorArray( v1, v2 )`][@stdlib/assert/is-same-accessor-array]</span><span class="delimiter">: </span><span class="description">test if two arguments are both accessor arrays and have the same values.</span>
 -   <span class="signature">[`isSameArrayLikeObject( v1, v2 )`][@stdlib/assert/is-same-array-like-object]</span><span class="delimiter">: </span><span class="description">test if two arguments are both array-like objects and have the same values.</span>
 -   <span class="signature">[`isSameArrayLike( v1, v2 )`][@stdlib/assert/is-same-array-like]</span><span class="delimiter">: </span><span class="description">test if two arguments are both array-like and have the same values.</span>
@@ -364,6 +383,7 @@ To test whether a runtime environment supports certain features, the namespace i
 -   <span class="signature">[`hasDataViewSupport()`][@stdlib/assert/has-dataview-support]</span><span class="delimiter">: </span><span class="description">detect native `DataView` support.</span>
 -   <span class="signature">[`hasDefinePropertiesSupport()`][@stdlib/assert/has-define-properties-support]</span><span class="delimiter">: </span><span class="description">detect `Object.defineProperties` support.</span>
 -   <span class="signature">[`hasDefinePropertySupport()`][@stdlib/assert/has-define-property-support]</span><span class="delimiter">: </span><span class="description">detect `Object.defineProperty` support.</span>
+-   <span class="signature">[`hasFloat16ArraySupport()`][@stdlib/assert/has-float16array-support]</span><span class="delimiter">: </span><span class="description">detect native `Float16Array` support.</span>
 -   <span class="signature">[`hasFloat32ArraySupport()`][@stdlib/assert/has-float32array-support]</span><span class="delimiter">: </span><span class="description">detect native `Float32Array` support.</span>
 -   <span class="signature">[`hasFloat64ArraySupport()`][@stdlib/assert/has-float64array-support]</span><span class="delimiter">: </span><span class="description">detect native `Float64Array` support.</span>
 -   <span class="signature">[`hasFunctionNameSupport()`][@stdlib/assert/has-function-name-support]</span><span class="delimiter">: </span><span class="description">detect native function `name` support.</span>
@@ -372,6 +392,7 @@ To test whether a runtime environment supports certain features, the namespace i
 -   <span class="signature">[`hasInt16ArraySupport()`][@stdlib/assert/has-int16array-support]</span><span class="delimiter">: </span><span class="description">detect native `Int16Array` support.</span>
 -   <span class="signature">[`hasInt32ArraySupport()`][@stdlib/assert/has-int32array-support]</span><span class="delimiter">: </span><span class="description">detect native `Int32Array` support.</span>
 -   <span class="signature">[`hasInt8ArraySupport()`][@stdlib/assert/has-int8array-support]</span><span class="delimiter">: </span><span class="description">detect native `Int8Array` support.</span>
+-   <span class="signature">[`hasIsConcatSpreadableSymbolSupport()`][@stdlib/assert/has-is-concat-spreadable-symbol-support]</span><span class="delimiter">: </span><span class="description">detect native `Symbol.isConcatSpreadable` support.</span>
 -   <span class="signature">[`hasIteratorSymbolSupport()`][@stdlib/assert/has-iterator-symbol-support]</span><span class="delimiter">: </span><span class="description">detect native `Symbol.iterator` support.</span>
 -   <span class="signature">[`hasMapSupport()`][@stdlib/assert/has-map-support]</span><span class="delimiter">: </span><span class="description">detect native `Map` support.</span>
 -   <span class="signature">[`hasNodeBufferSupport()`][@stdlib/assert/has-node-buffer-support]</span><span class="delimiter">: </span><span class="description">detect native `Buffer` support.</span>
@@ -411,6 +432,7 @@ The remaining namespace utilities are as follows:
 -   <span class="signature">[`isAbsoluteURI( value )`][@stdlib/assert/is-absolute-uri]</span><span class="delimiter">: </span><span class="description">test whether a value is an absolute URI.</span>
 -   <span class="signature">[`isAccessorPropertyIn( value, property )`][@stdlib/assert/is-accessor-property-in]</span><span class="delimiter">: </span><span class="description">test if an object's own or inherited property has an accessor descriptor.</span>
 -   <span class="signature">[`isAccessorProperty( value, property )`][@stdlib/assert/is-accessor-property]</span><span class="delimiter">: </span><span class="description">test if an object's own property has an accessor descriptor.</span>
+-   <span class="signature">[`isAlmostEqual( a, b, maxULP )`][@stdlib/assert/is-almost-equal]</span><span class="delimiter">: </span><span class="description">test if two arguments are approximately equal within a specified number of ULPs (units in the last place).</span>
 -   <span class="signature">[`isAlphagram( value )`][@stdlib/assert/is-alphagram]</span><span class="delimiter">: </span><span class="description">test if a value is an alphagram.</span>
 -   <span class="signature">[`isAlphaNumeric( value )`][@stdlib/assert/is-alphanumeric]</span><span class="delimiter">: </span><span class="description">test whether a string contains only alphanumeric characters.</span>
 -   <span class="signature">[`isAnagram( str, value )`][@stdlib/assert/is-anagram]</span><span class="delimiter">: </span><span class="description">test if a value is an anagram.</span>
@@ -468,6 +490,7 @@ The remaining namespace utilities are as follows:
 -   <span class="signature">[`isMultiSlice( value )`][@stdlib/assert/is-multi-slice]</span><span class="delimiter">: </span><span class="description">test if a value is a `MultiSlice`.</span>
 -   <span class="signature">[`isNamedTypedTupleLike( value )`][@stdlib/assert/is-named-typed-tuple-like]</span><span class="delimiter">: </span><span class="description">test if a value is named typed tuple-like.</span>
 -   <span class="signature">[`isNativeFunction( value )`][@stdlib/assert/is-native-function]</span><span class="delimiter">: </span><span class="description">test if a value is a native function.</span>
+-   <span class="signature">[`isNegativeFinite( value )`][@stdlib/assert/is-negative-finite]</span><span class="delimiter">: </span><span class="description">test if a value is a number having a finite negative value.</span>
 -   <span class="signature">[`isNegativeZero( value )`][@stdlib/assert/is-negative-zero]</span><span class="delimiter">: </span><span class="description">test if a value is a number equal to negative zero.</span>
 -   <span class="signature">[`isNodeBuiltin( value )`][@stdlib/assert/is-node-builtin]</span><span class="delimiter">: </span><span class="description">test whether a string matches a Node.js built-in module name.</span>
 -   <span class="signature">[`isNodeDuplexStreamLike( value )`][@stdlib/assert/is-node-duplex-stream-like]</span><span class="delimiter">: </span><span class="description">test if a value is Node duplex stream-like.</span>
@@ -481,10 +504,12 @@ The remaining namespace utilities are as follows:
 -   <span class="signature">[`isNonEnumerablePropertyIn( value, property )`][@stdlib/assert/is-nonenumerable-property-in]</span><span class="delimiter">: </span><span class="description">test if an object's own or inherited property is non-enumerable.</span>
 -   <span class="signature">[`isNonEnumerableProperty( value, property )`][@stdlib/assert/is-nonenumerable-property]</span><span class="delimiter">: </span><span class="description">test if an object's own property is non-enumerable.</span>
 -   <span class="signature">[`isNonNegativeFinite( value )`][@stdlib/assert/is-nonnegative-finite]</span><span class="delimiter">: </span><span class="description">test if a value is a number having a nonnegative finite value.</span>
+-   <span class="signature">[`isNonPositiveFinite( value )`][@stdlib/assert/is-nonpositive-finite]</span><span class="delimiter">: </span><span class="description">test if a value is a number having a nonpositive finite value.</span>
 -   <span class="signature">[`isObjectLike( value )`][@stdlib/assert/is-object-like]</span><span class="delimiter">: </span><span class="description">test if a value is object-like.</span>
 -   <span class="signature">[`isOdd( value )`][@stdlib/assert/is-odd]</span><span class="delimiter">: </span><span class="description">test if a value is an odd number.</span>
 -   <span class="signature">[`isPascalcase( value )`][@stdlib/assert/is-pascalcase]</span><span class="delimiter">: </span><span class="description">test if a value is a string in Pascal case.</span>
 -   <span class="signature">[`isPlainObject( value )`][@stdlib/assert/is-plain-object]</span><span class="delimiter">: </span><span class="description">test if a value is a plain object.</span>
+-   <span class="signature">[`isPositiveFinite( value )`][@stdlib/assert/is-positive-finite]</span><span class="delimiter">: </span><span class="description">test if a value is a number having a finite positive value.</span>
 -   <span class="signature">[`isPositiveZero( value )`][@stdlib/assert/is-positive-zero]</span><span class="delimiter">: </span><span class="description">test if a value is a number equal to positive zero.</span>
 -   <span class="signature">[`isPrime( value )`][@stdlib/assert/is-prime]</span><span class="delimiter">: </span><span class="description">test if a value is a prime number.</span>
 -   <span class="signature">[`isPrimitive( value )`][@stdlib/assert/is-primitive]</span><span class="delimiter">: </span><span class="description">test if a value is a JavaScript primitive.</span>
@@ -520,6 +545,7 @@ The remaining namespace utilities are as follows:
 -   <span class="signature">[`isUppercase( value )`][@stdlib/assert/is-uppercase]</span><span class="delimiter">: </span><span class="description">test if a value is an uppercase string.</span>
 -   <span class="signature">[`isURI( value )`][@stdlib/assert/is-uri]</span><span class="delimiter">: </span><span class="description">test if a value is a URI.</span>
 -   <span class="signature">[`isWebAssemblyMemory( value )`][@stdlib/assert/is-wasm-memory]</span><span class="delimiter">: </span><span class="description">test if a value is a WebAssembly memory instance.</span>
+-   <span class="signature">[`isWellFormedString( str )`][@stdlib/assert/is-well-formed-string]</span><span class="delimiter">: </span><span class="description">test if a string is well-formed.</span>
 -   <span class="signature">[`isWhitespace( value )`][@stdlib/assert/is-whitespace]</span><span class="delimiter">: </span><span class="description">test whether a string contains only white space characters.</span>
 -   <span class="signature">[`isWritablePropertyIn( value, property )`][@stdlib/assert/is-writable-property-in]</span><span class="delimiter">: </span><span class="description">test if an object's own or inherited property is writable.</span>
 -   <span class="signature">[`isWritableProperty( value, property )`][@stdlib/assert/is-writable-property]</span><span class="delimiter">: </span><span class="description">test if an object's own property is writable.</span>
@@ -543,20 +569,11 @@ The remaining namespace utilities are as follows:
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils/keys@esm/index.mjs';
-import assert from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert@esm/index.mjs';
+```javascript
+var objectKeys = require( '@stdlib/utils/keys' );
+var assert = require( '@stdlib/assert' );
 
 console.log( objectKeys( assert ) );
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -580,7 +597,7 @@ console.log( objectKeys( assert ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -670,6 +687,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 [@stdlib/assert/is-accessor-property-in]: https://github.com/stdlib-js/assert/tree/main/is-accessor-property-in
 
 [@stdlib/assert/is-accessor-property]: https://github.com/stdlib-js/assert/tree/main/is-accessor-property
+
+[@stdlib/assert/is-almost-equal]: https://github.com/stdlib-js/assert/tree/main/is-almost-equal
 
 [@stdlib/assert/is-alphagram]: https://github.com/stdlib-js/assert/tree/main/is-alphagram
 
@@ -783,6 +802,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/assert/is-native-function]: https://github.com/stdlib-js/assert/tree/main/is-native-function
 
+[@stdlib/assert/is-negative-finite]: https://github.com/stdlib-js/assert/tree/main/is-negative-finite
+
 [@stdlib/assert/is-negative-zero]: https://github.com/stdlib-js/assert/tree/main/is-negative-zero
 
 [@stdlib/assert/is-node-builtin]: https://github.com/stdlib-js/assert/tree/main/is-node-builtin
@@ -809,6 +830,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/assert/is-nonnegative-finite]: https://github.com/stdlib-js/assert/tree/main/is-nonnegative-finite
 
+[@stdlib/assert/is-nonpositive-finite]: https://github.com/stdlib-js/assert/tree/main/is-nonpositive-finite
+
 [@stdlib/assert/is-object-like]: https://github.com/stdlib-js/assert/tree/main/is-object-like
 
 [@stdlib/assert/is-odd]: https://github.com/stdlib-js/assert/tree/main/is-odd
@@ -816,6 +839,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 [@stdlib/assert/is-pascalcase]: https://github.com/stdlib-js/assert/tree/main/is-pascalcase
 
 [@stdlib/assert/is-plain-object]: https://github.com/stdlib-js/assert/tree/main/is-plain-object
+
+[@stdlib/assert/is-positive-finite]: https://github.com/stdlib-js/assert/tree/main/is-positive-finite
 
 [@stdlib/assert/is-positive-zero]: https://github.com/stdlib-js/assert/tree/main/is-positive-zero
 
@@ -887,6 +912,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/assert/is-wasm-memory]: https://github.com/stdlib-js/assert/tree/main/is-wasm-memory
 
+[@stdlib/assert/is-well-formed-string]: https://github.com/stdlib-js/assert/tree/main/is-well-formed-string
+
 [@stdlib/assert/is-whitespace]: https://github.com/stdlib-js/assert/tree/main/is-whitespace
 
 [@stdlib/assert/is-writable-property-in]: https://github.com/stdlib-js/assert/tree/main/is-writable-property-in
@@ -925,6 +952,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/assert/has-define-property-support]: https://github.com/stdlib-js/assert/tree/main/has-define-property-support
 
+[@stdlib/assert/has-float16array-support]: https://github.com/stdlib-js/assert/tree/main/has-float16array-support
+
 [@stdlib/assert/has-float32array-support]: https://github.com/stdlib-js/assert/tree/main/has-float32array-support
 
 [@stdlib/assert/has-float64array-support]: https://github.com/stdlib-js/assert/tree/main/has-float64array-support
@@ -940,6 +969,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 [@stdlib/assert/has-int32array-support]: https://github.com/stdlib-js/assert/tree/main/has-int32array-support
 
 [@stdlib/assert/has-int8array-support]: https://github.com/stdlib-js/assert/tree/main/has-int8array-support
+
+[@stdlib/assert/has-is-concat-spreadable-symbol-support]: https://github.com/stdlib-js/assert/tree/main/has-is-concat-spreadable-symbol-support
 
 [@stdlib/assert/has-iterator-symbol-support]: https://github.com/stdlib-js/assert/tree/main/has-iterator-symbol-support
 
@@ -1013,6 +1044,16 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/assert/is-accessor-array]: https://github.com/stdlib-js/assert/tree/main/is-accessor-array
 
+[@stdlib/assert/is-almost-equal-array]: https://github.com/stdlib-js/assert/tree/main/is-almost-equal-array
+
+[@stdlib/assert/is-almost-equal-complex128array]: https://github.com/stdlib-js/assert/tree/main/is-almost-equal-complex128array
+
+[@stdlib/assert/is-almost-equal-complex64array]: https://github.com/stdlib-js/assert/tree/main/is-almost-equal-complex64array
+
+[@stdlib/assert/is-almost-equal-float32array]: https://github.com/stdlib-js/assert/tree/main/is-almost-equal-float32array
+
+[@stdlib/assert/is-almost-equal-float64array]: https://github.com/stdlib-js/assert/tree/main/is-almost-equal-float64array
+
 [@stdlib/assert/is-array-length]: https://github.com/stdlib-js/assert/tree/main/is-array-length
 
 [@stdlib/assert/is-array-like-object]: https://github.com/stdlib-js/assert/tree/main/is-array-like-object
@@ -1057,11 +1098,15 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/assert/is-finite-array]: https://github.com/stdlib-js/assert/tree/main/is-finite-array
 
+[@stdlib/assert/is-float16array]: https://github.com/stdlib-js/assert/tree/main/is-float16array
+
 [@stdlib/assert/is-numeric-array]: https://github.com/stdlib-js/assert/tree/main/is-numeric-array
 
 [@stdlib/assert/is-plain-object-array]: https://github.com/stdlib-js/assert/tree/main/is-plain-object-array
 
 [@stdlib/assert/is-probability-array]: https://github.com/stdlib-js/assert/tree/main/is-probability-array
+
+[@stdlib/assert/is-ragged-nested-array]: https://github.com/stdlib-js/assert/tree/main/is-ragged-nested-array
 
 [@stdlib/assert/is-same-accessor-array]: https://github.com/stdlib-js/assert/tree/main/is-same-accessor-array
 
