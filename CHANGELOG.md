@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-11-07)
+## Unreleased (2025-11-09)
 
 <section class="features">
 
 ### Features
 
+-   [`d7e5431`](https://github.com/stdlib-js/stdlib/commit/d7e5431a210b9e0ccf1e55485235e1a3ae725de3) - add `hasHasInstanceSymbolSupport` to namespace
+-   [`168c234`](https://github.com/stdlib-js/stdlib/commit/168c23482effd51fbc51be8c25036e6b9ad66f47) - add `assert/has-has-instance-symbol-support`
 -   [`aad9fb9`](https://github.com/stdlib-js/stdlib/commit/aad9fb90278125579b2627f502fcce1da45c283c) - add `hasIsConcatSpreadableSymbolSupport` to namespace
 -   [`cf849e4`](https://github.com/stdlib-js/stdlib/commit/cf849e4bc5127c9c7b6b861478b16b623a886c96) - add `assert/has-is-concat-spreadable-symbol-support`
 -   [`1cfd7f2`](https://github.com/stdlib-js/stdlib/commit/1cfd7f22c3c5a1565ca7b5c34189102a93c1a28c) - update `assert` TypeScript declarations
@@ -127,6 +129,8 @@ A total of 19 issues were closed in this release:
 
 <details>
 
+-   [`d7e5431`](https://github.com/stdlib-js/stdlib/commit/d7e5431a210b9e0ccf1e55485235e1a3ae725de3) - **feat:** add `hasHasInstanceSymbolSupport` to namespace _(by Athan Reines)_
+-   [`168c234`](https://github.com/stdlib-js/stdlib/commit/168c23482effd51fbc51be8c25036e6b9ad66f47) - **feat:** add `assert/has-has-instance-symbol-support` _(by Athan Reines)_
 -   [`5f5bb2d`](https://github.com/stdlib-js/stdlib/commit/5f5bb2d4277a24000b57fb07bc28d821500cd7e8) - **docs:** update namespace table of contents [(#8425)](https://github.com/stdlib-js/stdlib/pull/8425) _(by stdlib-bot, Athan Reines)_
 -   [`aad9fb9`](https://github.com/stdlib-js/stdlib/commit/aad9fb90278125579b2627f502fcce1da45c283c) - **feat:** add `hasIsConcatSpreadableSymbolSupport` to namespace _(by Athan Reines)_
 -   [`cf849e4`](https://github.com/stdlib-js/stdlib/commit/cf849e4bc5127c9c7b6b861478b16b623a886c96) - **feat:** add `assert/has-is-concat-spreadable-symbol-support` _(by Athan Reines)_
