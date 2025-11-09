@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`46fb33c`](https://github.com/stdlib-js/stdlib/commit/46fb33ca451cabba3f34babd9c8e7867393817d3) - add `assert/has-replace-symbol-support` [(#8472)](https://github.com/stdlib-js/stdlib/pull/8472)
 -   [`b18ecdd`](https://github.com/stdlib-js/stdlib/commit/b18ecdd324030deecb2f4fc7564d4218916ae7a9) - add `assert/has-to-primitive-symbol-support` [(#8469)](https://github.com/stdlib-js/stdlib/pull/8469)
 -   [`dfaac0e`](https://github.com/stdlib-js/stdlib/commit/dfaac0e5abda104d28e86b0ef5c10ef2b20102b2) - add support for `Symbol.hasInstance`
 -   [`d7e5431`](https://github.com/stdlib-js/stdlib/commit/d7e5431a210b9e0ccf1e55485235e1a3ae725de3) - add `hasHasInstanceSymbolSupport` to namespace
@@ -117,9 +118,9 @@
 
 ### Closed Issues
 
-A total of 20 issues were closed in this release:
+A total of 21 issues were closed in this release:
 
-[#5814](https://github.com/stdlib-js/stdlib/issues/5814), [#6901](https://github.com/stdlib-js/stdlib/issues/6901), [#6925](https://github.com/stdlib-js/stdlib/issues/6925), [#7084](https://github.com/stdlib-js/stdlib/issues/7084), [#7107](https://github.com/stdlib-js/stdlib/issues/7107), [#7199](https://github.com/stdlib-js/stdlib/issues/7199), [#8013](https://github.com/stdlib-js/stdlib/issues/8013), [#8043](https://github.com/stdlib-js/stdlib/issues/8043), [#8050](https://github.com/stdlib-js/stdlib/issues/8050), [#8082](https://github.com/stdlib-js/stdlib/issues/8082), [#8088](https://github.com/stdlib-js/stdlib/issues/8088), [#8114](https://github.com/stdlib-js/stdlib/issues/8114), [#8129](https://github.com/stdlib-js/stdlib/issues/8129), [#8135](https://github.com/stdlib-js/stdlib/issues/8135), [#8169](https://github.com/stdlib-js/stdlib/issues/8169), [#8195](https://github.com/stdlib-js/stdlib/issues/8195), [#8208](https://github.com/stdlib-js/stdlib/issues/8208), [#8235](https://github.com/stdlib-js/stdlib/issues/8235), [#8244](https://github.com/stdlib-js/stdlib/issues/8244), [#8468](https://github.com/stdlib-js/stdlib/issues/8468)
+[#5814](https://github.com/stdlib-js/stdlib/issues/5814), [#6901](https://github.com/stdlib-js/stdlib/issues/6901), [#6925](https://github.com/stdlib-js/stdlib/issues/6925), [#7084](https://github.com/stdlib-js/stdlib/issues/7084), [#7107](https://github.com/stdlib-js/stdlib/issues/7107), [#7199](https://github.com/stdlib-js/stdlib/issues/7199), [#8013](https://github.com/stdlib-js/stdlib/issues/8013), [#8043](https://github.com/stdlib-js/stdlib/issues/8043), [#8050](https://github.com/stdlib-js/stdlib/issues/8050), [#8082](https://github.com/stdlib-js/stdlib/issues/8082), [#8088](https://github.com/stdlib-js/stdlib/issues/8088), [#8114](https://github.com/stdlib-js/stdlib/issues/8114), [#8129](https://github.com/stdlib-js/stdlib/issues/8129), [#8135](https://github.com/stdlib-js/stdlib/issues/8135), [#8169](https://github.com/stdlib-js/stdlib/issues/8169), [#8195](https://github.com/stdlib-js/stdlib/issues/8195), [#8208](https://github.com/stdlib-js/stdlib/issues/8208), [#8235](https://github.com/stdlib-js/stdlib/issues/8235), [#8244](https://github.com/stdlib-js/stdlib/issues/8244), [#8465](https://github.com/stdlib-js/stdlib/issues/8465), [#8468](https://github.com/stdlib-js/stdlib/issues/8468)
 
 </section>
 
@@ -131,6 +132,7 @@ A total of 20 issues were closed in this release:
 
 <details>
 
+-   [`46fb33c`](https://github.com/stdlib-js/stdlib/commit/46fb33ca451cabba3f34babd9c8e7867393817d3) - **feat:** add `assert/has-replace-symbol-support` [(#8472)](https://github.com/stdlib-js/stdlib/pull/8472) _(by Saptarshi Mula, Athan Reines)_
 -   [`3561b96`](https://github.com/stdlib-js/stdlib/commit/3561b96d7e860a2bddc1101d06f4c2437d878d53) - **docs:** fix indentation _(by Philipp Burckhardt)_
 -   [`b18ecdd`](https://github.com/stdlib-js/stdlib/commit/b18ecdd324030deecb2f4fc7564d4218916ae7a9) - **feat:** add `assert/has-to-primitive-symbol-support` [(#8469)](https://github.com/stdlib-js/stdlib/pull/8469) _(by kaushal-kumar-it, Athan Reines)_
 -   [`dfaac0e`](https://github.com/stdlib-js/stdlib/commit/dfaac0e5abda104d28e86b0ef5c10ef2b20102b2) - **feat:** add support for `Symbol.hasInstance` _(by Athan Reines)_
@@ -283,7 +285,7 @@ A total of 20 issues were closed in this release:
 
 ### Contributors
 
-A total of 20 people contributed to this release. Thank you to the following contributors:
+A total of 21 people contributed to this release. Thank you to the following contributors:
 
 -   Anshu Kumar
 -   Athan Reines
@@ -297,6 +299,7 @@ A total of 20 people contributed to this release. Thank you to the following con
 -   Philipp Burckhardt
 -   Prajjwal Bajpai
 -   RudrakshRaina07
+-   Saptarshi Mula
 -   Seth-Banker
 -   Shabareesh Shetty
 -   Tushar Bhardwaj
