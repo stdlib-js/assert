@@ -35,20 +35,32 @@ limitations under the License.
 
 > Assertion utilities.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/assert
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import assert from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert@esm/index.mjs';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { IS_BIG_ENDIAN, IS_BROWSER, IS_DARWIN, IS_DOCKER, IS_ELECTRON, IS_ELECTRON_MAIN, IS_ELECTRON_RENDERER, IS_LITTLE_ENDIAN, IS_MOBILE, IS_NODE, IS_TOUCH_DEVICE, IS_WEB_WORKER, IS_WINDOWS, contains, deepEqual, deepHasOwnProp, deepHasProp, hasArrayBufferSupport, hasArrowFunctionSupport, hasAsyncAwaitSupport, hasAsyncIteratorSymbolSupport, hasAtobSupport, hasBigInt64ArraySupport, hasBigIntSupport, hasBigUint64ArraySupport, hasBtoaSupport, hasClassSupport, hasDataViewSupport, hasDefinePropertiesSupport, hasDefinePropertySupport, hasFloat16ArraySupport, hasFloat32ArraySupport, hasFloat64ArraySupport, hasFunctionNameSupport, hasGeneratorSupport, hasGlobalThisSupport, hasInt16ArraySupport, hasInt32ArraySupport, hasInt8ArraySupport, hasIsConcatSpreadableSymbolSupport, hasIteratorSymbolSupport, hasMapSupport, hasNodeBufferSupport, hasOwnProp, hasProp, hasProxySupport, hasSetSupport, hasSharedArrayBufferSupport, hasSymbolSupport, hasToStringTagSupport, hasUTF16SurrogatePairAt, hasUint16ArraySupport, hasUint32ArraySupport, hasUint8ArraySupport, hasUint8ClampedArraySupport, hasWeakMapSupport, hasWeakSetSupport, hasWebAssemblySupport, instanceOf, isASCII, isAbsoluteHttpURI, isAbsolutePath, isAbsoluteURI, isAccessorArray, isAccessorProperty, isAccessorPropertyIn, isAlmostEqual, isAlmostEqualArray, isAlmostEqualComplex128array, isAlmostEqualComplex64array, isAlmostEqualFloat32array, isAlmostEqualFloat64Array, isAlphaNumeric, isAlphagram, isAnagram, isArguments, isArray, isArrayArray, isArrayBuffer, isArrayBufferView, isArrayLength, isArrayLike, isArrayLikeObject, isArrowFunction, isBetween, isBetweenArray, isBigInt, isBigInt64Array, isBigUint64Array, isBinaryString, isBlankString, isBoolean, isBooleanArray, isBoxedPrimitive, isBuffer, isCamelcase, isCapitalized, isCentrosymmetricMatrix, isCircular, isCircularArray, isCircularPlainObject, isClass, isCollection, isComplex, isComplex128, isComplex128Array, isComplex128MatrixLike, isComplex128VectorLike, isComplex128ndarrayLike, isComplex64, isComplex64Array, isComplex64MatrixLike, isComplex64VectorLike, isComplex64ndarrayLike, isComplexLike, isComplexTypedArray, isComplexTypedArrayLike, isComposite, isConfigurableProperty, isConfigurablePropertyIn, isConstantcase, isCubeNumber, isCurrentYear, isDataProperty, isDataPropertyIn, isDataView, isDateObject, isDateObjectArray, isDigitString, isDomainName, isDurationString, isEmailAddress, isEmptyArray, isEmptyArrayLikeObject, isEmptyCollection, isEmptyObject, isEmptyString, isEnumerableProperty, isEnumerablePropertyIn, isEqualArray, isEqualBooleanArray, isEqualDateObject, isEqualInt16Array, isEqualInt32Array, isEqualInt8Array, isEqualUint16Array, isEqualUint32Array, isEqualUint8Array, isEqualUint8ClampedArray, isError, isEvalError, isEven, isFalsy, isFalsyArray, isFinite, isFiniteArray, isFloat16Array, isFloat32Array, isFloat32MatrixLike, isFloat32VectorLike, isFloat32ndarrayLike, isFloat64Array, isFloat64MatrixLike, isFloat64VectorLike, isFloat64ndarrayLike, isFunction, isFunctionArray, isGeneratorObject, isGeneratorObjectLike, isHexString, isInfinite, isInheritedProperty, isInt16Array, isInt32Array, isInt8Array, isInteger, isIntegerArray, isIterableLike, isIteratorLike, isJSON, isKebabcase, isLeapYear, isLocalhost, isLowercase, isMatrixLike, isMethod, isMethodIn, isMultiSlice, isNaNArray, isNamedTypedTupleLike, isNativeFunction, isNegativeFinite, isNegativeInteger, isNegativeIntegerArray, isNegativeNumber, isNegativeNumberArray, isNegativeZero, isNodeBuiltin, isNodeDuplexStreamLike, isNodeREPL, isNodeReadableStreamLike, isNodeStreamLike, isNodeTransformStreamLike, isNodeWritableStreamLike, isNonConfigurableProperty, isNonConfigurablePropertyIn, isNonEnumerableProperty, isNonEnumerablePropertyIn, isNonNegativeFinite, isNonNegativeInteger, isNonNegativeIntegerArray, isNonNegativeNumber, isNonNegativeNumberArray, isNonPositiveFinite, isNonPositiveInteger, isNonPositiveIntegerArray, isNonPositiveNumber, isNonPositiveNumberArray, isNonSymmetricMatrix, isNull, isNullArray, isNumber, isNumberArray, isNumericArray, isObject, isObjectArray, isObjectLike, isOdd, isPRNGLike, isPascalcase, isPersymmetricMatrix, isPlainObject, isPlainObjectArray, isPositiveFinite, isPositiveInteger, isPositiveIntegerArray, isPositiveNumber, isPositiveNumberArray, isPositiveZero, isPrime, isPrimitive, isPrimitiveArray, isProbability, isProbabilityArray, isPropertyKey, isPrototypeOf, isRaggedNestedArray, isRangeError, isReadOnlyProperty, isReadOnlyPropertyIn, isReadWriteProperty, isReadWritePropertyIn, isReadableProperty, isReadablePropertyIn, isReferenceError, isRegExp, isRegExpString, isRelativePath, isRelativeURI, isSafeInteger, isSafeIntegerArray, isSameAccessorArray, isSameArray, isSameArrayLike, isSameArrayLikeObject, isSameComplex128, isSameComplex128Array, isSameComplex64, isSameComplex64Array, isSameFloat32Array, isSameFloat64Array, isSameNativeClass, isSameType, isSameTypedArrayLike, isSameValue, isSameValueZero, isSemVer, isSharedArrayBuffer, isSkewCentrosymmetricMatrix, isSkewPersymmetricMatrix, isSkewSymmetricMatrix, isSlice, isSnakecase, isSquareMatrix, isSquareNumber, isSquareTriangularNumber, isStartcase, isStrictEqual, isString, isStringArray, isStruct, isStructConstructorLike, isSymbol, isSymbolArray, isSymmetricMatrix, isSyntaxError, isTriangularNumber, isTruthy, isTruthyArray, isTypeError, isTypedArray, isTypedArrayLength, isTypedArrayLike, isUNCPath, isURI, isURIError, isUint16Array, isUint32Array, isUint8Array, isUint8ClampedArray, isUndefined, isUndefinedOrNull, isUnityProbabilityArray, isUppercase, isVectorLike, isWebAssemblyMemory, isWellFormedString, isWhitespace, isWritableProperty, isWritablePropertyIn, isWriteOnlyProperty, isWriteOnlyPropertyIn, isgzipBuffer, isnan, isndarrayLike, isndarrayLikeWithDataType, tools } from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert@esm/index.mjs';
+var assert = require( '@stdlib/assert' );
 ```
 
 #### assert
@@ -88,8 +100,8 @@ For primitive types having corresponding object wrappers, assertion utilities pr
 <!-- eslint-disable no-new-wrappers -->
 
 ```javascript
-import Boolean from 'https://cdn.jsdelivr.net/gh/stdlib-js/boolean/ctor@esm/index.mjs';
-import isBoolean from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert/is-boolean@esm/index.mjs';
+var Boolean = require( '@stdlib/boolean/ctor' );
+var isBoolean = require( '@stdlib/assert/is-boolean' );
 
 var bool = isBoolean.isObject( new Boolean( false ) );
 // returns true
@@ -127,7 +139,7 @@ Where applicable, similar to the assertion utilities for built-in data types, ar
 <!-- eslint-disable no-new-wrappers -->
 
 ```javascript
-import isStringArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert/is-string-array@esm/index.mjs';
+var isStringArray = require( '@stdlib/assert/is-string-array' );
 
 var bool = isStringArray( [ 'hello', 'world' ] );
 // returns true
@@ -557,20 +569,11 @@ The remaining namespace utilities are as follows:
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils/keys@esm/index.mjs';
-import assert from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert@esm/index.mjs';
+```javascript
+var objectKeys = require( '@stdlib/utils/keys' );
+var assert = require( '@stdlib/assert' );
 
 console.log( objectKeys( assert ) );
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -594,7 +597,7 @@ console.log( objectKeys( assert ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
