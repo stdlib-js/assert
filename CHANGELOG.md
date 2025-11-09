@@ -131,6 +131,7 @@ A total of 20 issues were closed in this release:
 
 <details>
 
+-   [`3561b96`](https://github.com/stdlib-js/stdlib/commit/3561b96d7e860a2bddc1101d06f4c2437d878d53) - **docs:** fix indentation _(by Philipp Burckhardt)_
 -   [`b18ecdd`](https://github.com/stdlib-js/stdlib/commit/b18ecdd324030deecb2f4fc7564d4218916ae7a9) - **feat:** add `assert/has-to-primitive-symbol-support` [(#8469)](https://github.com/stdlib-js/stdlib/pull/8469) _(by kaushal-kumar-it, Athan Reines)_
 -   [`dfaac0e`](https://github.com/stdlib-js/stdlib/commit/dfaac0e5abda104d28e86b0ef5c10ef2b20102b2) - **feat:** add support for `Symbol.hasInstance` _(by Athan Reines)_
 -   [`d7e5431`](https://github.com/stdlib-js/stdlib/commit/d7e5431a210b9e0ccf1e55485235e1a3ae725de3) - **feat:** add `hasHasInstanceSymbolSupport` to namespace _(by Athan Reines)_

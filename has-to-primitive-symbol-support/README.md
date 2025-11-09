@@ -60,9 +60,9 @@ var hasToPrimitiveSymbolSupport = require( '@stdlib/assert/has-to-primitive-symb
 
 var bool = hasToPrimitiveSymbolSupport();
 if ( bool ) {
-  console.log( 'Environment has Symbol.toPrimitive support.' );
+    console.log( 'Environment has Symbol.toPrimitive support.' );
 } else {
-  console.log( 'Environment lacks Symbol.toPrimitive support.' );
+    console.log( 'Environment lacks Symbol.toPrimitive support.' );
 }
 ```
 
