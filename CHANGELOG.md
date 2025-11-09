@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`dfaac0e`](https://github.com/stdlib-js/stdlib/commit/dfaac0e5abda104d28e86b0ef5c10ef2b20102b2) - add support for `Symbol.hasInstance`
 -   [`d7e5431`](https://github.com/stdlib-js/stdlib/commit/d7e5431a210b9e0ccf1e55485235e1a3ae725de3) - add `hasHasInstanceSymbolSupport` to namespace
 -   [`168c234`](https://github.com/stdlib-js/stdlib/commit/168c23482effd51fbc51be8c25036e6b9ad66f47) - add `assert/has-has-instance-symbol-support`
 -   [`aad9fb9`](https://github.com/stdlib-js/stdlib/commit/aad9fb90278125579b2627f502fcce1da45c283c) - add `hasIsConcatSpreadableSymbolSupport` to namespace
@@ -129,6 +130,7 @@ A total of 19 issues were closed in this release:
 
 <details>
 
+-   [`dfaac0e`](https://github.com/stdlib-js/stdlib/commit/dfaac0e5abda104d28e86b0ef5c10ef2b20102b2) - **feat:** add support for `Symbol.hasInstance` _(by Athan Reines)_
 -   [`d7e5431`](https://github.com/stdlib-js/stdlib/commit/d7e5431a210b9e0ccf1e55485235e1a3ae725de3) - **feat:** add `hasHasInstanceSymbolSupport` to namespace _(by Athan Reines)_
 -   [`168c234`](https://github.com/stdlib-js/stdlib/commit/168c23482effd51fbc51be8c25036e6b9ad66f47) - **feat:** add `assert/has-has-instance-symbol-support` _(by Athan Reines)_
 -   [`5f5bb2d`](https://github.com/stdlib-js/stdlib/commit/5f5bb2d4277a24000b57fb07bc28d821500cd7e8) - **docs:** update namespace table of contents [(#8425)](https://github.com/stdlib-js/stdlib/pull/8425) _(by stdlib-bot, Athan Reines)_
