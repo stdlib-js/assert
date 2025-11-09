@@ -10,6 +10,10 @@
 
 ### Features
 
+-   [`62c17c8`](https://github.com/stdlib-js/stdlib/commit/62c17c82a0219e456eeb05d3b0a0d6ca17ad09ed) - add `hasToPrimitiveSymbolSupport` to namespace
+-   [`ba61e93`](https://github.com/stdlib-js/stdlib/commit/ba61e93efd819f8bcb1389bf654a2471450a4092) - add `hasSearchSymbolSupport` to namespace
+-   [`9d686bc`](https://github.com/stdlib-js/stdlib/commit/9d686bcbd52ae942f42c5e69649a4d69502cb95d) - add `hasReplaceSymbolSupport` to namespace
+-   [`24c7065`](https://github.com/stdlib-js/stdlib/commit/24c706535c2147ea23e9b77a9f5266adff79db38) - add `hasMatchSymbolSupport` to namespace
 -   [`d910139`](https://github.com/stdlib-js/stdlib/commit/d91013957b34fc5bff6d3eeb0b6c9390787d545f) - add `assert/has-search-symbol-support` [(#8477)](https://github.com/stdlib-js/stdlib/pull/8477)
 -   [`b2d0f92`](https://github.com/stdlib-js/stdlib/commit/b2d0f928d2f89a6b706df19584e4dd68f5819f48) - add `assert/has-match-symbol-support` [(#8474)](https://github.com/stdlib-js/stdlib/pull/8474)
 -   [`46fb33c`](https://github.com/stdlib-js/stdlib/commit/46fb33ca451cabba3f34babd9c8e7867393817d3) - add `assert/has-replace-symbol-support` [(#8472)](https://github.com/stdlib-js/stdlib/pull/8472)
@@ -134,6 +138,10 @@ A total of 23 issues were closed in this release:
 
 <details>
 
+-   [`62c17c8`](https://github.com/stdlib-js/stdlib/commit/62c17c82a0219e456eeb05d3b0a0d6ca17ad09ed) - **feat:** add `hasToPrimitiveSymbolSupport` to namespace _(by Athan Reines)_
+-   [`ba61e93`](https://github.com/stdlib-js/stdlib/commit/ba61e93efd819f8bcb1389bf654a2471450a4092) - **feat:** add `hasSearchSymbolSupport` to namespace _(by Athan Reines)_
+-   [`9d686bc`](https://github.com/stdlib-js/stdlib/commit/9d686bcbd52ae942f42c5e69649a4d69502cb95d) - **feat:** add `hasReplaceSymbolSupport` to namespace _(by Athan Reines)_
+-   [`24c7065`](https://github.com/stdlib-js/stdlib/commit/24c706535c2147ea23e9b77a9f5266adff79db38) - **feat:** add `hasMatchSymbolSupport` to namespace _(by Athan Reines)_
 -   [`d910139`](https://github.com/stdlib-js/stdlib/commit/d91013957b34fc5bff6d3eeb0b6c9390787d545f) - **feat:** add `assert/has-search-symbol-support` [(#8477)](https://github.com/stdlib-js/stdlib/pull/8477) _(by kaushal-kumar-it, Athan Reines)_
 -   [`8124fc0`](https://github.com/stdlib-js/stdlib/commit/8124fc07ea87df5b78dbfd7c7206c84e6fdd9fe0) - **docs:** update heading _(by Athan Reines)_
 -   [`35af82b`](https://github.com/stdlib-js/stdlib/commit/35af82b85c84df01c315e7e94551c3a9de16a788) - **docs:** update heading _(by Athan Reines)_
