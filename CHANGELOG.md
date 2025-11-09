@@ -133,6 +133,13 @@ A total of 22 issues were closed in this release:
 
 <details>
 
+-   [`8124fc0`](https://github.com/stdlib-js/stdlib/commit/8124fc07ea87df5b78dbfd7c7206c84e6fdd9fe0) - **docs:** update heading _(by Athan Reines)_
+-   [`35af82b`](https://github.com/stdlib-js/stdlib/commit/35af82b85c84df01c315e7e94551c3a9de16a788) - **docs:** update heading _(by Athan Reines)_
+-   [`89d75db`](https://github.com/stdlib-js/stdlib/commit/89d75db78c28f00b7afe2b9aac598cafa41e9c05) - **docs:** update heading _(by Athan Reines)_
+-   [`8b7fc9f`](https://github.com/stdlib-js/stdlib/commit/8b7fc9fa2c718da3ef617ff0fc2a307c1d19231e) - **docs:** update heading _(by Athan Reines)_
+-   [`56808de`](https://github.com/stdlib-js/stdlib/commit/56808dee498d8909fa508dcc2900ae5d22f3627c) - **docs:** update heading _(by Athan Reines)_
+-   [`4aca5a9`](https://github.com/stdlib-js/stdlib/commit/4aca5a9c22a51d76b904b298eb2cff87b55120d3) - **docs:** update heading _(by Athan Reines)_
+-   [`b3aa508`](https://github.com/stdlib-js/stdlib/commit/b3aa5085f205e63643834393703e66f7733effd2) - **docs:** update heading _(by Athan Reines)_
 -   [`b2d0f92`](https://github.com/stdlib-js/stdlib/commit/b2d0f928d2f89a6b706df19584e4dd68f5819f48) - **feat:** add `assert/has-match-symbol-support` [(#8474)](https://github.com/stdlib-js/stdlib/pull/8474) _(by Kate Suraev, Athan Reines)_
 -   [`46fb33c`](https://github.com/stdlib-js/stdlib/commit/46fb33ca451cabba3f34babd9c8e7867393817d3) - **feat:** add `assert/has-replace-symbol-support` [(#8472)](https://github.com/stdlib-js/stdlib/pull/8472) _(by Saptarshi Mula, Athan Reines)_
 -   [`3561b96`](https://github.com/stdlib-js/stdlib/commit/3561b96d7e860a2bddc1101d06f4c2437d878d53) - **docs:** fix indentation _(by Philipp Burckhardt)_

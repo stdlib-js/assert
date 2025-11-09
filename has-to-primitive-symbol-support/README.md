@@ -18,7 +18,7 @@ limitations under the License.
 
 -->
 
-# ToPrimitive Symbol Support
+# hasToPrimitiveSymbolSupport
 
 > Detect native [`Symbol.toPrimitive`][mdn-to-primitive-symbol] support.
 
