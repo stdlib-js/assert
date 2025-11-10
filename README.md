@@ -389,17 +389,22 @@ To test whether a runtime environment supports certain features, the namespace i
 -   <span class="signature">[`hasFunctionNameSupport()`][@stdlib/assert/has-function-name-support]</span><span class="delimiter">: </span><span class="description">detect native function `name` support.</span>
 -   <span class="signature">[`hasGeneratorSupport()`][@stdlib/assert/has-generator-support]</span><span class="delimiter">: </span><span class="description">detect native `generator function` support.</span>
 -   <span class="signature">[`hasGlobalThisSupport()`][@stdlib/assert/has-globalthis-support]</span><span class="delimiter">: </span><span class="description">detect `globalThis` support.</span>
+-   <span class="signature">[`hasHasInstanceSymbolSupport()`][@stdlib/assert/has-has-instance-symbol-support]</span><span class="delimiter">: </span><span class="description">detect native `Symbol.hasInstance` support.</span>
 -   <span class="signature">[`hasInt16ArraySupport()`][@stdlib/assert/has-int16array-support]</span><span class="delimiter">: </span><span class="description">detect native `Int16Array` support.</span>
 -   <span class="signature">[`hasInt32ArraySupport()`][@stdlib/assert/has-int32array-support]</span><span class="delimiter">: </span><span class="description">detect native `Int32Array` support.</span>
 -   <span class="signature">[`hasInt8ArraySupport()`][@stdlib/assert/has-int8array-support]</span><span class="delimiter">: </span><span class="description">detect native `Int8Array` support.</span>
 -   <span class="signature">[`hasIsConcatSpreadableSymbolSupport()`][@stdlib/assert/has-is-concat-spreadable-symbol-support]</span><span class="delimiter">: </span><span class="description">detect native `Symbol.isConcatSpreadable` support.</span>
 -   <span class="signature">[`hasIteratorSymbolSupport()`][@stdlib/assert/has-iterator-symbol-support]</span><span class="delimiter">: </span><span class="description">detect native `Symbol.iterator` support.</span>
 -   <span class="signature">[`hasMapSupport()`][@stdlib/assert/has-map-support]</span><span class="delimiter">: </span><span class="description">detect native `Map` support.</span>
+-   <span class="signature">[`hasMatchSymbolSupport()`][@stdlib/assert/has-match-symbol-support]</span><span class="delimiter">: </span><span class="description">detect native `Symbol.match` support.</span>
 -   <span class="signature">[`hasNodeBufferSupport()`][@stdlib/assert/has-node-buffer-support]</span><span class="delimiter">: </span><span class="description">detect native `Buffer` support.</span>
 -   <span class="signature">[`hasProxySupport()`][@stdlib/assert/has-proxy-support]</span><span class="delimiter">: </span><span class="description">detect native `Proxy` support.</span>
+-   <span class="signature">[`hasReplaceSymbolSupport()`][@stdlib/assert/has-replace-symbol-support]</span><span class="delimiter">: </span><span class="description">detect native `Symbol.replace` support.</span>
+-   <span class="signature">[`hasSearchSymbolSupport()`][@stdlib/assert/has-search-symbol-support]</span><span class="delimiter">: </span><span class="description">detect native `Symbol.search` support.</span>
 -   <span class="signature">[`hasSetSupport()`][@stdlib/assert/has-set-support]</span><span class="delimiter">: </span><span class="description">detect native `Set` support.</span>
 -   <span class="signature">[`hasSharedArrayBufferSupport()`][@stdlib/assert/has-sharedarraybuffer-support]</span><span class="delimiter">: </span><span class="description">detect native `SharedArrayBuffer` support.</span>
 -   <span class="signature">[`hasSymbolSupport()`][@stdlib/assert/has-symbol-support]</span><span class="delimiter">: </span><span class="description">detect native `Symbol` support.</span>
+-   <span class="signature">[`hasToPrimitiveSymbolSupport()`][@stdlib/assert/has-to-primitive-symbol-support]</span><span class="delimiter">: </span><span class="description">detect native `Symbol.toPrimitive` support.</span>
 -   <span class="signature">[`hasToStringTagSupport()`][@stdlib/assert/has-tostringtag-support]</span><span class="delimiter">: </span><span class="description">detect native `Symbol.toStringTag` support.</span>
 -   <span class="signature">[`hasUint16ArraySupport()`][@stdlib/assert/has-uint16array-support]</span><span class="delimiter">: </span><span class="description">detect native `Uint16Array` support.</span>
 -   <span class="signature">[`hasUint32ArraySupport()`][@stdlib/assert/has-uint32array-support]</span><span class="delimiter">: </span><span class="description">detect native `Uint32Array` support.</span>
@@ -964,6 +969,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/assert/has-globalthis-support]: https://github.com/stdlib-js/assert/tree/main/has-globalthis-support
 
+[@stdlib/assert/has-has-instance-symbol-support]: https://github.com/stdlib-js/assert/tree/main/has-has-instance-symbol-support
+
 [@stdlib/assert/has-int16array-support]: https://github.com/stdlib-js/assert/tree/main/has-int16array-support
 
 [@stdlib/assert/has-int32array-support]: https://github.com/stdlib-js/assert/tree/main/has-int32array-support
@@ -976,15 +983,23 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/assert/has-map-support]: https://github.com/stdlib-js/assert/tree/main/has-map-support
 
+[@stdlib/assert/has-match-symbol-support]: https://github.com/stdlib-js/assert/tree/main/has-match-symbol-support
+
 [@stdlib/assert/has-node-buffer-support]: https://github.com/stdlib-js/assert/tree/main/has-node-buffer-support
 
 [@stdlib/assert/has-proxy-support]: https://github.com/stdlib-js/assert/tree/main/has-proxy-support
+
+[@stdlib/assert/has-replace-symbol-support]: https://github.com/stdlib-js/assert/tree/main/has-replace-symbol-support
+
+[@stdlib/assert/has-search-symbol-support]: https://github.com/stdlib-js/assert/tree/main/has-search-symbol-support
 
 [@stdlib/assert/has-set-support]: https://github.com/stdlib-js/assert/tree/main/has-set-support
 
 [@stdlib/assert/has-sharedarraybuffer-support]: https://github.com/stdlib-js/assert/tree/main/has-sharedarraybuffer-support
 
 [@stdlib/assert/has-symbol-support]: https://github.com/stdlib-js/assert/tree/main/has-symbol-support
+
+[@stdlib/assert/has-to-primitive-symbol-support]: https://github.com/stdlib-js/assert/tree/main/has-to-primitive-symbol-support
 
 [@stdlib/assert/has-tostringtag-support]: https://github.com/stdlib-js/assert/tree/main/has-tostringtag-support
 
