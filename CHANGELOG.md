@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`38e4338`](https://github.com/stdlib-js/stdlib/commit/38e433821d47feaeb98a76eba305d54c45371c20) - add `assert/has-split-symbol-support` [(#8476)](https://github.com/stdlib-js/stdlib/pull/8476)
 -   [`62c17c8`](https://github.com/stdlib-js/stdlib/commit/62c17c82a0219e456eeb05d3b0a0d6ca17ad09ed) - add `hasToPrimitiveSymbolSupport` to namespace
 -   [`ba61e93`](https://github.com/stdlib-js/stdlib/commit/ba61e93efd819f8bcb1389bf654a2471450a4092) - add `hasSearchSymbolSupport` to namespace
 -   [`9d686bc`](https://github.com/stdlib-js/stdlib/commit/9d686bcbd52ae942f42c5e69649a4d69502cb95d) - add `hasReplaceSymbolSupport` to namespace
@@ -124,9 +125,9 @@
 
 ### Closed Issues
 
-A total of 23 issues were closed in this release:
+A total of 24 issues were closed in this release:
 
-[#5814](https://github.com/stdlib-js/stdlib/issues/5814), [#6901](https://github.com/stdlib-js/stdlib/issues/6901), [#6925](https://github.com/stdlib-js/stdlib/issues/6925), [#7084](https://github.com/stdlib-js/stdlib/issues/7084), [#7107](https://github.com/stdlib-js/stdlib/issues/7107), [#7199](https://github.com/stdlib-js/stdlib/issues/7199), [#8013](https://github.com/stdlib-js/stdlib/issues/8013), [#8043](https://github.com/stdlib-js/stdlib/issues/8043), [#8050](https://github.com/stdlib-js/stdlib/issues/8050), [#8082](https://github.com/stdlib-js/stdlib/issues/8082), [#8088](https://github.com/stdlib-js/stdlib/issues/8088), [#8114](https://github.com/stdlib-js/stdlib/issues/8114), [#8129](https://github.com/stdlib-js/stdlib/issues/8129), [#8135](https://github.com/stdlib-js/stdlib/issues/8135), [#8169](https://github.com/stdlib-js/stdlib/issues/8169), [#8195](https://github.com/stdlib-js/stdlib/issues/8195), [#8208](https://github.com/stdlib-js/stdlib/issues/8208), [#8235](https://github.com/stdlib-js/stdlib/issues/8235), [#8244](https://github.com/stdlib-js/stdlib/issues/8244), [#8464](https://github.com/stdlib-js/stdlib/issues/8464), [#8465](https://github.com/stdlib-js/stdlib/issues/8465), [#8466](https://github.com/stdlib-js/stdlib/issues/8466), [#8468](https://github.com/stdlib-js/stdlib/issues/8468)
+[#5814](https://github.com/stdlib-js/stdlib/issues/5814), [#6901](https://github.com/stdlib-js/stdlib/issues/6901), [#6925](https://github.com/stdlib-js/stdlib/issues/6925), [#7084](https://github.com/stdlib-js/stdlib/issues/7084), [#7107](https://github.com/stdlib-js/stdlib/issues/7107), [#7199](https://github.com/stdlib-js/stdlib/issues/7199), [#8013](https://github.com/stdlib-js/stdlib/issues/8013), [#8043](https://github.com/stdlib-js/stdlib/issues/8043), [#8050](https://github.com/stdlib-js/stdlib/issues/8050), [#8082](https://github.com/stdlib-js/stdlib/issues/8082), [#8088](https://github.com/stdlib-js/stdlib/issues/8088), [#8114](https://github.com/stdlib-js/stdlib/issues/8114), [#8129](https://github.com/stdlib-js/stdlib/issues/8129), [#8135](https://github.com/stdlib-js/stdlib/issues/8135), [#8169](https://github.com/stdlib-js/stdlib/issues/8169), [#8195](https://github.com/stdlib-js/stdlib/issues/8195), [#8208](https://github.com/stdlib-js/stdlib/issues/8208), [#8235](https://github.com/stdlib-js/stdlib/issues/8235), [#8244](https://github.com/stdlib-js/stdlib/issues/8244), [#8464](https://github.com/stdlib-js/stdlib/issues/8464), [#8465](https://github.com/stdlib-js/stdlib/issues/8465), [#8466](https://github.com/stdlib-js/stdlib/issues/8466), [#8467](https://github.com/stdlib-js/stdlib/issues/8467), [#8468](https://github.com/stdlib-js/stdlib/issues/8468)
 
 </section>
 
@@ -138,6 +139,7 @@ A total of 23 issues were closed in this release:
 
 <details>
 
+-   [`38e4338`](https://github.com/stdlib-js/stdlib/commit/38e433821d47feaeb98a76eba305d54c45371c20) - **feat:** add `assert/has-split-symbol-support` [(#8476)](https://github.com/stdlib-js/stdlib/pull/8476) _(by Divyanshu, Athan Reines)_
 -   [`fd7e728`](https://github.com/stdlib-js/stdlib/commit/fd7e72861fd32cc8653d4f252c6b0c1a6f4b2b72) - **docs:** update namespace table of contents [(#8487)](https://github.com/stdlib-js/stdlib/pull/8487) _(by stdlib-bot)_
 -   [`62c17c8`](https://github.com/stdlib-js/stdlib/commit/62c17c82a0219e456eeb05d3b0a0d6ca17ad09ed) - **feat:** add `hasToPrimitiveSymbolSupport` to namespace _(by Athan Reines)_
 -   [`ba61e93`](https://github.com/stdlib-js/stdlib/commit/ba61e93efd819f8bcb1389bf654a2471450a4092) - **feat:** add `hasSearchSymbolSupport` to namespace _(by Athan Reines)_
@@ -305,12 +307,13 @@ A total of 23 issues were closed in this release:
 
 ### Contributors
 
-A total of 22 people contributed to this release. Thank you to the following contributors:
+A total of 23 people contributed to this release. Thank you to the following contributors:
 
 -   Anshu Kumar
 -   Athan Reines
 -   Deepak Singh
 -   Dipjyoti Das
+-   Divyanshu
 -   Gaurav Kaushik
 -   Jenish
 -   Karan Anand
