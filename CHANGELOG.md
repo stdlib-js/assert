@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-11-10)
+## Unreleased (2025-11-13)
 
 <section class="features">
 
@@ -139,6 +139,8 @@ A total of 24 issues were closed in this release:
 
 <details>
 
+-   [`6ec2903`](https://github.com/stdlib-js/stdlib/commit/6ec29030b57eb6fc493561082e211d44608739be) - **docs:** fix description _(by Philipp Burckhardt)_
+-   [`e4d5f21`](https://github.com/stdlib-js/stdlib/commit/e4d5f21b9a7111bb6255874d2f7a2d5a0c08e59e) - **docs:** fix lint errors in TS declaration files _(by Philipp Burckhardt)_
 -   [`38e4338`](https://github.com/stdlib-js/stdlib/commit/38e433821d47feaeb98a76eba305d54c45371c20) - **feat:** add `assert/has-split-symbol-support` [(#8476)](https://github.com/stdlib-js/stdlib/pull/8476) _(by Divyanshu, Athan Reines)_
 -   [`fd7e728`](https://github.com/stdlib-js/stdlib/commit/fd7e72861fd32cc8653d4f252c6b0c1a6f4b2b72) - **docs:** update namespace table of contents [(#8487)](https://github.com/stdlib-js/stdlib/pull/8487) _(by stdlib-bot)_
 -   [`62c17c8`](https://github.com/stdlib-js/stdlib/commit/62c17c82a0219e456eeb05d3b0a0d6ca17ad09ed) - **feat:** add `hasToPrimitiveSymbolSupport` to namespace _(by Athan Reines)_
