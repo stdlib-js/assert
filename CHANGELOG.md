@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-11-13)
+## Unreleased (2025-11-16)
 
 <section class="features">
 
@@ -77,6 +77,7 @@
 
 ### Bug Fixes
 
+-   [`8518e62`](https://github.com/stdlib-js/stdlib/commit/8518e622078185594b71f2ecf0ae34701e763733) - make CLI scripts executable [(#8542)](https://github.com/stdlib-js/stdlib/pull/8542)
 -   [`78090a6`](https://github.com/stdlib-js/stdlib/commit/78090a6c01ccb7e5e726f9b8bd3bebfb46dd5a11) - make CLI scripts executable [(#7635)](https://github.com/stdlib-js/stdlib/pull/7635)
 -   [`b34ff7a`](https://github.com/stdlib-js/stdlib/commit/b34ff7a7f7f86904c29001a89d35abcdbbc5b04e) - return boolean to avoid misleading type predicate
 -   [`220a673`](https://github.com/stdlib-js/stdlib/commit/220a67316e33fbbfcd336073bb5bc2396f7bfacf) - update to return false for empty strings
@@ -139,6 +140,7 @@ A total of 24 issues were closed in this release:
 
 <details>
 
+-   [`8518e62`](https://github.com/stdlib-js/stdlib/commit/8518e622078185594b71f2ecf0ae34701e763733) - **fix:** make CLI scripts executable [(#8542)](https://github.com/stdlib-js/stdlib/pull/8542) _(by stdlib-bot)_
 -   [`6ec2903`](https://github.com/stdlib-js/stdlib/commit/6ec29030b57eb6fc493561082e211d44608739be) - **docs:** fix description _(by Philipp Burckhardt)_
 -   [`e4d5f21`](https://github.com/stdlib-js/stdlib/commit/e4d5f21b9a7111bb6255874d2f7a2d5a0c08e59e) - **docs:** fix lint errors in TS declaration files _(by Philipp Burckhardt)_
 -   [`38e4338`](https://github.com/stdlib-js/stdlib/commit/38e433821d47feaeb98a76eba305d54c45371c20) - **feat:** add `assert/has-split-symbol-support` [(#8476)](https://github.com/stdlib-js/stdlib/pull/8476) _(by Divyanshu, Athan Reines)_
