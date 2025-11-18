@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-11-16)
+## Unreleased (2025-11-18)
 
 <section class="features">
 
@@ -140,6 +140,7 @@ A total of 24 issues were closed in this release:
 
 <details>
 
+-   [`a8f91a0`](https://github.com/stdlib-js/stdlib/commit/a8f91a0b6ea2aff9ca80a61c764b246d1789889b) - **docs:** fix return annotations in TSDoc examples _(by Philipp Burckhardt)_
 -   [`8518e62`](https://github.com/stdlib-js/stdlib/commit/8518e622078185594b71f2ecf0ae34701e763733) - **fix:** make CLI scripts executable [(#8542)](https://github.com/stdlib-js/stdlib/pull/8542) _(by stdlib-bot)_
 -   [`6ec2903`](https://github.com/stdlib-js/stdlib/commit/6ec29030b57eb6fc493561082e211d44608739be) - **docs:** fix description _(by Philipp Burckhardt)_
 -   [`e4d5f21`](https://github.com/stdlib-js/stdlib/commit/e4d5f21b9a7111bb6255874d2f7a2d5a0c08e59e) - **docs:** fix lint errors in TS declaration files _(by Philipp Burckhardt)_
