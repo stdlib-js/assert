@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-12-02)
+## Unreleased (2025-12-04)
 
 <section class="features">
 
@@ -140,6 +140,7 @@ A total of 25 issues were closed in this release:
 
 <details>
 
+-   [`299f5be`](https://github.com/stdlib-js/stdlib/commit/299f5be0502de56c91cab0204b8a9f4a51c07af4) - **bench:** refactor to use string interpolation in `assert/deep-has-own-property` [(#8747)](https://github.com/stdlib-js/stdlib/pull/8747) _(by Rohit R Bhat)_
 -   [`2662635`](https://github.com/stdlib-js/stdlib/commit/266263512efb9fdc594bcd1aca66b9d78c21443c) - **bench:** refactor to use string interpolation in `assert/contains` [(#8683)](https://github.com/stdlib-js/stdlib/pull/8683) _(by Aman Singh, Athan Reines)_
 -   [`f5f8c09`](https://github.com/stdlib-js/stdlib/commit/f5f8c0909696ae0d81abb67a5839f4317490ef2f) - **chore:** fix JavaScript lint errors [(#8561)](https://github.com/stdlib-js/stdlib/pull/8561) _(by kaushal-kumar-it, Athan Reines)_
 -   [`a8f91a0`](https://github.com/stdlib-js/stdlib/commit/a8f91a0b6ea2aff9ca80a61c764b246d1789889b) - **docs:** fix return annotations in TSDoc examples _(by Philipp Burckhardt)_
@@ -314,7 +315,7 @@ A total of 25 issues were closed in this release:
 
 ### Contributors
 
-A total of 24 people contributed to this release. Thank you to the following contributors:
+A total of 25 people contributed to this release. Thank you to the following contributors:
 
 -   Aman Singh
 -   Anshu Kumar
@@ -330,6 +331,7 @@ A total of 24 people contributed to this release. Thank you to the following con
 -   Payal Goswami
 -   Philipp Burckhardt
 -   Prajjwal Bajpai
+-   Rohit R Bhat
 -   RudrakshRaina07
 -   Saptarshi Mula
 -   Seth-Banker
