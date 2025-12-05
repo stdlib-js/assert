@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-12-04)
+## Unreleased (2025-12-05)
 
 <section class="features">
 
 ### Features
 
+-   [`e8ade3f`](https://github.com/stdlib-js/stdlib/commit/e8ade3f578cfe949f5295a63f2d26fabe7e8928f) - update `assert` TypeScript declarations
 -   [`38e4338`](https://github.com/stdlib-js/stdlib/commit/38e433821d47feaeb98a76eba305d54c45371c20) - add `assert/has-split-symbol-support` [(#8476)](https://github.com/stdlib-js/stdlib/pull/8476)
 -   [`62c17c8`](https://github.com/stdlib-js/stdlib/commit/62c17c82a0219e456eeb05d3b0a0d6ca17ad09ed) - add `hasToPrimitiveSymbolSupport` to namespace
 -   [`ba61e93`](https://github.com/stdlib-js/stdlib/commit/ba61e93efd819f8bcb1389bf654a2471450a4092) - add `hasSearchSymbolSupport` to namespace
@@ -140,6 +141,8 @@ A total of 25 issues were closed in this release:
 
 <details>
 
+-   [`e8ade3f`](https://github.com/stdlib-js/stdlib/commit/e8ade3f578cfe949f5295a63f2d26fabe7e8928f) - **feat:** update `assert` TypeScript declarations _(by Philipp Burckhardt)_
+-   [`41545b2`](https://github.com/stdlib-js/stdlib/commit/41545b2e95820b2a161f2ab0da229d3cb2206c91) - **style:** add missing space _(by Philipp Burckhardt)_
 -   [`299f5be`](https://github.com/stdlib-js/stdlib/commit/299f5be0502de56c91cab0204b8a9f4a51c07af4) - **bench:** refactor to use string interpolation in `assert/deep-has-own-property` [(#8747)](https://github.com/stdlib-js/stdlib/pull/8747) _(by Rohit R Bhat)_
 -   [`2662635`](https://github.com/stdlib-js/stdlib/commit/266263512efb9fdc594bcd1aca66b9d78c21443c) - **bench:** refactor to use string interpolation in `assert/contains` [(#8683)](https://github.com/stdlib-js/stdlib/pull/8683) _(by Aman Singh, Athan Reines)_
 -   [`f5f8c09`](https://github.com/stdlib-js/stdlib/commit/f5f8c0909696ae0d81abb67a5839f4317490ef2f) - **chore:** fix JavaScript lint errors [(#8561)](https://github.com/stdlib-js/stdlib/pull/8561) _(by kaushal-kumar-it, Athan Reines)_
