@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`835bec5`](https://github.com/stdlib-js/stdlib/commit/835bec5f4bfb422dd3d5b44d1de90e78d158dce2) - add `isAlmostSameValueComplex128Array` to namespace
+-   [`f6ddede`](https://github.com/stdlib-js/stdlib/commit/f6ddedef38fc5bb16c953827de9c1d793275f41e) - add `assert/is-almost-same-value-complex128array`
 -   [`646bc1f`](https://github.com/stdlib-js/stdlib/commit/646bc1f4a2d6c0d59720bb077ee6a998ff961fbc) - add `isAlmostSameValueFloat32Array` to namespace
 -   [`a96ead6`](https://github.com/stdlib-js/stdlib/commit/a96ead610ffee6407ac0958a2c9e3196c0e7fbc2) - add `assert/is-almost-same-value-float32array`
 -   [`65e3870`](https://github.com/stdlib-js/stdlib/commit/65e38704c7e278a8fa452206d754985320f4e856) - add `isAlmostSameValueFloat64Array` to namespace
@@ -151,6 +153,8 @@ A total of 30 issues were closed in this release:
 
 <details>
 
+-   [`835bec5`](https://github.com/stdlib-js/stdlib/commit/835bec5f4bfb422dd3d5b44d1de90e78d158dce2) - **feat:** add `isAlmostSameValueComplex128Array` to namespace _(by Athan Reines)_
+-   [`f6ddede`](https://github.com/stdlib-js/stdlib/commit/f6ddedef38fc5bb16c953827de9c1d793275f41e) - **feat:** add `assert/is-almost-same-value-complex128array` _(by Athan Reines)_
 -   [`646bc1f`](https://github.com/stdlib-js/stdlib/commit/646bc1f4a2d6c0d59720bb077ee6a998ff961fbc) - **feat:** add `isAlmostSameValueFloat32Array` to namespace _(by Athan Reines)_
 -   [`a96ead6`](https://github.com/stdlib-js/stdlib/commit/a96ead610ffee6407ac0958a2c9e3196c0e7fbc2) - **feat:** add `assert/is-almost-same-value-float32array` _(by Athan Reines)_
 -   [`65e3870`](https://github.com/stdlib-js/stdlib/commit/65e38704c7e278a8fa452206d754985320f4e856) - **feat:** add `isAlmostSameValueFloat64Array` to namespace _(by Athan Reines)_
