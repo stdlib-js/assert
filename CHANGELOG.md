@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`392d959`](https://github.com/stdlib-js/stdlib/commit/392d95908d63ba926d6c8eff4dcbe88fd7c7dc11) - add `isAlmostSameValueArray` to namespace
+-   [`0146356`](https://github.com/stdlib-js/stdlib/commit/01463564c79fa3129032cd6cea71e9c4087a1f11) - add `assert/is-almost-same-value-array`
 -   [`34719c7`](https://github.com/stdlib-js/stdlib/commit/34719c7f19f4bd3df5f6e0a9bc821f991ffe4696) - update `assert` TypeScript declarations [(#9197)](https://github.com/stdlib-js/stdlib/pull/9197)
 -   [`b380d14`](https://github.com/stdlib-js/stdlib/commit/b380d1437365ca578efef334911b78cdf84a9e4a) - add `hasSplitSymbolSupport` to namespace
 -   [`7108f43`](https://github.com/stdlib-js/stdlib/commit/7108f43f0b9253bd6a838e2eeef53955b90c8c6f) - add `isAlmostSameValue` to namespace
@@ -145,6 +147,9 @@ A total of 27 issues were closed in this release:
 
 <details>
 
+-   [`392d959`](https://github.com/stdlib-js/stdlib/commit/392d95908d63ba926d6c8eff4dcbe88fd7c7dc11) - **feat:** add `isAlmostSameValueArray` to namespace _(by Athan Reines)_
+-   [`128202e`](https://github.com/stdlib-js/stdlib/commit/128202ea18e04412d163782a359b9237675b5ffc) - **bench:** use string interpolation _(by Athan Reines)_
+-   [`0146356`](https://github.com/stdlib-js/stdlib/commit/01463564c79fa3129032cd6cea71e9c4087a1f11) - **feat:** add `assert/is-almost-same-value-array` _(by Athan Reines)_
 -   [`34719c7`](https://github.com/stdlib-js/stdlib/commit/34719c7f19f4bd3df5f6e0a9bc821f991ffe4696) - **feat:** update `assert` TypeScript declarations [(#9197)](https://github.com/stdlib-js/stdlib/pull/9197) _(by stdlib-bot)_
 -   [`de9dec4`](https://github.com/stdlib-js/stdlib/commit/de9dec49411a9f71d800970e9324e87dca52098b) - **docs:** update namespace table of contents [(#9205)](https://github.com/stdlib-js/stdlib/pull/9205) _(by stdlib-bot)_
 -   [`6422dd2`](https://github.com/stdlib-js/stdlib/commit/6422dd250a665bdf380af258abd3f35091150a87) - **style:** disable lint rule _(by Athan Reines)_
