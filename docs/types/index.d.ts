@@ -59,6 +59,7 @@ import hasReplaceSymbolSupport = require( './../../has-replace-symbol-support' )
 import hasSearchSymbolSupport = require( './../../has-search-symbol-support' );
 import hasSetSupport = require( './../../has-set-support' );
 import hasSharedArrayBufferSupport = require( './../../has-sharedarraybuffer-support' );
+import hasSplitSymbolSupport = require( './../../has-split-symbol-support' );
 import hasSymbolSupport = require( './../../has-symbol-support' );
 import hasToPrimitiveSymbolSupport = require( './../../has-to-primitive-symbol-support' );
 import hasToStringTagSupport = require( './../../has-tostringtag-support' );
@@ -83,6 +84,7 @@ import isAlmostEqualComplex64array = require( './../../is-almost-equal-complex64
 import isAlmostEqualComplex128array = require( './../../is-almost-equal-complex128array' );
 import isAlmostEqualFloat32array = require( './../../is-almost-equal-float32array' );
 import isAlmostEqualFloat64Array = require( './../../is-almost-equal-float64array' );
+import isAlmostSameValue = require( './../../is-almost-same-value' );
 import isAlphagram = require( './../../is-alphagram' );
 import isAlphaNumeric = require( './../../is-alphanumeric' );
 import isAnagram = require( './../../is-anagram' );
@@ -963,6 +965,17 @@ interface Namespace {
 	hasSharedArrayBufferSupport: typeof hasSharedArrayBufferSupport;
 
 	/**
+	* Tests for native `Symbol.split` support.
+	*
+	* @returns boolean indicating if an environment has `Symbol.split` support
+	*
+	* @example
+	* var bool = ns.hasSplitSymbolSupport();
+	* // returns <boolean>
+	*/
+	hasSplitSymbolSupport: typeof hasSplitSymbolSupport;
+
+	/**
 	* Tests for native `Symbol` support.
 	*
 	* @returns boolean indicating if an environment has `Symbol` support
@@ -1504,6 +1517,41 @@ interface Namespace {
 	* // returns false
 	*/
 	isAlmostEqualFloat64Array: typeof isAlmostEqualFloat64Array;
+
+	/**
+	* Tests if two arguments are approximately the same value within a specified number of ULPs (units in the last place).
+	*
+	* ## Notes
+	*
+	* -   The function differs from the `===` operator in that the function treats `-0` and `+0` as distinct and `NaNs` as the same.
+	*
+	* @param a - first input value
+	* @param b - second input value
+	* @param maxULP - maximum allowed ULP difference
+	* @returns boolean indicating whether two arguments are approximately the same value within a specified number of ULPs
+	*
+	* @example
+	* var EPS = require( '@stdlib/constants/float64/eps' );
+	*
+	* var bool = ns.isAlmostSameValue( 1.0, 1.0+EPS, 0 );
+	* // returns false
+	*
+	* bool = ns.isAlmostSameValue( 1.0, 1.0+EPS, 1 );
+	* // returns true
+	*
+	* bool = ns.isAlmostSameValue( {}, {}, 0 );
+	* // returns false
+	*
+	* bool = ns.isAlmostSameValue( -0.0, 0.0, 0 );
+	* // returns false
+	*
+	* bool = ns.isAlmostSameValue( NaN, NaN, 0 );
+	* // returns true
+	*
+	* bool = ns.isAlmostSameValue( [], [], 1 );
+	* // returns false
+	*/
+	isAlmostSameValue: typeof isAlmostSameValue;
 
 	/**
 	* Tests if a value is an alphagram (i.e., a sequence of characters arranged in alphabetical order).

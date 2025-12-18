@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`34719c7`](https://github.com/stdlib-js/stdlib/commit/34719c7f19f4bd3df5f6e0a9bc821f991ffe4696) - update `assert` TypeScript declarations [(#9197)](https://github.com/stdlib-js/stdlib/pull/9197)
 -   [`b380d14`](https://github.com/stdlib-js/stdlib/commit/b380d1437365ca578efef334911b78cdf84a9e4a) - add `hasSplitSymbolSupport` to namespace
 -   [`7108f43`](https://github.com/stdlib-js/stdlib/commit/7108f43f0b9253bd6a838e2eeef53955b90c8c6f) - add `isAlmostSameValue` to namespace
 -   [`c90efc0`](https://github.com/stdlib-js/stdlib/commit/c90efc01f6333a512c611d778fabaae53913374c) - add `assert/is-almost-same-value`
@@ -144,6 +145,7 @@ A total of 27 issues were closed in this release:
 
 <details>
 
+-   [`34719c7`](https://github.com/stdlib-js/stdlib/commit/34719c7f19f4bd3df5f6e0a9bc821f991ffe4696) - **feat:** update `assert` TypeScript declarations [(#9197)](https://github.com/stdlib-js/stdlib/pull/9197) _(by stdlib-bot)_
 -   [`de9dec4`](https://github.com/stdlib-js/stdlib/commit/de9dec49411a9f71d800970e9324e87dca52098b) - **docs:** update namespace table of contents [(#9205)](https://github.com/stdlib-js/stdlib/pull/9205) _(by stdlib-bot)_
 -   [`6422dd2`](https://github.com/stdlib-js/stdlib/commit/6422dd250a665bdf380af258abd3f35091150a87) - **style:** disable lint rule _(by Athan Reines)_
 -   [`b380d14`](https://github.com/stdlib-js/stdlib/commit/b380d1437365ca578efef334911b78cdf84a9e4a) - **feat:** add `hasSplitSymbolSupport` to namespace _(by Athan Reines)_
