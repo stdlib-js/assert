@@ -133,9 +133,9 @@
 
 ### Closed Issues
 
-A total of 27 issues were closed in this release:
+A total of 30 issues were closed in this release:
 
-[#5814](https://github.com/stdlib-js/stdlib/issues/5814), [#6901](https://github.com/stdlib-js/stdlib/issues/6901), [#6925](https://github.com/stdlib-js/stdlib/issues/6925), [#7084](https://github.com/stdlib-js/stdlib/issues/7084), [#7107](https://github.com/stdlib-js/stdlib/issues/7107), [#7199](https://github.com/stdlib-js/stdlib/issues/7199), [#8013](https://github.com/stdlib-js/stdlib/issues/8013), [#8043](https://github.com/stdlib-js/stdlib/issues/8043), [#8050](https://github.com/stdlib-js/stdlib/issues/8050), [#8082](https://github.com/stdlib-js/stdlib/issues/8082), [#8088](https://github.com/stdlib-js/stdlib/issues/8088), [#8114](https://github.com/stdlib-js/stdlib/issues/8114), [#8129](https://github.com/stdlib-js/stdlib/issues/8129), [#8135](https://github.com/stdlib-js/stdlib/issues/8135), [#8169](https://github.com/stdlib-js/stdlib/issues/8169), [#8195](https://github.com/stdlib-js/stdlib/issues/8195), [#8208](https://github.com/stdlib-js/stdlib/issues/8208), [#8235](https://github.com/stdlib-js/stdlib/issues/8235), [#8244](https://github.com/stdlib-js/stdlib/issues/8244), [#8464](https://github.com/stdlib-js/stdlib/issues/8464), [#8465](https://github.com/stdlib-js/stdlib/issues/8465), [#8466](https://github.com/stdlib-js/stdlib/issues/8466), [#8467](https://github.com/stdlib-js/stdlib/issues/8467), [#8468](https://github.com/stdlib-js/stdlib/issues/8468), [#8559](https://github.com/stdlib-js/stdlib/issues/8559), [#8876](https://github.com/stdlib-js/stdlib/issues/8876), [#8894](https://github.com/stdlib-js/stdlib/issues/8894)
+[#5814](https://github.com/stdlib-js/stdlib/issues/5814), [#6901](https://github.com/stdlib-js/stdlib/issues/6901), [#6925](https://github.com/stdlib-js/stdlib/issues/6925), [#7084](https://github.com/stdlib-js/stdlib/issues/7084), [#7107](https://github.com/stdlib-js/stdlib/issues/7107), [#7199](https://github.com/stdlib-js/stdlib/issues/7199), [#8013](https://github.com/stdlib-js/stdlib/issues/8013), [#8043](https://github.com/stdlib-js/stdlib/issues/8043), [#8050](https://github.com/stdlib-js/stdlib/issues/8050), [#8082](https://github.com/stdlib-js/stdlib/issues/8082), [#8088](https://github.com/stdlib-js/stdlib/issues/8088), [#8114](https://github.com/stdlib-js/stdlib/issues/8114), [#8129](https://github.com/stdlib-js/stdlib/issues/8129), [#8135](https://github.com/stdlib-js/stdlib/issues/8135), [#8169](https://github.com/stdlib-js/stdlib/issues/8169), [#8195](https://github.com/stdlib-js/stdlib/issues/8195), [#8208](https://github.com/stdlib-js/stdlib/issues/8208), [#8235](https://github.com/stdlib-js/stdlib/issues/8235), [#8244](https://github.com/stdlib-js/stdlib/issues/8244), [#8464](https://github.com/stdlib-js/stdlib/issues/8464), [#8465](https://github.com/stdlib-js/stdlib/issues/8465), [#8466](https://github.com/stdlib-js/stdlib/issues/8466), [#8467](https://github.com/stdlib-js/stdlib/issues/8467), [#8468](https://github.com/stdlib-js/stdlib/issues/8468), [#8559](https://github.com/stdlib-js/stdlib/issues/8559), [#8876](https://github.com/stdlib-js/stdlib/issues/8876), [#8894](https://github.com/stdlib-js/stdlib/issues/8894), [#9125](https://github.com/stdlib-js/stdlib/issues/9125), [#9130](https://github.com/stdlib-js/stdlib/issues/9130), [#9131](https://github.com/stdlib-js/stdlib/issues/9131)
 
 </section>
 
@@ -147,6 +147,7 @@ A total of 27 issues were closed in this release:
 
 <details>
 
+-   [`8a20a3e`](https://github.com/stdlib-js/stdlib/commit/8a20a3e35f760bc807bdd9cf3916c660b90b1dd0) - **docs:** fix broken Markdown links in `zswap`, `ssyr2`, and `assert` packages [(#9161)](https://github.com/stdlib-js/stdlib/pull/9161) _(by Almunazza, Philipp Burckhardt)_
 -   [`392d959`](https://github.com/stdlib-js/stdlib/commit/392d95908d63ba926d6c8eff4dcbe88fd7c7dc11) - **feat:** add `isAlmostSameValueArray` to namespace _(by Athan Reines)_
 -   [`128202e`](https://github.com/stdlib-js/stdlib/commit/128202ea18e04412d163782a359b9237675b5ffc) - **bench:** use string interpolation _(by Athan Reines)_
 -   [`0146356`](https://github.com/stdlib-js/stdlib/commit/01463564c79fa3129032cd6cea71e9c4087a1f11) - **feat:** add `assert/is-almost-same-value-array` _(by Athan Reines)_
@@ -337,8 +338,9 @@ A total of 27 issues were closed in this release:
 
 ### Contributors
 
-A total of 26 people contributed to this release. Thank you to the following contributors:
+A total of 27 people contributed to this release. Thank you to the following contributors:
 
+-   Almunazza
 -   Aman Singh
 -   Anoof Mohammed KP
 -   Anshu Kumar
