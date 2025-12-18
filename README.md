@@ -35,20 +35,32 @@ limitations under the License.
 
 > Assertion utilities.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/assert
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import assert from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert@esm/index.mjs';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { IS_BIG_ENDIAN, IS_BROWSER, IS_DARWIN, IS_DOCKER, IS_ELECTRON, IS_ELECTRON_MAIN, IS_ELECTRON_RENDERER, IS_LITTLE_ENDIAN, IS_MOBILE, IS_NODE, IS_TOUCH_DEVICE, IS_WEB_WORKER, IS_WINDOWS, contains, deepEqual, deepHasOwnProp, deepHasProp, hasArrayBufferSupport, hasArrowFunctionSupport, hasAsyncAwaitSupport, hasAsyncIteratorSymbolSupport, hasAtobSupport, hasBigInt64ArraySupport, hasBigIntSupport, hasBigUint64ArraySupport, hasBtoaSupport, hasClassSupport, hasDataViewSupport, hasDefinePropertiesSupport, hasDefinePropertySupport, hasFloat16ArraySupport, hasFloat32ArraySupport, hasFloat64ArraySupport, hasFunctionNameSupport, hasGeneratorSupport, hasGlobalThisSupport, hasHasInstanceSymbolSupport, hasInt16ArraySupport, hasInt32ArraySupport, hasInt8ArraySupport, hasIsConcatSpreadableSymbolSupport, hasIteratorSymbolSupport, hasMapSupport, hasMatchSymbolSupport, hasNodeBufferSupport, hasOwnProp, hasProp, hasProxySupport, hasReplaceSymbolSupport, hasSearchSymbolSupport, hasSetSupport, hasSharedArrayBufferSupport, hasSplitSymbolSupport, hasSymbolSupport, hasToPrimitiveSymbolSupport, hasToStringTagSupport, hasUTF16SurrogatePairAt, hasUint16ArraySupport, hasUint32ArraySupport, hasUint8ArraySupport, hasUint8ClampedArraySupport, hasWeakMapSupport, hasWeakSetSupport, hasWebAssemblySupport, instanceOf, isASCII, isAbsoluteHttpURI, isAbsolutePath, isAbsoluteURI, isAccessorArray, isAccessorProperty, isAccessorPropertyIn, isAlmostEqual, isAlmostEqualArray, isAlmostEqualComplex128array, isAlmostEqualComplex64array, isAlmostEqualFloat32array, isAlmostEqualFloat64Array, isAlmostSameValue, isAlphaNumeric, isAlphagram, isAnagram, isArguments, isArray, isArrayArray, isArrayBuffer, isArrayBufferView, isArrayLength, isArrayLike, isArrayLikeObject, isArrowFunction, isBetween, isBetweenArray, isBigInt, isBigInt64Array, isBigUint64Array, isBinaryString, isBlankString, isBoolean, isBooleanArray, isBoxedPrimitive, isBuffer, isCamelcase, isCapitalized, isCentrosymmetricMatrix, isCircular, isCircularArray, isCircularPlainObject, isClass, isCollection, isComplex, isComplex128, isComplex128Array, isComplex128MatrixLike, isComplex128VectorLike, isComplex128ndarrayLike, isComplex64, isComplex64Array, isComplex64MatrixLike, isComplex64VectorLike, isComplex64ndarrayLike, isComplexLike, isComplexTypedArray, isComplexTypedArrayLike, isComposite, isConfigurableProperty, isConfigurablePropertyIn, isConstantcase, isCubeNumber, isCurrentYear, isDataProperty, isDataPropertyIn, isDataView, isDateObject, isDateObjectArray, isDigitString, isDomainName, isDurationString, isEmailAddress, isEmptyArray, isEmptyArrayLikeObject, isEmptyCollection, isEmptyObject, isEmptyString, isEnumerableProperty, isEnumerablePropertyIn, isEqualArray, isEqualBooleanArray, isEqualDateObject, isEqualInt16Array, isEqualInt32Array, isEqualInt8Array, isEqualUint16Array, isEqualUint32Array, isEqualUint8Array, isEqualUint8ClampedArray, isError, isEvalError, isEven, isFalsy, isFalsyArray, isFinite, isFiniteArray, isFloat16Array, isFloat32Array, isFloat32MatrixLike, isFloat32VectorLike, isFloat32ndarrayLike, isFloat64Array, isFloat64MatrixLike, isFloat64VectorLike, isFloat64ndarrayLike, isFunction, isFunctionArray, isGeneratorObject, isGeneratorObjectLike, isHexString, isInfinite, isInheritedProperty, isInt16Array, isInt32Array, isInt8Array, isInteger, isIntegerArray, isIterableLike, isIteratorLike, isJSON, isKebabcase, isLeapYear, isLocalhost, isLowercase, isMatrixLike, isMethod, isMethodIn, isMultiSlice, isNaNArray, isNamedTypedTupleLike, isNativeFunction, isNegativeFinite, isNegativeInteger, isNegativeIntegerArray, isNegativeNumber, isNegativeNumberArray, isNegativeZero, isNodeBuiltin, isNodeDuplexStreamLike, isNodeREPL, isNodeReadableStreamLike, isNodeStreamLike, isNodeTransformStreamLike, isNodeWritableStreamLike, isNonConfigurableProperty, isNonConfigurablePropertyIn, isNonEnumerableProperty, isNonEnumerablePropertyIn, isNonNegativeFinite, isNonNegativeInteger, isNonNegativeIntegerArray, isNonNegativeNumber, isNonNegativeNumberArray, isNonPositiveFinite, isNonPositiveInteger, isNonPositiveIntegerArray, isNonPositiveNumber, isNonPositiveNumberArray, isNonSymmetricMatrix, isNull, isNullArray, isNumber, isNumberArray, isNumericArray, isObject, isObjectArray, isObjectLike, isOdd, isPRNGLike, isPascalcase, isPersymmetricMatrix, isPlainObject, isPlainObjectArray, isPositiveFinite, isPositiveInteger, isPositiveIntegerArray, isPositiveNumber, isPositiveNumberArray, isPositiveZero, isPrime, isPrimitive, isPrimitiveArray, isProbability, isProbabilityArray, isPropertyKey, isPrototypeOf, isRaggedNestedArray, isRangeError, isReadOnlyProperty, isReadOnlyPropertyIn, isReadWriteProperty, isReadWritePropertyIn, isReadableProperty, isReadablePropertyIn, isReferenceError, isRegExp, isRegExpString, isRelativePath, isRelativeURI, isSafeInteger, isSafeIntegerArray, isSameAccessorArray, isSameArray, isSameArrayLike, isSameArrayLikeObject, isSameComplex128, isSameComplex128Array, isSameComplex64, isSameComplex64Array, isSameFloat32Array, isSameFloat64Array, isSameNativeClass, isSameType, isSameTypedArrayLike, isSameValue, isSameValueZero, isSemVer, isSharedArrayBuffer, isSkewCentrosymmetricMatrix, isSkewPersymmetricMatrix, isSkewSymmetricMatrix, isSlice, isSnakecase, isSquareMatrix, isSquareNumber, isSquareTriangularNumber, isStartcase, isStrictEqual, isString, isStringArray, isStruct, isStructConstructorLike, isSymbol, isSymbolArray, isSymmetricMatrix, isSyntaxError, isTriangularNumber, isTruthy, isTruthyArray, isTypeError, isTypedArray, isTypedArrayLength, isTypedArrayLike, isUNCPath, isURI, isURIError, isUint16Array, isUint32Array, isUint8Array, isUint8ClampedArray, isUndefined, isUndefinedOrNull, isUnityProbabilityArray, isUppercase, isVectorLike, isWebAssemblyMemory, isWellFormedString, isWhitespace, isWritableProperty, isWritablePropertyIn, isWriteOnlyProperty, isWriteOnlyPropertyIn, isgzipBuffer, isnan, isndarrayLike, isndarrayLikeWithDataType, tools } from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert@esm/index.mjs';
+var assert = require( '@stdlib/assert' );
 ```
 
 #### assert
@@ -88,8 +100,8 @@ For primitive types having corresponding object wrappers, assertion utilities pr
 <!-- eslint-disable no-new-wrappers -->
 
 ```javascript
-import Boolean from 'https://cdn.jsdelivr.net/gh/stdlib-js/boolean/ctor@esm/index.mjs';
-import isBoolean from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert/is-boolean@esm/index.mjs';
+var Boolean = require( '@stdlib/boolean/ctor' );
+var isBoolean = require( '@stdlib/assert/is-boolean' );
 
 var bool = isBoolean.isObject( new Boolean( false ) );
 // returns true
@@ -127,7 +139,7 @@ Where applicable, similar to the assertion utilities for built-in data types, ar
 <!-- eslint-disable no-new-wrappers -->
 
 ```javascript
-import isStringArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert/is-string-array@esm/index.mjs';
+var isStringArray = require( '@stdlib/assert/is-string-array' );
 
 var bool = isStringArray( [ 'hello', 'world' ] );
 // returns true
@@ -391,6 +403,7 @@ To test whether a runtime environment supports certain features, the namespace i
 -   <span class="signature">[`hasSearchSymbolSupport()`][@stdlib/assert/has-search-symbol-support]</span><span class="delimiter">: </span><span class="description">detect native `Symbol.search` support.</span>
 -   <span class="signature">[`hasSetSupport()`][@stdlib/assert/has-set-support]</span><span class="delimiter">: </span><span class="description">detect native `Set` support.</span>
 -   <span class="signature">[`hasSharedArrayBufferSupport()`][@stdlib/assert/has-sharedarraybuffer-support]</span><span class="delimiter">: </span><span class="description">detect native `SharedArrayBuffer` support.</span>
+-   <span class="signature">[`hasSplitSymbolSupport()`][@stdlib/assert/has-split-symbol-support]</span><span class="delimiter">: </span><span class="description">detect native `Symbol.split` support.</span>
 -   <span class="signature">[`hasSymbolSupport()`][@stdlib/assert/has-symbol-support]</span><span class="delimiter">: </span><span class="description">detect native `Symbol` support.</span>
 -   <span class="signature">[`hasToPrimitiveSymbolSupport()`][@stdlib/assert/has-to-primitive-symbol-support]</span><span class="delimiter">: </span><span class="description">detect native `Symbol.toPrimitive` support.</span>
 -   <span class="signature">[`hasToStringTagSupport()`][@stdlib/assert/has-tostringtag-support]</span><span class="delimiter">: </span><span class="description">detect native `Symbol.toStringTag` support.</span>
@@ -426,6 +439,7 @@ The remaining namespace utilities are as follows:
 -   <span class="signature">[`isAccessorPropertyIn( value, property )`][@stdlib/assert/is-accessor-property-in]</span><span class="delimiter">: </span><span class="description">test if an object's own or inherited property has an accessor descriptor.</span>
 -   <span class="signature">[`isAccessorProperty( value, property )`][@stdlib/assert/is-accessor-property]</span><span class="delimiter">: </span><span class="description">test if an object's own property has an accessor descriptor.</span>
 -   <span class="signature">[`isAlmostEqual( a, b, maxULP )`][@stdlib/assert/is-almost-equal]</span><span class="delimiter">: </span><span class="description">test if two arguments are approximately equal within a specified number of ULPs (units in the last place).</span>
+-   <span class="signature">[`isAlmostSameValue( a, b, maxULP )`][@stdlib/assert/is-almost-same-value]</span><span class="delimiter">: </span><span class="description">test if two arguments are approximately the same value within a specified number of ULPs (units in the last place).</span>
 -   <span class="signature">[`isAlphagram( value )`][@stdlib/assert/is-alphagram]</span><span class="delimiter">: </span><span class="description">test if a value is an alphagram.</span>
 -   <span class="signature">[`isAlphaNumeric( value )`][@stdlib/assert/is-alphanumeric]</span><span class="delimiter">: </span><span class="description">test whether a string contains only alphanumeric characters.</span>
 -   <span class="signature">[`isAnagram( str, value )`][@stdlib/assert/is-anagram]</span><span class="delimiter">: </span><span class="description">test if a value is an anagram.</span>
@@ -562,20 +576,11 @@ The remaining namespace utilities are as follows:
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils/keys@esm/index.mjs';
-import assert from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert@esm/index.mjs';
+```javascript
+var objectKeys = require( '@stdlib/utils/keys' );
+var assert = require( '@stdlib/assert' );
 
 console.log( objectKeys( assert ) );
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -599,7 +604,7 @@ console.log( objectKeys( assert ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -691,6 +696,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 [@stdlib/assert/is-accessor-property]: https://github.com/stdlib-js/assert/tree/main/is-accessor-property
 
 [@stdlib/assert/is-almost-equal]: https://github.com/stdlib-js/assert/tree/main/is-almost-equal
+
+[@stdlib/assert/is-almost-same-value]: https://github.com/stdlib-js/assert/tree/main/is-almost-same-value
 
 [@stdlib/assert/is-alphagram]: https://github.com/stdlib-js/assert/tree/main/is-alphagram
 
@@ -993,6 +1000,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 [@stdlib/assert/has-set-support]: https://github.com/stdlib-js/assert/tree/main/has-set-support
 
 [@stdlib/assert/has-sharedarraybuffer-support]: https://github.com/stdlib-js/assert/tree/main/has-sharedarraybuffer-support
+
+[@stdlib/assert/has-split-symbol-support]: https://github.com/stdlib-js/assert/tree/main/has-split-symbol-support
 
 [@stdlib/assert/has-symbol-support]: https://github.com/stdlib-js/assert/tree/main/has-symbol-support
 
