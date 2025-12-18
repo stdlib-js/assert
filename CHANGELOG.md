@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-12-17)
+## Unreleased (2025-12-18)
 
 <section class="features">
 
@@ -141,6 +141,7 @@ A total of 27 issues were closed in this release:
 
 <details>
 
+-   [`d5688cf`](https://github.com/stdlib-js/stdlib/commit/d5688cfd992eeaaeefc3f570ddfe516e2a47d217) - **refactor:** use base assertion utility _(by Athan Reines)_
 -   [`01e0c7f`](https://github.com/stdlib-js/stdlib/commit/01e0c7fe9eadd0c2a0c5bc290675d6a5e325980c) - **docs:** fix empty notes section _(by Athan Reines)_
 -   [`e3e3d25`](https://github.com/stdlib-js/stdlib/commit/e3e3d254f2f8a639cd59482726b9286ddb31b274) - **chore:** fix JavaScript lint errors [(#8897)](https://github.com/stdlib-js/stdlib/pull/8897) _(by Rohit R Bhat, Athan Reines)_
 -   [`674526c`](https://github.com/stdlib-js/stdlib/commit/674526cda2e44b320a21bc70855911b76ae74eca) - **chore:** fix JavaScript lint errors [(#8886)](https://github.com/stdlib-js/stdlib/pull/8886) _(by Anoof Mohammed KP, Athan Reines)_
