@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`646bc1f`](https://github.com/stdlib-js/stdlib/commit/646bc1f4a2d6c0d59720bb077ee6a998ff961fbc) - add `isAlmostSameValueFloat32Array` to namespace
+-   [`a96ead6`](https://github.com/stdlib-js/stdlib/commit/a96ead610ffee6407ac0958a2c9e3196c0e7fbc2) - add `assert/is-almost-same-value-float32array`
 -   [`65e3870`](https://github.com/stdlib-js/stdlib/commit/65e38704c7e278a8fa452206d754985320f4e856) - add `isAlmostSameValueFloat64Array` to namespace
 -   [`61369f9`](https://github.com/stdlib-js/stdlib/commit/61369f9d16a72fadaddb9c7b0a0d066eb85ec4d1) - add `assert/is-almost-same-value-float64array`
 -   [`392d959`](https://github.com/stdlib-js/stdlib/commit/392d95908d63ba926d6c8eff4dcbe88fd7c7dc11) - add `isAlmostSameValueArray` to namespace
@@ -149,6 +151,8 @@ A total of 30 issues were closed in this release:
 
 <details>
 
+-   [`646bc1f`](https://github.com/stdlib-js/stdlib/commit/646bc1f4a2d6c0d59720bb077ee6a998ff961fbc) - **feat:** add `isAlmostSameValueFloat32Array` to namespace _(by Athan Reines)_
+-   [`a96ead6`](https://github.com/stdlib-js/stdlib/commit/a96ead610ffee6407ac0958a2c9e3196c0e7fbc2) - **feat:** add `assert/is-almost-same-value-float32array` _(by Athan Reines)_
 -   [`65e3870`](https://github.com/stdlib-js/stdlib/commit/65e38704c7e278a8fa452206d754985320f4e856) - **feat:** add `isAlmostSameValueFloat64Array` to namespace _(by Athan Reines)_
 -   [`61369f9`](https://github.com/stdlib-js/stdlib/commit/61369f9d16a72fadaddb9c7b0a0d066eb85ec4d1) - **feat:** add `assert/is-almost-same-value-float64array` _(by Athan Reines)_
 -   [`8a20a3e`](https://github.com/stdlib-js/stdlib/commit/8a20a3e35f760bc807bdd9cf3916c660b90b1dd0) - **docs:** fix broken Markdown links in `zswap`, `ssyr2`, and `assert` packages [(#9161)](https://github.com/stdlib-js/stdlib/pull/9161) _(by Almunazza, Philipp Burckhardt)_
