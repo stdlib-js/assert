@@ -144,6 +144,7 @@ A total of 27 issues were closed in this release:
 
 <details>
 
+-   [`de9dec4`](https://github.com/stdlib-js/stdlib/commit/de9dec49411a9f71d800970e9324e87dca52098b) - **docs:** update namespace table of contents [(#9205)](https://github.com/stdlib-js/stdlib/pull/9205) _(by stdlib-bot)_
 -   [`6422dd2`](https://github.com/stdlib-js/stdlib/commit/6422dd250a665bdf380af258abd3f35091150a87) - **style:** disable lint rule _(by Athan Reines)_
 -   [`b380d14`](https://github.com/stdlib-js/stdlib/commit/b380d1437365ca578efef334911b78cdf84a9e4a) - **feat:** add `hasSplitSymbolSupport` to namespace _(by Athan Reines)_
 -   [`7108f43`](https://github.com/stdlib-js/stdlib/commit/7108f43f0b9253bd6a838e2eeef53955b90c8c6f) - **feat:** add `isAlmostSameValue` to namespace _(by Athan Reines)_

@@ -403,6 +403,7 @@ To test whether a runtime environment supports certain features, the namespace i
 -   <span class="signature">[`hasSearchSymbolSupport()`][@stdlib/assert/has-search-symbol-support]</span><span class="delimiter">: </span><span class="description">detect native `Symbol.search` support.</span>
 -   <span class="signature">[`hasSetSupport()`][@stdlib/assert/has-set-support]</span><span class="delimiter">: </span><span class="description">detect native `Set` support.</span>
 -   <span class="signature">[`hasSharedArrayBufferSupport()`][@stdlib/assert/has-sharedarraybuffer-support]</span><span class="delimiter">: </span><span class="description">detect native `SharedArrayBuffer` support.</span>
+-   <span class="signature">[`hasSplitSymbolSupport()`][@stdlib/assert/has-split-symbol-support]</span><span class="delimiter">: </span><span class="description">detect native `Symbol.split` support.</span>
 -   <span class="signature">[`hasSymbolSupport()`][@stdlib/assert/has-symbol-support]</span><span class="delimiter">: </span><span class="description">detect native `Symbol` support.</span>
 -   <span class="signature">[`hasToPrimitiveSymbolSupport()`][@stdlib/assert/has-to-primitive-symbol-support]</span><span class="delimiter">: </span><span class="description">detect native `Symbol.toPrimitive` support.</span>
 -   <span class="signature">[`hasToStringTagSupport()`][@stdlib/assert/has-tostringtag-support]</span><span class="delimiter">: </span><span class="description">detect native `Symbol.toStringTag` support.</span>
@@ -438,6 +439,7 @@ The remaining namespace utilities are as follows:
 -   <span class="signature">[`isAccessorPropertyIn( value, property )`][@stdlib/assert/is-accessor-property-in]</span><span class="delimiter">: </span><span class="description">test if an object's own or inherited property has an accessor descriptor.</span>
 -   <span class="signature">[`isAccessorProperty( value, property )`][@stdlib/assert/is-accessor-property]</span><span class="delimiter">: </span><span class="description">test if an object's own property has an accessor descriptor.</span>
 -   <span class="signature">[`isAlmostEqual( a, b, maxULP )`][@stdlib/assert/is-almost-equal]</span><span class="delimiter">: </span><span class="description">test if two arguments are approximately equal within a specified number of ULPs (units in the last place).</span>
+-   <span class="signature">[`isAlmostSameValue( a, b, maxULP )`][@stdlib/assert/is-almost-same-value]</span><span class="delimiter">: </span><span class="description">test if two arguments are approximately the same value within a specified number of ULPs (units in the last place).</span>
 -   <span class="signature">[`isAlphagram( value )`][@stdlib/assert/is-alphagram]</span><span class="delimiter">: </span><span class="description">test if a value is an alphagram.</span>
 -   <span class="signature">[`isAlphaNumeric( value )`][@stdlib/assert/is-alphanumeric]</span><span class="delimiter">: </span><span class="description">test whether a string contains only alphanumeric characters.</span>
 -   <span class="signature">[`isAnagram( str, value )`][@stdlib/assert/is-anagram]</span><span class="delimiter">: </span><span class="description">test if a value is an anagram.</span>
@@ -694,6 +696,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 [@stdlib/assert/is-accessor-property]: https://github.com/stdlib-js/assert/tree/main/is-accessor-property
 
 [@stdlib/assert/is-almost-equal]: https://github.com/stdlib-js/assert/tree/main/is-almost-equal
+
+[@stdlib/assert/is-almost-same-value]: https://github.com/stdlib-js/assert/tree/main/is-almost-same-value
 
 [@stdlib/assert/is-alphagram]: https://github.com/stdlib-js/assert/tree/main/is-alphagram
 
@@ -996,6 +1000,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 [@stdlib/assert/has-set-support]: https://github.com/stdlib-js/assert/tree/main/has-set-support
 
 [@stdlib/assert/has-sharedarraybuffer-support]: https://github.com/stdlib-js/assert/tree/main/has-sharedarraybuffer-support
+
+[@stdlib/assert/has-split-symbol-support]: https://github.com/stdlib-js/assert/tree/main/has-split-symbol-support
 
 [@stdlib/assert/has-symbol-support]: https://github.com/stdlib-js/assert/tree/main/has-symbol-support
 
