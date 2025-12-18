@@ -10,6 +10,9 @@
 
 ### Features
 
+-   [`b380d14`](https://github.com/stdlib-js/stdlib/commit/b380d1437365ca578efef334911b78cdf84a9e4a) - add `hasSplitSymbolSupport` to namespace
+-   [`7108f43`](https://github.com/stdlib-js/stdlib/commit/7108f43f0b9253bd6a838e2eeef53955b90c8c6f) - add `isAlmostSameValue` to namespace
+-   [`c90efc0`](https://github.com/stdlib-js/stdlib/commit/c90efc01f6333a512c611d778fabaae53913374c) - add `assert/is-almost-same-value`
 -   [`e8ade3f`](https://github.com/stdlib-js/stdlib/commit/e8ade3f578cfe949f5295a63f2d26fabe7e8928f) - update `assert` TypeScript declarations
 -   [`38e4338`](https://github.com/stdlib-js/stdlib/commit/38e433821d47feaeb98a76eba305d54c45371c20) - add `assert/has-split-symbol-support` [(#8476)](https://github.com/stdlib-js/stdlib/pull/8476)
 -   [`62c17c8`](https://github.com/stdlib-js/stdlib/commit/62c17c82a0219e456eeb05d3b0a0d6ca17ad09ed) - add `hasToPrimitiveSymbolSupport` to namespace
@@ -141,6 +144,10 @@ A total of 27 issues were closed in this release:
 
 <details>
 
+-   [`6422dd2`](https://github.com/stdlib-js/stdlib/commit/6422dd250a665bdf380af258abd3f35091150a87) - **style:** disable lint rule _(by Athan Reines)_
+-   [`b380d14`](https://github.com/stdlib-js/stdlib/commit/b380d1437365ca578efef334911b78cdf84a9e4a) - **feat:** add `hasSplitSymbolSupport` to namespace _(by Athan Reines)_
+-   [`7108f43`](https://github.com/stdlib-js/stdlib/commit/7108f43f0b9253bd6a838e2eeef53955b90c8c6f) - **feat:** add `isAlmostSameValue` to namespace _(by Athan Reines)_
+-   [`c90efc0`](https://github.com/stdlib-js/stdlib/commit/c90efc01f6333a512c611d778fabaae53913374c) - **feat:** add `assert/is-almost-same-value` _(by Athan Reines)_
 -   [`d5688cf`](https://github.com/stdlib-js/stdlib/commit/d5688cfd992eeaaeefc3f570ddfe516e2a47d217) - **refactor:** use base assertion utility _(by Athan Reines)_
 -   [`01e0c7f`](https://github.com/stdlib-js/stdlib/commit/01e0c7fe9eadd0c2a0c5bc290675d6a5e325980c) - **docs:** fix empty notes section _(by Athan Reines)_
 -   [`e3e3d25`](https://github.com/stdlib-js/stdlib/commit/e3e3d254f2f8a639cd59482726b9286ddb31b274) - **chore:** fix JavaScript lint errors [(#8897)](https://github.com/stdlib-js/stdlib/pull/8897) _(by Rohit R Bhat, Athan Reines)_
