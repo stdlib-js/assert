@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`f8f7290`](https://github.com/stdlib-js/stdlib/commit/f8f7290678539eacf55af987f98e62127a7a5956) - update `assert` TypeScript declarations [(#9237)](https://github.com/stdlib-js/stdlib/pull/9237)
 -   [`53ce62b`](https://github.com/stdlib-js/stdlib/commit/53ce62bbcc35351cf98c746ca6ca90d486cbb5e8) - add `isAlmostSameValueComplex64Array` to namespace
 -   [`5951cbf`](https://github.com/stdlib-js/stdlib/commit/5951cbfc129af5af066f5d12348e33ec4d3edc44) - add `assert/is-almost-same-value-complex64array`
 -   [`835bec5`](https://github.com/stdlib-js/stdlib/commit/835bec5f4bfb422dd3d5b44d1de90e78d158dce2) - add `isAlmostSameValueComplex128Array` to namespace
@@ -155,6 +156,7 @@ A total of 30 issues were closed in this release:
 
 <details>
 
+-   [`f8f7290`](https://github.com/stdlib-js/stdlib/commit/f8f7290678539eacf55af987f98e62127a7a5956) - **feat:** update `assert` TypeScript declarations [(#9237)](https://github.com/stdlib-js/stdlib/pull/9237) _(by stdlib-bot)_
 -   [`9f89605`](https://github.com/stdlib-js/stdlib/commit/9f896050ca67f34a4235b2fec9222b4ae36a8b6c) - **docs:** update namespace table of contents [(#9240)](https://github.com/stdlib-js/stdlib/pull/9240) _(by stdlib-bot)_
 -   [`53ce62b`](https://github.com/stdlib-js/stdlib/commit/53ce62bbcc35351cf98c746ca6ca90d486cbb5e8) - **feat:** add `isAlmostSameValueComplex64Array` to namespace _(by Athan Reines)_
 -   [`5951cbf`](https://github.com/stdlib-js/stdlib/commit/5951cbfc129af5af066f5d12348e33ec4d3edc44) - **feat:** add `assert/is-almost-same-value-complex64array` _(by Athan Reines)_
