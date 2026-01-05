@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-12-25)
+## Unreleased (2026-01-05)
 
 <section class="features">
 
@@ -156,6 +156,7 @@ A total of 32 issues were closed in this release:
 
 <details>
 
+-   [`ee1b451`](https://github.com/stdlib-js/stdlib/commit/ee1b4510c3da0bcfa8225cba9c003a128ae4672b) - **bench:** refactor to use string interpolation in `assert/deep-has-property` [(#9532)](https://github.com/stdlib-js/stdlib/pull/9532) _(by Shubham)_
 -   [`8c61391`](https://github.com/stdlib-js/stdlib/commit/8c613911043f76c6b41f0d3943163cd0237578f3) - **chore:** fix JavaScript lint errors [(#9337)](https://github.com/stdlib-js/stdlib/pull/9337) _(by DivitJain26, Athan Reines)_
 -   [`c1bdfd1`](https://github.com/stdlib-js/stdlib/commit/c1bdfd1b11cf23ac8b904befa03c58bbe86aa579) - **docs:** fix broken Markdown link [(#9156)](https://github.com/stdlib-js/stdlib/pull/9156) _(by Manit Roy)_
 -   [`f8f7290`](https://github.com/stdlib-js/stdlib/commit/f8f7290678539eacf55af987f98e62127a7a5956) - **feat:** update `assert` TypeScript declarations [(#9237)](https://github.com/stdlib-js/stdlib/pull/9237) _(by stdlib-bot)_
@@ -359,7 +360,7 @@ A total of 32 issues were closed in this release:
 
 ### Contributors
 
-A total of 29 people contributed to this release. Thank you to the following contributors:
+A total of 30 people contributed to this release. Thank you to the following contributors:
 
 -   Almunazza
 -   Aman Singh
@@ -384,6 +385,7 @@ A total of 29 people contributed to this release. Thank you to the following con
 -   Saptarshi Mula
 -   Seth-Banker
 -   Shabareesh Shetty
+-   Shubham
 -   Tushar Bhardwaj
 -   Uday Kakade
 -   Vara Rahul Rajana
