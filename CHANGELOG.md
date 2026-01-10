@@ -156,6 +156,7 @@ A total of 32 issues were closed in this release:
 
 <details>
 
+-   [`dfee33b`](https://github.com/stdlib-js/stdlib/commit/dfee33b1f8c6ae3b28465f81a0dafbd50366f9f0) - **refactor:** update paths _(by Neeraj Pathak)_
 -   [`bfc8c3a`](https://github.com/stdlib-js/stdlib/commit/bfc8c3a7bcebf1a049c9e457ab440f540fd5c7a9) - **chore:** use one asterisk for license comment in TS files _(by Philipp Burckhardt)_
 -   [`ee1b451`](https://github.com/stdlib-js/stdlib/commit/ee1b4510c3da0bcfa8225cba9c003a128ae4672b) - **bench:** refactor to use string interpolation in `assert/deep-has-property` [(#9532)](https://github.com/stdlib-js/stdlib/pull/9532) _(by Shubham)_
 -   [`8c61391`](https://github.com/stdlib-js/stdlib/commit/8c613911043f76c6b41f0d3943163cd0237578f3) - **chore:** fix JavaScript lint errors [(#9337)](https://github.com/stdlib-js/stdlib/pull/9337) _(by DivitJain26, Athan Reines)_
@@ -361,7 +362,7 @@ A total of 32 issues were closed in this release:
 
 ### Contributors
 
-A total of 30 people contributed to this release. Thank you to the following contributors:
+A total of 31 people contributed to this release. Thank you to the following contributors:
 
 -   Almunazza
 -   Aman Singh
@@ -378,6 +379,7 @@ A total of 30 people contributed to this release. Thank you to the following con
 -   Kate Suraev
 -   Lalit Narayan Yadav
 -   Manit Roy
+-   Neeraj Pathak
 -   Payal Goswami
 -   Philipp Burckhardt
 -   Prajjwal Bajpai
