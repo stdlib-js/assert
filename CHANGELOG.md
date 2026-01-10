@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-01-05)
+## Unreleased (2026-01-10)
 
 <section class="features">
 
@@ -156,6 +156,7 @@ A total of 32 issues were closed in this release:
 
 <details>
 
+-   [`bfc8c3a`](https://github.com/stdlib-js/stdlib/commit/bfc8c3a7bcebf1a049c9e457ab440f540fd5c7a9) - **chore:** use one asterisk for license comment in TS files _(by Philipp Burckhardt)_
 -   [`ee1b451`](https://github.com/stdlib-js/stdlib/commit/ee1b4510c3da0bcfa8225cba9c003a128ae4672b) - **bench:** refactor to use string interpolation in `assert/deep-has-property` [(#9532)](https://github.com/stdlib-js/stdlib/pull/9532) _(by Shubham)_
 -   [`8c61391`](https://github.com/stdlib-js/stdlib/commit/8c613911043f76c6b41f0d3943163cd0237578f3) - **chore:** fix JavaScript lint errors [(#9337)](https://github.com/stdlib-js/stdlib/pull/9337) _(by DivitJain26, Athan Reines)_
 -   [`c1bdfd1`](https://github.com/stdlib-js/stdlib/commit/c1bdfd1b11cf23ac8b904befa03c58bbe86aa579) - **docs:** fix broken Markdown link [(#9156)](https://github.com/stdlib-js/stdlib/pull/9156) _(by Manit Roy)_
