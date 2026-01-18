@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-01-17)
+## Unreleased (2026-01-18)
 
 <section class="features">
 
@@ -93,6 +93,7 @@
 
 ### Bug Fixes
 
+-   [`2828866`](https://github.com/stdlib-js/stdlib/commit/282886626527e6ecead4302731138ba11c04998f) - add missing exports comment directive
 -   [`8518e62`](https://github.com/stdlib-js/stdlib/commit/8518e622078185594b71f2ecf0ae34701e763733) - make CLI scripts executable [(#8542)](https://github.com/stdlib-js/stdlib/pull/8542)
 -   [`78090a6`](https://github.com/stdlib-js/stdlib/commit/78090a6c01ccb7e5e726f9b8bd3bebfb46dd5a11) - make CLI scripts executable [(#7635)](https://github.com/stdlib-js/stdlib/pull/7635)
 -   [`b34ff7a`](https://github.com/stdlib-js/stdlib/commit/b34ff7a7f7f86904c29001a89d35abcdbbc5b04e) - return boolean to avoid misleading type predicate
@@ -156,6 +157,7 @@ A total of 34 issues were closed in this release:
 
 <details>
 
+-   [`2828866`](https://github.com/stdlib-js/stdlib/commit/282886626527e6ecead4302731138ba11c04998f) - **fix:** add missing exports comment directive _(by Philipp Burckhardt)_
 -   [`86031ac`](https://github.com/stdlib-js/stdlib/commit/86031ace3c539a7bc339082990d9896abde895d4) - **chore:** fix JavaScript lint errors [(#9801)](https://github.com/stdlib-js/stdlib/pull/9801) _(by Suyash Pathak)_
 -   [`be2d13e`](https://github.com/stdlib-js/stdlib/commit/be2d13ea3b0b13e51fbc9a51a0788b03d1eb3618) - **chore:** fix JavaScript lint errors [(#9796)](https://github.com/stdlib-js/stdlib/pull/9796) _(by 가은 정)_
 -   [`0472076`](https://github.com/stdlib-js/stdlib/commit/04720767c484e6277ad9411dff3dc5a116c31378) - **docs:** remove duplicated words in documentation and comments _(by Philipp Burckhardt)_
