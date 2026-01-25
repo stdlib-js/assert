@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-01-18)
+## Unreleased (2026-01-25)
 
 <section class="features">
 
@@ -157,6 +157,7 @@ A total of 34 issues were closed in this release:
 
 <details>
 
+-   [`6e21629`](https://github.com/stdlib-js/stdlib/commit/6e21629c4064ea16b800fa43138c6c70debc0039) - **bench:** refactor to use string interpolation in `assert/is-almost-equal-float32array` [(#9877)](https://github.com/stdlib-js/stdlib/pull/9877) _(by Sagar Ratna Chaudhary)_
 -   [`2828866`](https://github.com/stdlib-js/stdlib/commit/282886626527e6ecead4302731138ba11c04998f) - **fix:** add missing exports comment directive _(by Philipp Burckhardt)_
 -   [`86031ac`](https://github.com/stdlib-js/stdlib/commit/86031ace3c539a7bc339082990d9896abde895d4) - **chore:** fix JavaScript lint errors [(#9801)](https://github.com/stdlib-js/stdlib/pull/9801) _(by Suyash Pathak)_
 -   [`be2d13e`](https://github.com/stdlib-js/stdlib/commit/be2d13ea3b0b13e51fbc9a51a0788b03d1eb3618) - **chore:** fix JavaScript lint errors [(#9796)](https://github.com/stdlib-js/stdlib/pull/9796) _(by 가은 정)_
@@ -368,7 +369,7 @@ A total of 34 issues were closed in this release:
 
 ### Contributors
 
-A total of 33 people contributed to this release. Thank you to the following contributors:
+A total of 34 people contributed to this release. Thank you to the following contributors:
 
 -   Almunazza
 -   Aman Singh
@@ -391,6 +392,7 @@ A total of 33 people contributed to this release. Thank you to the following con
 -   Prajjwal Bajpai
 -   Rohit R Bhat
 -   RudrakshRaina07
+-   Sagar Ratna Chaudhary
 -   Saptarshi Mula
 -   Seth-Banker
 -   Shabareesh Shetty
