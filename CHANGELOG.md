@@ -157,6 +157,7 @@ A total of 34 issues were closed in this release:
 
 <details>
 
+-   [`bcac5a8`](https://github.com/stdlib-js/stdlib/commit/bcac5a8416e8cc611010ee290899cd72177087b1) - **bench:** refactor to use string interpolation in various `assert` packages [(#9786)](https://github.com/stdlib-js/stdlib/pull/9786) _(by Anant Sharma, Athan Reines)_
 -   [`ecf4b7c`](https://github.com/stdlib-js/stdlib/commit/ecf4b7c12430e95d5ea3438b003b839a55628f18) - **bench:** refactor to use string interpolation in `assert/is-almost-equal-complex64array` [(#9874)](https://github.com/stdlib-js/stdlib/pull/9874) _(by Sagar Ratna Chaudhary)_
 -   [`9342bfc`](https://github.com/stdlib-js/stdlib/commit/9342bfcbac1f1b266884212947f2c4140cb82fa9) - **bench:** refactor to use string interpolation in `assert/is-almost-equal-array` [(#9875)](https://github.com/stdlib-js/stdlib/pull/9875) _(by Sagar Ratna Chaudhary)_
 -   [`b0d9263`](https://github.com/stdlib-js/stdlib/commit/b0d926308b169cdf980b88bf60055b1ad4853cd2) - **bench:** refactor to use string interpolation in `assert/is-almost-equal-float64array` [(#9878)](https://github.com/stdlib-js/stdlib/pull/9878) _(by Sagar Ratna Chaudhary)_
@@ -373,10 +374,11 @@ A total of 34 issues were closed in this release:
 
 ### Contributors
 
-A total of 34 people contributed to this release. Thank you to the following contributors:
+A total of 35 people contributed to this release. Thank you to the following contributors:
 
 -   Almunazza
 -   Aman Singh
+-   Anant Sharma
 -   Anoof Mohammed KP
 -   Anshu Kumar
 -   Athan Reines
