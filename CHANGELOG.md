@@ -157,6 +157,7 @@ A total of 34 issues were closed in this release:
 
 <details>
 
+-   [`9342bfc`](https://github.com/stdlib-js/stdlib/commit/9342bfcbac1f1b266884212947f2c4140cb82fa9) - **bench:** refactor to use string interpolation in `assert/is-almost-equal-array` [(#9875)](https://github.com/stdlib-js/stdlib/pull/9875) _(by Sagar Ratna Chaudhary)_
 -   [`b0d9263`](https://github.com/stdlib-js/stdlib/commit/b0d926308b169cdf980b88bf60055b1ad4853cd2) - **bench:** refactor to use string interpolation in `assert/is-almost-equal-float64array` [(#9878)](https://github.com/stdlib-js/stdlib/pull/9878) _(by Sagar Ratna Chaudhary)_
 -   [`5439372`](https://github.com/stdlib-js/stdlib/commit/54393723510567614137ca86403213c39c407559) - **bench:** refactor to use string interpolation in `assert/is-almost-equal-complex128array` [(#9876)](https://github.com/stdlib-js/stdlib/pull/9876) _(by Sagar Ratna Chaudhary)_
 -   [`6e21629`](https://github.com/stdlib-js/stdlib/commit/6e21629c4064ea16b800fa43138c6c70debc0039) - **bench:** refactor to use string interpolation in `assert/is-almost-equal-float32array` [(#9877)](https://github.com/stdlib-js/stdlib/pull/9877) _(by Sagar Ratna Chaudhary)_
