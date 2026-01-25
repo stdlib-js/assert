@@ -157,6 +157,7 @@ A total of 34 issues were closed in this release:
 
 <details>
 
+-   [`5439372`](https://github.com/stdlib-js/stdlib/commit/54393723510567614137ca86403213c39c407559) - **bench:** refactor to use string interpolation in `assert/is-almost-equal-complex128array` [(#9876)](https://github.com/stdlib-js/stdlib/pull/9876) _(by Sagar Ratna Chaudhary)_
 -   [`6e21629`](https://github.com/stdlib-js/stdlib/commit/6e21629c4064ea16b800fa43138c6c70debc0039) - **bench:** refactor to use string interpolation in `assert/is-almost-equal-float32array` [(#9877)](https://github.com/stdlib-js/stdlib/pull/9877) _(by Sagar Ratna Chaudhary)_
 -   [`2828866`](https://github.com/stdlib-js/stdlib/commit/282886626527e6ecead4302731138ba11c04998f) - **fix:** add missing exports comment directive _(by Philipp Burckhardt)_
 -   [`86031ac`](https://github.com/stdlib-js/stdlib/commit/86031ace3c539a7bc339082990d9896abde895d4) - **chore:** fix JavaScript lint errors [(#9801)](https://github.com/stdlib-js/stdlib/pull/9801) _(by Suyash Pathak)_
