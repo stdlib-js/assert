@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-02-23)
+## Unreleased (2026-02-25)
 
 <section class="features">
 
@@ -157,6 +157,7 @@ A total of 35 issues were closed in this release:
 
 <details>
 
+-   [`b7879ad`](https://github.com/stdlib-js/stdlib/commit/b7879adce2d3bf7a6a1d4e626fd60172b3e33155) - **docs:** fix missing and malformed section closing tags in README files _(by Philipp Burckhardt)_
 -   [`71f75c9`](https://github.com/stdlib-js/stdlib/commit/71f75c9b9b996b6b0e6a1e4a75229a726c3a1ea3) - **chore:** fix JavaScript lint errors [(#10247)](https://github.com/stdlib-js/stdlib/pull/10247) _(by Bhargav Dabhade)_
 -   [`bcac5a8`](https://github.com/stdlib-js/stdlib/commit/bcac5a8416e8cc611010ee290899cd72177087b1) - **bench:** refactor to use string interpolation in various `assert` packages [(#9786)](https://github.com/stdlib-js/stdlib/pull/9786) _(by Anant Sharma, Athan Reines)_
 -   [`ecf4b7c`](https://github.com/stdlib-js/stdlib/commit/ecf4b7c12430e95d5ea3438b003b839a55628f18) - **bench:** refactor to use string interpolation in `assert/is-almost-equal-complex64array` [(#9874)](https://github.com/stdlib-js/stdlib/pull/9874) _(by Sagar Ratna Chaudhary)_
