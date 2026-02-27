@@ -157,6 +157,7 @@ A total of 35 issues were closed in this release:
 
 <details>
 
+-   [`cd6574f`](https://github.com/stdlib-js/stdlib/commit/cd6574f18432cbcc57d476f00bc58d255ac13f0a) - **style:** revert style changes _(by Athan Reines)_
 -   [`3024bb3`](https://github.com/stdlib-js/stdlib/commit/3024bb37f70bf55295d9c4bf81107ff57c15ff8a) - **docs:** fix section comments and lint errors in `array` and `assert` READMEs _(by Philipp Burckhardt)_
 -   [`078b193`](https://github.com/stdlib-js/stdlib/commit/078b19390e586d8fd746133f6f51f65a513da49b) - **docs:** fix orphaned section comments in `assert/is-*` READMEs _(by Philipp Burckhardt)_
 -   [`b7879ad`](https://github.com/stdlib-js/stdlib/commit/b7879adce2d3bf7a6a1d4e626fd60172b3e33155) - **docs:** fix missing and malformed section closing tags in README files _(by Philipp Burckhardt)_
