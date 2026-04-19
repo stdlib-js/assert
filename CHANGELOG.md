@@ -157,6 +157,7 @@ A total of 43 issues were closed in this release:
 
 <details>
 
+-   [`342466e`](https://github.com/stdlib-js/stdlib/commit/342466efa3e8837ecd245ff3dd51ef0c40c52ed6) - **bench:** refactor to use string interpolation in `@stdlib/assert` [(#11399)](https://github.com/stdlib-js/stdlib/pull/11399) _(by Karan Anand)_
 -   [`a2f6be5`](https://github.com/stdlib-js/stdlib/commit/a2f6be521b3eb3364769d032e5c52335f8a32970) - **chore:** fix JavaScript lint errors [(#11571)](https://github.com/stdlib-js/stdlib/pull/11571) _(by Matt Van Horn)_
 -   [`67c0a20`](https://github.com/stdlib-js/stdlib/commit/67c0a2044e515ea6733765a48be54f09ea749d8f) - **bench:** refactor to use string interpolation in `@stdlib/assert` [(#11398)](https://github.com/stdlib-js/stdlib/pull/11398) _(by Karan Anand)_
 -   [`4f3532f`](https://github.com/stdlib-js/stdlib/commit/4f3532f4de60955fff978cfe4cba5a6b13772584) - **chore:** fix JavaScript lint errors [(#11457)](https://github.com/stdlib-js/stdlib/pull/11457) _(by Bhumika Sudarshani, Athan Reines)_
