@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-19)
+## Unreleased (2026-04-26)
 
 <section class="features">
 
@@ -157,6 +157,7 @@ A total of 43 issues were closed in this release:
 
 <details>
 
+-   [`0dc62ae`](https://github.com/stdlib-js/stdlib/commit/0dc62ae39a4817ff888e9736c3ea599f6beff4e5) - **build:** replace `eslint-plugin-node` with `eslint-plugin-n` [(#10952)](https://github.com/stdlib-js/stdlib/pull/10952) _(by Philipp Burckhardt, Athan Reines)_
 -   [`342466e`](https://github.com/stdlib-js/stdlib/commit/342466efa3e8837ecd245ff3dd51ef0c40c52ed6) - **bench:** refactor to use string interpolation in `@stdlib/assert` [(#11399)](https://github.com/stdlib-js/stdlib/pull/11399) _(by Karan Anand)_
 -   [`a2f6be5`](https://github.com/stdlib-js/stdlib/commit/a2f6be521b3eb3364769d032e5c52335f8a32970) - **chore:** fix JavaScript lint errors [(#11571)](https://github.com/stdlib-js/stdlib/pull/11571) _(by Matt Van Horn)_
 -   [`67c0a20`](https://github.com/stdlib-js/stdlib/commit/67c0a2044e515ea6733765a48be54f09ea749d8f) - **bench:** refactor to use string interpolation in `@stdlib/assert` [(#11398)](https://github.com/stdlib-js/stdlib/pull/11398) _(by Karan Anand)_
