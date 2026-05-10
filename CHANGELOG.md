@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-09)
+## Unreleased (2026-05-10)
 
 <section class="features">
 
@@ -158,6 +158,7 @@ A total of 44 issues were closed in this release:
 
 <details>
 
+-   [`a6af2c8`](https://github.com/stdlib-js/stdlib/commit/a6af2c8b1c99e1c5b9ed43411af53ce4d6d42464) - **bench:** replace `new Array(100)` with `zeros(100, 'generic')` in `assert/is-*-property` benchmarks [(#12010)](https://github.com/stdlib-js/stdlib/pull/12010) _(by Philipp Burckhardt)_
 -   [`6f01b40`](https://github.com/stdlib-js/stdlib/commit/6f01b4051c71295399ccf3f414d343fc7957caab) - **fix:** resolve JavaScript lint errors [(#11963)](https://github.com/stdlib-js/stdlib/pull/11963) _(by Nathanael Mbale, Athan Reines)_
 -   [`d689d2d`](https://github.com/stdlib-js/stdlib/commit/d689d2dcba1570eedbbe3b7689dcbe1921ba11eb) - **chore:** propagate `node/` -> `n/` eslint plugin prefix update across README directives [(#11826)](https://github.com/stdlib-js/stdlib/pull/11826) _(by Philipp Burckhardt)_
 -   [`0dc62ae`](https://github.com/stdlib-js/stdlib/commit/0dc62ae39a4817ff888e9736c3ea599f6beff4e5) - **build:** replace `eslint-plugin-node` with `eslint-plugin-n` [(#10952)](https://github.com/stdlib-js/stdlib/pull/10952) _(by Philipp Burckhardt, Athan Reines)_
