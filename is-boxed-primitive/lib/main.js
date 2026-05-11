@@ -24,6 +24,7 @@ var isBoolean = require( './../../is-boolean' ).isObject;
 var isNumber = require( './../../is-number' ).isObject;
 var isString = require( './../../is-string' ).isObject;
 var isSymbol = require( './../../is-symbol' ).isObject;
+var isBigInt = require( './../../is-bigint' ).isObject;
 
 
 // MAIN //
@@ -44,6 +45,7 @@ var isSymbol = require( './../../is-symbol' ).isObject;
 *
 * @example
 * var Symbol = require( '@stdlib/symbol/ctor' );
+*
 * var bool = isBoxedPrimitive( Object( Symbol( 'beep' ) ) );
 * // returns true
 *
@@ -57,6 +59,7 @@ var isSymbol = require( './../../is-symbol' ).isObject;
 *
 * @example
 * var Symbol = require( '@stdlib/symbol/ctor' );
+*
 * var bool = isBoxedPrimitive( Symbol( 'beep' ) );
 * // returns false
 */
@@ -68,7 +71,8 @@ function isBoxedPrimitive( value ) {
 		isBoolean( value ) ||
 		isNumber( value ) ||
 		isString( value ) ||
-		isSymbol( value )
+		isSymbol( value ) ||
+		isBigInt( value )
 	);
 }
 
