@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-11)
+## Unreleased (2026-05-12)
 
 <section class="features">
 
 ### Features
 
+-   [`6183ea2`](https://github.com/stdlib-js/stdlib/commit/6183ea2ec437da14be9ad9ca9939c6137371618c) - add support for `Float16Array`
 -   [`bc1c717`](https://github.com/stdlib-js/stdlib/commit/bc1c717c28894ecaa45103eddc14c9d8f95fda00) - add support for BigInts
 -   [`f8f7290`](https://github.com/stdlib-js/stdlib/commit/f8f7290678539eacf55af987f98e62127a7a5956) - update `assert` TypeScript declarations [(#9237)](https://github.com/stdlib-js/stdlib/pull/9237)
 -   [`53ce62b`](https://github.com/stdlib-js/stdlib/commit/53ce62bbcc35351cf98c746ca6ca90d486cbb5e8) - add `isAlmostSameValueComplex64Array` to namespace
@@ -159,6 +160,9 @@ A total of 44 issues were closed in this release:
 
 <details>
 
+-   [`26e94d6`](https://github.com/stdlib-js/stdlib/commit/26e94d6c922b95b2df87e603009c8de1d6f5e773) - **refactor:** update to avoid usage of global symbol _(by Athan Reines)_
+-   [`e88c94d`](https://github.com/stdlib-js/stdlib/commit/e88c94da24be1529fe78417dc727fad75752a839) - **refactor:** update to avoid circular dependency _(by Athan Reines)_
+-   [`6183ea2`](https://github.com/stdlib-js/stdlib/commit/6183ea2ec437da14be9ad9ca9939c6137371618c) - **feat:** add support for `Float16Array` _(by Athan Reines)_
 -   [`bc1c717`](https://github.com/stdlib-js/stdlib/commit/bc1c717c28894ecaa45103eddc14c9d8f95fda00) - **feat:** add support for BigInts _(by Athan Reines)_
 -   [`a6af2c8`](https://github.com/stdlib-js/stdlib/commit/a6af2c8b1c99e1c5b9ed43411af53ce4d6d42464) - **bench:** replace `new Array(100)` with `zeros(100, 'generic')` in `assert/is-*-property` benchmarks [(#12010)](https://github.com/stdlib-js/stdlib/pull/12010) _(by Philipp Burckhardt)_
 -   [`6f01b40`](https://github.com/stdlib-js/stdlib/commit/6f01b4051c71295399ccf3f414d343fc7957caab) - **fix:** resolve JavaScript lint errors [(#11963)](https://github.com/stdlib-js/stdlib/pull/11963) _(by Nathanael Mbale, Athan Reines)_
