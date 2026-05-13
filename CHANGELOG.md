@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-12)
+## Unreleased (2026-05-13)
 
 <section class="features">
 
@@ -160,6 +160,7 @@ A total of 44 issues were closed in this release:
 
 <details>
 
+-   [`508cffa`](https://github.com/stdlib-js/stdlib/commit/508cffaabd50a383412af306e36e4f2523cd7fa2) - **docs:** update related packages sections [(#12106)](https://github.com/stdlib-js/stdlib/pull/12106) _(by stdlib-bot)_
 -   [`26e94d6`](https://github.com/stdlib-js/stdlib/commit/26e94d6c922b95b2df87e603009c8de1d6f5e773) - **refactor:** update to avoid usage of global symbol _(by Athan Reines)_
 -   [`e88c94d`](https://github.com/stdlib-js/stdlib/commit/e88c94da24be1529fe78417dc727fad75752a839) - **refactor:** update to avoid circular dependency _(by Athan Reines)_
 -   [`6183ea2`](https://github.com/stdlib-js/stdlib/commit/6183ea2ec437da14be9ad9ca9939c6137371618c) - **feat:** add support for `Float16Array` _(by Athan Reines)_
