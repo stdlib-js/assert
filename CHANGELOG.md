@@ -160,6 +160,7 @@ A total of 44 issues were closed in this release:
 
 <details>
 
+-   [`926bd8f`](https://github.com/stdlib-js/stdlib/commit/926bd8fb7ef9013da5c8102c68bda1c7ced7f54d) - **docs:** update descriptions [(#12107)](https://github.com/stdlib-js/stdlib/pull/12107) _(by stdlib-bot)_
 -   [`f39d0f8`](https://github.com/stdlib-js/stdlib/commit/f39d0f85d898915a1c8fd30cbc7c5847f0aa8916) - **docs:** update namespace table of contents [(#12109)](https://github.com/stdlib-js/stdlib/pull/12109) _(by stdlib-bot)_
 -   [`508cffa`](https://github.com/stdlib-js/stdlib/commit/508cffaabd50a383412af306e36e4f2523cd7fa2) - **docs:** update related packages sections [(#12106)](https://github.com/stdlib-js/stdlib/pull/12106) _(by stdlib-bot)_
 -   [`26e94d6`](https://github.com/stdlib-js/stdlib/commit/26e94d6c922b95b2df87e603009c8de1d6f5e773) - **refactor:** update to avoid usage of global symbol _(by Athan Reines)_
