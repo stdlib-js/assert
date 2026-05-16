@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-15)
+## Unreleased (2026-05-16)
 
 <section class="features">
 
@@ -160,6 +160,7 @@ A total of 44 issues were closed in this release:
 
 <details>
 
+-   [`bfb2f6e`](https://github.com/stdlib-js/stdlib/commit/bfb2f6e194cb3b2ae521348aa516a3c82f7e2d7e) - **docs:** update related packages sections [(#12149)](https://github.com/stdlib-js/stdlib/pull/12149) _(by stdlib-bot, Athan Reines)_
 -   [`622d150`](https://github.com/stdlib-js/stdlib/commit/622d15033aa18a95fedfe4bfa1f66ac5799ef3f2) - **docs:** update related packages sections [(#12139)](https://github.com/stdlib-js/stdlib/pull/12139) _(by stdlib-bot)_
 -   [`795cdc0`](https://github.com/stdlib-js/stdlib/commit/795cdc007997c8a0db301e65e705a9237f5877f6) - **docs:** update related packages sections [(#12122)](https://github.com/stdlib-js/stdlib/pull/12122) _(by stdlib-bot)_
 -   [`926bd8f`](https://github.com/stdlib-js/stdlib/commit/926bd8fb7ef9013da5c8102c68bda1c7ced7f54d) - **docs:** update descriptions [(#12107)](https://github.com/stdlib-js/stdlib/pull/12107) _(by stdlib-bot)_
