@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-17)
+## Unreleased (2026-05-20)
 
 <section class="features">
 
 ### Features
 
+-   [`2ca91e3`](https://github.com/stdlib-js/stdlib/commit/2ca91e3be70a223c860338985da6f1f632e3d4f8) - add `isndarrayDescriptor` to namespace
+-   [`a5a3553`](https://github.com/stdlib-js/stdlib/commit/a5a35539a05246c901ed01eee3f7994b6b00ffe6) - add `assert/is-ndarray-descriptor`
 -   [`6183ea2`](https://github.com/stdlib-js/stdlib/commit/6183ea2ec437da14be9ad9ca9939c6137371618c) - add support for `Float16Array`
 -   [`bc1c717`](https://github.com/stdlib-js/stdlib/commit/bc1c717c28894ecaa45103eddc14c9d8f95fda00) - add support for BigInts
 -   [`f8f7290`](https://github.com/stdlib-js/stdlib/commit/f8f7290678539eacf55af987f98e62127a7a5956) - update `assert` TypeScript declarations [(#9237)](https://github.com/stdlib-js/stdlib/pull/9237)
@@ -160,6 +162,8 @@ A total of 44 issues were closed in this release:
 
 <details>
 
+-   [`2ca91e3`](https://github.com/stdlib-js/stdlib/commit/2ca91e3be70a223c860338985da6f1f632e3d4f8) - **feat:** add `isndarrayDescriptor` to namespace _(by Athan Reines)_
+-   [`a5a3553`](https://github.com/stdlib-js/stdlib/commit/a5a35539a05246c901ed01eee3f7994b6b00ffe6) - **feat:** add `assert/is-ndarray-descriptor` _(by Athan Reines)_
 -   [`b2eb5da`](https://github.com/stdlib-js/stdlib/commit/b2eb5da5b94858e0d40f62ebe33ef5f52d398acc) - **docs:** update related packages sections [(#12164)](https://github.com/stdlib-js/stdlib/pull/12164) _(by stdlib-bot)_
 -   [`bfb2f6e`](https://github.com/stdlib-js/stdlib/commit/bfb2f6e194cb3b2ae521348aa516a3c82f7e2d7e) - **docs:** update related packages sections [(#12149)](https://github.com/stdlib-js/stdlib/pull/12149) _(by stdlib-bot, Athan Reines)_
 -   [`622d150`](https://github.com/stdlib-js/stdlib/commit/622d15033aa18a95fedfe4bfa1f66ac5799ef3f2) - **docs:** update related packages sections [(#12139)](https://github.com/stdlib-js/stdlib/pull/12139) _(by stdlib-bot)_
