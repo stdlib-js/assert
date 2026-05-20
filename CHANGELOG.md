@@ -10,6 +10,16 @@
 
 ### Features
 
+-   [`2e5a66c`](https://github.com/stdlib-js/stdlib/commit/2e5a66cb5a8dda2180419d8e4d800989353acab1) - rename `isAlmostSameValueFloat64Array` to `isAlmostSameFloat64Array`
+-   [`b6c7c6d`](https://github.com/stdlib-js/stdlib/commit/b6c7c6d8d6afc02b76e0377d7f91f802401f9434) - add `assert/is-almost-same-float64array`
+-   [`d6cd6d0`](https://github.com/stdlib-js/stdlib/commit/d6cd6d0843312a8ea8a81e6ccf66b1293c160ea6) - rename `isAlmostSameValueFloat32Array` to `isAlmostSameFloat32Array`
+-   [`cd6bb3a`](https://github.com/stdlib-js/stdlib/commit/cd6bb3a154dd4160c9e62e93ecbda3768a22a118) - add `assert/is-almost-same-float32array`
+-   [`b32251f`](https://github.com/stdlib-js/stdlib/commit/b32251f6bc18de2c7662fa045cc641fc3ffa61ba) - rename `isAlmostSameValueComplex64Array` to `isAlmostSameComplex64Array`
+-   [`424cfff`](https://github.com/stdlib-js/stdlib/commit/424cfff36222768d1319deaac4102ad4780a6a03) - add `assert/is-almost-same-complex64array`
+-   [`1a8268d`](https://github.com/stdlib-js/stdlib/commit/1a8268d8babe29d063fbe7f7d27fc54daaef5712) - rename `isAlmostSameValueComplex128Array` to `isAlmostSameComplex128Array`
+-   [`949b15e`](https://github.com/stdlib-js/stdlib/commit/949b15e064cae3a7e0c80ca6c80c7824e3933e7d) - add `assert/is-almost-same-complex128array`
+-   [`585c470`](https://github.com/stdlib-js/stdlib/commit/585c47040f97976320a38b51aaeedd724199d252) - rename `isAlmostSameValueArray` to `isAlmostSameArray`
+-   [`5cb850c`](https://github.com/stdlib-js/stdlib/commit/5cb850c4f8793503bcaae64d9af8dc1606f45563) - add `assert/is-almost-same-array`
 -   [`2ca91e3`](https://github.com/stdlib-js/stdlib/commit/2ca91e3be70a223c860338985da6f1f632e3d4f8) - add `isndarrayDescriptor` to namespace
 -   [`a5a3553`](https://github.com/stdlib-js/stdlib/commit/a5a35539a05246c901ed01eee3f7994b6b00ffe6) - add `assert/is-ndarray-descriptor`
 -   [`6183ea2`](https://github.com/stdlib-js/stdlib/commit/6183ea2ec437da14be9ad9ca9939c6137371618c) - add support for `Float16Array`
@@ -114,6 +124,51 @@
 
 ### BREAKING CHANGES
 
+-   [`8c6dabd`](https://github.com/stdlib-js/stdlib/commit/8c6dabdc57ec59e27f252fa9aa81945ce32d55fc): remove `assert/is-almost-same-value-float64array`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/assert/is-almost-same-float64array` which provides the same API and implementation.
+
+-   [`2e5a66c`](https://github.com/stdlib-js/stdlib/commit/2e5a66cb5a8dda2180419d8e4d800989353acab1): rename `isAlmostSameValueFloat64Array` to `isAlmostSameFloat64Array`
+
+    -   To migrate, users should access the same symbol via `isAlmostSameFloat64Array`.
+
+-   [`582b0fd`](https://github.com/stdlib-js/stdlib/commit/582b0fd8dc6be473e470163f72628118b123efca): remove `assert/is-almost-same-value-float32array`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/assert/is-almost-same-float32array` which provides the same API and implementation.
+
+-   [`d6cd6d0`](https://github.com/stdlib-js/stdlib/commit/d6cd6d0843312a8ea8a81e6ccf66b1293c160ea6): rename `isAlmostSameValueFloat32Array` to `isAlmostSameFloat32Array`
+
+    -   To migrate, users should access the same symbol via `isAlmostSameFloat32Array`.
+
+-   [`03f7cb4`](https://github.com/stdlib-js/stdlib/commit/03f7cb464b4018f4ada82c00896340557ced6343): remove `assert/is-almost-same-value-complex64array`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/assert/is-almost-same-complex64array` which provides the same API and implementation.
+
+-   [`b32251f`](https://github.com/stdlib-js/stdlib/commit/b32251f6bc18de2c7662fa045cc641fc3ffa61ba): rename `isAlmostSameValueComplex64Array` to `isAlmostSameComplex64Array`
+
+    -   To migrate, users should access the same symbol via `isAlmostSameComplex64Array`.
+
+-   [`293992a`](https://github.com/stdlib-js/stdlib/commit/293992af6d6eb1c8a2d7d43582e4def3cd3f6a08): remove `assert/is-almost-same-value-complex128array`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/assert/is-almost-same-complex128array` which provides the same API and implementation.
+
+-   [`1a8268d`](https://github.com/stdlib-js/stdlib/commit/1a8268d8babe29d063fbe7f7d27fc54daaef5712): rename `isAlmostSameValueComplex128Array` to `isAlmostSameComplex128Array`
+
+    -   To migrate, users should access the same symbol via `isAlmostSameComplex128Array`.
+
+-   [`c08d26f`](https://github.com/stdlib-js/stdlib/commit/c08d26f17c17678ec5e84ae63907b6b223ca74fc): remove `assert/is-almost-same-value-array`
+
+    -   To migrate, users should update their require/import paths to use
+        `@stdlib/assert/is-almost-same-array` which provides the same API and implementation.
+
+-   [`585c470`](https://github.com/stdlib-js/stdlib/commit/585c47040f97976320a38b51aaeedd724199d252): rename `isAlmostSameValueArray` to `isAlmostSameArray`
+
+    -   To migrate, users should access the same symbol via `isAlmostSameArray`.
+
 -   [`175765c`](https://github.com/stdlib-js/stdlib/commit/175765cf2181ed5ac877b74fa1378367573e271f): remove `assert/is-same-date-object`
 
     -   To migrate, users should update their import paths to use
@@ -162,6 +217,22 @@ A total of 44 issues were closed in this release:
 
 <details>
 
+-   [`8c6dabd`](https://github.com/stdlib-js/stdlib/commit/8c6dabdc57ec59e27f252fa9aa81945ce32d55fc) - **remove:** remove `assert/is-almost-same-value-float64array` _(by Athan Reines)_
+-   [`2e5a66c`](https://github.com/stdlib-js/stdlib/commit/2e5a66cb5a8dda2180419d8e4d800989353acab1) - **feat:** rename `isAlmostSameValueFloat64Array` to `isAlmostSameFloat64Array` _(by Athan Reines)_
+-   [`b6c7c6d`](https://github.com/stdlib-js/stdlib/commit/b6c7c6d8d6afc02b76e0377d7f91f802401f9434) - **feat:** add `assert/is-almost-same-float64array` _(by Athan Reines)_
+-   [`582b0fd`](https://github.com/stdlib-js/stdlib/commit/582b0fd8dc6be473e470163f72628118b123efca) - **remove:** remove `assert/is-almost-same-value-float32array` _(by Athan Reines)_
+-   [`d6cd6d0`](https://github.com/stdlib-js/stdlib/commit/d6cd6d0843312a8ea8a81e6ccf66b1293c160ea6) - **feat:** rename `isAlmostSameValueFloat32Array` to `isAlmostSameFloat32Array` _(by Athan Reines)_
+-   [`cd6bb3a`](https://github.com/stdlib-js/stdlib/commit/cd6bb3a154dd4160c9e62e93ecbda3768a22a118) - **feat:** add `assert/is-almost-same-float32array` _(by Athan Reines)_
+-   [`03f7cb4`](https://github.com/stdlib-js/stdlib/commit/03f7cb464b4018f4ada82c00896340557ced6343) - **remove:** remove `assert/is-almost-same-value-complex64array` _(by Athan Reines)_
+-   [`b32251f`](https://github.com/stdlib-js/stdlib/commit/b32251f6bc18de2c7662fa045cc641fc3ffa61ba) - **feat:** rename `isAlmostSameValueComplex64Array` to `isAlmostSameComplex64Array` _(by Athan Reines)_
+-   [`424cfff`](https://github.com/stdlib-js/stdlib/commit/424cfff36222768d1319deaac4102ad4780a6a03) - **feat:** add `assert/is-almost-same-complex64array` _(by Athan Reines)_
+-   [`293992a`](https://github.com/stdlib-js/stdlib/commit/293992af6d6eb1c8a2d7d43582e4def3cd3f6a08) - **remove:** remove `assert/is-almost-same-value-complex128array` _(by Athan Reines)_
+-   [`1a8268d`](https://github.com/stdlib-js/stdlib/commit/1a8268d8babe29d063fbe7f7d27fc54daaef5712) - **feat:** rename `isAlmostSameValueComplex128Array` to `isAlmostSameComplex128Array` _(by Athan Reines)_
+-   [`949b15e`](https://github.com/stdlib-js/stdlib/commit/949b15e064cae3a7e0c80ca6c80c7824e3933e7d) - **feat:** add `assert/is-almost-same-complex128array` _(by Athan Reines)_
+-   [`c08d26f`](https://github.com/stdlib-js/stdlib/commit/c08d26f17c17678ec5e84ae63907b6b223ca74fc) - **remove:** remove `assert/is-almost-same-value-array` _(by Athan Reines)_
+-   [`92a3a2a`](https://github.com/stdlib-js/stdlib/commit/92a3a2affa596b463c2752b9858d0843f225fdc8) - **docs:** update examples to workaround lint bug _(by Athan Reines)_
+-   [`585c470`](https://github.com/stdlib-js/stdlib/commit/585c47040f97976320a38b51aaeedd724199d252) - **feat:** rename `isAlmostSameValueArray` to `isAlmostSameArray` _(by Athan Reines)_
+-   [`5cb850c`](https://github.com/stdlib-js/stdlib/commit/5cb850c4f8793503bcaae64d9af8dc1606f45563) - **feat:** add `assert/is-almost-same-array` _(by Athan Reines)_
 -   [`2ca91e3`](https://github.com/stdlib-js/stdlib/commit/2ca91e3be70a223c860338985da6f1f632e3d4f8) - **feat:** add `isndarrayDescriptor` to namespace _(by Athan Reines)_
 -   [`a5a3553`](https://github.com/stdlib-js/stdlib/commit/a5a35539a05246c901ed01eee3f7994b6b00ffe6) - **feat:** add `assert/is-ndarray-descriptor` _(by Athan Reines)_
 -   [`b2eb5da`](https://github.com/stdlib-js/stdlib/commit/b2eb5da5b94858e0d40f62ebe33ef5f52d398acc) - **docs:** update related packages sections [(#12164)](https://github.com/stdlib-js/stdlib/pull/12164) _(by stdlib-bot)_
