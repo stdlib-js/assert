@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-20)
+## Unreleased (2026-05-21)
 
 <section class="features">
 
 ### Features
 
+-   [`6d60a02`](https://github.com/stdlib-js/stdlib/commit/6d60a024ad40718e06604f841ea6fc86c01e233f) - update `assert` TypeScript declarations [(#12224)](https://github.com/stdlib-js/stdlib/pull/12224)
 -   [`2e5a66c`](https://github.com/stdlib-js/stdlib/commit/2e5a66cb5a8dda2180419d8e4d800989353acab1) - rename `isAlmostSameValueFloat64Array` to `isAlmostSameFloat64Array`
 -   [`b6c7c6d`](https://github.com/stdlib-js/stdlib/commit/b6c7c6d8d6afc02b76e0377d7f91f802401f9434) - add `assert/is-almost-same-float64array`
 -   [`d6cd6d0`](https://github.com/stdlib-js/stdlib/commit/d6cd6d0843312a8ea8a81e6ccf66b1293c160ea6) - rename `isAlmostSameValueFloat32Array` to `isAlmostSameFloat32Array`
@@ -217,6 +218,7 @@ A total of 44 issues were closed in this release:
 
 <details>
 
+-   [`6d60a02`](https://github.com/stdlib-js/stdlib/commit/6d60a024ad40718e06604f841ea6fc86c01e233f) - **feat:** update `assert` TypeScript declarations [(#12224)](https://github.com/stdlib-js/stdlib/pull/12224) _(by stdlib-bot)_
 -   [`8c6dabd`](https://github.com/stdlib-js/stdlib/commit/8c6dabdc57ec59e27f252fa9aa81945ce32d55fc) - **remove:** remove `assert/is-almost-same-value-float64array` _(by Athan Reines)_
 -   [`2e5a66c`](https://github.com/stdlib-js/stdlib/commit/2e5a66cb5a8dda2180419d8e4d800989353acab1) - **feat:** rename `isAlmostSameValueFloat64Array` to `isAlmostSameFloat64Array` _(by Athan Reines)_
 -   [`b6c7c6d`](https://github.com/stdlib-js/stdlib/commit/b6c7c6d8d6afc02b76e0377d7f91f802401f9434) - **feat:** add `assert/is-almost-same-float64array` _(by Athan Reines)_

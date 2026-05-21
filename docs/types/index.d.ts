@@ -221,6 +221,7 @@ import isNamedTypedTupleLike = require( './../../is-named-typed-tuple-like' );
 import isnan = require( './../../is-nan' );
 import isNaNArray = require( './../../is-nan-array' );
 import isNativeFunction = require( './../../is-native-function' );
+import isndarrayDescriptor = require( './../../is-ndarray-descriptor' );
 import isndarrayLike = require( './../../is-ndarray-like' );
 import isndarrayLikeWithDataType = require( './../../is-ndarray-like-with-data-type' );
 import isNegativeFinite = require( './../../is-negative-finite' );
@@ -4734,6 +4735,34 @@ interface Namespace {
 	* // returns true
 	*/
 	isNativeFunction: typeof isNativeFunction;
+
+	/**
+	* Tests if a value is an ndarray descriptor.
+	*
+	* ## Notes
+	*
+	* -   An ndarray descriptor is an object with the following properties:
+	*
+	*     -   dtype: data type.
+	*     -   data: underlying data buffer.
+	*     -   shape: array shape.
+	*     -   strides: array strides.
+	*     -   offset: starting index of the first indexed element in the data buffer.
+	*     -   order: storage layout.
+	*
+	* @param v - value to test
+	* @returns boolean indicating if a value is an ndarray descriptor
+	*
+	* @example
+	* var zeros = require( '@stdlib/ndarray/zeros' );
+	*
+	* var bool = ns.isndarrayDescriptor( zeros( [ 2, 2 ] ) );
+	* // returns true
+	*
+	* bool = ns.isndarrayDescriptor( [] );
+	* // returns false
+	*/
+	isndarrayDescriptor: typeof isndarrayDescriptor;
 
 	/**
 	* Tests if a value is ndarray-like.
