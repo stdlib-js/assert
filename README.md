@@ -229,6 +229,7 @@ The namespace includes utilities for validating `ndarray`s (n-dimensional arrays
 -   <span class="signature">[`isFloat64ndarrayLike( value )`][@stdlib/assert/is-float64ndarray-like]</span><span class="delimiter">: </span><span class="description">test if a value is an ndarray-like object containing double-precision floating-point numbers.</span>
 -   <span class="signature">[`isFloat64VectorLike( value )`][@stdlib/assert/is-float64vector-like]</span><span class="delimiter">: </span><span class="description">test if a value is a 1-dimensional ndarray-like object containing double-precision floating-point numbers.</span>
 -   <span class="signature">[`isMatrixLike( value )`][@stdlib/assert/is-matrix-like]</span><span class="delimiter">: </span><span class="description">test if a value is 2-dimensional ndarray-like object.</span>
+-   <span class="signature">[`isndarrayDescriptor( value )`][@stdlib/assert/is-ndarray-descriptor]</span><span class="delimiter">: </span><span class="description">test if a value is an ndarray descriptor.</span>
 -   <span class="signature">[`isndarrayLikeWithDataType( value, dtype )`][@stdlib/assert/is-ndarray-like-with-data-type]</span><span class="delimiter">: </span><span class="description">test if a value is an ndarray-like object having a specified data type.</span>
 -   <span class="signature">[`isndarrayLike( value )`][@stdlib/assert/is-ndarray-like]</span><span class="delimiter">: </span><span class="description">test if a value is ndarray-like.</span>
 -   <span class="signature">[`isNonSymmetricMatrix( value )`][@stdlib/assert/is-nonsymmetric-matrix]</span><span class="delimiter">: </span><span class="description">test if a value is a non-symmetric matrix.</span>
@@ -275,11 +276,11 @@ The namespace includes utilities for validating other special arrays or buffers:
 -   <span class="signature">[`isAlmostEqualComplex64array( v1, v2, maxULP )`][@stdlib/assert/is-almost-equal-complex64array]</span><span class="delimiter">: </span><span class="description">test if two arguments are both Complex64Arrays and contain respective elements which are approximately equal within a specified number of ULPs (units in the last place).</span>
 -   <span class="signature">[`isAlmostEqualFloat32array( v1, v2, maxULP )`][@stdlib/assert/is-almost-equal-float32array]</span><span class="delimiter">: </span><span class="description">test if two arguments are both Float32Arrays and contain respective elements which are approximately equal within a specified number of ULPs (units in the last place).</span>
 -   <span class="signature">[`isAlmostEqualFloat64Array( v1, v2, maxULP )`][@stdlib/assert/is-almost-equal-float64array]</span><span class="delimiter">: </span><span class="description">test if two arguments are both Float64Arrays and contain respective elements which are approximately equal within a specified number of ULPs (units in the last place).</span>
--   <span class="signature">[`isAlmostSameValueArray( v1, v2, maxULP )`][@stdlib/assert/is-almost-same-value-array]</span><span class="delimiter">: </span><span class="description">test if two arguments are both generic arrays and contain respective elements which are approximately the same value within a specified number of ULPs (units in the last place).</span>
--   <span class="signature">[`isAlmostSameValueComplex128Array( v1, v2, maxULP )`][@stdlib/assert/is-almost-same-value-complex128array]</span><span class="delimiter">: </span><span class="description">test if two arguments are both Complex128Arrays and contain respective elements which are approximately the same value within a specified number of ULPs (units in the last place).</span>
--   <span class="signature">[`isAlmostSameValueComplex64Array( v1, v2, maxULP )`][@stdlib/assert/is-almost-same-value-complex64array]</span><span class="delimiter">: </span><span class="description">test if two arguments are both Complex64Arrays and contain respective elements which are approximately the same value within a specified number of ULPs (units in the last place).</span>
--   <span class="signature">[`isAlmostSameValueFloat32Array( v1, v2, maxULP )`][@stdlib/assert/is-almost-same-value-float32array]</span><span class="delimiter">: </span><span class="description">test if two arguments are both Float32Arrays and contain respective elements which are approximately the same value within a specified number of ULPs (units in the last place).</span>
--   <span class="signature">[`isAlmostSameValueFloat64Array( v1, v2, maxULP )`][@stdlib/assert/is-almost-same-value-float64array]</span><span class="delimiter">: </span><span class="description">test if two arguments are both Float64Arrays and contain respective elements which are approximately the same value within a specified number of ULPs (units in the last place).</span>
+-   <span class="signature">[`isAlmostSameArray( v1, v2, maxULP )`][@stdlib/assert/is-almost-same-array]</span><span class="delimiter">: </span><span class="description">test if two arguments are both generic arrays and contain respective elements which are approximately the same value within a specified number of ULPs (units in the last place).</span>
+-   <span class="signature">[`isAlmostSameComplex128Array( v1, v2, maxULP )`][@stdlib/assert/is-almost-same-complex128array]</span><span class="delimiter">: </span><span class="description">test if two arguments are both Complex128Arrays and contain respective elements which are approximately the same value within a specified number of ULPs (units in the last place).</span>
+-   <span class="signature">[`isAlmostSameComplex64Array( v1, v2, maxULP )`][@stdlib/assert/is-almost-same-complex64array]</span><span class="delimiter">: </span><span class="description">test if two arguments are both Complex64Arrays and contain respective elements which are approximately the same value within a specified number of ULPs (units in the last place).</span>
+-   <span class="signature">[`isAlmostSameFloat32Array( v1, v2, maxULP )`][@stdlib/assert/is-almost-same-float32array]</span><span class="delimiter">: </span><span class="description">test if two arguments are both Float32Arrays and contain respective elements which are approximately the same value within a specified number of ULPs (units in the last place).</span>
+-   <span class="signature">[`isAlmostSameFloat64Array( v1, v2, maxULP )`][@stdlib/assert/is-almost-same-float64array]</span><span class="delimiter">: </span><span class="description">test if two arguments are both Float64Arrays and contain respective elements which are approximately the same value within a specified number of ULPs (units in the last place).</span>
 -   <span class="signature">[`isArrayLength( value )`][@stdlib/assert/is-array-length]</span><span class="delimiter">: </span><span class="description">test if a value is a valid array length.</span>
 -   <span class="signature">[`isArrayLikeObject( value )`][@stdlib/assert/is-array-like-object]</span><span class="delimiter">: </span><span class="description">test if a value is an array-like object.</span>
 -   <span class="signature">[`isArrayLike( value )`][@stdlib/assert/is-array-like]</span><span class="delimiter">: </span><span class="description">test if a value is array-like.</span>
@@ -1080,15 +1081,15 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/assert/is-almost-equal-float64array]: https://github.com/stdlib-js/assert/tree/main/is-almost-equal-float64array
 
-[@stdlib/assert/is-almost-same-value-array]: https://github.com/stdlib-js/assert/tree/main/is-almost-same-value-array
+[@stdlib/assert/is-almost-same-array]: https://github.com/stdlib-js/assert/tree/main/is-almost-same-array
 
-[@stdlib/assert/is-almost-same-value-complex128array]: https://github.com/stdlib-js/assert/tree/main/is-almost-same-value-complex128array
+[@stdlib/assert/is-almost-same-complex128array]: https://github.com/stdlib-js/assert/tree/main/is-almost-same-complex128array
 
-[@stdlib/assert/is-almost-same-value-complex64array]: https://github.com/stdlib-js/assert/tree/main/is-almost-same-value-complex64array
+[@stdlib/assert/is-almost-same-complex64array]: https://github.com/stdlib-js/assert/tree/main/is-almost-same-complex64array
 
-[@stdlib/assert/is-almost-same-value-float32array]: https://github.com/stdlib-js/assert/tree/main/is-almost-same-value-float32array
+[@stdlib/assert/is-almost-same-float32array]: https://github.com/stdlib-js/assert/tree/main/is-almost-same-float32array
 
-[@stdlib/assert/is-almost-same-value-float64array]: https://github.com/stdlib-js/assert/tree/main/is-almost-same-value-float64array
+[@stdlib/assert/is-almost-same-float64array]: https://github.com/stdlib-js/assert/tree/main/is-almost-same-float64array
 
 [@stdlib/assert/is-array-length]: https://github.com/stdlib-js/assert/tree/main/is-array-length
 
@@ -1217,6 +1218,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [@stdlib/assert/is-float64vector-like]: https://github.com/stdlib-js/assert/tree/main/is-float64vector-like
 
 [@stdlib/assert/is-matrix-like]: https://github.com/stdlib-js/assert/tree/main/is-matrix-like
+
+[@stdlib/assert/is-ndarray-descriptor]: https://github.com/stdlib-js/assert/tree/main/is-ndarray-descriptor
 
 [@stdlib/assert/is-ndarray-like-with-data-type]: https://github.com/stdlib-js/assert/tree/main/is-ndarray-like-with-data-type
 
