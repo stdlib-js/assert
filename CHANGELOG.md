@@ -4,12 +4,15 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-23)
+## Unreleased (2026-05-24)
 
 <section class="features">
 
 ### Features
 
+-   [`ba3601f`](https://github.com/stdlib-js/stdlib/commit/ba3601f09169a7d4f8ba3a5a739229a40e088d27) - add support for data type objects
+-   [`5e43da9`](https://github.com/stdlib-js/stdlib/commit/5e43da91689c41c5f2b2029960c9ec0996654341) - add support for data type objects
+-   [`9800ea5`](https://github.com/stdlib-js/stdlib/commit/9800ea55ea746c6060bf938106f25e425feccd8c) - add support for data type objects
 -   [`6d60a02`](https://github.com/stdlib-js/stdlib/commit/6d60a024ad40718e06604f841ea6fc86c01e233f) - update `assert` TypeScript declarations [(#12224)](https://github.com/stdlib-js/stdlib/pull/12224)
 -   [`2e5a66c`](https://github.com/stdlib-js/stdlib/commit/2e5a66cb5a8dda2180419d8e4d800989353acab1) - rename `isAlmostSameValueFloat64Array` to `isAlmostSameFloat64Array`
 -   [`b6c7c6d`](https://github.com/stdlib-js/stdlib/commit/b6c7c6d8d6afc02b76e0377d7f91f802401f9434) - add `assert/is-almost-same-float64array`
@@ -218,6 +221,12 @@ A total of 44 issues were closed in this release:
 
 <details>
 
+-   [`ba3601f`](https://github.com/stdlib-js/stdlib/commit/ba3601f09169a7d4f8ba3a5a739229a40e088d27) - **feat:** add support for data type objects _(by Athan Reines)_
+-   [`bb75404`](https://github.com/stdlib-js/stdlib/commit/bb7540474697c4bb0e99b2f994884b4738d89d1d) - **test:** update assertion message _(by Athan Reines)_
+-   [`5e43da9`](https://github.com/stdlib-js/stdlib/commit/5e43da91689c41c5f2b2029960c9ec0996654341) - **feat:** add support for data type objects _(by Athan Reines)_
+-   [`00c05b8`](https://github.com/stdlib-js/stdlib/commit/00c05b86d109b52c93f161dbc6f1a72786b5e22f) - **docs:** simplify examples _(by Athan Reines)_
+-   [`b4f8a7a`](https://github.com/stdlib-js/stdlib/commit/b4f8a7a068fc0807ab676524d89af2a20d8e773b) - **bench:** simplify ndarray creation _(by Athan Reines)_
+-   [`9800ea5`](https://github.com/stdlib-js/stdlib/commit/9800ea55ea746c6060bf938106f25e425feccd8c) - **feat:** add support for data type objects _(by Athan Reines)_
 -   [`e1dd43f`](https://github.com/stdlib-js/stdlib/commit/e1dd43fddd1f3e3bbe14af8f0341fc3127595c54) - **docs:** update namespace table of contents [(#12225)](https://github.com/stdlib-js/stdlib/pull/12225) _(by stdlib-bot)_
 -   [`6d60a02`](https://github.com/stdlib-js/stdlib/commit/6d60a024ad40718e06604f841ea6fc86c01e233f) - **feat:** update `assert` TypeScript declarations [(#12224)](https://github.com/stdlib-js/stdlib/pull/12224) _(by stdlib-bot)_
 -   [`8c6dabd`](https://github.com/stdlib-js/stdlib/commit/8c6dabdc57ec59e27f252fa9aa81945ce32d55fc) - **remove:** remove `assert/is-almost-same-value-float64array` _(by Athan Reines)_
