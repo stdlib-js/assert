@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-24)
+## Unreleased (2026-05-25)
 
 <section class="features">
 
@@ -221,6 +221,7 @@ A total of 44 issues were closed in this release:
 
 <details>
 
+-   [`88e02d5`](https://github.com/stdlib-js/stdlib/commit/88e02d5697d1dad39d3acfe031e8c99459a774f0) - **docs:** update `assert` TypeScript declaration examples [(#12270)](https://github.com/stdlib-js/stdlib/pull/12270) _(by stdlib-bot)_
 -   [`ba3601f`](https://github.com/stdlib-js/stdlib/commit/ba3601f09169a7d4f8ba3a5a739229a40e088d27) - **feat:** add support for data type objects _(by Athan Reines)_
 -   [`bb75404`](https://github.com/stdlib-js/stdlib/commit/bb7540474697c4bb0e99b2f994884b4738d89d1d) - **test:** update assertion message _(by Athan Reines)_
 -   [`5e43da9`](https://github.com/stdlib-js/stdlib/commit/5e43da91689c41c5f2b2029960c9ec0996654341) - **feat:** add support for data type objects _(by Athan Reines)_
