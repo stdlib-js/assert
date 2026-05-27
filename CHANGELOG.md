@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-25)
+## Unreleased (2026-05-27)
 
 <section class="features">
 
@@ -111,6 +111,7 @@
 
 ### Bug Fixes
 
+-   [`95a8c41`](https://github.com/stdlib-js/stdlib/commit/95a8c41a2a5313aea289e722bed88bc888454233) - use correct argument value in error message and propagate JSDoc fixes to sibling packages [(#12302)](https://github.com/stdlib-js/stdlib/pull/12302)
 -   [`6f01b40`](https://github.com/stdlib-js/stdlib/commit/6f01b4051c71295399ccf3f414d343fc7957caab) - resolve JavaScript lint errors [(#11963)](https://github.com/stdlib-js/stdlib/pull/11963)
 -   [`2828866`](https://github.com/stdlib-js/stdlib/commit/282886626527e6ecead4302731138ba11c04998f) - add missing exports comment directive
 -   [`8518e62`](https://github.com/stdlib-js/stdlib/commit/8518e622078185594b71f2ecf0ae34701e763733) - make CLI scripts executable [(#8542)](https://github.com/stdlib-js/stdlib/pull/8542)
@@ -221,6 +222,7 @@ A total of 44 issues were closed in this release:
 
 <details>
 
+-   [`95a8c41`](https://github.com/stdlib-js/stdlib/commit/95a8c41a2a5313aea289e722bed88bc888454233) - **fix:** use correct argument value in error message and propagate JSDoc fixes to sibling packages [(#12302)](https://github.com/stdlib-js/stdlib/pull/12302) _(by Philipp Burckhardt)_
 -   [`88e02d5`](https://github.com/stdlib-js/stdlib/commit/88e02d5697d1dad39d3acfe031e8c99459a774f0) - **docs:** update `assert` TypeScript declaration examples [(#12270)](https://github.com/stdlib-js/stdlib/pull/12270) _(by stdlib-bot)_
 -   [`ba3601f`](https://github.com/stdlib-js/stdlib/commit/ba3601f09169a7d4f8ba3a5a739229a40e088d27) - **feat:** add support for data type objects _(by Athan Reines)_
 -   [`bb75404`](https://github.com/stdlib-js/stdlib/commit/bb7540474697c4bb0e99b2f994884b4738d89d1d) - **test:** update assertion message _(by Athan Reines)_
