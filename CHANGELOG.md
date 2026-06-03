@@ -224,6 +224,7 @@ A total of 44 issues were closed in this release:
 
 <details>
 
+-   [`7b805cc`](https://github.com/stdlib-js/stdlib/commit/7b805cc42e87827cedc2bf8ed66095c810597e5c) - **docs:** update descriptions [(#12478)](https://github.com/stdlib-js/stdlib/pull/12478) _(by stdlib-bot)_
 -   [`8eac018`](https://github.com/stdlib-js/stdlib/commit/8eac018b3fedefd0a969fb110d6d536eca23c29e) - **fix:** narrow type guard in `@stdlib/assert/is-primitive-array` [(#12453)](https://github.com/stdlib-js/stdlib/pull/12453) _(by Philipp Burckhardt, Athan Reines)_
 -   [`3dc641d`](https://github.com/stdlib-js/stdlib/commit/3dc641dc0a6bbd17f8cee1f10064d2172aecfe8f) - **chore:** remove unused types reference [(#12452)](https://github.com/stdlib-js/stdlib/pull/12452) _(by Philipp Burckhardt)_
 -   [`6a45ff7`](https://github.com/stdlib-js/stdlib/commit/6a45ff7842341f53f8a6f6c08ab85a8a145cc5a0) - **fix:** broaden parameter types in `@stdlib/assert/is-negative-finite` [(#12450)](https://github.com/stdlib-js/stdlib/pull/12450) _(by Philipp Burckhardt)_
