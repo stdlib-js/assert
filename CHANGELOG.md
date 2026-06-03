@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`45fc685`](https://github.com/stdlib-js/stdlib/commit/45fc68541db6267f4a8243bf232c82768f7c596b) - add `assert/is-uint64` [(#12471)](https://github.com/stdlib-js/stdlib/pull/12471)
 -   [`ba3601f`](https://github.com/stdlib-js/stdlib/commit/ba3601f09169a7d4f8ba3a5a739229a40e088d27) - add support for data type objects
 -   [`5e43da9`](https://github.com/stdlib-js/stdlib/commit/5e43da91689c41c5f2b2029960c9ec0996654341) - add support for data type objects
 -   [`9800ea5`](https://github.com/stdlib-js/stdlib/commit/9800ea55ea746c6060bf938106f25e425feccd8c) - add support for data type objects
@@ -224,6 +225,7 @@ A total of 44 issues were closed in this release:
 
 <details>
 
+-   [`45fc685`](https://github.com/stdlib-js/stdlib/commit/45fc68541db6267f4a8243bf232c82768f7c596b) - **feat:** add `assert/is-uint64` [(#12471)](https://github.com/stdlib-js/stdlib/pull/12471) _(by Abdul Kaium, Athan Reines)_
 -   [`7b805cc`](https://github.com/stdlib-js/stdlib/commit/7b805cc42e87827cedc2bf8ed66095c810597e5c) - **docs:** update descriptions [(#12478)](https://github.com/stdlib-js/stdlib/pull/12478) _(by stdlib-bot)_
 -   [`8eac018`](https://github.com/stdlib-js/stdlib/commit/8eac018b3fedefd0a969fb110d6d536eca23c29e) - **fix:** narrow type guard in `@stdlib/assert/is-primitive-array` [(#12453)](https://github.com/stdlib-js/stdlib/pull/12453) _(by Philipp Burckhardt, Athan Reines)_
 -   [`3dc641d`](https://github.com/stdlib-js/stdlib/commit/3dc641dc0a6bbd17f8cee1f10064d2172aecfe8f) - **chore:** remove unused types reference [(#12452)](https://github.com/stdlib-js/stdlib/pull/12452) _(by Philipp Burckhardt)_
@@ -506,8 +508,9 @@ A total of 44 issues were closed in this release:
 
 ### Contributors
 
-A total of 43 people contributed to this release. Thank you to the following contributors:
+A total of 44 people contributed to this release. Thank you to the following contributors:
 
+-   Abdul Kaium
 -   Almunazza
 -   Aman Singh
 -   Anant Sharma
