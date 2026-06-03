@@ -111,6 +111,7 @@
 
 ### Bug Fixes
 
+-   [`6a45ff7`](https://github.com/stdlib-js/stdlib/commit/6a45ff7842341f53f8a6f6c08ab85a8a145cc5a0) - broaden parameter types in `@stdlib/assert/is-negative-finite` [(#12450)](https://github.com/stdlib-js/stdlib/pull/12450)
 -   [`95a8c41`](https://github.com/stdlib-js/stdlib/commit/95a8c41a2a5313aea289e722bed88bc888454233) - use correct argument value in error message and propagate JSDoc fixes to sibling packages [(#12302)](https://github.com/stdlib-js/stdlib/pull/12302)
 -   [`6f01b40`](https://github.com/stdlib-js/stdlib/commit/6f01b4051c71295399ccf3f414d343fc7957caab) - resolve JavaScript lint errors [(#11963)](https://github.com/stdlib-js/stdlib/pull/11963)
 -   [`2828866`](https://github.com/stdlib-js/stdlib/commit/282886626527e6ecead4302731138ba11c04998f) - add missing exports comment directive
@@ -222,6 +223,7 @@ A total of 44 issues were closed in this release:
 
 <details>
 
+-   [`6a45ff7`](https://github.com/stdlib-js/stdlib/commit/6a45ff7842341f53f8a6f6c08ab85a8a145cc5a0) - **fix:** broaden parameter types in `@stdlib/assert/is-negative-finite` [(#12450)](https://github.com/stdlib-js/stdlib/pull/12450) _(by Philipp Burckhardt)_
 -   [`bfbc4e8`](https://github.com/stdlib-js/stdlib/commit/bfbc4e8b536d19116e9522427f333df13863a6a2) - **docs:** rename `value` parameter in `@stdlib/assert/is-prng-like` declaration [(#12451)](https://github.com/stdlib-js/stdlib/pull/12451) _(by Philipp Burckhardt)_
 -   [`2c9a456`](https://github.com/stdlib-js/stdlib/commit/2c9a456818d3384d8e3088f5841aa61047296cf8) - **docs:** document exported constants [(#12371)](https://github.com/stdlib-js/stdlib/pull/12371) _(by Philipp Burckhardt)_
 -   [`754c21e`](https://github.com/stdlib-js/stdlib/commit/754c21edddd352771af86a91feda14240baddc75) - **docs:** update related packages sections [(#12360)](https://github.com/stdlib-js/stdlib/pull/12360) _(by stdlib-bot, Athan Reines)_
