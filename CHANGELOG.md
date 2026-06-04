@@ -227,6 +227,7 @@ A total of 44 issues were closed in this release:
 
 <details>
 
+-   [`7587c51`](https://github.com/stdlib-js/stdlib/commit/7587c516c9cf38a7048079bf01c42135061b8d98) - **docs:** propagate TSDoc declaration fixes to sibling packages [(#12524)](https://github.com/stdlib-js/stdlib/pull/12524) _(by Philipp Burckhardt)_
 -   [`9ad27d6`](https://github.com/stdlib-js/stdlib/commit/9ad27d68a433072554c8340fd5ea86266ab487fb) - **docs:** fix TSDoc errors in `assert` declarations [(#12454)](https://github.com/stdlib-js/stdlib/pull/12454) _(by Philipp Burckhardt, Athan Reines)_
 -   [`a3a2ba1`](https://github.com/stdlib-js/stdlib/commit/a3a2ba1ab29ccd763a7089ac24da1df0c17f34ff) - **docs:** update namespace table of contents [(#12521)](https://github.com/stdlib-js/stdlib/pull/12521) _(by stdlib-bot)_
 -   [`be7b3d9`](https://github.com/stdlib-js/stdlib/commit/be7b3d976e6a1915932c50f4e4c97c144c49d45f) - **feat:** update `assert` TypeScript declarations [(#12519)](https://github.com/stdlib-js/stdlib/pull/12519) _(by stdlib-bot)_
