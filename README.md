@@ -35,38 +35,32 @@ limitations under the License.
 
 > Assertion utilities.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/assert
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-assert = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var assert = require( 'path/to/vendor/umd/assert/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.assert;
-})();
-</script>
+var assert = require( '@stdlib/assert' );
 ```
 
 #### assert
@@ -559,6 +553,7 @@ The remaining namespace utilities are as follows:
 -   <span class="signature">[`isStructConstructorLike( value )`][@stdlib/assert/is-struct-constructor-like]</span><span class="delimiter">: </span><span class="description">test if a value is struct constructor-like.</span>
 -   <span class="signature">[`isStruct( value )`][@stdlib/assert/is-struct]</span><span class="delimiter">: </span><span class="description">test if a value is a `struct` instance.</span>
 -   <span class="signature">[`isTruthy( value )`][@stdlib/assert/is-truthy]</span><span class="delimiter">: </span><span class="description">test if a value is truthy.</span>
+-   <span class="signature">[`isUint64( value )`][@stdlib/assert/is-uint64]</span><span class="delimiter">: </span><span class="description">test if a value is an unsigned 64-bit integer.</span>
 -   <span class="signature">[`isUNCPath( value )`][@stdlib/assert/is-unc-path]</span><span class="delimiter">: </span><span class="description">test if a value is a UNC path.</span>
 -   <span class="signature">[`isUndefinedOrNull( value )`][@stdlib/assert/is-undefined-or-null]</span><span class="delimiter">: </span><span class="description">test if a value is undefined or null.</span>
 -   <span class="signature">[`isUppercase( value )`][@stdlib/assert/is-uppercase]</span><span class="delimiter">: </span><span class="description">test if a value is an uppercase string.</span>
@@ -588,21 +583,11 @@ The remaining namespace utilities are as follows:
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils/keys@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var objectKeys = require( '@stdlib/utils/keys' );
+var assert = require( '@stdlib/assert' );
 
 console.log( objectKeys( assert ) );
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -932,6 +917,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [@stdlib/assert/is-struct]: https://github.com/stdlib-js/assert/tree/main/is-struct
 
 [@stdlib/assert/is-truthy]: https://github.com/stdlib-js/assert/tree/main/is-truthy
+
+[@stdlib/assert/is-uint64]: https://github.com/stdlib-js/assert/tree/main/is-uint64
 
 [@stdlib/assert/is-unc-path]: https://github.com/stdlib-js/assert/tree/main/is-unc-path
 
