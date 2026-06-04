@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-03)
+## Unreleased (2026-06-04)
 
 <section class="features">
 
 ### Features
 
+-   [`be7b3d9`](https://github.com/stdlib-js/stdlib/commit/be7b3d976e6a1915932c50f4e4c97c144c49d45f) - update `assert` TypeScript declarations [(#12519)](https://github.com/stdlib-js/stdlib/pull/12519)
 -   [`a4fc452`](https://github.com/stdlib-js/stdlib/commit/a4fc4526839f86afa138ffbe138f150616a9e19d) - add `isUint64` to namespace
 -   [`45fc685`](https://github.com/stdlib-js/stdlib/commit/45fc68541db6267f4a8243bf232c82768f7c596b) - add `assert/is-uint64` [(#12471)](https://github.com/stdlib-js/stdlib/pull/12471)
 -   [`ba3601f`](https://github.com/stdlib-js/stdlib/commit/ba3601f09169a7d4f8ba3a5a739229a40e088d27) - add support for data type objects
@@ -226,6 +227,7 @@ A total of 44 issues were closed in this release:
 
 <details>
 
+-   [`be7b3d9`](https://github.com/stdlib-js/stdlib/commit/be7b3d976e6a1915932c50f4e4c97c144c49d45f) - **feat:** update `assert` TypeScript declarations [(#12519)](https://github.com/stdlib-js/stdlib/pull/12519) _(by stdlib-bot)_
 -   [`a4fc452`](https://github.com/stdlib-js/stdlib/commit/a4fc4526839f86afa138ffbe138f150616a9e19d) - **feat:** add `isUint64` to namespace _(by Athan Reines)_
 -   [`45fc685`](https://github.com/stdlib-js/stdlib/commit/45fc68541db6267f4a8243bf232c82768f7c596b) - **feat:** add `assert/is-uint64` [(#12471)](https://github.com/stdlib-js/stdlib/pull/12471) _(by Abdul Kaium, Athan Reines)_
 -   [`7b805cc`](https://github.com/stdlib-js/stdlib/commit/7b805cc42e87827cedc2bf8ed66095c810597e5c) - **docs:** update descriptions [(#12478)](https://github.com/stdlib-js/stdlib/pull/12478) _(by stdlib-bot)_
