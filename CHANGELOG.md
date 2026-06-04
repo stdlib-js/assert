@@ -227,6 +227,7 @@ A total of 44 issues were closed in this release:
 
 <details>
 
+-   [`a3a2ba1`](https://github.com/stdlib-js/stdlib/commit/a3a2ba1ab29ccd763a7089ac24da1df0c17f34ff) - **docs:** update namespace table of contents [(#12521)](https://github.com/stdlib-js/stdlib/pull/12521) _(by stdlib-bot)_
 -   [`be7b3d9`](https://github.com/stdlib-js/stdlib/commit/be7b3d976e6a1915932c50f4e4c97c144c49d45f) - **feat:** update `assert` TypeScript declarations [(#12519)](https://github.com/stdlib-js/stdlib/pull/12519) _(by stdlib-bot)_
 -   [`a4fc452`](https://github.com/stdlib-js/stdlib/commit/a4fc4526839f86afa138ffbe138f150616a9e19d) - **feat:** add `isUint64` to namespace _(by Athan Reines)_
 -   [`45fc685`](https://github.com/stdlib-js/stdlib/commit/45fc68541db6267f4a8243bf232c82768f7c596b) - **feat:** add `assert/is-uint64` [(#12471)](https://github.com/stdlib-js/stdlib/pull/12471) _(by Abdul Kaium, Athan Reines)_

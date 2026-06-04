@@ -553,6 +553,7 @@ The remaining namespace utilities are as follows:
 -   <span class="signature">[`isStructConstructorLike( value )`][@stdlib/assert/is-struct-constructor-like]</span><span class="delimiter">: </span><span class="description">test if a value is struct constructor-like.</span>
 -   <span class="signature">[`isStruct( value )`][@stdlib/assert/is-struct]</span><span class="delimiter">: </span><span class="description">test if a value is a `struct` instance.</span>
 -   <span class="signature">[`isTruthy( value )`][@stdlib/assert/is-truthy]</span><span class="delimiter">: </span><span class="description">test if a value is truthy.</span>
+-   <span class="signature">[`isUint64( value )`][@stdlib/assert/is-uint64]</span><span class="delimiter">: </span><span class="description">test if a value is an unsigned 64-bit integer.</span>
 -   <span class="signature">[`isUNCPath( value )`][@stdlib/assert/is-unc-path]</span><span class="delimiter">: </span><span class="description">test if a value is a UNC path.</span>
 -   <span class="signature">[`isUndefinedOrNull( value )`][@stdlib/assert/is-undefined-or-null]</span><span class="delimiter">: </span><span class="description">test if a value is undefined or null.</span>
 -   <span class="signature">[`isUppercase( value )`][@stdlib/assert/is-uppercase]</span><span class="delimiter">: </span><span class="description">test if a value is an uppercase string.</span>
@@ -916,6 +917,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [@stdlib/assert/is-struct]: https://github.com/stdlib-js/assert/tree/main/is-struct
 
 [@stdlib/assert/is-truthy]: https://github.com/stdlib-js/assert/tree/main/is-truthy
+
+[@stdlib/assert/is-uint64]: https://github.com/stdlib-js/assert/tree/main/is-uint64
 
 [@stdlib/assert/is-unc-path]: https://github.com/stdlib-js/assert/tree/main/is-unc-path
 
