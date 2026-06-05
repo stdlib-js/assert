@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-04)
+## Unreleased (2026-06-05)
 
 <section class="features">
 
@@ -227,6 +227,7 @@ A total of 44 issues were closed in this release:
 
 <details>
 
+-   [`3d01e36`](https://github.com/stdlib-js/stdlib/commit/3d01e36f3512db51788021478b6a3f10c312a047) - **docs:** update related packages sections [(#12549)](https://github.com/stdlib-js/stdlib/pull/12549) _(by stdlib-bot, Athan Reines)_
 -   [`7587c51`](https://github.com/stdlib-js/stdlib/commit/7587c516c9cf38a7048079bf01c42135061b8d98) - **docs:** propagate TSDoc declaration fixes to sibling packages [(#12524)](https://github.com/stdlib-js/stdlib/pull/12524) _(by Philipp Burckhardt)_
 -   [`9ad27d6`](https://github.com/stdlib-js/stdlib/commit/9ad27d68a433072554c8340fd5ea86266ab487fb) - **docs:** fix TSDoc errors in `assert` declarations [(#12454)](https://github.com/stdlib-js/stdlib/pull/12454) _(by Philipp Burckhardt, Athan Reines)_
 -   [`a3a2ba1`](https://github.com/stdlib-js/stdlib/commit/a3a2ba1ab29ccd763a7089ac24da1df0c17f34ff) - **docs:** update namespace table of contents [(#12521)](https://github.com/stdlib-js/stdlib/pull/12521) _(by stdlib-bot)_
