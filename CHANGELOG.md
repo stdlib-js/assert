@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-09)
+## Unreleased (2026-06-11)
 
 <section class="issues">
 
@@ -24,6 +24,7 @@ A total of 2 issues were closed in this release:
 
 <details>
 
+-   [`4dd901b`](https://github.com/stdlib-js/stdlib/commit/4dd901bb308d13121a4253896610fdfbb337a121) - **docs:** fix typos in `assert/is-ndarray-descriptor` [(#12755)](https://github.com/stdlib-js/stdlib/pull/12755) _(by Philipp Burckhardt)_
 -   [`310690f`](https://github.com/stdlib-js/stdlib/commit/310690f5ceaf3ec1d7cae82e66a4748dec4c6781) - **chore:** fix JavaScript lint errors [(#12731)](https://github.com/stdlib-js/stdlib/pull/12731) _(by Suyog, Athan Reines)_
 -   [`d19a2ed`](https://github.com/stdlib-js/stdlib/commit/d19a2edb30cc831a434e36ff70bd1590c33aad1e) - **chore:** fix JavaScript lint errors [(#12664)](https://github.com/stdlib-js/stdlib/pull/12664) _(by titanniya542-spec, Athan Reines)_
 -   [`4c3829b`](https://github.com/stdlib-js/stdlib/commit/4c3829b6cd5973e47ffe7c3b5a88ed1bfb7c63f6) - **chore:** propagate recent develop fixes to sibling packages [(#12558)](https://github.com/stdlib-js/stdlib/pull/12558) _(by Philipp Burckhardt)_
