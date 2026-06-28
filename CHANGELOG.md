@@ -4,15 +4,15 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-23)
+## Unreleased (2026-06-28)
 
 <section class="issues">
 
 ### Closed Issues
 
-A total of 2 issues were closed in this release:
+A total of 3 issues were closed in this release:
 
-[#12651](https://github.com/stdlib-js/stdlib/issues/12651), [#12722](https://github.com/stdlib-js/stdlib/issues/12722)
+[#12651](https://github.com/stdlib-js/stdlib/issues/12651), [#12722](https://github.com/stdlib-js/stdlib/issues/12722), [#13173](https://github.com/stdlib-js/stdlib/issues/13173)
 
 </section>
 
@@ -24,6 +24,7 @@ A total of 2 issues were closed in this release:
 
 <details>
 
+-   [`867f144`](https://github.com/stdlib-js/stdlib/commit/867f144e8ac55f374a93ffb9ae2b9e025dd4a9da) - **chore:** fix JavaScript lint errors [(#13175)](https://github.com/stdlib-js/stdlib/pull/13175) _(by Akanksha Kumari, Athan Reines)_
 -   [`c4bfea2`](https://github.com/stdlib-js/stdlib/commit/c4bfea2e3178cba70287c950d10c90d718938bb9) - **docs:** update related packages sections [(#13071)](https://github.com/stdlib-js/stdlib/pull/13071) _(by stdlib-bot, Athan Reines)_
 -   [`11a0705`](https://github.com/stdlib-js/stdlib/commit/11a07050414ac2772e15da81d9cd40ee36d39bec) - **docs:** fix heading levels [(#13080)](https://github.com/stdlib-js/stdlib/pull/13080) _(by Philipp Burckhardt)_
 -   [`1955c06`](https://github.com/stdlib-js/stdlib/commit/1955c06eb7a27304cc92baf595545b877aea9edb) - **docs:** update related packages sections [(#12978)](https://github.com/stdlib-js/stdlib/pull/12978) _(by stdlib-bot, Athan Reines)_
@@ -43,8 +44,9 @@ A total of 2 issues were closed in this release:
 
 ### Contributors
 
-A total of 4 people contributed to this release. Thank you to the following contributors:
+A total of 5 people contributed to this release. Thank you to the following contributors:
 
+-   Akanksha Kumari
 -   Athan Reines
 -   Philipp Burckhardt
 -   Suyog
