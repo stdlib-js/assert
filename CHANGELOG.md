@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-28)
+## Unreleased (2026-06-29)
 
 <section class="issues">
 
@@ -24,6 +24,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`ce4edb1`](https://github.com/stdlib-js/stdlib/commit/ce4edb122815924a0aecc97ec48e69340992fdfa) - **docs:** add examples [(#13184)](https://github.com/stdlib-js/stdlib/pull/13184) _(by Philipp Burckhardt)_
 -   [`867f144`](https://github.com/stdlib-js/stdlib/commit/867f144e8ac55f374a93ffb9ae2b9e025dd4a9da) - **chore:** fix JavaScript lint errors [(#13175)](https://github.com/stdlib-js/stdlib/pull/13175) _(by Akanksha Kumari, Athan Reines)_
 -   [`c4bfea2`](https://github.com/stdlib-js/stdlib/commit/c4bfea2e3178cba70287c950d10c90d718938bb9) - **docs:** update related packages sections [(#13071)](https://github.com/stdlib-js/stdlib/pull/13071) _(by stdlib-bot, Athan Reines)_
 -   [`11a0705`](https://github.com/stdlib-js/stdlib/commit/11a07050414ac2772e15da81d9cd40ee36d39bec) - **docs:** fix heading levels [(#13080)](https://github.com/stdlib-js/stdlib/pull/13080) _(by Philipp Burckhardt)_
