@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-04)
+## Unreleased (2026-07-18)
+
+<section class="features">
+
+### Features
+
+-   [`722db28`](https://github.com/stdlib-js/stdlib/commit/722db280722add8363a83cd029b8705c6af132c6) - add `assert/is-int64` [(#13538)](https://github.com/stdlib-js/stdlib/pull/13538)
+
+</section>
+
+<!-- /.features -->
 
 <section class="issues">
 
@@ -24,6 +34,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`722db28`](https://github.com/stdlib-js/stdlib/commit/722db280722add8363a83cd029b8705c6af132c6) - **feat:** add `assert/is-int64` [(#13538)](https://github.com/stdlib-js/stdlib/pull/13538) _(by Abdul Kaium, Athan Reines)_
 -   [`22cc581`](https://github.com/stdlib-js/stdlib/commit/22cc58187fe0874b4695caa6797d5355b6b9a47d) - **chore:** add keywords [(#13251)](https://github.com/stdlib-js/stdlib/pull/13251) _(by Philipp Burckhardt)_
 -   [`ce4edb1`](https://github.com/stdlib-js/stdlib/commit/ce4edb122815924a0aecc97ec48e69340992fdfa) - **docs:** add examples [(#13184)](https://github.com/stdlib-js/stdlib/pull/13184) _(by Philipp Burckhardt)_
 -   [`867f144`](https://github.com/stdlib-js/stdlib/commit/867f144e8ac55f374a93ffb9ae2b9e025dd4a9da) - **chore:** fix JavaScript lint errors [(#13175)](https://github.com/stdlib-js/stdlib/pull/13175) _(by Akanksha Kumari, Athan Reines)_
@@ -46,8 +57,9 @@ A total of 3 issues were closed in this release:
 
 ### Contributors
 
-A total of 5 people contributed to this release. Thank you to the following contributors:
+A total of 6 people contributed to this release. Thank you to the following contributors:
 
+-   Abdul Kaium
 -   Akanksha Kumari
 -   Athan Reines
 -   Philipp Burckhardt
