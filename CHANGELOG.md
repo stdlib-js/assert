@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-18)
+## Unreleased (2026-07-19)
 
 <section class="features">
 
 ### Features
 
+-   [`d9dbfb1`](https://github.com/stdlib-js/stdlib/commit/d9dbfb1c86fba08d6d304ca349dffdbcdb36675d) - add `isInt64` to namespace
 -   [`722db28`](https://github.com/stdlib-js/stdlib/commit/722db280722add8363a83cd029b8705c6af132c6) - add `assert/is-int64` [(#13538)](https://github.com/stdlib-js/stdlib/pull/13538)
 
 </section>
@@ -34,6 +35,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`d9dbfb1`](https://github.com/stdlib-js/stdlib/commit/d9dbfb1c86fba08d6d304ca349dffdbcdb36675d) - **feat:** add `isInt64` to namespace _(by Athan Reines)_
 -   [`722db28`](https://github.com/stdlib-js/stdlib/commit/722db280722add8363a83cd029b8705c6af132c6) - **feat:** add `assert/is-int64` [(#13538)](https://github.com/stdlib-js/stdlib/pull/13538) _(by Abdul Kaium, Athan Reines)_
 -   [`22cc581`](https://github.com/stdlib-js/stdlib/commit/22cc58187fe0874b4695caa6797d5355b6b9a47d) - **chore:** add keywords [(#13251)](https://github.com/stdlib-js/stdlib/pull/13251) _(by Philipp Burckhardt)_
 -   [`ce4edb1`](https://github.com/stdlib-js/stdlib/commit/ce4edb122815924a0aecc97ec48e69340992fdfa) - **docs:** add examples [(#13184)](https://github.com/stdlib-js/stdlib/pull/13184) _(by Philipp Burckhardt)_
