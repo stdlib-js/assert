@@ -491,6 +491,7 @@ The remaining namespace utilities are as follows:
 -   <span class="signature">[`isHexString( value )`][@stdlib/assert/is-hex-string]</span><span class="delimiter">: </span><span class="description">test whether a string contains only hexadecimal digits.</span>
 -   <span class="signature">[`isInfinite( value )`][@stdlib/assert/is-infinite]</span><span class="delimiter">: </span><span class="description">test if a value is an infinite number.</span>
 -   <span class="signature">[`isInheritedProperty( value, property )`][@stdlib/assert/is-inherited-property]</span><span class="delimiter">: </span><span class="description">test if an object has an inherited property.</span>
+-   <span class="signature">[`isInt64( value )`][@stdlib/assert/is-int64]</span><span class="delimiter">: </span><span class="description">test if a value is a 64-bit signed integer.</span>
 -   <span class="signature">[`isIterableLike( value )`][@stdlib/assert/is-iterable-like]</span><span class="delimiter">: </span><span class="description">test if a value is `iterable`-like.</span>
 -   <span class="signature">[`isIteratorLike( value )`][@stdlib/assert/is-iterator-like]</span><span class="delimiter">: </span><span class="description">test if a value is `iterator`-like.</span>
 -   <span class="signature">[`isJSON( value )`][@stdlib/assert/is-json]</span><span class="delimiter">: </span><span class="description">test if a value is a parseable JSON string.</span>
@@ -793,6 +794,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [@stdlib/assert/is-infinite]: https://github.com/stdlib-js/assert/tree/main/is-infinite
 
 [@stdlib/assert/is-inherited-property]: https://github.com/stdlib-js/assert/tree/main/is-inherited-property
+
+[@stdlib/assert/is-int64]: https://github.com/stdlib-js/assert/tree/main/is-int64
 
 [@stdlib/assert/is-iterable-like]: https://github.com/stdlib-js/assert/tree/main/is-iterable-like
 
