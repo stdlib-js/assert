@@ -22,9 +22,9 @@
 
 ### Closed Issues
 
-A total of 3 issues were closed in this release:
+A total of 4 issues were closed in this release:
 
-[#12651](https://github.com/stdlib-js/stdlib/issues/12651), [#12722](https://github.com/stdlib-js/stdlib/issues/12722), [#13173](https://github.com/stdlib-js/stdlib/issues/13173)
+[#12651](https://github.com/stdlib-js/stdlib/issues/12651), [#12722](https://github.com/stdlib-js/stdlib/issues/12722), [#13096](https://github.com/stdlib-js/stdlib/issues/13096), [#13173](https://github.com/stdlib-js/stdlib/issues/13173)
 
 </section>
 
@@ -36,6 +36,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`482a842`](https://github.com/stdlib-js/stdlib/commit/482a84253af42d8c6b04078e4e83baaa346ec97e) - **chore:** fix JavaScript lint errors [(#13582)](https://github.com/stdlib-js/stdlib/pull/13582) _(by Ujjwal Verma)_
 -   [`e03d043`](https://github.com/stdlib-js/stdlib/commit/e03d04368ff4827051e20c99fdde7d2cd05616e7) - **feat:** update `assert` TypeScript declarations [(#13570)](https://github.com/stdlib-js/stdlib/pull/13570) _(by stdlib-bot)_
 -   [`90b59bc`](https://github.com/stdlib-js/stdlib/commit/90b59bc772f94cd29af6854a219dd77a8197b78d) - **docs:** update namespace table of contents [(#13575)](https://github.com/stdlib-js/stdlib/pull/13575) _(by stdlib-bot)_
 -   [`d9dbfb1`](https://github.com/stdlib-js/stdlib/commit/d9dbfb1c86fba08d6d304ca349dffdbcdb36675d) - **feat:** add `isInt64` to namespace _(by Athan Reines)_
@@ -62,13 +63,14 @@ A total of 3 issues were closed in this release:
 
 ### Contributors
 
-A total of 6 people contributed to this release. Thank you to the following contributors:
+A total of 7 people contributed to this release. Thank you to the following contributors:
 
 -   Abdul Kaium
 -   Akanksha Kumari
 -   Athan Reines
 -   Philipp Burckhardt
 -   Suyog
+-   Ujjwal Verma
 -   titanniya542-spec
 
 </section>
