@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`e03d043`](https://github.com/stdlib-js/stdlib/commit/e03d04368ff4827051e20c99fdde7d2cd05616e7) - update `assert` TypeScript declarations [(#13570)](https://github.com/stdlib-js/stdlib/pull/13570)
 -   [`d9dbfb1`](https://github.com/stdlib-js/stdlib/commit/d9dbfb1c86fba08d6d304ca349dffdbcdb36675d) - add `isInt64` to namespace
 -   [`722db28`](https://github.com/stdlib-js/stdlib/commit/722db280722add8363a83cd029b8705c6af132c6) - add `assert/is-int64` [(#13538)](https://github.com/stdlib-js/stdlib/pull/13538)
 
@@ -35,6 +36,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`e03d043`](https://github.com/stdlib-js/stdlib/commit/e03d04368ff4827051e20c99fdde7d2cd05616e7) - **feat:** update `assert` TypeScript declarations [(#13570)](https://github.com/stdlib-js/stdlib/pull/13570) _(by stdlib-bot)_
 -   [`90b59bc`](https://github.com/stdlib-js/stdlib/commit/90b59bc772f94cd29af6854a219dd77a8197b78d) - **docs:** update namespace table of contents [(#13575)](https://github.com/stdlib-js/stdlib/pull/13575) _(by stdlib-bot)_
 -   [`d9dbfb1`](https://github.com/stdlib-js/stdlib/commit/d9dbfb1c86fba08d6d304ca349dffdbcdb36675d) - **feat:** add `isInt64` to namespace _(by Athan Reines)_
 -   [`722db28`](https://github.com/stdlib-js/stdlib/commit/722db280722add8363a83cd029b8705c6af132c6) - **feat:** add `assert/is-int64` [(#13538)](https://github.com/stdlib-js/stdlib/pull/13538) _(by Abdul Kaium, Athan Reines)_

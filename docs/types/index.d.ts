@@ -202,6 +202,7 @@ import isInheritedProperty = require( './../../is-inherited-property' );
 import isInt8Array = require( './../../is-int8array' );
 import isInt16Array = require( './../../is-int16array' );
 import isInt32Array = require( './../../is-int32array' );
+import isInt64 = require( './../../is-int64' );
 import isInteger = require( './../../is-integer' );
 import isIntegerArray = require( './../../is-integer-array' );
 import isIterableLike = require( './../../is-iterable-like' );
@@ -4290,6 +4291,22 @@ interface Namespace {
 	* // returns false
 	*/
 	isInt32Array: typeof isInt32Array;
+
+	/**
+	* Tests if a value is a 64-bit signed integer.
+	*
+	* @param value - value to test
+	* @returns boolean indicating if a value is a 64-bit signed integer
+	*
+	* @example
+	* var Int64 = require( '@stdlib/number/int64/ctor' );
+	*
+	* var x = new Int64( 1234 );
+	*
+	* var bool = ns.isInt64( x );
+	* // returns true
+	*/
+	isInt64: typeof isInt64;
 
 	/**
 	* Tests if a value is an integer.
