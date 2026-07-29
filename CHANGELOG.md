@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-28)
+## Unreleased (2026-07-29)
 
 <section class="features">
 
 ### Features
 
+-   [`d7c85e7`](https://github.com/stdlib-js/stdlib/commit/d7c85e71c799fafc280dd43fc11278fdf85db411) - update `assert` TypeScript declarations [(#13736)](https://github.com/stdlib-js/stdlib/pull/13736)
 -   [`3238a78`](https://github.com/stdlib-js/stdlib/commit/3238a7837cf79e1694919f2811ae9caea11f35c5) - add `isUint64Array` to namespace
 -   [`4f6734b`](https://github.com/stdlib-js/stdlib/commit/4f6734bda892217cddcc73822c88cad372d71df1) - add `assert/is-uint64array`
 -   [`e03d043`](https://github.com/stdlib-js/stdlib/commit/e03d04368ff4827051e20c99fdde7d2cd05616e7) - update `assert` TypeScript declarations [(#13570)](https://github.com/stdlib-js/stdlib/pull/13570)
@@ -38,6 +39,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`d7c85e7`](https://github.com/stdlib-js/stdlib/commit/d7c85e71c799fafc280dd43fc11278fdf85db411) - **feat:** update `assert` TypeScript declarations [(#13736)](https://github.com/stdlib-js/stdlib/pull/13736) _(by stdlib-bot)_
 -   [`3238a78`](https://github.com/stdlib-js/stdlib/commit/3238a7837cf79e1694919f2811ae9caea11f35c5) - **feat:** add `isUint64Array` to namespace _(by Athan Reines)_
 -   [`4f6734b`](https://github.com/stdlib-js/stdlib/commit/4f6734bda892217cddcc73822c88cad372d71df1) - **feat:** add `assert/is-uint64array` _(by Athan Reines)_
 -   [`027201b`](https://github.com/stdlib-js/stdlib/commit/027201b7e8f8c76b91a502ecc6ca39ffbaf585eb) - **docs:** update related packages sections [(#13706)](https://github.com/stdlib-js/stdlib/pull/13706) _(by stdlib-bot)_

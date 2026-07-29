@@ -344,6 +344,7 @@ import isUint8ClampedArray = require( './../../is-uint8clampedarray' );
 import isUint16Array = require( './../../is-uint16array' );
 import isUint32Array = require( './../../is-uint32array' );
 import isUint64 = require( './../../is-uint64' );
+import isUint64Array = require( './../../is-uint64array' );
 import isUNCPath = require( './../../is-unc-path' );
 import isUndefined = require( './../../is-undefined' );
 import isUndefinedOrNull = require( './../../is-undefined-or-null' );
@@ -8003,6 +8004,24 @@ interface Namespace {
 	* // returns true
 	*/
 	isUint64: typeof isUint64;
+
+	/**
+	* Tests if a value is a Uint64Array.
+	*
+	* @param value - value to test
+	* @returns boolean indicating whether value is a Uint64Array
+	*
+	* @example
+	* var Uint64Array = require( '@stdlib/array/uint64' );
+	*
+	* var bool = ns.isUint64Array( new Uint64Array( 10 ) );
+	* // returns true
+	*
+	* @example
+	* var bool = ns.isUint64Array( [] );
+	* // returns false
+	*/
+	isUint64Array: typeof isUint64Array;
 
 	/**
 	* Tests if a value is a UNC path.
