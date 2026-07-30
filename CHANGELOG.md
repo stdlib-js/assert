@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-29)
+## Unreleased (2026-07-30)
 
 <section class="features">
 
@@ -25,9 +25,9 @@
 
 ### Closed Issues
 
-A total of 4 issues were closed in this release:
+A total of 5 issues were closed in this release:
 
-[#12651](https://github.com/stdlib-js/stdlib/issues/12651), [#12722](https://github.com/stdlib-js/stdlib/issues/12722), [#13096](https://github.com/stdlib-js/stdlib/issues/13096), [#13173](https://github.com/stdlib-js/stdlib/issues/13173)
+[#12651](https://github.com/stdlib-js/stdlib/issues/12651), [#12722](https://github.com/stdlib-js/stdlib/issues/12722), [#13096](https://github.com/stdlib-js/stdlib/issues/13096), [#13173](https://github.com/stdlib-js/stdlib/issues/13173), [#13763](https://github.com/stdlib-js/stdlib/issues/13763)
 
 </section>
 
@@ -39,6 +39,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`990d891`](https://github.com/stdlib-js/stdlib/commit/990d891c1d365286b5f719fe32eb06100d6af239) - **chore:** fix JavaScript lint errors [(#13776)](https://github.com/stdlib-js/stdlib/pull/13776) _(by Krishna Sharma, Athan Reines)_
 -   [`b1bfe73`](https://github.com/stdlib-js/stdlib/commit/b1bfe73572ce3dc4d40095aa1e2bf445c273fad1) - **docs:** update namespace table of contents [(#13738)](https://github.com/stdlib-js/stdlib/pull/13738) _(by stdlib-bot)_
 -   [`d7c85e7`](https://github.com/stdlib-js/stdlib/commit/d7c85e71c799fafc280dd43fc11278fdf85db411) - **feat:** update `assert` TypeScript declarations [(#13736)](https://github.com/stdlib-js/stdlib/pull/13736) _(by stdlib-bot)_
 -   [`3238a78`](https://github.com/stdlib-js/stdlib/commit/3238a7837cf79e1694919f2811ae9caea11f35c5) - **feat:** add `isUint64Array` to namespace _(by Athan Reines)_
@@ -71,11 +72,12 @@ A total of 4 issues were closed in this release:
 
 ### Contributors
 
-A total of 7 people contributed to this release. Thank you to the following contributors:
+A total of 8 people contributed to this release. Thank you to the following contributors:
 
 -   Abdul Kaium
 -   Akanksha Kumari
 -   Athan Reines
+-   Krishna Sharma
 -   Philipp Burckhardt
 -   Suyog
 -   Ujjwal Verma
