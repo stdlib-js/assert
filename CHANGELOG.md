@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-30)
+## Unreleased (2026-08-06)
 
 <section class="features">
 
@@ -39,6 +39,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`58556f4`](https://github.com/stdlib-js/stdlib/commit/58556f408eedf1737bc4795fb2734ef4dd2a6b32) - **chore:** clean-up [(#13978)](https://github.com/stdlib-js/stdlib/pull/13978) _(by Philipp Burckhardt)_
 -   [`990d891`](https://github.com/stdlib-js/stdlib/commit/990d891c1d365286b5f719fe32eb06100d6af239) - **chore:** fix JavaScript lint errors [(#13776)](https://github.com/stdlib-js/stdlib/pull/13776) _(by Krishna Sharma, Athan Reines)_
 -   [`b1bfe73`](https://github.com/stdlib-js/stdlib/commit/b1bfe73572ce3dc4d40095aa1e2bf445c273fad1) - **docs:** update namespace table of contents [(#13738)](https://github.com/stdlib-js/stdlib/pull/13738) _(by stdlib-bot)_
 -   [`d7c85e7`](https://github.com/stdlib-js/stdlib/commit/d7c85e71c799fafc280dd43fc11278fdf85db411) - **feat:** update `assert` TypeScript declarations [(#13736)](https://github.com/stdlib-js/stdlib/pull/13736) _(by stdlib-bot)_
