@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-06)
+## Unreleased (2026-08-07)
 
 <section class="features">
 
 ### Features
 
+-   [`258e932`](https://github.com/stdlib-js/stdlib/commit/258e932e90c1a9c66b401f908028846ef4d05005) - add `assert/has-promise-support` [(#13974)](https://github.com/stdlib-js/stdlib/pull/13974)
 -   [`d7c85e7`](https://github.com/stdlib-js/stdlib/commit/d7c85e71c799fafc280dd43fc11278fdf85db411) - update `assert` TypeScript declarations [(#13736)](https://github.com/stdlib-js/stdlib/pull/13736)
 -   [`3238a78`](https://github.com/stdlib-js/stdlib/commit/3238a7837cf79e1694919f2811ae9caea11f35c5) - add `isUint64Array` to namespace
 -   [`4f6734b`](https://github.com/stdlib-js/stdlib/commit/4f6734bda892217cddcc73822c88cad372d71df1) - add `assert/is-uint64array`
@@ -39,6 +40,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`258e932`](https://github.com/stdlib-js/stdlib/commit/258e932e90c1a9c66b401f908028846ef4d05005) - **feat:** add `assert/has-promise-support` [(#13974)](https://github.com/stdlib-js/stdlib/pull/13974) _(by Prashant Kumar Yadav, Athan Reines)_
 -   [`58556f4`](https://github.com/stdlib-js/stdlib/commit/58556f408eedf1737bc4795fb2734ef4dd2a6b32) - **chore:** clean-up [(#13978)](https://github.com/stdlib-js/stdlib/pull/13978) _(by Philipp Burckhardt)_
 -   [`990d891`](https://github.com/stdlib-js/stdlib/commit/990d891c1d365286b5f719fe32eb06100d6af239) - **chore:** fix JavaScript lint errors [(#13776)](https://github.com/stdlib-js/stdlib/pull/13776) _(by Krishna Sharma, Athan Reines)_
 -   [`b1bfe73`](https://github.com/stdlib-js/stdlib/commit/b1bfe73572ce3dc4d40095aa1e2bf445c273fad1) - **docs:** update namespace table of contents [(#13738)](https://github.com/stdlib-js/stdlib/pull/13738) _(by stdlib-bot)_
@@ -73,13 +75,14 @@ A total of 5 issues were closed in this release:
 
 ### Contributors
 
-A total of 8 people contributed to this release. Thank you to the following contributors:
+A total of 9 people contributed to this release. Thank you to the following contributors:
 
 -   Abdul Kaium
 -   Akanksha Kumari
 -   Athan Reines
 -   Krishna Sharma
 -   Philipp Burckhardt
+-   Prashant Kumar Yadav
 -   Suyog
 -   Ujjwal Verma
 -   titanniya542-spec
