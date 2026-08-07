@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`0659b95`](https://github.com/stdlib-js/stdlib/commit/0659b95f9401a4fd560eff1880a87fa9e8e02ab4) - add `hasPromiseSupport` to namespace
 -   [`258e932`](https://github.com/stdlib-js/stdlib/commit/258e932e90c1a9c66b401f908028846ef4d05005) - add `assert/has-promise-support` [(#13974)](https://github.com/stdlib-js/stdlib/pull/13974)
 -   [`d7c85e7`](https://github.com/stdlib-js/stdlib/commit/d7c85e71c799fafc280dd43fc11278fdf85db411) - update `assert` TypeScript declarations [(#13736)](https://github.com/stdlib-js/stdlib/pull/13736)
 -   [`3238a78`](https://github.com/stdlib-js/stdlib/commit/3238a7837cf79e1694919f2811ae9caea11f35c5) - add `isUint64Array` to namespace
@@ -40,6 +41,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`0659b95`](https://github.com/stdlib-js/stdlib/commit/0659b95f9401a4fd560eff1880a87fa9e8e02ab4) - **feat:** add `hasPromiseSupport` to namespace _(by Athan Reines)_
 -   [`258e932`](https://github.com/stdlib-js/stdlib/commit/258e932e90c1a9c66b401f908028846ef4d05005) - **feat:** add `assert/has-promise-support` [(#13974)](https://github.com/stdlib-js/stdlib/pull/13974) _(by Prashant Kumar Yadav, Athan Reines)_
 -   [`58556f4`](https://github.com/stdlib-js/stdlib/commit/58556f408eedf1737bc4795fb2734ef4dd2a6b32) - **chore:** clean-up [(#13978)](https://github.com/stdlib-js/stdlib/pull/13978) _(by Philipp Burckhardt)_
 -   [`990d891`](https://github.com/stdlib-js/stdlib/commit/990d891c1d365286b5f719fe32eb06100d6af239) - **chore:** fix JavaScript lint errors [(#13776)](https://github.com/stdlib-js/stdlib/pull/13776) _(by Krishna Sharma, Athan Reines)_
