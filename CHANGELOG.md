@@ -41,6 +41,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`b149fa7`](https://github.com/stdlib-js/stdlib/commit/b149fa757b98c9bc6050f91c5415c3e0a607f83d) - **chore:** clean-up [(#14014)](https://github.com/stdlib-js/stdlib/pull/14014) _(by Philipp Burckhardt, Athan Reines)_
 -   [`0659b95`](https://github.com/stdlib-js/stdlib/commit/0659b95f9401a4fd560eff1880a87fa9e8e02ab4) - **feat:** add `hasPromiseSupport` to namespace _(by Athan Reines)_
 -   [`258e932`](https://github.com/stdlib-js/stdlib/commit/258e932e90c1a9c66b401f908028846ef4d05005) - **feat:** add `assert/has-promise-support` [(#13974)](https://github.com/stdlib-js/stdlib/pull/13974) _(by Prashant Kumar Yadav, Athan Reines)_
 -   [`58556f4`](https://github.com/stdlib-js/stdlib/commit/58556f408eedf1737bc4795fb2734ef4dd2a6b32) - **chore:** clean-up [(#13978)](https://github.com/stdlib-js/stdlib/pull/13978) _(by Philipp Burckhardt)_
