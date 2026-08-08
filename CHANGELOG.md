@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-07)
+## Unreleased (2026-08-08)
 
 <section class="features">
 
 ### Features
 
+-   [`506ec9c`](https://github.com/stdlib-js/stdlib/commit/506ec9c975c2ead49e3c07353fbdfd8775ebbc5e) - update `assert` TypeScript declarations [(#14039)](https://github.com/stdlib-js/stdlib/pull/14039)
 -   [`0659b95`](https://github.com/stdlib-js/stdlib/commit/0659b95f9401a4fd560eff1880a87fa9e8e02ab4) - add `hasPromiseSupport` to namespace
 -   [`258e932`](https://github.com/stdlib-js/stdlib/commit/258e932e90c1a9c66b401f908028846ef4d05005) - add `assert/has-promise-support` [(#13974)](https://github.com/stdlib-js/stdlib/pull/13974)
 -   [`d7c85e7`](https://github.com/stdlib-js/stdlib/commit/d7c85e71c799fafc280dd43fc11278fdf85db411) - update `assert` TypeScript declarations [(#13736)](https://github.com/stdlib-js/stdlib/pull/13736)
@@ -41,6 +42,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`506ec9c`](https://github.com/stdlib-js/stdlib/commit/506ec9c975c2ead49e3c07353fbdfd8775ebbc5e) - **feat:** update `assert` TypeScript declarations [(#14039)](https://github.com/stdlib-js/stdlib/pull/14039) _(by stdlib-bot)_
 -   [`b149fa7`](https://github.com/stdlib-js/stdlib/commit/b149fa757b98c9bc6050f91c5415c3e0a607f83d) - **chore:** clean-up [(#14014)](https://github.com/stdlib-js/stdlib/pull/14014) _(by Philipp Burckhardt, Athan Reines)_
 -   [`0659b95`](https://github.com/stdlib-js/stdlib/commit/0659b95f9401a4fd560eff1880a87fa9e8e02ab4) - **feat:** add `hasPromiseSupport` to namespace _(by Athan Reines)_
 -   [`258e932`](https://github.com/stdlib-js/stdlib/commit/258e932e90c1a9c66b401f908028846ef4d05005) - **feat:** add `assert/has-promise-support` [(#13974)](https://github.com/stdlib-js/stdlib/pull/13974) _(by Prashant Kumar Yadav, Athan Reines)_

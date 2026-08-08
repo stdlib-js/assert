@@ -53,6 +53,7 @@ import hasMapSupport = require( './../../has-map-support' );
 import hasMatchSymbolSupport = require( './../../has-match-symbol-support' );
 import hasNodeBufferSupport = require( './../../has-node-buffer-support' );
 import hasOwnProp = require( './../../has-own-property' );
+import hasPromiseSupport = require( './../../has-promise-support' );
 import hasProp = require( './../../has-property' );
 import hasProxySupport = require( './../../has-proxy-support' );
 import hasReplaceSymbolSupport = require( './../../has-replace-symbol-support' );
@@ -891,6 +892,17 @@ interface Namespace {
 	* // returns false
 	*/
 	hasOwnProp: typeof hasOwnProp;
+
+	/**
+	* Tests for native Promise support.
+	*
+	* @returns boolean indicating if an environment has native Promise support
+	*
+	* @example
+	* var bool = ns.hasPromiseSupport();
+	* // returns <boolean>
+	*/
+	hasPromiseSupport: typeof hasPromiseSupport;
 
 	/**
 	* Tests if an object has a specified property, either own or inherited.
