@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-08)
+## Unreleased (2026-08-09)
 
 <section class="features">
 
@@ -42,6 +42,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`ec0202a`](https://github.com/stdlib-js/stdlib/commit/ec0202a035e395dae873b7b6efc12e0c0ca6caac) - **docs:** update namespace table of contents [(#14083)](https://github.com/stdlib-js/stdlib/pull/14083) _(by stdlib-bot)_
 -   [`506ec9c`](https://github.com/stdlib-js/stdlib/commit/506ec9c975c2ead49e3c07353fbdfd8775ebbc5e) - **feat:** update `assert` TypeScript declarations [(#14039)](https://github.com/stdlib-js/stdlib/pull/14039) _(by stdlib-bot)_
 -   [`b149fa7`](https://github.com/stdlib-js/stdlib/commit/b149fa757b98c9bc6050f91c5415c3e0a607f83d) - **chore:** clean-up [(#14014)](https://github.com/stdlib-js/stdlib/pull/14014) _(by Philipp Burckhardt, Athan Reines)_
 -   [`0659b95`](https://github.com/stdlib-js/stdlib/commit/0659b95f9401a4fd560eff1880a87fa9e8e02ab4) - **feat:** add `hasPromiseSupport` to namespace _(by Athan Reines)_

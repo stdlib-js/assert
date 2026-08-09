@@ -405,6 +405,7 @@ To test whether a runtime environment supports certain features, the namespace i
 -   <span class="signature">[`hasMapSupport()`][@stdlib/assert/has-map-support]</span><span class="delimiter">: </span><span class="description">detect native `Map` support.</span>
 -   <span class="signature">[`hasMatchSymbolSupport()`][@stdlib/assert/has-match-symbol-support]</span><span class="delimiter">: </span><span class="description">detect native `Symbol.match` support.</span>
 -   <span class="signature">[`hasNodeBufferSupport()`][@stdlib/assert/has-node-buffer-support]</span><span class="delimiter">: </span><span class="description">detect native `Buffer` support.</span>
+-   <span class="signature">[`hasPromiseSupport()`][@stdlib/assert/has-promise-support]</span><span class="delimiter">: </span><span class="description">detect native `Promise` support.</span>
 -   <span class="signature">[`hasProxySupport()`][@stdlib/assert/has-proxy-support]</span><span class="delimiter">: </span><span class="description">detect native `Proxy` support.</span>
 -   <span class="signature">[`hasReplaceSymbolSupport()`][@stdlib/assert/has-replace-symbol-support]</span><span class="delimiter">: </span><span class="description">detect native `Symbol.replace` support.</span>
 -   <span class="signature">[`hasSearchSymbolSupport()`][@stdlib/assert/has-search-symbol-support]</span><span class="delimiter">: </span><span class="description">detect native `Symbol.search` support.</span>
@@ -1003,6 +1004,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [@stdlib/assert/has-match-symbol-support]: https://github.com/stdlib-js/assert/tree/main/has-match-symbol-support
 
 [@stdlib/assert/has-node-buffer-support]: https://github.com/stdlib-js/assert/tree/main/has-node-buffer-support
+
+[@stdlib/assert/has-promise-support]: https://github.com/stdlib-js/assert/tree/main/has-promise-support
 
 [@stdlib/assert/has-proxy-support]: https://github.com/stdlib-js/assert/tree/main/has-proxy-support
 
