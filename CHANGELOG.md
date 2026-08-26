@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-21)
+## Unreleased (2026-08-26)
 
 <section class="features">
 
 ### Features
 
+-   [`3af8898`](https://github.com/stdlib-js/stdlib/commit/3af8898d448b21e26b934471590619b633f127b5) - add `assert/is-int64array`
 -   [`506ec9c`](https://github.com/stdlib-js/stdlib/commit/506ec9c975c2ead49e3c07353fbdfd8775ebbc5e) - update `assert` TypeScript declarations [(#14039)](https://github.com/stdlib-js/stdlib/pull/14039)
 -   [`0659b95`](https://github.com/stdlib-js/stdlib/commit/0659b95f9401a4fd560eff1880a87fa9e8e02ab4) - add `hasPromiseSupport` to namespace
 -   [`258e932`](https://github.com/stdlib-js/stdlib/commit/258e932e90c1a9c66b401f908028846ef4d05005) - add `assert/has-promise-support` [(#13974)](https://github.com/stdlib-js/stdlib/pull/13974)
@@ -42,6 +43,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`3af8898`](https://github.com/stdlib-js/stdlib/commit/3af8898d448b21e26b934471590619b633f127b5) - **feat:** add `assert/is-int64array` _(by Athan Reines)_
 -   [`ec0202a`](https://github.com/stdlib-js/stdlib/commit/ec0202a035e395dae873b7b6efc12e0c0ca6caac) - **docs:** update namespace table of contents [(#14083)](https://github.com/stdlib-js/stdlib/pull/14083) _(by stdlib-bot)_
 -   [`506ec9c`](https://github.com/stdlib-js/stdlib/commit/506ec9c975c2ead49e3c07353fbdfd8775ebbc5e) - **feat:** update `assert` TypeScript declarations [(#14039)](https://github.com/stdlib-js/stdlib/pull/14039) _(by stdlib-bot)_
 -   [`b149fa7`](https://github.com/stdlib-js/stdlib/commit/b149fa757b98c9bc6050f91c5415c3e0a607f83d) - **chore:** clean-up [(#14014)](https://github.com/stdlib-js/stdlib/pull/14014) _(by Philipp Burckhardt, Athan Reines)_
