@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-26)
+## Unreleased (2026-08-27)
 
 <section class="features">
 
@@ -44,6 +44,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`492aac8`](https://github.com/stdlib-js/stdlib/commit/492aac82162e8ee0706a0b4a56e28d91fb14b5bd) - **docs:** update namespace table of contents [(#14682)](https://github.com/stdlib-js/stdlib/pull/14682) _(by stdlib-bot)_
 -   [`0af52f1`](https://github.com/stdlib-js/stdlib/commit/0af52f18a35d06114fde9c434e2823777ad02aaa) - **feat:** add `isInt64Array` to namespace _(by Athan Reines)_
 -   [`3af8898`](https://github.com/stdlib-js/stdlib/commit/3af8898d448b21e26b934471590619b633f127b5) - **feat:** add `assert/is-int64array` _(by Athan Reines)_
 -   [`ec0202a`](https://github.com/stdlib-js/stdlib/commit/ec0202a035e395dae873b7b6efc12e0c0ca6caac) - **docs:** update namespace table of contents [(#14083)](https://github.com/stdlib-js/stdlib/pull/14083) _(by stdlib-bot)_
