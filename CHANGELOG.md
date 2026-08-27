@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`9b1a8d2`](https://github.com/stdlib-js/stdlib/commit/9b1a8d22d61c842c2a0d7b7c4e81903efeecd9db) - update `assert` TypeScript declarations [(#14679)](https://github.com/stdlib-js/stdlib/pull/14679)
 -   [`0af52f1`](https://github.com/stdlib-js/stdlib/commit/0af52f18a35d06114fde9c434e2823777ad02aaa) - add `isInt64Array` to namespace
 -   [`3af8898`](https://github.com/stdlib-js/stdlib/commit/3af8898d448b21e26b934471590619b633f127b5) - add `assert/is-int64array`
 -   [`506ec9c`](https://github.com/stdlib-js/stdlib/commit/506ec9c975c2ead49e3c07353fbdfd8775ebbc5e) - update `assert` TypeScript declarations [(#14039)](https://github.com/stdlib-js/stdlib/pull/14039)
@@ -44,6 +45,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`9b1a8d2`](https://github.com/stdlib-js/stdlib/commit/9b1a8d22d61c842c2a0d7b7c4e81903efeecd9db) - **feat:** update `assert` TypeScript declarations [(#14679)](https://github.com/stdlib-js/stdlib/pull/14679) _(by stdlib-bot)_
 -   [`492aac8`](https://github.com/stdlib-js/stdlib/commit/492aac82162e8ee0706a0b4a56e28d91fb14b5bd) - **docs:** update namespace table of contents [(#14682)](https://github.com/stdlib-js/stdlib/pull/14682) _(by stdlib-bot)_
 -   [`0af52f1`](https://github.com/stdlib-js/stdlib/commit/0af52f18a35d06114fde9c434e2823777ad02aaa) - **feat:** add `isInt64Array` to namespace _(by Athan Reines)_
 -   [`3af8898`](https://github.com/stdlib-js/stdlib/commit/3af8898d448b21e26b934471590619b633f127b5) - **feat:** add `assert/is-int64array` _(by Athan Reines)_

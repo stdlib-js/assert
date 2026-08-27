@@ -204,6 +204,7 @@ import isInt8Array = require( './../../is-int8array' );
 import isInt16Array = require( './../../is-int16array' );
 import isInt32Array = require( './../../is-int32array' );
 import isInt64 = require( './../../is-int64' );
+import isInt64Array = require( './../../is-int64array' );
 import isInteger = require( './../../is-integer' );
 import isIntegerArray = require( './../../is-integer-array' );
 import isIterableLike = require( './../../is-iterable-like' );
@@ -4320,6 +4321,24 @@ interface Namespace {
 	* // returns true
 	*/
 	isInt64: typeof isInt64;
+
+	/**
+	* Tests if a value is an Int64Array.
+	*
+	* @param value - value to test
+	* @returns boolean indicating whether value is an Int64Array
+	*
+	* @example
+	* var Int64Array = require( '@stdlib/array/int64' );
+	*
+	* var bool = ns.isInt64Array( new Int64Array( 10 ) );
+	* // returns true
+	*
+	* @example
+	* var bool = ns.isInt64Array( [] );
+	* // returns false
+	*/
+	isInt64Array: typeof isInt64Array;
 
 	/**
 	* Tests if a value is an integer.
