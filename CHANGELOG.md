@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-27)
+## Unreleased (2026-08-28)
 
 <section class="features">
 
 ### Features
 
+-   [`8ee52ee`](https://github.com/stdlib-js/stdlib/commit/8ee52eeb8620f4ba338f0d492b82f741b4c8d25b) - add `assert/is-same-float16array` [(#14743)](https://github.com/stdlib-js/stdlib/pull/14743)
 -   [`9b1a8d2`](https://github.com/stdlib-js/stdlib/commit/9b1a8d22d61c842c2a0d7b7c4e81903efeecd9db) - update `assert` TypeScript declarations [(#14679)](https://github.com/stdlib-js/stdlib/pull/14679)
 -   [`0af52f1`](https://github.com/stdlib-js/stdlib/commit/0af52f18a35d06114fde9c434e2823777ad02aaa) - add `isInt64Array` to namespace
 -   [`3af8898`](https://github.com/stdlib-js/stdlib/commit/3af8898d448b21e26b934471590619b633f127b5) - add `assert/is-int64array`
@@ -45,6 +46,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`8ee52ee`](https://github.com/stdlib-js/stdlib/commit/8ee52eeb8620f4ba338f0d492b82f741b4c8d25b) - **feat:** add `assert/is-same-float16array` [(#14743)](https://github.com/stdlib-js/stdlib/pull/14743) _(by Samarth Kolarkar, Athan Reines)_
 -   [`9b1a8d2`](https://github.com/stdlib-js/stdlib/commit/9b1a8d22d61c842c2a0d7b7c4e81903efeecd9db) - **feat:** update `assert` TypeScript declarations [(#14679)](https://github.com/stdlib-js/stdlib/pull/14679) _(by stdlib-bot)_
 -   [`492aac8`](https://github.com/stdlib-js/stdlib/commit/492aac82162e8ee0706a0b4a56e28d91fb14b5bd) - **docs:** update namespace table of contents [(#14682)](https://github.com/stdlib-js/stdlib/pull/14682) _(by stdlib-bot)_
 -   [`0af52f1`](https://github.com/stdlib-js/stdlib/commit/0af52f18a35d06114fde9c434e2823777ad02aaa) - **feat:** add `isInt64Array` to namespace _(by Athan Reines)_
@@ -88,7 +90,7 @@ A total of 5 issues were closed in this release:
 
 ### Contributors
 
-A total of 9 people contributed to this release. Thank you to the following contributors:
+A total of 10 people contributed to this release. Thank you to the following contributors:
 
 -   Abdul Kaium
 -   Akanksha Kumari
@@ -96,6 +98,7 @@ A total of 9 people contributed to this release. Thank you to the following cont
 -   Krishna Sharma
 -   Philipp Burckhardt
 -   Prashant Kumar Yadav
+-   Samarth Kolarkar
 -   Suyog
 -   Ujjwal Verma
 -   titanniya542-spec
