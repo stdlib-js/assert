@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-28)
+## Unreleased (2026-09-23)
 
 <section class="features">
 
@@ -32,9 +32,9 @@
 
 ### Closed Issues
 
-A total of 5 issues were closed in this release:
+A total of 6 issues were closed in this release:
 
-[#12651](https://github.com/stdlib-js/stdlib/issues/12651), [#12722](https://github.com/stdlib-js/stdlib/issues/12722), [#13096](https://github.com/stdlib-js/stdlib/issues/13096), [#13173](https://github.com/stdlib-js/stdlib/issues/13173), [#13763](https://github.com/stdlib-js/stdlib/issues/13763)
+[#12651](https://github.com/stdlib-js/stdlib/issues/12651), [#12722](https://github.com/stdlib-js/stdlib/issues/12722), [#13096](https://github.com/stdlib-js/stdlib/issues/13096), [#13173](https://github.com/stdlib-js/stdlib/issues/13173), [#13763](https://github.com/stdlib-js/stdlib/issues/13763), [#15359](https://github.com/stdlib-js/stdlib/issues/15359)
 
 </section>
 
@@ -46,6 +46,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`93afd5e`](https://github.com/stdlib-js/stdlib/commit/93afd5e93b6bffe4d7634398227c0d141324f08b) - **chore:** fix JavaScript lint errors [(#15361)](https://github.com/stdlib-js/stdlib/pull/15361) _(by Lucian (Luka) Lavric, Athan Reines)_
 -   [`8ee52ee`](https://github.com/stdlib-js/stdlib/commit/8ee52eeb8620f4ba338f0d492b82f741b4c8d25b) - **feat:** add `assert/is-same-float16array` [(#14743)](https://github.com/stdlib-js/stdlib/pull/14743) _(by Samarth Kolarkar, Athan Reines)_
 -   [`9b1a8d2`](https://github.com/stdlib-js/stdlib/commit/9b1a8d22d61c842c2a0d7b7c4e81903efeecd9db) - **feat:** update `assert` TypeScript declarations [(#14679)](https://github.com/stdlib-js/stdlib/pull/14679) _(by stdlib-bot)_
 -   [`492aac8`](https://github.com/stdlib-js/stdlib/commit/492aac82162e8ee0706a0b4a56e28d91fb14b5bd) - **docs:** update namespace table of contents [(#14682)](https://github.com/stdlib-js/stdlib/pull/14682) _(by stdlib-bot)_
@@ -90,12 +91,13 @@ A total of 5 issues were closed in this release:
 
 ### Contributors
 
-A total of 10 people contributed to this release. Thank you to the following contributors:
+A total of 11 people contributed to this release. Thank you to the following contributors:
 
 -   Abdul Kaium
 -   Akanksha Kumari
 -   Athan Reines
 -   Krishna Sharma
+-   Lucian (Luka) Lavric
 -   Philipp Burckhardt
 -   Prashant Kumar Yadav
 -   Samarth Kolarkar
