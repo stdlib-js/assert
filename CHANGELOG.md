@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-23)
+## Unreleased (2026-09-25)
 
 <section class="features">
 
@@ -46,6 +46,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`8da0d15`](https://github.com/stdlib-js/stdlib/commit/8da0d154e408d6cd6b3381341173e8c41eac7e59) - **chore:** clean-up [(#15455)](https://github.com/stdlib-js/stdlib/pull/15455) _(by Philipp Burckhardt)_
 -   [`93afd5e`](https://github.com/stdlib-js/stdlib/commit/93afd5e93b6bffe4d7634398227c0d141324f08b) - **chore:** fix JavaScript lint errors [(#15361)](https://github.com/stdlib-js/stdlib/pull/15361) _(by Lucian (Luka) Lavric, Athan Reines)_
 -   [`8ee52ee`](https://github.com/stdlib-js/stdlib/commit/8ee52eeb8620f4ba338f0d492b82f741b4c8d25b) - **feat:** add `assert/is-same-float16array` [(#14743)](https://github.com/stdlib-js/stdlib/pull/14743) _(by Samarth Kolarkar, Athan Reines)_
 -   [`9b1a8d2`](https://github.com/stdlib-js/stdlib/commit/9b1a8d22d61c842c2a0d7b7c4e81903efeecd9db) - **feat:** update `assert` TypeScript declarations [(#14679)](https://github.com/stdlib-js/stdlib/pull/14679) _(by stdlib-bot)_

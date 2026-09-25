@@ -18,7 +18,7 @@
 
 import Complex128 = require( '@stdlib/complex/float64/ctor' );
 import Int64 = require( '@stdlib/number/int64/ctor' );
-import isInt64 = require( './../../../is-int64' );
+import isInt64 = require( './index' );
 
 
 // TESTS //
