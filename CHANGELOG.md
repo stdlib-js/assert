@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`52082fa`](https://github.com/stdlib-js/stdlib/commit/52082fa0342e4efd318c14b3cbadd3e04b02f0b8) - add `assert/is-equal-int64array` [(#15663)](https://github.com/stdlib-js/stdlib/pull/15663)
 -   [`8ee52ee`](https://github.com/stdlib-js/stdlib/commit/8ee52eeb8620f4ba338f0d492b82f741b4c8d25b) - add `assert/is-same-float16array` [(#14743)](https://github.com/stdlib-js/stdlib/pull/14743)
 -   [`9b1a8d2`](https://github.com/stdlib-js/stdlib/commit/9b1a8d22d61c842c2a0d7b7c4e81903efeecd9db) - update `assert` TypeScript declarations [(#14679)](https://github.com/stdlib-js/stdlib/pull/14679)
 -   [`0af52f1`](https://github.com/stdlib-js/stdlib/commit/0af52f18a35d06114fde9c434e2823777ad02aaa) - add `isInt64Array` to namespace
@@ -56,6 +57,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`52082fa`](https://github.com/stdlib-js/stdlib/commit/52082fa0342e4efd318c14b3cbadd3e04b02f0b8) - **feat:** add `assert/is-equal-int64array` [(#15663)](https://github.com/stdlib-js/stdlib/pull/15663) _(by Divit Jain, Athan Reines)_
 -   [`ebec084`](https://github.com/stdlib-js/stdlib/commit/ebec0844648d51499375251f2da71a7016528245) - **fix:** clamp only the upper bound and clean-up [(#16108)](https://github.com/stdlib-js/stdlib/pull/16108) _(by Philipp Burckhardt)_
 -   [`8f62240`](https://github.com/stdlib-js/stdlib/commit/8f622403b8f6ff3781a17dc7ceb077e341e91aa3) - **docs:** clean-up [(#16084)](https://github.com/stdlib-js/stdlib/pull/16084) _(by Philipp Burckhardt)_
 -   [`b6bd189`](https://github.com/stdlib-js/stdlib/commit/b6bd189dc7fade70c45aa60475f765b594491f6c) - **chore:** clean-up [(#15612)](https://github.com/stdlib-js/stdlib/pull/15612) _(by Philipp Burckhardt)_
@@ -105,11 +107,12 @@ A total of 6 issues were closed in this release:
 
 ### Contributors
 
-A total of 11 people contributed to this release. Thank you to the following contributors:
+A total of 12 people contributed to this release. Thank you to the following contributors:
 
 -   Abdul Kaium
 -   Akanksha Kumari
 -   Athan Reines
+-   Divit Jain
 -   Krishna Sharma
 -   Lucian (Luka) Lavric
 -   Philipp Burckhardt
