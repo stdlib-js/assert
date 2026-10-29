@@ -4,13 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-10-13)
+## Unreleased (2026-10-29)
 
 <section class="features">
 
 ### Features
 
--   [`b2e0f83`](https://github.com/stdlib-js/stdlib/commit/b2e0f83e34f5f9a6436d73b4777ce7f2b67710f2) - add `arrest/is-equal-uint64array` [(#15616)](https://github.com/stdlib-js/stdlib/pull/15616)
+-   [`b2e0f83`](https://github.com/stdlib-js/stdlib/commit/b2e0f83e34f5f9a6436d73b4777ce7f2b67710f2) - add `assert/is-equal-uint64array` [(#15616)](https://github.com/stdlib-js/stdlib/pull/15616)
 -   [`52082fa`](https://github.com/stdlib-js/stdlib/commit/52082fa0342e4efd318c14b3cbadd3e04b02f0b8) - add `assert/is-equal-int64array` [(#15663)](https://github.com/stdlib-js/stdlib/pull/15663)
 -   [`8ee52ee`](https://github.com/stdlib-js/stdlib/commit/8ee52eeb8620f4ba338f0d492b82f741b4c8d25b) - add `assert/is-same-float16array` [(#14743)](https://github.com/stdlib-js/stdlib/pull/14743)
 -   [`9b1a8d2`](https://github.com/stdlib-js/stdlib/commit/9b1a8d22d61c842c2a0d7b7c4e81903efeecd9db) - update `assert` TypeScript declarations [(#14679)](https://github.com/stdlib-js/stdlib/pull/14679)
@@ -58,7 +58,9 @@ A total of 6 issues were closed in this release:
 
 <details>
 
--   [`b2e0f83`](https://github.com/stdlib-js/stdlib/commit/b2e0f83e34f5f9a6436d73b4777ce7f2b67710f2) - **feat:** add `arrest/is-equal-uint64array` [(#15616)](https://github.com/stdlib-js/stdlib/pull/15616) _(by Divit Jain, Athan Reines)_
+-   [`a3c5b97`](https://github.com/stdlib-js/stdlib/commit/a3c5b97aedf85d8489548c7d3c94ff994af0c8e8) - **refactor:** rename variable [(#16344)](https://github.com/stdlib-js/stdlib/pull/16344) _(by Philipp Burckhardt)_
+-   [`7bf6853`](https://github.com/stdlib-js/stdlib/commit/7bf68530dd12fe22f2ec82d68e1f9a591ab042c0) - **chore:** clean-up [(#16303)](https://github.com/stdlib-js/stdlib/pull/16303) _(by Philipp Burckhardt)_
+-   [`b2e0f83`](https://github.com/stdlib-js/stdlib/commit/b2e0f83e34f5f9a6436d73b4777ce7f2b67710f2) - **feat:** add `assert/is-equal-uint64array` [(#15616)](https://github.com/stdlib-js/stdlib/pull/15616) _(by Divit Jain, Athan Reines)_
 -   [`52082fa`](https://github.com/stdlib-js/stdlib/commit/52082fa0342e4efd318c14b3cbadd3e04b02f0b8) - **feat:** add `assert/is-equal-int64array` [(#15663)](https://github.com/stdlib-js/stdlib/pull/15663) _(by Divit Jain, Athan Reines)_
 -   [`ebec084`](https://github.com/stdlib-js/stdlib/commit/ebec0844648d51499375251f2da71a7016528245) - **fix:** clamp only the upper bound and clean-up [(#16108)](https://github.com/stdlib-js/stdlib/pull/16108) _(by Philipp Burckhardt)_
 -   [`8f62240`](https://github.com/stdlib-js/stdlib/commit/8f622403b8f6ff3781a17dc7ceb077e341e91aa3) - **docs:** clean-up [(#16084)](https://github.com/stdlib-js/stdlib/pull/16084) _(by Philipp Burckhardt)_
