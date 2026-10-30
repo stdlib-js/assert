@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-10-29)
+## Unreleased (2026-10-30)
 
 <section class="features">
 
@@ -44,9 +44,9 @@
 
 ### Closed Issues
 
-A total of 6 issues were closed in this release:
+A total of 7 issues were closed in this release:
 
-[#12651](https://github.com/stdlib-js/stdlib/issues/12651), [#12722](https://github.com/stdlib-js/stdlib/issues/12722), [#13096](https://github.com/stdlib-js/stdlib/issues/13096), [#13173](https://github.com/stdlib-js/stdlib/issues/13173), [#13763](https://github.com/stdlib-js/stdlib/issues/13763), [#15359](https://github.com/stdlib-js/stdlib/issues/15359)
+[#12651](https://github.com/stdlib-js/stdlib/issues/12651), [#12722](https://github.com/stdlib-js/stdlib/issues/12722), [#13096](https://github.com/stdlib-js/stdlib/issues/13096), [#13173](https://github.com/stdlib-js/stdlib/issues/13173), [#13763](https://github.com/stdlib-js/stdlib/issues/13763), [#15359](https://github.com/stdlib-js/stdlib/issues/15359), [#16332](https://github.com/stdlib-js/stdlib/issues/16332)
 
 </section>
 
@@ -58,6 +58,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`43a6e68`](https://github.com/stdlib-js/stdlib/commit/43a6e68eb642adc5335a9710b01142c35b329e87) - **chore:** fix JavaScript lint errors [(#16337)](https://github.com/stdlib-js/stdlib/pull/16337) _(by AKULA MANOJ)_
 -   [`a3c5b97`](https://github.com/stdlib-js/stdlib/commit/a3c5b97aedf85d8489548c7d3c94ff994af0c8e8) - **refactor:** rename variable [(#16344)](https://github.com/stdlib-js/stdlib/pull/16344) _(by Philipp Burckhardt)_
 -   [`7bf6853`](https://github.com/stdlib-js/stdlib/commit/7bf68530dd12fe22f2ec82d68e1f9a591ab042c0) - **chore:** clean-up [(#16303)](https://github.com/stdlib-js/stdlib/pull/16303) _(by Philipp Burckhardt)_
 -   [`b2e0f83`](https://github.com/stdlib-js/stdlib/commit/b2e0f83e34f5f9a6436d73b4777ce7f2b67710f2) - **feat:** add `assert/is-equal-uint64array` [(#15616)](https://github.com/stdlib-js/stdlib/pull/15616) _(by Divit Jain, Athan Reines)_
@@ -111,8 +112,9 @@ A total of 6 issues were closed in this release:
 
 ### Contributors
 
-A total of 12 people contributed to this release. Thank you to the following contributors:
+A total of 13 people contributed to this release. Thank you to the following contributors:
 
+-   AKULA MANOJ
 -   Abdul Kaium
 -   Akanksha Kumari
 -   Athan Reines
