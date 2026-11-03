@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-10-30)
+## Unreleased (2026-11-03)
 
 <section class="features">
 
@@ -58,6 +58,7 @@ A total of 7 issues were closed in this release:
 
 <details>
 
+-   [`78ad2fa`](https://github.com/stdlib-js/stdlib/commit/78ad2fa5dbb12ce808dec93197d5343745ff91b8) - **docs:** normalize trailing newlines in REPL help texts [(#16420)](https://github.com/stdlib-js/stdlib/pull/16420) _(by Philipp Burckhardt)_
 -   [`43a6e68`](https://github.com/stdlib-js/stdlib/commit/43a6e68eb642adc5335a9710b01142c35b329e87) - **chore:** fix JavaScript lint errors [(#16337)](https://github.com/stdlib-js/stdlib/pull/16337) _(by AKULA MANOJ)_
 -   [`a3c5b97`](https://github.com/stdlib-js/stdlib/commit/a3c5b97aedf85d8489548c7d3c94ff994af0c8e8) - **refactor:** rename variable [(#16344)](https://github.com/stdlib-js/stdlib/pull/16344) _(by Philipp Burckhardt)_
 -   [`7bf6853`](https://github.com/stdlib-js/stdlib/commit/7bf68530dd12fe22f2ec82d68e1f9a591ab042c0) - **chore:** clean-up [(#16303)](https://github.com/stdlib-js/stdlib/pull/16303) _(by Philipp Burckhardt)_
