@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-11-05)
+## Unreleased (2026-11-08)
 
 <section class="features">
 
@@ -34,6 +34,7 @@
 
 ### Bug Fixes
 
+-   [`372697e`](https://github.com/stdlib-js/stdlib/commit/372697e808d16695860fe164faa3c468998bfb13) - accept uppercase schemes [(#16544)](https://github.com/stdlib-js/stdlib/pull/16544)
 -   [`ebec084`](https://github.com/stdlib-js/stdlib/commit/ebec0844648d51499375251f2da71a7016528245) - clamp only the upper bound and clean-up [(#16108)](https://github.com/stdlib-js/stdlib/pull/16108)
 
 </section>
@@ -58,6 +59,7 @@ A total of 7 issues were closed in this release:
 
 <details>
 
+-   [`372697e`](https://github.com/stdlib-js/stdlib/commit/372697e808d16695860fe164faa3c468998bfb13) - **fix:** accept uppercase schemes [(#16544)](https://github.com/stdlib-js/stdlib/pull/16544) _(by Rajan Pantha)_
 -   [`7349dff`](https://github.com/stdlib-js/stdlib/commit/7349dffeddd90289879f06e70acc1be8544af75b) - **style:** add missing whitespace [(#16507)](https://github.com/stdlib-js/stdlib/pull/16507) _(by Philipp Burckhardt)_
 -   [`78ad2fa`](https://github.com/stdlib-js/stdlib/commit/78ad2fa5dbb12ce808dec93197d5343745ff91b8) - **docs:** normalize trailing newlines in REPL help texts [(#16420)](https://github.com/stdlib-js/stdlib/pull/16420) _(by Philipp Burckhardt)_
 -   [`43a6e68`](https://github.com/stdlib-js/stdlib/commit/43a6e68eb642adc5335a9710b01142c35b329e87) - **chore:** fix JavaScript lint errors [(#16337)](https://github.com/stdlib-js/stdlib/pull/16337) _(by AKULA MANOJ)_
@@ -114,7 +116,7 @@ A total of 7 issues were closed in this release:
 
 ### Contributors
 
-A total of 13 people contributed to this release. Thank you to the following contributors:
+A total of 14 people contributed to this release. Thank you to the following contributors:
 
 -   AKULA MANOJ
 -   Abdul Kaium
@@ -125,6 +127,7 @@ A total of 13 people contributed to this release. Thank you to the following con
 -   Lucian (Luka) Lavric
 -   Philipp Burckhardt
 -   Prashant Kumar Yadav
+-   Rajan Pantha
 -   Samarth Kolarkar
 -   Suyog
 -   Ujjwal Verma
