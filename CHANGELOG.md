@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-11-08)
+## Unreleased (2026-11-14)
 
 <section class="features">
 
@@ -45,9 +45,9 @@
 
 ### Closed Issues
 
-A total of 7 issues were closed in this release:
+A total of 8 issues were closed in this release:
 
-[#12651](https://github.com/stdlib-js/stdlib/issues/12651), [#12722](https://github.com/stdlib-js/stdlib/issues/12722), [#13096](https://github.com/stdlib-js/stdlib/issues/13096), [#13173](https://github.com/stdlib-js/stdlib/issues/13173), [#13763](https://github.com/stdlib-js/stdlib/issues/13763), [#15359](https://github.com/stdlib-js/stdlib/issues/15359), [#16332](https://github.com/stdlib-js/stdlib/issues/16332)
+[#12651](https://github.com/stdlib-js/stdlib/issues/12651), [#12722](https://github.com/stdlib-js/stdlib/issues/12722), [#13096](https://github.com/stdlib-js/stdlib/issues/13096), [#13173](https://github.com/stdlib-js/stdlib/issues/13173), [#13763](https://github.com/stdlib-js/stdlib/issues/13763), [#15359](https://github.com/stdlib-js/stdlib/issues/15359), [#16332](https://github.com/stdlib-js/stdlib/issues/16332), [#16586](https://github.com/stdlib-js/stdlib/issues/16586)
 
 </section>
 
@@ -59,6 +59,7 @@ A total of 7 issues were closed in this release:
 
 <details>
 
+-   [`0a54a1b`](https://github.com/stdlib-js/stdlib/commit/0a54a1bea05872c1b6f02965f857db553ee40a00) - **chore:** fix JavaScript lint errors [(#16588)](https://github.com/stdlib-js/stdlib/pull/16588) _(by Hayabusa, Athan Reines)_
 -   [`372697e`](https://github.com/stdlib-js/stdlib/commit/372697e808d16695860fe164faa3c468998bfb13) - **fix:** accept uppercase schemes [(#16544)](https://github.com/stdlib-js/stdlib/pull/16544) _(by Rajan Pantha)_
 -   [`7349dff`](https://github.com/stdlib-js/stdlib/commit/7349dffeddd90289879f06e70acc1be8544af75b) - **style:** add missing whitespace [(#16507)](https://github.com/stdlib-js/stdlib/pull/16507) _(by Philipp Burckhardt)_
 -   [`78ad2fa`](https://github.com/stdlib-js/stdlib/commit/78ad2fa5dbb12ce808dec93197d5343745ff91b8) - **docs:** normalize trailing newlines in REPL help texts [(#16420)](https://github.com/stdlib-js/stdlib/pull/16420) _(by Philipp Burckhardt)_
@@ -116,13 +117,14 @@ A total of 7 issues were closed in this release:
 
 ### Contributors
 
-A total of 14 people contributed to this release. Thank you to the following contributors:
+A total of 15 people contributed to this release. Thank you to the following contributors:
 
 -   AKULA MANOJ
 -   Abdul Kaium
 -   Akanksha Kumari
 -   Athan Reines
 -   Divit Jain
+-   Hayabusa
 -   Krishna Sharma
 -   Lucian (Luka) Lavric
 -   Philipp Burckhardt
