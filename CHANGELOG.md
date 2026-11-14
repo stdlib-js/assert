@@ -10,6 +10,10 @@
 
 ### Features
 
+-   [`0c08e6e`](https://github.com/stdlib-js/stdlib/commit/0c08e6eab79bdd910ee9b09ab4373e5e8f94ce8e) - ensure support for specialized typed arrays
+-   [`1e68328`](https://github.com/stdlib-js/stdlib/commit/1e68328f214a58a8f1c199c3cc6ea1d5dd32ae1c) - add various symbols to namespace
+-   [`93d89fb`](https://github.com/stdlib-js/stdlib/commit/93d89fba7da272221fe01dc4d1700b2749a6469a) - add `isNumberOrComplexLike` to namespace
+-   [`f93a5d8`](https://github.com/stdlib-js/stdlib/commit/f93a5d8977ba5cec66d283fe3172cf224aa46477) - add `assert/is-number-or-complex-like`
 -   [`b2e0f83`](https://github.com/stdlib-js/stdlib/commit/b2e0f83e34f5f9a6436d73b4777ce7f2b67710f2) - add `assert/is-equal-uint64array` [(#15616)](https://github.com/stdlib-js/stdlib/pull/15616)
 -   [`52082fa`](https://github.com/stdlib-js/stdlib/commit/52082fa0342e4efd318c14b3cbadd3e04b02f0b8) - add `assert/is-equal-int64array` [(#15663)](https://github.com/stdlib-js/stdlib/pull/15663)
 -   [`8ee52ee`](https://github.com/stdlib-js/stdlib/commit/8ee52eeb8620f4ba338f0d492b82f741b4c8d25b) - add `assert/is-same-float16array` [(#14743)](https://github.com/stdlib-js/stdlib/pull/14743)
@@ -59,6 +63,13 @@ A total of 9 issues were closed in this release:
 
 <details>
 
+-   [`9443206`](https://github.com/stdlib-js/stdlib/commit/9443206383a29c0dc2aaa16830d03d12215f4467) - **docs:** add comment _(by Athan Reines)_
+-   [`0c08e6e`](https://github.com/stdlib-js/stdlib/commit/0c08e6eab79bdd910ee9b09ab4373e5e8f94ce8e) - **feat:** ensure support for specialized typed arrays _(by Athan Reines)_
+-   [`1e68328`](https://github.com/stdlib-js/stdlib/commit/1e68328f214a58a8f1c199c3cc6ea1d5dd32ae1c) - **feat:** add various symbols to namespace _(by Athan Reines)_
+-   [`93d89fb`](https://github.com/stdlib-js/stdlib/commit/93d89fba7da272221fe01dc4d1700b2749a6469a) - **feat:** add `isNumberOrComplexLike` to namespace _(by Athan Reines)_
+-   [`85b4e25`](https://github.com/stdlib-js/stdlib/commit/85b4e2501d081cd70a23a79ac38296d30ca0740d) - **docs:** update examples _(by Athan Reines)_
+-   [`f93a5d8`](https://github.com/stdlib-js/stdlib/commit/f93a5d8977ba5cec66d283fe3172cf224aa46477) - **feat:** add `assert/is-number-or-complex-like` _(by Athan Reines)_
+-   [`a3ba3d7`](https://github.com/stdlib-js/stdlib/commit/a3ba3d7da22c9a13408621b6824af11de313032f) - **docs:** fix comment _(by Athan Reines)_
 -   [`1f244d7`](https://github.com/stdlib-js/stdlib/commit/1f244d771be7080af29ebb074b0e057f71964afe) - **chore:** fix JavaScript lint errors [(#16611)](https://github.com/stdlib-js/stdlib/pull/16611) _(by Octo Shi)_
 -   [`0a54a1b`](https://github.com/stdlib-js/stdlib/commit/0a54a1bea05872c1b6f02965f857db553ee40a00) - **chore:** fix JavaScript lint errors [(#16588)](https://github.com/stdlib-js/stdlib/pull/16588) _(by Hayabusa, Athan Reines)_
 -   [`372697e`](https://github.com/stdlib-js/stdlib/commit/372697e808d16695860fe164faa3c468998bfb13) - **fix:** accept uppercase schemes [(#16544)](https://github.com/stdlib-js/stdlib/pull/16544) _(by Rajan Pantha)_

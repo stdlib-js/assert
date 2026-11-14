@@ -22,6 +22,9 @@
 
 var isTypedArray = require( './../../is-typed-array' );
 var isNumberArray = require( './../../is-number-array' ).primitives;
+var isComplexTypedArray = require( './../../is-complex-typed-array' );
+var isUint64Array = require( './../../is-uint64array' );
+var isInt64Array = require( './../../is-int64array' );
 var isBuffer = require( './../../is-buffer' );
 
 
@@ -46,7 +49,15 @@ var isBuffer = require( './../../is-buffer' );
 function isNumericArray( v ) {
 	return (
 		!isBuffer( v ) &&
-		(isTypedArray( v ) || isNumberArray( v ))
+
+		// FIXME: we should probably account for BigInt, float16 polyfill, and any other accessor array which returns "numeric" values, including complex-like objects. Meaning, we should likely take a more expansive view of what is defined as "numeric".
+		(
+			isTypedArray( v ) ||
+			isComplexTypedArray( v ) ||
+			isNumberArray( v ) ||
+			isUint64Array( v ) ||
+			isInt64Array( v )
+		)
 	);
 }
 
