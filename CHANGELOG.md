@@ -64,6 +64,7 @@ A total of 9 issues were closed in this release:
 
 <details>
 
+-   [`3c78e19`](https://github.com/stdlib-js/stdlib/commit/3c78e1903e9cb9199a2a2848c405b2d1bede1222) - **chore:** clean-up [(#16641)](https://github.com/stdlib-js/stdlib/pull/16641) _(by Philipp Burckhardt)_
 -   [`f72a5c3`](https://github.com/stdlib-js/stdlib/commit/f72a5c3128b22c1b45c911938df0de432cfea9f0) - **test:** fix method names in comments [(#16643)](https://github.com/stdlib-js/stdlib/pull/16643) _(by Philipp Burckhardt)_
 -   [`5f6ca63`](https://github.com/stdlib-js/stdlib/commit/5f6ca63fcb8416e343cde48e7dc311afa8f612ab) - **feat:** update `assert` TypeScript declarations [(#16632)](https://github.com/stdlib-js/stdlib/pull/16632) _(by stdlib-bot)_
 -   [`f91b31b`](https://github.com/stdlib-js/stdlib/commit/f91b31b6f7b190b4929ec93cd691416e5db67db3) - **docs:** update namespace table of contents [(#16635)](https://github.com/stdlib-js/stdlib/pull/16635) _(by stdlib-bot)_
