@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-11-14)
+## Unreleased (2026-11-15)
 
 <section class="features">
 
 ### Features
 
+-   [`5f6ca63`](https://github.com/stdlib-js/stdlib/commit/5f6ca63fcb8416e343cde48e7dc311afa8f612ab) - update `assert` TypeScript declarations [(#16632)](https://github.com/stdlib-js/stdlib/pull/16632)
 -   [`0c08e6e`](https://github.com/stdlib-js/stdlib/commit/0c08e6eab79bdd910ee9b09ab4373e5e8f94ce8e) - ensure support for specialized typed arrays
 -   [`1e68328`](https://github.com/stdlib-js/stdlib/commit/1e68328f214a58a8f1c199c3cc6ea1d5dd32ae1c) - add various symbols to namespace
 -   [`93d89fb`](https://github.com/stdlib-js/stdlib/commit/93d89fba7da272221fe01dc4d1700b2749a6469a) - add `isNumberOrComplexLike` to namespace
@@ -63,6 +64,8 @@ A total of 9 issues were closed in this release:
 
 <details>
 
+-   [`5f6ca63`](https://github.com/stdlib-js/stdlib/commit/5f6ca63fcb8416e343cde48e7dc311afa8f612ab) - **feat:** update `assert` TypeScript declarations [(#16632)](https://github.com/stdlib-js/stdlib/pull/16632) _(by stdlib-bot)_
+-   [`f91b31b`](https://github.com/stdlib-js/stdlib/commit/f91b31b6f7b190b4929ec93cd691416e5db67db3) - **docs:** update namespace table of contents [(#16635)](https://github.com/stdlib-js/stdlib/pull/16635) _(by stdlib-bot)_
 -   [`9443206`](https://github.com/stdlib-js/stdlib/commit/9443206383a29c0dc2aaa16830d03d12215f4467) - **docs:** add comment _(by Athan Reines)_
 -   [`0c08e6e`](https://github.com/stdlib-js/stdlib/commit/0c08e6eab79bdd910ee9b09ab4373e5e8f94ce8e) - **feat:** ensure support for specialized typed arrays _(by Athan Reines)_
 -   [`1e68328`](https://github.com/stdlib-js/stdlib/commit/1e68328f214a58a8f1c199c3cc6ea1d5dd32ae1c) - **feat:** add various symbols to namespace _(by Athan Reines)_

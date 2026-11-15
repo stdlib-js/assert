@@ -172,10 +172,12 @@ import isEqualDateObject = require( './../../is-equal-date-object' );
 import isEqualInt8Array = require( './../../is-equal-int8array' );
 import isEqualInt16Array = require( './../../is-equal-int16array' );
 import isEqualInt32Array = require( './../../is-equal-int32array' );
+import isEqualInt64Array = require( './../../is-equal-int64array' );
 import isEqualUint8Array = require( './../../is-equal-uint8array' );
 import isEqualUint8ClampedArray = require( './../../is-equal-uint8clampedarray' );
 import isEqualUint16Array = require( './../../is-equal-uint16array' );
 import isEqualUint32Array = require( './../../is-equal-uint32array' );
+import isEqualUint64Array = require( './../../is-equal-uint64array' );
 import isError = require( './../../is-error' );
 import isEvalError = require( './../../is-eval-error' );
 import isEven = require( './../../is-even' );
@@ -260,6 +262,7 @@ import isNull = require( './../../is-null' );
 import isNullArray = require( './../../is-null-array' );
 import isNumber = require( './../../is-number' );
 import isNumberArray = require( './../../is-number-array' );
+import isNumberOrComplexLike = require( './../../is-number-or-complex-like' );
 import isNumericArray = require( './../../is-numeric-array' );
 import isObject = require( './../../is-object' );
 import isObjectArray = require( './../../is-object-array' );
@@ -306,6 +309,7 @@ import isSameComplex64 = require( './../../is-same-complex64' );
 import isSameComplex64Array = require( './../../is-same-complex64array' );
 import isSameComplex128 = require( './../../is-same-complex128' );
 import isSameComplex128Array = require( './../../is-same-complex128array' );
+import isSameFloat16Array = require( './../../is-same-float16array' );
 import isSameFloat32Array = require( './../../is-same-float32array' );
 import isSameFloat64Array = require( './../../is-same-float64array' );
 import isSameNativeClass = require( './../../is-same-native-class' );
@@ -3569,6 +3573,33 @@ interface Namespace {
 	isEqualInt32Array: typeof isEqualInt32Array;
 
 	/**
+	* Tests if two arguments are both Int64Arrays and have equal values.
+	*
+	* @param v1 - first input value
+	* @param v2 - second input value
+	* @returns boolean indicating whether two arguments are equal
+	*
+	* @example
+	* var Int64Array = require( '@stdlib/array/int64' );
+	*
+	* var x = new Int64Array( [ 1, 2, 3 ] );
+	* var y = new Int64Array( [ 1, 2, 3 ] );
+	*
+	* var out = ns.isEqualInt64Array( x, y );
+	* // returns true
+	*
+	* @example
+	* var Int64Array = require( '@stdlib/array/int64' );
+	*
+	* var x = new Int64Array( [ 1, 2, 3 ] );
+	* var y = new Int64Array( [ 1, 2, 4 ] );
+	*
+	* var out = ns.isEqualInt64Array( x, y );
+	* // returns false
+	*/
+	isEqualInt64Array: typeof isEqualInt64Array;
+
+	/**
 	* Tests if two arguments are both Uint8Arrays and have equal values.
 	*
 	* @param v1 - first input value
@@ -3675,6 +3706,33 @@ interface Namespace {
 	* // returns false
 	*/
 	isEqualUint32Array: typeof isEqualUint32Array;
+
+	/**
+	* Tests if two arguments are both Uint64Arrays and have equal values.
+	*
+	* @param v1 - first input value
+	* @param v2 - second input value
+	* @returns boolean indicating whether two arguments are equal
+	*
+	* @example
+	* var Uint64Array = require( '@stdlib/array/uint64' );
+	*
+	* var x = new Uint64Array( [ 1, 2, 3 ] );
+	* var y = new Uint64Array( [ 1, 2, 3 ] );
+	*
+	* var out = ns.isEqualUint64Array( x, y );
+	* // returns true
+	*
+	* @example
+	* var Uint64Array = require( '@stdlib/array/uint64' );
+	*
+	* var x = new Uint64Array( [ 1, 2, 3 ] );
+	* var y = new Uint64Array( [ 1, 2, 4 ] );
+	*
+	* var out = ns.isEqualUint64Array( x, y );
+	* // returns false
+	*/
+	isEqualUint64Array: typeof isEqualUint64Array;
 
 	/**
 	* Tests if a value is an `Error` object.
@@ -5721,6 +5779,45 @@ interface Namespace {
 	isNumberArray: typeof isNumberArray;
 
 	/**
+	* Tests if a value is a number or complex number-like object.
+	*
+	* @param value - value to test
+	* @returns boolean indicating whether value is a number or complex number-like object
+	*
+	* @example
+	* var bool = ns.isNumberOrComplexLike( 3.14 );
+	* // returns true
+	*
+	* @example
+	* var bool = ns.isNumberOrComplexLike( new Number( 3.14 ) );
+	* // returns true
+	*
+	* @example
+	* var bool = ns.isNumberOrComplexLike({
+	*     're': 3.0,
+	*     'im': 5.0
+	* });
+	* // returns true
+	*
+	* @example
+	* var bool = ns.isNumberOrComplexLike( NaN );
+	* // returns true
+	*
+	* @example
+	* var bool = ns.isNumberOrComplexLike( null );
+	* // returns false
+	*
+	* @example
+	* var bool = ns.isNumberOrComplexLike.isPrimitive( 3.14 );
+	* // returns true
+	*
+	* @example
+	* var bool = ns.isNumberOrComplexLike.isObject( new Number( 3.14 ) );
+	* // returns true
+	*/
+	isNumberOrComplexLike: typeof isNumberOrComplexLike;
+
+	/**
 	* Tests if a value is a numeric array.
 	*
 	* @param v - value to test
@@ -7007,6 +7104,37 @@ interface Namespace {
 	* // returns false
 	*/
 	isSameComplex128Array: typeof isSameComplex128Array;
+
+	/**
+	* Tests if two arguments are both Float16Arrays and have the same values.
+	*
+	* ## Notes
+	*
+	* -   The function differs from the `===` operator in that the function treats `-0` and `+0` as distinct and `NaNs` as the same.
+	*
+	* @param v1 - first input value
+	* @param v2 - second input value
+	* @returns boolean indicating whether two arguments are the same
+	*
+	* @example
+	* var Float16Array = require( '@stdlib/array/float16' );
+	*
+	* var x = new Float16Array( [ 1.0, 2.0, 3.0 ] );
+	* var y = new Float16Array( [ 1.0, 2.0, 3.0 ] );
+	*
+	* var out = ns.isSameFloat16Array( x, y );
+	* // returns true
+	*
+	* @example
+	* var Float16Array = require( '@stdlib/array/float16' );
+	*
+	* var x = new Float16Array( [ 1.0, 2.0, 3.0 ] );
+	* var y = new Float16Array( [ 1.0, 2.0, 4.0 ] );
+	*
+	* var out = ns.isSameFloat16Array( x, y );
+	* // returns false
+	*/
+	isSameFloat16Array: typeof isSameFloat16Array;
 
 	/**
 	* Tests if two arguments are both Float32Arrays and have the same values.
