@@ -35,38 +35,32 @@ limitations under the License.
 
 > Assertion utilities.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/assert
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-assert = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var assert = require( 'path/to/vendor/umd/assert/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.assert;
-})();
-</script>
+var assert = require( '@stdlib/assert' );
 ```
 
 #### assert
@@ -181,6 +175,7 @@ The namespace also contains utilities to test for numbers within a certain range
 -   <span class="signature">[`isNonPositiveInteger( value )`][@stdlib/assert/is-nonpositive-integer]</span><span class="delimiter">: </span><span class="description">test if a value is a number having a nonpositive integer value.</span>
 -   <span class="signature">[`isNonPositiveNumberArray( value )`][@stdlib/assert/is-nonpositive-number-array]</span><span class="delimiter">: </span><span class="description">test if a value is an array-like object containing only nonpositive numbers.</span>
 -   <span class="signature">[`isNonPositiveNumber( value )`][@stdlib/assert/is-nonpositive-number]</span><span class="delimiter">: </span><span class="description">test if a value is a number having a nonpositive value.</span>
+-   <span class="signature">[`isNumberOrComplexLike( value )`][@stdlib/assert/is-number-or-complex-like]</span><span class="delimiter">: </span><span class="description">test if a value is a number or complex number-like object.</span>
 -   <span class="signature">[`isPositiveIntegerArray( value )`][@stdlib/assert/is-positive-integer-array]</span><span class="delimiter">: </span><span class="description">test if a value is an array-like object containing only positive integers.</span>
 -   <span class="signature">[`isPositiveInteger( value )`][@stdlib/assert/is-positive-integer]</span><span class="delimiter">: </span><span class="description">test if a value is a number having a positive integer value.</span>
 -   <span class="signature">[`isPositiveNumberArray( value )`][@stdlib/assert/is-positive-number-array]</span><span class="delimiter">: </span><span class="description">test if a value is an array-like object containing only positive numbers.</span>
@@ -302,9 +297,11 @@ The namespace includes utilities for validating other special arrays or buffers:
 -   <span class="signature">[`isEqualBooleanArray( v1, v2 )`][@stdlib/assert/is-equal-booleanarray]</span><span class="delimiter">: </span><span class="description">test if two arguments are both BooleanArrays and have equal values.</span>
 -   <span class="signature">[`isEqualInt16Array( v1, v2 )`][@stdlib/assert/is-equal-int16array]</span><span class="delimiter">: </span><span class="description">test if two arguments are both Int16Arrays and have equal values.</span>
 -   <span class="signature">[`isEqualInt32Array( v1, v2 )`][@stdlib/assert/is-equal-int32array]</span><span class="delimiter">: </span><span class="description">test if two arguments are both Int32Arrays and have equal values.</span>
+-   <span class="signature">[`isEqualInt64Array( v1, v2 )`][@stdlib/assert/is-equal-int64array]</span><span class="delimiter">: </span><span class="description">test if two arguments are both Int64Arrays and have equal values.</span>
 -   <span class="signature">[`isEqualInt8Array( v1, v2 )`][@stdlib/assert/is-equal-int8array]</span><span class="delimiter">: </span><span class="description">test if two arguments are both Int8Arrays and have equal values.</span>
 -   <span class="signature">[`isEqualUint16Array( v1, v2 )`][@stdlib/assert/is-equal-uint16array]</span><span class="delimiter">: </span><span class="description">test if two arguments are both Uint16Arrays and have equal values.</span>
 -   <span class="signature">[`isEqualUint32Array( v1, v2 )`][@stdlib/assert/is-equal-uint32array]</span><span class="delimiter">: </span><span class="description">test if two arguments are both Uint32Arrays and have equal values.</span>
+-   <span class="signature">[`isEqualUint64Array( v1, v2 )`][@stdlib/assert/is-equal-uint64array]</span><span class="delimiter">: </span><span class="description">test if two arguments are both Uint64Arrays and have equal values.</span>
 -   <span class="signature">[`isEqualUint8Array( v1, v2 )`][@stdlib/assert/is-equal-uint8array]</span><span class="delimiter">: </span><span class="description">test if two arguments are both Uint8Arrays and have equal values.</span>
 -   <span class="signature">[`isEqualUint8ClampedArray( v1, v2 )`][@stdlib/assert/is-equal-uint8clampedarray]</span><span class="delimiter">: </span><span class="description">test if two arguments are both Uint8ClampedArrays and have equal values.</span>
 -   <span class="signature">[`isFalsyArray( value )`][@stdlib/assert/is-falsy-array]</span><span class="delimiter">: </span><span class="description">test if a value is an array-like object containing only falsy values.</span>
@@ -321,6 +318,7 @@ The namespace includes utilities for validating other special arrays or buffers:
 -   <span class="signature">[`isSameArray( v1, v2 )`][@stdlib/assert/is-same-array]</span><span class="delimiter">: </span><span class="description">test if two arguments are both generic arrays and have the same values.</span>
 -   <span class="signature">[`isSameComplex128Array( v1, v2 )`][@stdlib/assert/is-same-complex128array]</span><span class="delimiter">: </span><span class="description">test if two arguments are both Complex128Arrays and have the same values.</span>
 -   <span class="signature">[`isSameComplex64Array( v1, v2 )`][@stdlib/assert/is-same-complex64array]</span><span class="delimiter">: </span><span class="description">test if two arguments are both Complex64Arrays and have the same values.</span>
+-   <span class="signature">[`isSameFloat16Array( v1, v2 )`][@stdlib/assert/is-same-float16array]</span><span class="delimiter">: </span><span class="description">test if two arguments are both Float16Arrays and have the same values.</span>
 -   <span class="signature">[`isSameFloat32Array( v1, v2 )`][@stdlib/assert/is-same-float32array]</span><span class="delimiter">: </span><span class="description">test if two arguments are both Float32Arrays and have the same values.</span>
 -   <span class="signature">[`isSameFloat64Array( v1, v2 )`][@stdlib/assert/is-same-float64array]</span><span class="delimiter">: </span><span class="description">test if two arguments are both Float64Arrays and have the same values.</span>
 -   <span class="signature">[`isSameTypedArrayLike( v1, v2 )`][@stdlib/assert/is-same-typed-array-like]</span><span class="delimiter">: </span><span class="description">test if two arguments are both typed-array-like objects and have the same values.</span>
@@ -593,21 +591,11 @@ The remaining namespace utilities are as follows:
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils/keys@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var objectKeys = require( '@stdlib/utils/keys' );
+var assert = require( '@stdlib/assert' );
 
 console.log( objectKeys( assert ) );
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -1148,11 +1136,15 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/assert/is-equal-int32array]: https://github.com/stdlib-js/assert/tree/main/is-equal-int32array
 
+[@stdlib/assert/is-equal-int64array]: https://github.com/stdlib-js/assert/tree/main/is-equal-int64array
+
 [@stdlib/assert/is-equal-int8array]: https://github.com/stdlib-js/assert/tree/main/is-equal-int8array
 
 [@stdlib/assert/is-equal-uint16array]: https://github.com/stdlib-js/assert/tree/main/is-equal-uint16array
 
 [@stdlib/assert/is-equal-uint32array]: https://github.com/stdlib-js/assert/tree/main/is-equal-uint32array
+
+[@stdlib/assert/is-equal-uint64array]: https://github.com/stdlib-js/assert/tree/main/is-equal-uint64array
 
 [@stdlib/assert/is-equal-uint8array]: https://github.com/stdlib-js/assert/tree/main/is-equal-uint8array
 
@@ -1185,6 +1177,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [@stdlib/assert/is-same-complex128array]: https://github.com/stdlib-js/assert/tree/main/is-same-complex128array
 
 [@stdlib/assert/is-same-complex64array]: https://github.com/stdlib-js/assert/tree/main/is-same-complex64array
+
+[@stdlib/assert/is-same-float16array]: https://github.com/stdlib-js/assert/tree/main/is-same-float16array
 
 [@stdlib/assert/is-same-float32array]: https://github.com/stdlib-js/assert/tree/main/is-same-float32array
 
@@ -1319,6 +1313,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [@stdlib/assert/is-nonpositive-number-array]: https://github.com/stdlib-js/assert/tree/main/is-nonpositive-number-array
 
 [@stdlib/assert/is-nonpositive-number]: https://github.com/stdlib-js/assert/tree/main/is-nonpositive-number
+
+[@stdlib/assert/is-number-or-complex-like]: https://github.com/stdlib-js/assert/tree/main/is-number-or-complex-like
 
 [@stdlib/assert/is-positive-integer-array]: https://github.com/stdlib-js/assert/tree/main/is-positive-integer-array
 
