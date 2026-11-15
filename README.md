@@ -35,20 +35,32 @@ limitations under the License.
 
 > Assertion utilities.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/assert
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import assert from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert@deno/mod.js';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { IS_BIG_ENDIAN, IS_BROWSER, IS_DARWIN, IS_DOCKER, IS_ELECTRON, IS_ELECTRON_MAIN, IS_ELECTRON_RENDERER, IS_LITTLE_ENDIAN, IS_MOBILE, IS_NODE, IS_TOUCH_DEVICE, IS_WEB_WORKER, IS_WINDOWS, contains, deepEqual, deepHasOwnProp, deepHasProp, hasArrayBufferSupport, hasArrowFunctionSupport, hasAsyncAwaitSupport, hasAsyncIteratorSymbolSupport, hasAtobSupport, hasBigInt64ArraySupport, hasBigIntSupport, hasBigUint64ArraySupport, hasBtoaSupport, hasClassSupport, hasDataViewSupport, hasDefinePropertiesSupport, hasDefinePropertySupport, hasFloat16ArraySupport, hasFloat32ArraySupport, hasFloat64ArraySupport, hasFunctionNameSupport, hasGeneratorSupport, hasGlobalThisSupport, hasHasInstanceSymbolSupport, hasInt16ArraySupport, hasInt32ArraySupport, hasInt8ArraySupport, hasIsConcatSpreadableSymbolSupport, hasIteratorSymbolSupport, hasMapSupport, hasMatchSymbolSupport, hasNodeBufferSupport, hasOwnProp, hasPromiseSupport, hasProp, hasProxySupport, hasReplaceSymbolSupport, hasSearchSymbolSupport, hasSetSupport, hasSharedArrayBufferSupport, hasSplitSymbolSupport, hasSymbolSupport, hasToPrimitiveSymbolSupport, hasToStringTagSupport, hasUTF16SurrogatePairAt, hasUint16ArraySupport, hasUint32ArraySupport, hasUint8ArraySupport, hasUint8ClampedArraySupport, hasWeakMapSupport, hasWeakSetSupport, hasWebAssemblySupport, instanceOf, isASCII, isAbsoluteHttpURI, isAbsolutePath, isAbsoluteURI, isAccessorArray, isAccessorProperty, isAccessorPropertyIn, isAlmostEqual, isAlmostEqualArray, isAlmostEqualComplex128array, isAlmostEqualComplex64array, isAlmostEqualFloat32array, isAlmostEqualFloat64Array, isAlmostSameArray, isAlmostSameComplex128Array, isAlmostSameComplex64Array, isAlmostSameFloat32Array, isAlmostSameFloat64Array, isAlmostSameValue, isAlphaNumeric, isAlphagram, isAnagram, isArguments, isArray, isArrayArray, isArrayBuffer, isArrayBufferView, isArrayLength, isArrayLike, isArrayLikeObject, isArrowFunction, isBetween, isBetweenArray, isBigInt, isBigInt64Array, isBigUint64Array, isBinaryString, isBlankString, isBoolean, isBooleanArray, isBoxedPrimitive, isBuffer, isCamelcase, isCapitalized, isCentrosymmetricMatrix, isCircular, isCircularArray, isCircularPlainObject, isClass, isCollection, isComplex, isComplex128, isComplex128Array, isComplex128MatrixLike, isComplex128VectorLike, isComplex128ndarrayLike, isComplex64, isComplex64Array, isComplex64MatrixLike, isComplex64VectorLike, isComplex64ndarrayLike, isComplexLike, isComplexTypedArray, isComplexTypedArrayLike, isComposite, isConfigurableProperty, isConfigurablePropertyIn, isConstantcase, isCubeNumber, isCurrentYear, isDataProperty, isDataPropertyIn, isDataView, isDateObject, isDateObjectArray, isDigitString, isDomainName, isDurationString, isEmailAddress, isEmptyArray, isEmptyArrayLikeObject, isEmptyCollection, isEmptyObject, isEmptyString, isEnumerableProperty, isEnumerablePropertyIn, isEqualArray, isEqualBooleanArray, isEqualDateObject, isEqualInt16Array, isEqualInt32Array, isEqualInt64Array, isEqualInt8Array, isEqualUint16Array, isEqualUint32Array, isEqualUint64Array, isEqualUint8Array, isEqualUint8ClampedArray, isError, isEvalError, isEven, isFalsy, isFalsyArray, isFinite, isFiniteArray, isFloat16Array, isFloat32Array, isFloat32MatrixLike, isFloat32VectorLike, isFloat32ndarrayLike, isFloat64Array, isFloat64MatrixLike, isFloat64VectorLike, isFloat64ndarrayLike, isFunction, isFunctionArray, isGeneratorObject, isGeneratorObjectLike, isHexString, isInfinite, isInheritedProperty, isInt16Array, isInt32Array, isInt64, isInt64Array, isInt8Array, isInteger, isIntegerArray, isIterableLike, isIteratorLike, isJSON, isKebabcase, isLeapYear, isLocalhost, isLowercase, isMatrixLike, isMethod, isMethodIn, isMultiSlice, isNaNArray, isNamedTypedTupleLike, isNativeFunction, isNegativeFinite, isNegativeInteger, isNegativeIntegerArray, isNegativeNumber, isNegativeNumberArray, isNegativeZero, isNodeBuiltin, isNodeDuplexStreamLike, isNodeREPL, isNodeReadableStreamLike, isNodeStreamLike, isNodeTransformStreamLike, isNodeWritableStreamLike, isNonConfigurableProperty, isNonConfigurablePropertyIn, isNonEnumerableProperty, isNonEnumerablePropertyIn, isNonNegativeFinite, isNonNegativeInteger, isNonNegativeIntegerArray, isNonNegativeNumber, isNonNegativeNumberArray, isNonPositiveFinite, isNonPositiveInteger, isNonPositiveIntegerArray, isNonPositiveNumber, isNonPositiveNumberArray, isNonSymmetricMatrix, isNull, isNullArray, isNumber, isNumberArray, isNumberOrComplexLike, isNumericArray, isObject, isObjectArray, isObjectLike, isOdd, isPRNGLike, isPascalcase, isPersymmetricMatrix, isPlainObject, isPlainObjectArray, isPositiveFinite, isPositiveInteger, isPositiveIntegerArray, isPositiveNumber, isPositiveNumberArray, isPositiveZero, isPrime, isPrimitive, isPrimitiveArray, isProbability, isProbabilityArray, isPropertyKey, isPrototypeOf, isRaggedNestedArray, isRangeError, isReadOnlyProperty, isReadOnlyPropertyIn, isReadWriteProperty, isReadWritePropertyIn, isReadableProperty, isReadablePropertyIn, isReferenceError, isRegExp, isRegExpString, isRelativePath, isRelativeURI, isSafeInteger, isSafeIntegerArray, isSameAccessorArray, isSameArray, isSameArrayLike, isSameArrayLikeObject, isSameComplex128, isSameComplex128Array, isSameComplex64, isSameComplex64Array, isSameFloat16Array, isSameFloat32Array, isSameFloat64Array, isSameNativeClass, isSameType, isSameTypedArrayLike, isSameValue, isSameValueZero, isSemVer, isSharedArrayBuffer, isSkewCentrosymmetricMatrix, isSkewPersymmetricMatrix, isSkewSymmetricMatrix, isSlice, isSnakecase, isSquareMatrix, isSquareNumber, isSquareTriangularNumber, isStartcase, isStrictEqual, isString, isStringArray, isStruct, isStructConstructorLike, isSymbol, isSymbolArray, isSymmetricMatrix, isSyntaxError, isTriangularNumber, isTruthy, isTruthyArray, isTypeError, isTypedArray, isTypedArrayLength, isTypedArrayLike, isUNCPath, isURI, isURIError, isUint16Array, isUint32Array, isUint64, isUint64Array, isUint8Array, isUint8ClampedArray, isUndefined, isUndefinedOrNull, isUnityProbabilityArray, isUppercase, isVectorLike, isWebAssemblyMemory, isWellFormedString, isWhitespace, isWritableProperty, isWritablePropertyIn, isWriteOnlyProperty, isWriteOnlyPropertyIn, isgzipBuffer, isnan, isndarrayDescriptor, isndarrayLike, isndarrayLikeWithDataType, tools } from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert@deno/mod.js';
+var assert = require( '@stdlib/assert' );
 ```
 
 #### assert
@@ -88,8 +100,8 @@ For primitive types having corresponding object wrappers, assertion utilities pr
 <!-- eslint-disable no-new-wrappers -->
 
 ```javascript
-import Boolean from 'https://cdn.jsdelivr.net/gh/stdlib-js/boolean/ctor@deno/mod.js';
-import isBoolean from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert/is-boolean@deno/mod.js';
+var Boolean = require( '@stdlib/boolean/ctor' );
+var isBoolean = require( '@stdlib/assert/is-boolean' );
 
 var bool = isBoolean.isObject( new Boolean( false ) );
 // returns true
@@ -127,7 +139,7 @@ Where applicable, similar to the assertion utilities for built-in data types, ar
 <!-- eslint-disable no-new-wrappers -->
 
 ```javascript
-import isStringArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert/is-string-array@deno/mod.js';
+var isStringArray = require( '@stdlib/assert/is-string-array' );
 
 var bool = isStringArray( [ 'hello', 'world' ] );
 // returns true
@@ -163,6 +175,7 @@ The namespace also contains utilities to test for numbers within a certain range
 -   <span class="signature">[`isNonPositiveInteger( value )`][@stdlib/assert/is-nonpositive-integer]</span><span class="delimiter">: </span><span class="description">test if a value is a number having a nonpositive integer value.</span>
 -   <span class="signature">[`isNonPositiveNumberArray( value )`][@stdlib/assert/is-nonpositive-number-array]</span><span class="delimiter">: </span><span class="description">test if a value is an array-like object containing only nonpositive numbers.</span>
 -   <span class="signature">[`isNonPositiveNumber( value )`][@stdlib/assert/is-nonpositive-number]</span><span class="delimiter">: </span><span class="description">test if a value is a number having a nonpositive value.</span>
+-   <span class="signature">[`isNumberOrComplexLike( value )`][@stdlib/assert/is-number-or-complex-like]</span><span class="delimiter">: </span><span class="description">test if a value is a number or complex number-like object.</span>
 -   <span class="signature">[`isPositiveIntegerArray( value )`][@stdlib/assert/is-positive-integer-array]</span><span class="delimiter">: </span><span class="description">test if a value is an array-like object containing only positive integers.</span>
 -   <span class="signature">[`isPositiveInteger( value )`][@stdlib/assert/is-positive-integer]</span><span class="delimiter">: </span><span class="description">test if a value is a number having a positive integer value.</span>
 -   <span class="signature">[`isPositiveNumberArray( value )`][@stdlib/assert/is-positive-number-array]</span><span class="delimiter">: </span><span class="description">test if a value is an array-like object containing only positive numbers.</span>
@@ -284,9 +297,11 @@ The namespace includes utilities for validating other special arrays or buffers:
 -   <span class="signature">[`isEqualBooleanArray( v1, v2 )`][@stdlib/assert/is-equal-booleanarray]</span><span class="delimiter">: </span><span class="description">test if two arguments are both BooleanArrays and have equal values.</span>
 -   <span class="signature">[`isEqualInt16Array( v1, v2 )`][@stdlib/assert/is-equal-int16array]</span><span class="delimiter">: </span><span class="description">test if two arguments are both Int16Arrays and have equal values.</span>
 -   <span class="signature">[`isEqualInt32Array( v1, v2 )`][@stdlib/assert/is-equal-int32array]</span><span class="delimiter">: </span><span class="description">test if two arguments are both Int32Arrays and have equal values.</span>
+-   <span class="signature">[`isEqualInt64Array( v1, v2 )`][@stdlib/assert/is-equal-int64array]</span><span class="delimiter">: </span><span class="description">test if two arguments are both Int64Arrays and have equal values.</span>
 -   <span class="signature">[`isEqualInt8Array( v1, v2 )`][@stdlib/assert/is-equal-int8array]</span><span class="delimiter">: </span><span class="description">test if two arguments are both Int8Arrays and have equal values.</span>
 -   <span class="signature">[`isEqualUint16Array( v1, v2 )`][@stdlib/assert/is-equal-uint16array]</span><span class="delimiter">: </span><span class="description">test if two arguments are both Uint16Arrays and have equal values.</span>
 -   <span class="signature">[`isEqualUint32Array( v1, v2 )`][@stdlib/assert/is-equal-uint32array]</span><span class="delimiter">: </span><span class="description">test if two arguments are both Uint32Arrays and have equal values.</span>
+-   <span class="signature">[`isEqualUint64Array( v1, v2 )`][@stdlib/assert/is-equal-uint64array]</span><span class="delimiter">: </span><span class="description">test if two arguments are both Uint64Arrays and have equal values.</span>
 -   <span class="signature">[`isEqualUint8Array( v1, v2 )`][@stdlib/assert/is-equal-uint8array]</span><span class="delimiter">: </span><span class="description">test if two arguments are both Uint8Arrays and have equal values.</span>
 -   <span class="signature">[`isEqualUint8ClampedArray( v1, v2 )`][@stdlib/assert/is-equal-uint8clampedarray]</span><span class="delimiter">: </span><span class="description">test if two arguments are both Uint8ClampedArrays and have equal values.</span>
 -   <span class="signature">[`isFalsyArray( value )`][@stdlib/assert/is-falsy-array]</span><span class="delimiter">: </span><span class="description">test if a value is an array-like object containing only falsy values.</span>
@@ -303,6 +318,7 @@ The namespace includes utilities for validating other special arrays or buffers:
 -   <span class="signature">[`isSameArray( v1, v2 )`][@stdlib/assert/is-same-array]</span><span class="delimiter">: </span><span class="description">test if two arguments are both generic arrays and have the same values.</span>
 -   <span class="signature">[`isSameComplex128Array( v1, v2 )`][@stdlib/assert/is-same-complex128array]</span><span class="delimiter">: </span><span class="description">test if two arguments are both Complex128Arrays and have the same values.</span>
 -   <span class="signature">[`isSameComplex64Array( v1, v2 )`][@stdlib/assert/is-same-complex64array]</span><span class="delimiter">: </span><span class="description">test if two arguments are both Complex64Arrays and have the same values.</span>
+-   <span class="signature">[`isSameFloat16Array( v1, v2 )`][@stdlib/assert/is-same-float16array]</span><span class="delimiter">: </span><span class="description">test if two arguments are both Float16Arrays and have the same values.</span>
 -   <span class="signature">[`isSameFloat32Array( v1, v2 )`][@stdlib/assert/is-same-float32array]</span><span class="delimiter">: </span><span class="description">test if two arguments are both Float32Arrays and have the same values.</span>
 -   <span class="signature">[`isSameFloat64Array( v1, v2 )`][@stdlib/assert/is-same-float64array]</span><span class="delimiter">: </span><span class="description">test if two arguments are both Float64Arrays and have the same values.</span>
 -   <span class="signature">[`isSameTypedArrayLike( v1, v2 )`][@stdlib/assert/is-same-typed-array-like]</span><span class="delimiter">: </span><span class="description">test if two arguments are both typed-array-like objects and have the same values.</span>
@@ -576,8 +592,8 @@ The remaining namespace utilities are as follows:
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils/keys@deno/mod.js';
-import assert from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert@deno/mod.js';
+var objectKeys = require( '@stdlib/utils/keys' );
+var assert = require( '@stdlib/assert' );
 
 console.log( objectKeys( assert ) );
 ```
@@ -603,7 +619,7 @@ console.log( objectKeys( assert ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -1120,11 +1136,15 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/assert/is-equal-int32array]: https://github.com/stdlib-js/assert/tree/main/is-equal-int32array
 
+[@stdlib/assert/is-equal-int64array]: https://github.com/stdlib-js/assert/tree/main/is-equal-int64array
+
 [@stdlib/assert/is-equal-int8array]: https://github.com/stdlib-js/assert/tree/main/is-equal-int8array
 
 [@stdlib/assert/is-equal-uint16array]: https://github.com/stdlib-js/assert/tree/main/is-equal-uint16array
 
 [@stdlib/assert/is-equal-uint32array]: https://github.com/stdlib-js/assert/tree/main/is-equal-uint32array
+
+[@stdlib/assert/is-equal-uint64array]: https://github.com/stdlib-js/assert/tree/main/is-equal-uint64array
 
 [@stdlib/assert/is-equal-uint8array]: https://github.com/stdlib-js/assert/tree/main/is-equal-uint8array
 
@@ -1157,6 +1177,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [@stdlib/assert/is-same-complex128array]: https://github.com/stdlib-js/assert/tree/main/is-same-complex128array
 
 [@stdlib/assert/is-same-complex64array]: https://github.com/stdlib-js/assert/tree/main/is-same-complex64array
+
+[@stdlib/assert/is-same-float16array]: https://github.com/stdlib-js/assert/tree/main/is-same-float16array
 
 [@stdlib/assert/is-same-float32array]: https://github.com/stdlib-js/assert/tree/main/is-same-float32array
 
@@ -1291,6 +1313,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [@stdlib/assert/is-nonpositive-number-array]: https://github.com/stdlib-js/assert/tree/main/is-nonpositive-number-array
 
 [@stdlib/assert/is-nonpositive-number]: https://github.com/stdlib-js/assert/tree/main/is-nonpositive-number
+
+[@stdlib/assert/is-number-or-complex-like]: https://github.com/stdlib-js/assert/tree/main/is-number-or-complex-like
 
 [@stdlib/assert/is-positive-integer-array]: https://github.com/stdlib-js/assert/tree/main/is-positive-integer-array
 
