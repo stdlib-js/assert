@@ -50,9 +50,9 @@
 
 ### Closed Issues
 
-A total of 10 issues were closed in this release:
+A total of 11 issues were closed in this release:
 
-[#12651](https://github.com/stdlib-js/stdlib/issues/12651), [#12722](https://github.com/stdlib-js/stdlib/issues/12722), [#13096](https://github.com/stdlib-js/stdlib/issues/13096), [#13173](https://github.com/stdlib-js/stdlib/issues/13173), [#13763](https://github.com/stdlib-js/stdlib/issues/13763), [#15359](https://github.com/stdlib-js/stdlib/issues/15359), [#16332](https://github.com/stdlib-js/stdlib/issues/16332), [#16586](https://github.com/stdlib-js/stdlib/issues/16586), [#16609](https://github.com/stdlib-js/stdlib/issues/16609), [#16737](https://github.com/stdlib-js/stdlib/issues/16737)
+[#12651](https://github.com/stdlib-js/stdlib/issues/12651), [#12722](https://github.com/stdlib-js/stdlib/issues/12722), [#13096](https://github.com/stdlib-js/stdlib/issues/13096), [#13173](https://github.com/stdlib-js/stdlib/issues/13173), [#13763](https://github.com/stdlib-js/stdlib/issues/13763), [#15359](https://github.com/stdlib-js/stdlib/issues/15359), [#16182](https://github.com/stdlib-js/stdlib/issues/16182), [#16332](https://github.com/stdlib-js/stdlib/issues/16332), [#16586](https://github.com/stdlib-js/stdlib/issues/16586), [#16609](https://github.com/stdlib-js/stdlib/issues/16609), [#16737](https://github.com/stdlib-js/stdlib/issues/16737)
 
 </section>
 
@@ -64,6 +64,7 @@ A total of 10 issues were closed in this release:
 
 <details>
 
+-   [`2da1434`](https://github.com/stdlib-js/stdlib/commit/2da143418ec24d8154f5dd58974647b78528aea6) - **style:** resolve lint errors [(#16183)](https://github.com/stdlib-js/stdlib/pull/16183) _(by Kratos, Athan Reines)_
 -   [`aab3c9f`](https://github.com/stdlib-js/stdlib/commit/aab3c9f3270365ef2d295a28225a20c594c190b7) - **chore:** fix JavaScript lint errors [(#16742)](https://github.com/stdlib-js/stdlib/pull/16742) _(by Shresth Singh, Athan Reines)_
 -   [`3c78e19`](https://github.com/stdlib-js/stdlib/commit/3c78e1903e9cb9199a2a2848c405b2d1bede1222) - **chore:** clean-up [(#16641)](https://github.com/stdlib-js/stdlib/pull/16641) _(by Philipp Burckhardt)_
 -   [`f72a5c3`](https://github.com/stdlib-js/stdlib/commit/f72a5c3128b22c1b45c911938df0de432cfea9f0) - **test:** fix method names in comments [(#16643)](https://github.com/stdlib-js/stdlib/pull/16643) _(by Philipp Burckhardt)_
@@ -135,7 +136,7 @@ A total of 10 issues were closed in this release:
 
 ### Contributors
 
-A total of 17 people contributed to this release. Thank you to the following contributors:
+A total of 18 people contributed to this release. Thank you to the following contributors:
 
 -   AKULA MANOJ
 -   Abdul Kaium
@@ -143,6 +144,7 @@ A total of 17 people contributed to this release. Thank you to the following con
 -   Athan Reines
 -   Divit Jain
 -   Hayabusa
+-   Kratos
 -   Krishna Sharma
 -   Lucian (Luka) Lavric
 -   Octo Shi
